@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/401/" hreflang="de-CH" />
+    <link rel="alternate" href="https://marcoaures.ch/en/401/" hreflang="en-CH" />
+
+    <meta name="description" content="Marco Aures: Online Marketing. Diese Seite ist per no-index aus Google ausgeschlossen. Wenn du sie dort siehst, ist etwas schief gelaufen.">
+    <link rel="canonical" href="https://marcoaures.ch/401/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="😱 401 😱 | Marco Aures: Online Marketing" />
+    <meta property="og:description" content="Wieso postest du eine 401-Seite auf Social Media?"/>
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+    <meta property="og:url" content="https://marcoaures.ch/401/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_CH" />
+    <meta name="robots" content="noindex">
+    <title>😱 401 😱 | Marco Aures: Online Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+
+    <script src="/assets/js/easteregg.js" defer></script>
+    <script src="/assets/js/handle40x.js" defer></script>
+</head>
+<body>
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div id="start" class="content">
+        <div class="legalese">
+            <div class="error">
+                <h1>401</h1>
+                <hr>
+                <img src="/assets/img/error.gif" alt="Paging Dr. Waddles">
+                <span class="img-cap">&copy; Gravity Falls, Disney</span>
+                <p>Du solltest nicht hier sein!</p>
+                <a href="#" id="reportBug">Du kannst mir hier übrigens einen Fehler melden</a><br>
+                <a href="#" id="changeConsent" style="font-size: 0.65em;">Cookies verwalten</a>
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

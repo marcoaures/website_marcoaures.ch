@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/seo-and-accessibility-online/" hreflang="en-CH">
+
+    <meta name="description" content="Accessibility & SEO are often very similar and arguably somewhat related. In this article, I explain why and give you valuable tips on how you can improve both.">
+    <link rel="canonical" href="https://marcoaures.ch/en/seo-and-accessibility-online/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="SEO & Accessibility | Marco Aures Digital Marketing">
+    <meta property="og:description" content="Accessibility & SEO are often very similar and arguably somewhat related. In this article, I explain why and give you valuable tips on how you can improve both.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/en/seo-and-accessibility-online/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CH">
+
+    <title>SEO & Accessibility | Marco Aures Digital Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/en/seo-and-accessibility-online/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/en/seo-and-accessibility-online/"
+      },
+      "headline": "Why good SEO is always accessible",
+      "description": "Accessibility & SEO are often very similar and arguably somewhat related. In this article, I explain why and give you valuable tips on how you can improve both.",
+      "image": "https://marcoaures.ch/assets/img/icons/barrierefreiheit_icon.svg",
+      "datePublished": "2024-07-24",
+      "dateModified": "2025-11-27",
+      "inLanguage": "en-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/hero_barrierefreiheit.jpg');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">Why good SEO is always accessible</h1>
+            <p>Accessibility and SEO are very similar. That’s why you should consider both on your website.</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Published: 24.07.2024 | Updated: 16.06.2026<br>
+            Content: SEO best practices, UX, accessibility, technical SEO
+        </div>
+
+        <p>As an online marketing freelancer, I regularly test new SEO tools. If I don’t want to keep the tool afterwards, I usually just delete my account. And that’s exactly where I recently came across something that frustrated me a bit:</p>
+        <img src="/assets/img/kontoloeschung.jpg" alt="Please call us to delete your account">
+        <p>Admittedly: “You have to call us so we can delete your data” would be annoying anyway. But that’s not actually what bothers me the most. The fact is that it is certainly <b>not accessible to force customers to call a call center</b> in order to exercise their right to have their data deleted.</p>
+        <p>For deaf people, that’s almost impossible or only possible with considerable extra effort. But it’s also a huge barrier for people with social anxiety, non-verbal people (e.g. with autism spectrum disorder), or simply for people who are hard of hearing.</p>
+        <p>Especially with an SEO tool, this just makes me suspicious, because SEO specialists should always keep accessibility in mind. <b>Good search engine optimization is, by definition, accessible.</b></p>
+
+        <h2>Why accessibility and SEO always go hand in hand</h2>
+        <p>The most obvious reason is the legal situation. All major internet service providers – Google, Apple, Meta &amp; Co. – are driven by compliance. And many legal systems now have <b>laws on accessibility that often also regulate the accessibility of digital offerings.</b></p>
+        <p>In the US, for example, there is the Americans with Disabilities Act (ADA), in the EU the European Accessibility Act (EAA), and even in Switzerland there is the BehiG, which at least mandates accessibility for government websites. It would be a mistake to think of these laws as mere paper tigers, because the topic has already been extensively litigated in court and has cost some large companies hefty fines.</p>
+        <img src="/assets/img/ada-klagen.jpg" alt="Infographic: Selected accessibility court cases">
+        <p>That’s precisely why it’s no surprise that Google takes the topic seriously and wants to steer its content providers towards <b>following accessibility best practices</b>. Not least for this reason, it’s standard SEO practice to add an alt text to every image, for example.</p>
+
+        <h2>These accessibility best practices also help your SEO</h2>
+        <p>Accessibility is far from just a “we have to do it” topic. Very often, web accessibility runs parallel to SEO best practices. Because ultimately, both pursue the same goal: <b>good UX, clean, well-structured code, clear language, and easy-to-navigate websites.</b> All of these are not only prerequisites for a high ranking on Google, but also the basic requirements that allow people with impairments to use a website at all. There are many examples of this:</p>
+
+        <h3>Alt texts</h3>
+        <p>As already mentioned, pretty much every SEO specialist and content manager learns this on day one: <a href="/en/seo-for-beginners/">“Short, meaningful alt texts for every image.”</a> And the reason for this is not, as is often mistakenly assumed, that the specific text itself is a ranking factor.</p>
+        <p>No, alt texts help people who <b>navigate the web using a screen reader</b> (e.g. blind people). Instead of seeing the images, they have them “read out” to them. And for Google, this is an easy way to check whether a website is accessible – and downgrade it in the rankings if not.</p>
+        <p><b>Alt texts can also help other users:</b> If an image is accidentally deleted or someone with a slow internet connection loads your site, the site still makes sense even if the image is missing.</p>
+
+        <h3>HTML tags and structure</h3>
+        <p>It’s a common phenomenon that website owners use H3 headings instead of H2 headings just because it “looks nicer”. My clear recommendation is to <b>adjust the stylesheet instead</b> or, if necessary, change the size via inline CSS rather than using such workarounds. Because that harms both accessibility and SEO.</p>
+        <p>A person using a screen reader can only understand the text if the HTML tags make sense and an H3 heading is only used when the paragraph is actually a sub-section of an H2 heading.</p>
+        <p>(If you’re curious how a website is navigated with a screen reader, you can watch this video)</p>
+        <button type="button" class="embed-placeholder embed-placeholder--video"
+                data-embed-src="https://www.youtube-nocookie.com/embed/q_ATY9gimOM?si=OZvkwjH9lcMywBdy"
+                data-embed-ratio="16/9">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            <span class="embed-placeholder__label">Load video</span>
+            <span class="embed-placeholder__note">The video will only load after you click.</span>
+            <span class="embed-placeholder__cta">Load now</span>
+        </button>
+        <p>The Google crawler has exactly the same problem. It also doesn’t understand that a heading level has been misused purely for aesthetic reasons, and so it misinterprets the text. The most important section of your blog post can quickly become a minor sidebar in the eyes of the search engine.</p>
+        <p>And <b>ARIA elements (Accessible Rich Internet Applications)</b> also tell both screen readers and the Google crawler how to interpret an element – for example, a form field.</p>
+
+        <h3>Descriptive navigation elements</h3>
+        <p>A similar mechanism applies <b>to links and navigation elements.</b> An anchorless link (i.e. a link without visible text) gives neither a blind person nor the Google crawler any clue what to expect on the linked page or how it relates to the current page. This makes it very hard to use the important ranking signal of link text effectively.</p>
+
+        <h3>Tables and lists in images</h3>
+        <p>The next faux pas is particularly annoying: it’s common to see lists and tables on websites that have, for aesthetic reasons, been…</p>
+        <ul>
+            <li>created in PowerPoint</li>
+            <li>screenshotted</li>
+            <li>and then uploaded as an image.</li>
+        </ul>
+        <p>Tables, lists, and other highly structured elements <b>are especially information-dense and contain highly relevant clues for understanding the text.</b> By contrast, an image is unreadable for both screen readers and Google. As a result, this information – which would likely have a very positive effect on the page’s ranking – becomes completely inaccessible.</p>
+
+        <h2>How accessibility also improves your user experience</h2>
+        <p>Accessibility best practices in web design don’t just have a direct positive effect on SEO. <b>They also help your site indirectly in many other ways.</b> The best ranking on the strongest keyword is useless if 99% of users leave the site within a few seconds. SEO specialists and content managers should therefore always care about user experience as well. And here too, there are plenty of natural parallels between web accessibility and content management best practices.</p>
+
+        <h3>Add subtitles to your videos</h3>
+        <p>It’s pretty obvious: if you embed a YouTube video on your website without subtitles, people with hearing problems can’t really watch it. But that’s far from the only reason you should use subtitles. We now consume most of the internet on our phones. Often on the train. Maybe while waiting for a friend in a café. Or at work when we take a quick 2-minute break.</p>
+        <p>In none of these situations can we watch a video with sound without headphones. For all of these people, the video is therefore just as unusable as it is for someone who is deaf. <b>And subtitles are becoming more relevant regardless of location or device:</b> 80% of 18–24-year-olds say they sometimes or always watch series and films with subtitles. If you want people to watch your video, you basically need subtitles nowadays.</p>
+
+        <h3>Intense animations, flashes, and loud sounds</h3>
+        <p>Whether it’s a flashing video, strobe-like CSS animations, surprising pop-ups, or loud sounds from an autoplay video: <b>these elements can trigger serious episodes for people with epilepsy or PTSD.</b> But even for everyone else, they can quickly become very stressful – and people usually respond to acute, unexpected stress by fleeing, which in this case means closing your site.</p>
+
+        <h3>Contrast and font size</h3>
+        <p>This is a fundamental aspect of accessible web design. Small fonts or poor contrast between background and text make the site challenging for people with poor eyesight – and for example also for people with dyslexia. <b>But even people with perfect vision have very little tolerance for this.</b> Closing your site and opening a competitor’s is usually 100 times easier than trying to fight through text that’s hard to read.</p>
+
+        <h3>Error messages</h3>
+        <p>With this practice, you’re not only hurting accessibility, you’re also <b>breaking your conversion path:</b> if a form on your site doesn’t clearly and understandably explain what the user did wrong when submitting it, you have to expect that some people simply won’t submit it. For people using a screen reader, for people with cognitive impairments, or for older, less digitally experienced users, solving the problem may simply not be possible.</p>
+        <p>Again, you need to assume that users who encounter this problem will simply take their request elsewhere.</p>
+
+        <h2>How to test your website’s accessibility</h2>
+        <p>I hope it’s clear now why you should regularly ask yourself whether your website is accessible. If you want to test your own website, I recommend running an <b>accessibility scan using Google Lighthouse</b>. All you need is Google Chrome. Just right-click anywhere on your site, select “Inspect”, and then switch to the “Lighthouse” tab.</p>
+        <img src="/assets/img/lighthouse_accessibility.jpg" alt="Lighthouse accessibility report tool">
+        <p>Checking how your website performs with a screen reader is also very easy. On your phone, you can enable screen reader mode <a href="https://support.google.com/accessibility/android/answer/6283677?hl=de&sjid=9247831926287153038-EU" target="_blank">on Android</a> and <a href="https://support.apple.com/de-ch/guide/iphone/iph96b214f0/ios" target="_blank">on iPhone</a> with just a few taps.</p>
+        <p>And if you’re now really fired up about web accessibility, you can dive deeper into the topic with the Web Content Accessibility Guidelines <a href="https://www.w3.org/Translations/WCAG20-de/" target="_blank">in this detailed resource</a>. If you run into problems analysing or fixing barriers on your site, I’ll be happy to help and make sure that <b>your website is optimised not only for SEO but also for accessibility.</b></p>
+        <p>Because web accessibility is a topic very close to my heart, I offer <b>free, no-obligation consulting on this topic.</b></p>
+        <p>I’d be happy to hear from you.</p>
+    		<!--#include virtual="/includes/contact-callback-en.html" -->
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-en.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/">DE</a> | <a href="https://marcoaures.ch/en/seo-and-accessibility-online/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

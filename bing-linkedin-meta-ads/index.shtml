@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/bing-linkedin-meta-ads/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/bing-linkedin-meta-ads/" hreflang="en-CH" />
+
+		<meta name="description" content="Ob alles Retargeting oder eigenständige Kampagnen: Ich bin dein Ansprechpartner für Kampagnen auf verschiedenen oder mehreren Kanälen.">
+		<link rel="canonical" href="https://marcoaures.ch/bing-linkedin-meta-ads/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Bing, LinkedIn und Meta Ads | Marco Aures: Online Marketing" />
+		<meta property="og:description" content="Ob alles Retargeting oder eigenständige Kampagnen: Ich bin dein Ansprechpartner für Kampagnen auf verschiedenen oder mehreren Kanälen." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/bing-linkedin-meta-ads/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+
+		<title>Bing, LinkedIn und Meta Ads | Marco Aures: Online Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#webpage",
+						"url": "https://marcoaures.ch/bing-linkedin-meta-ads/",
+						"name": "Bing, LinkedIn und Meta Ads | Marco Aures: Online Marketing",
+						"description": "Ob alles Retargeting oder eigenständige Kampagnen: Ich bin dein Ansprechpartner für Kampagnen auf verschiedenen oder mehreren Kanälen.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#service",
+						"name": "Bing, LinkedIn und Meta Ads",
+						"alternateName": [
+							"Bing Ads",
+							"LinkedIn Ads",
+							"Meta Ads",
+							"Social Media Advertising",
+							"Multi-Channel-Kampagnen",
+							"Retargeting"
+						],
+						"description": "Performance-Marketing-Kampagnen auf Bing, LinkedIn, Meta und weiteren Plattformen, einzeln oder im abgestimmten Zusammenspiel mehrerer Kanäle inklusive Retargeting. Inklusive Konzept, Tracking-Setup, Pixel-Einbindung im Einklang mit Consent und revDSG sowie laufender Auswertung.",
+						"serviceType": [
+							"Bing, LinkedIn und Meta Ads",
+							"Bing Ads",
+							"LinkedIn Ads",
+							"Meta Ads",
+							"Social Media Advertising",
+							"Multi-Channel-Kampagnen",
+							"Retargeting",
+							"Performance-Marketing",
+							"Social Media Pixel",
+							"Conversion-Tracking"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "KMU und Unternehmen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/bing-linkedin-meta-ads/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#offer",
+							"url": "https://marcoaures.ch/bing-linkedin-meta-ads/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Kampagnen auf einzelnen oder mehreren Kanälen mit individueller Offerte nach Aufwand. Inklusive Konzept, Tracking- und Retargeting-Setup sowie Auswertung."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#faq-bing-lohnt-sich",
+								"name": "Lohnt sich Bing überhaupt?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das hängt von deiner Zielgruppe ab. Der Marktanteil ist kleiner als bei Google, aber auf Firmencomputern ist Bing oft voreingestellt. Ein zusätzlicher Vorteil: Bing-Klickpreise liegen meist merklich unter denen von Google. Weil Bing technisch fast wie Google Ads funktioniert, ist der Zusatzaufwand gering, falls du bereits Google Ads schaltest."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#faq-was-ist-retargeting",
+								"name": "Was ist Retargeting?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Retargeting spricht Menschen erneut an, die bereits mit dir in Kontakt waren, etwa Besucher deiner Website. Statt nur neue Leute anzusprechen, erreichst du so gezielt diejenigen, die schon Interesse gezeigt haben. Über mehrere Kanäle hinweg ist das besonders wirksam."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#faq-retargeting-voraussetzungen",
+								"name": "Hat Retargeting technische Voraussetzungen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja, aber normalerweise sind sie überhaupt kein Problem für Menschen, die regelmässig Tracking-Setups aufsetzen: Es benötigt die Pixel der jeweiligen Plattformen, sauber eingebunden und im Einklang mit Consent-Vorgaben und revDSG. Das richte ich ein, datenschutzkonform und ohne dass du dich separat darum kümmern musst."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/bing-linkedin-meta-ads/#faq-alle-kanaele-aus-einer-hand",
+								"name": "Kümmerst du dich um alle Kanäle aus einer Hand?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja. Du hast einen Ansprechpartner für deine bezahlte Werbung, statt für jeden Kanal eine andere Stelle. Gerade beim Zusammenspiel mehrerer Kanäle ist das der Punkt, an dem es sonst oft hakt."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Bing, LinkedIn oder Meta Ads</h1>
+					<p>Für Kampagnen auf weiteren Kanälen und für Werbung, die über mehrere Kanäle hinweg zusammenspielt.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/smm-channels-de.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Google Ads sind für viele Unternehmen der naheliegendste Werbekanal und oft auch der wichtigste. Aber nicht jede Kampagne lebt allein von der Google-Suche: Manchmal passt ein anderer Kanal besser zur Zielgruppe, manchmal lohnt sich eine zeitlich begrenzte Aktion auf Social Media, und in manchen Fällen entfaltet sich die Wirkung erst, wenn mehrere Kanäle aufeinander abgestimmt sind.</p>
+				<p><a href="/google-ads/">Google Ads haben bei mir eine eigene Seite</a>, weil sie mein Schwerpunkt sind. Aber ich mache auch regelmässig Performance-Marketing auf anderen Kanälen: <b>Werbung auf Bing, LinkedIn, Meta oder anderen Plattformen.</b> Und das sowohl als einzelne Kampagne als auch als abgestimmtes Zusammenspiel mehrerer Kanäle inklusive Retargeting.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Für Unternehmen, die über Google Ads hinausdenken: Für eine Kampagne auf einem passenden Kanal ebenso wie für ein abgestimmtes Setup über mehrere Plattformen.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Kampagnen auf Bing, LinkedIn und Meta, einzeln oder kombiniert, und/oder Retargeting über die Kanäle hinweg.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>Kanäle sind kein Selbstzweck. Ich empfehle, was zu deinem Ziel und Budget passt, und sage dir auch, wenn sich ein zusätzlicher Kanal für dich nicht lohnt.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Welche Kanäle sinnvoll sind, <b>hängt von deinem Ziel, deiner Zielgruppe und deinem Budget ab.</b> Mal ist das eine einzelne Kampagne auf einem Kanal, mal das Zusammenspiel mehrerer. Ich biete beides an.</p>
+				<h2>Einzelne Kampagnen auf einzelnen Kanälen</h2>
+				<p>Nicht jede Werbung braucht ein Multi-Channel-Konzept. Oft ist eine gezielte Kampagne auf einem einzelnen Kanal genau das Richtige:</p>
+				<ul>
+					<li>Bing Ads funktionieren technisch <a href="/google-ads/">fast gleich wie Google Ads</a> und lassen sich mit überschaubarem Zusatzaufwand umsetzen. Der Marktanteil ist kleiner, aber auf Geschäftsgeräten ist Bing oft die voreingestellte Suchmaschine, und die Klickpreise liegen meist unter denen von Google.</li>
+					<li>LinkedIn eignet sich, wenn du eine klar umrissene berufliche Zielgruppe erreichen willst, ist aber vergleichsweise teuer.</li>
+					<li>Meta ist super für Reichweite und visuelle Ansprache im B2C-Umfeld. Auch für «&#8239;Einstiegsangebote&#8239;» (z.B. um Leute dazu zu bekommen, deinen Newsletter zu abonnieren, damit sie später Kunden werden) eignet sich Meta hervorragend.</li>
+				</ul>
+				<p>Gerade LinkedIn und Meta passen übrigens <b>gut für zeitlich begrenzte Kampagnen rund um einen konkreten Anlass oder ein Angebot.</b></p>
+
+				<div class="spacer"></div>
+
+				<h2>So läuft das ab</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Unverbindliches Erstgespräch</h3>
+							<p>Wir besprechen dein Ziel und überlegen, welche Kanäle dazu passen und welche nicht. Du bekommst eine individuelle Offerte nach Aufwand.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Konzept & Tracking</h3>
+							<p>Ich lege fest, welcher Kanal welche Aufgabe übernimmt, und richte das nötige Tracking ein. Wenn passend, gehört das Retargeting-Setup dazu.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>Aufbau & Start</h3>
+							<p>Ich baue die Kampagnen auf den gewählten Plattformen auf und bringe sie zum Laufen. Wenn du möchtest, bekommst du die Kampagneninhalte zur Freigabe, bevor etwas live geht.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Auswertung</h3>
+							<p>Nach dem Start schaue ich, wie die Kanäle einzeln und im Zusammenspiel abschneiden, und wir besprechen bei Bedarf laufend das weitere Vorgehen: ausbauen, anpassen, verlängern, verkürzen oder eine Kampagne sauber beenden.</p>
+						</div>
+					</article>
+				</section>
+
+				<div class="spacer"></div>
+
+				<h2>Kampagnen über mehrere Kanäle</h2>
+				<p>Wenn du über mehrere bezahlte Kanäle wirbst, übernehme ich die Abstimmung über das Ganze. <b>Die einzelnen Kanäle erfüllen dabei unterschiedliche Aufgaben:</b> Der eine bringt neue Leute auf deine Seite, der andere spricht über Retargeting diejenigen wieder an, die bereits Interesse gezeigt haben. So lässt sich jemand, der über die Google-Suche auf deine Website gekommen ist, später auf Meta erneut erreichen.</p>
+				<p>Damit das funktioniert, braucht es im Hintergrund das richtige Tracking: <b>die Pixel der einzelnen Plattformen, korrekt eingebunden und im Einklang mit Consent und Datenschutz.</b> Das ist <a href="/tracking-analytics/">ohnehin mein Fachgebiet</a>, weshalb das technische Fundament für kanalübergreifende Kampagnen bei mir zum Angebot gehört.</p>
+				<div class="spacer"></div>
+				<h2>Häufig gestellte Fragen</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Lohnt sich Bing überhaupt?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das hängt von deiner Zielgruppe ab. Der Marktanteil ist kleiner als bei Google, aber auf Firmencomputern ist Bing oft voreingestellt. Ein zusätzlicher Vorteil: Bing-Klickpreise liegen meist merklich unter denen von Google. Weil Bing technisch fast wie Google Ads funktioniert, ist der Zusatzaufwand gering, falls du bereits Google Ads schaltest.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was ist Retargeting?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Retargeting spricht Menschen erneut an, die bereits mit dir in Kontakt waren, etwa Besucher deiner Website. Statt nur neue Leute anzusprechen, erreichst du so gezielt diejenigen, die schon Interesse gezeigt haben. Über mehrere Kanäle hinweg ist das besonders wirksam.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Hat Retargeting technische Voraussetzungen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja, aber normalerweise sind sie überhaupt kein Problem für Menschen, die regelmässig Tracking-Setups aufsetzen: Es benötigt die Pixel der jeweiligen Plattformen, sauber eingebunden und im Einklang mit Consent-Vorgaben und revDSG. Das richte ich ein, datenschutzkonform und ohne dass du dich separat darum kümmern musst.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Kümmerst du dich um alle Kanäle aus einer Hand?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja. Du hast einen Ansprechpartner für deine bezahlte Werbung, statt für jeden Kanal eine andere Stelle. Gerade beim Zusammenspiel mehrerer Kanäle ist das der Punkt, an dem es sonst oft hakt.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+				<h2>Das könnte dich interessieren</h2>
+
+				<div class="related-grid-wrap is-collapsed" id="relatedGrid">
+					<div class="related-grid">
+
+						<a href="/anfaengerfehler-meta-ads/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>5 Anfängerfehler bei Meta Ads</h3>
+							<p>Vermeide diese Stolperfallen bei deinen Werbeanzeigen und nutze dein Werbebudget effektiver.</p>
+						</a>
+
+						<a href="/assets/pdf/Entscheidungshilfe_Online-Marketing.pdf" class="related-card" data-type="download" target="_blank">
+							<span class="related-card__type">#download</span>
+							<h3>Flowchart: Online-Marketing-Schwerpunkt</h3>
+							<p>Diese Flowchart gibt einen Überblick, welche Marketingkanäle geeignet sind.</p>
+						</a>
+
+						<a href="/social-media-pixel-externe-tools-mit-csp/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Social Media Pixel mit CSP nutzen</h3>
+							<p>Erläutert, was du zum Zusammenspiel von CSP & Social Media Pixel wissen solltest.</p>
+						</a>
+
+					</div>
+				</div>
+
+				<div class="related-more-wrap" id="relatedMoreWrap">
+					<button type="button" class="related-show-more" id="relatedShowMore">Mehr anzeigen</button>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/bing-linkedin-meta-ads/">DE</a> | <a href="https://marcoaures.ch/en/bing-linkedin-meta-ads/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

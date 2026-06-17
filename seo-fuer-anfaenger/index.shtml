@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/seo-fuer-anfaenger/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/seo-for-beginners/" hreflang="en-CH">
+
+    <meta name="description" content="In diesem Artikel gebe ich dir 5 SEO-Tipps aus meinem Alltag als Online-Marketing-Manager, die dir helfen, deine Webseite sichtbarer zu machen.">
+    <link rel="canonical" href="https://marcoaures.ch/seo-fuer-anfaenger/">
+    <meta name="author" content="Marco Aures">
+
+    <meta property="og:title" content="5 SEO-Tipps für Anfänger | Marco Aures Online-Marketing">
+    <meta property="og:description" content="In diesem Artikel gebe ich dir 5 SEO-Tipps aus meinem Alltag als Online-Marketing-Manager, die dir helfen, deine Webseite sichtbarer zu machen.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/seo-fuer-anfaenger/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+
+    <title>5 SEO-Tipps für Anfänger | Marco Aures: Online-Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "@id": "https://marcoaures.ch/seo-fuer-anfaenger/#article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://marcoaures.ch/seo-fuer-anfaenger/"
+        },
+        "headline": "5 SEO-Tipps für Anfänger",
+        "description": "In diesem Artikel gebe ich dir 5 SEO-Tipps aus meinem Alltag als Online-Marketing-Manager, die dir helfen, deine Webseite sichtbarer zu machen.",
+        "image": "https://marcoaures.ch/assets/img/icons/seo-tipps-icon.svg",
+        "datePublished": "2024-03-14",
+        "dateModified": "2025-01-12",
+        "inLanguage": "de-CH",
+        "author": {
+            "@id": "https://marcoaures.ch/#person"
+        },
+        "publisher": {
+            "@id": "https://marcoaures.ch/#organization"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <!--#include virtual="/includes/headmenu-de.html" -->
+
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/seo.webp');"></div>
+        </div>
+
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">5 SEO-Tipps für Anfänger</h1>
+            <p>Mit diesen 5 einfachen SEO-Tipps kannst du deine Webseite sichtbarer machen, mehr Nutzer darauf lenken und online erfolgreicher sein.</p>
+        </div>
+
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 14.03.2024 | Aktualisiert: 16.06.2026<br>
+            Inhalt: SEO Best Practices, SEO Grundlagen, On-Page-SEO, Technisches SEO, Keywordrecherche
+        </div>
+
+        <p>Ehrlich, ich verstehe, wieso SEO für viele KMUs ein Schloss mit sieben Siegeln ist. Zu jeder Fragestellung findet man circa 20 Artikel, die schlimmstenfalls veraltet und oft auch noch widersprüchlich sind.</p>
+
+        <p>«&#8239;Moment, muss mein Keyword jetzt auch in der Meta Description sein oder nicht?&#8239;» «&#8239;Was sind diese <a href="https://www.omh.swiss/cornerstone-strategie-seo/" target="_blank">Cornerstone-Inhalte</a>, von denen alle andauernd schreiben?&#8239;» «&#8239;Okay, Backlinks sind scheinbar wichtig. Und wie bekomme ich sie bitte?&#8239;»</p>
+
+        <p>Neben dem Arbeitsalltag auch dafür noch Zeit, Geduld und Muse zu finden, ist nicht selbstverständlich. Dieser Beitrag ist daher mein Versuch, ein bisschen Licht ins Dunkel zu bringen. <b>5 einfache Tipps für SEO, die durch KMUs und Anfänger anwendbar sind</b> und ein paar SEO-Grundlagen für Anfänger.</p>
+
+        <h2 id="keywordrecherche">SEO-Tipp 1: Mach eine Keyword-Recherche</h2>
+        <p>Der häufigste Fehler, den ich sehe, wenn ich für Kunden Webseiten optimiere, ist tatsächlich sehr grundlegend. Sehr selten nutzen Seiten die richtigen Keywords und <b>häufig wurde überhaupt keine Keyword-Recherche durchgeführt</b>. Das hat zur Folge, dass man nicht einmal mit qualitativ hochwertigem Inhalt gut rankt.</p>
+
+        <p>Also, Keyword-Recherche: Was ist das? Stark vereinfacht ist das der Versuch, passende Suchanfragen zu finden, in denen man auf Google ranken möchte. Klar, wir möchten alle auf Platz 1 für "Laufschuhe", "Software-Entwickler" oder "Pizzeria" landen. Ob der dafür notwendige Aufwand es wert ist, ist aber eher fraglich:</p>
+
+        <p>Solche sehr kurzen «&#8239;Short-Tail-Keywords&#8239;» werden zwar extrem oft gesucht, sind aber auch extrem hart umkämpft. Gerade mit Blick auf Kosten-Nutzen empfehle ich meinen Kunden deshalb oft, sich lieber <b>auf sogenannte «&#8239;Long-Tail-Keywords&#8239;» aus mehreren Wörtern zu konzentrieren</b>. "Beste Pizza in Bern" wird wahrscheinlich nicht 12'000 mal pro Tag gesucht, aber 50 Suchanfragen pro Tag, bei denen man durchschnittlich auf Platz 1–3 eingeblendet wird, bringen deutlich mehr Nutzer als ein Rank auf Seite 17 für "Pizzeria" <a href="/google-ads-zielgruppe-finden/#keywords" target="_blank">(weshalb erkläre ich hier)</a>.</p>
+
+        <p>Und solche Keywords zu finden, ist eigentlich gar nicht so schwer. Am einfachsten geht es mit Keyword-Tools wie SEMrush oder Ubersuggest, aber selbst ohne teure Hilfsmittel ist es möglich. In Google Ads gibt es <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank">den sogenannten Keyword Planner</a>, der ebenfalls zeigt, wie häufig ein Begriff durchschnittlich gesucht wird, wie viele Firmen Werbung darauf schalten und wie sich das Keyword entwickelt.</p>
+
+        <img src="/assets/img/keywordplanner.webp" alt="Screenshot Keyword Planner">
+
+        <p>Keine Sorge, Ads schalten muss man für die Keyword-Recherche übrigens nicht. Der Keyword Planner dient nur als Hilfsmittel, um (Long-Tail-)Keywords zu finden, die ein <b>relativ hohes Suchvolumen und möglichst wenig Ads-Wettbewerb</b> haben. Mit der Liste der 20–30 besten Keywords kann man sich dann ansehen, welche Seiten aktuell auf den oberen Positionen sind und ob man mit ihnen mithalten kann.</p>
+
+        <div class="highlight">
+            <p><strong>Meine Empfehlung: Bevor du überhaupt Content schreibst, such dir zuerst die passenden Keywords für dein Unternehmen heraus. Versuche dafür am besten Long-Tail-Keywords mit hohem Suchvolumen und niedrigem Wettbewerb zu finden.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>SEO-Tipp 2: Beachte bei der Content-Erstellung ein paar wichtige Richtwerte</h2>
+        <p>Einfach Keywords zu haben reicht natürlich nicht. Damit sie etwas bringen, musst du sie auch in deinem Content verwenden. Und auch da gibt es ein paar SEO-Tipps und -Tricks, die man beachten sollte.</p>
+
+        <p>Vorneweg: <b>«&#8239;Viel hilft viel&#8239;» ist keine gute Taktik</b>. Das nennt Google nämlich «&#8239;Keyword-Stuffing&#8239;» und bestraft es schlimmstenfalls sogar. Ein hilfreicher Richtwert ist es, sich auf eine bestimmte Keyword-Dichte zu fokussieren: 3 % – also <b>pro 100 Wörter das Keyword etwa drei Mal</b> – sind ein guter Wert.</p>
+
+        <p>Die Bezeichnung Richtwert ist hier bewusst gewählt, denn die Algorithmen von Suchmaschinen sind schon lange von simplen Kennzahlen abgewichen. Dieser Wert führt jedoch meist zu dem, was Google eigentlich will: <b>natürlich klingende Texte, die angenehm zu lesen sind</b>, aber die relevanten Begriffe oft genug enthalten.</p>
+
+        <p>Damit Google den Text gut erkennen (und ausspielen) kann, braucht es zudem eine gewisse Textlänge. Auch hier sind die Zeiten klarer Regeln vorbei, aber erfahrungsgemäss sollten es <b>mehr als 300 Wörter</b> sein. Ratsam ist auch, wichtige Informationen möglichst weit oben auf der Seite zu platzieren.</p>
+
+        <p>Gut strukturierter Inhalt ist angenehm zu lesen und wird von Google bevorzugt. Man sollte daher keine Textwände produzieren und den Text mit Bildern, Infografiken und Videos auflockern.</p>
+
+        <p>Auch kurze Absätze und eine korrekte H-Struktur helfen. Optimal ist eine <b>einzelne H1</b> sowie mehrere aussagekräftige H2-Überschriften. H3 eignen sich für Ergänzungen. Ein Profi-Tipp: <b>Keywords strategisch in Überschriften einbauen</b>, da Google diese besonders gewichtet.</p>
+
+        <div class="highlight">
+            <p><strong>Meine Empfehlung: Schreib klar strukturierten Text mit ausreichender Länge – also mehr als 300 Wörter – und bau pro 100 Wörter deine Keywords ungefähr drei Mal ein.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>SEO-Tipp 3: Strukturiere deine Seite korrekt</h2>
+        <p>Apropos gut strukturiert: Das gilt auch für die Gesamtseite. Verschachtelte Webseiten mit 100 Unterseiten, die neun Ebenen tief liegen, sind ein No-Go. SEO bedeutet oft auch, die Seite nutzerfreundlich zu gestalten – tief verschachtelte Strukturen sind das nicht.</p>
+
+        <p>Google nutzt die <b>Anzahl der Klicks von der Startseite</b> als Indikator für die Wichtigkeit einer Unterseite. Eine Seite, die hinter fünf Ebenen versteckt ist, wird seltener ausgespielt. Das Stichwort lautet deshalb: interne Links.</p>
+
+        <img src="/assets/img/sitestructure.webp" alt="Beispiel für flache Seitenstruktur">
+
+        <p>Eine saubere interne Linkstruktur verbessert die Seite erheblich. Idealerweise ist keine Unterseite eine Sackgasse. Wo es sinnvoll ist, sollten Unterseiten aufeinander verlinken, Blogartikel auf passende Artikel und die Startseite auf wichtige Unterseiten. Das hilft nicht nur SEO, sondern hält Nutzer länger auf der Seite.</p>
+
+        <div class="highlight">
+            <p><strong>Meine Empfehlung: Eine flache Seitenstruktur mit passenden internen Verlinkungen verbessert sowohl User Experience als auch Ranking.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>SEO-Tipp 4: Vernachlässige es nicht, deine Seite auch technisch zu optimieren</h2>
+        <p>Die Wörter «&#8239;technisches SEO&#8239;» machen vielen Anfängern Angst. Begriffe wie «&#8239;HTTP Header&#8239;», «&#8239;Caching Policy&#8239;» oder «&#8239;Markup für strukturierte Daten&#8239;» wirken schnell kompliziert. Dabei gibt es <b>einfache Schritte, die man selbst erledigen kann</b>.</p>
+
+        <p>Beispiel Bildgrösse: Die meisten Bildschirme haben maximal 1920×1200 Pixel bei 72 PPI. Kameras liefern jedoch oft gigantische Auflösungen, die unnötig sind und nur die Ladezeit verlangsamen. <b>Langsame Webseiten schaden dem Ranking.</b></p>
+
+        <img src="/assets/img/imgscale.webp" alt="Beispiel korrekt skaliertes Bild">
+
+        <p>Bilder sollten daher vor dem Upload verkleinert und im webp- oder jpg-Format gespeichert werden.</p>
+
+        <p>Noch einfacher ist das <b>Optimieren der Meta-Daten</b>. Diese sollten (<a href="/seo-und-barrierefreiheit-im-internet/" target="_blank">auch aus Gründen der Barrierefreiheit</a>) aussagekräftig sein und aktuellen Richtwerten entsprechen:</p>
+
+        <ul>
+            <li><strong>Meta-Titel:</strong> 50–60 Zeichen</li>
+            <li><strong>Meta-Beschreibung:</strong> 120–155 Zeichen</li>
+            <li>Bilder benötigen einen <strong>aussagekräftigen Alt-Text</strong></li>
+            <li><strong>Kanonische URL:</strong> muss der tatsächlichen URL entsprechen</li>
+        </ul>
+
+        <p>Keywords müssen nicht zwingend in Meta-Daten vorkommen. Wenn sie jedoch natürlich hineinpassen, steigert das oft die Click-Through-Rate.</p>
+
+        <p>Ein weiterer Punkt: Jede Unterseite sollte nach Veröffentlichung kurz auf dem Smartphone überprüft werden. <b>Google nutzt Mobile-First-Indexierung.</b> Ist die Seite nicht responsive, wird sie schlechter eingestuft.</p>
+
+        <div class="highlight">
+            <p><strong>Meine Empfehlung: Meta-Daten korrekt pflegen, Bilder nicht grösser als nötig und sicherstellen, dass die Seite auf Smartphones gut funktioniert.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>SEO-Tipp 5: SEO sollte kein Blindflug sein</h2>
+        <p>SEO-Massnahmen sind nie Selbstzweck. Man verfolgt ein Ziel – mehr Besucher, mehr Leads oder mehr Abschlüsse – und möchte die Effektivität seiner Massnahmen <b>auswerten</b>.</p>
+
+        <p>Manche Seiten liefern schon nach ersten Optimierungen gute Ergebnisse. Andere brauchen mehrere Feinschliffe. Google kann das Ranking von heute auf morgen ändern. Ohne Analyse ist das Optimieren ein Blindflug.</p>
+
+        <p>Nutze daher <b>Google Analytics und die Google Search Console</b>. Sie zeigen, welche Seiten funktionieren, welche optimiert werden müssen und wie sich Nutzer verhalten. Manchmal wird eine Seite häufig angezeigt und geklickt, aber viele springen sofort ab – ein starkes Signal, dass weitere Optimierung nötig ist.</p>
+
+        <p>Vielleicht passt auch die Suchintention des Keywords nicht. Vielleicht ist die User Experience nicht optimal. Wer optimiert, aber nie prüft, vergeudet Potenzial.</p>
+
+        <div class="highlight">
+            <p><strong>Meine Empfehlung: Nutze Analytics und Search Console, um deine Optimierungen richtig zu bewerten.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>So weit, so klar?</h2>
+        <p>Diese Tipps geben dir hoffentlich einen soliden Einblick in <b>die ersten Schritte der Suchmaschinenoptimierung</b>. Es sind die wichtigsten Grundlagen – und wenn du sie beachtest, hast du bereits einen grossen Schritt geschafft.</p>
+
+        <p>Wenn du Unterstützung bei der Optimierung deiner Seite brauchst, kann ich dir helfen. <b>Als Fachmann für SEO helfe ich KMUs und grossen Unternehmen</b>, das volle Potenzial ihrer Webseite auszuschöpfen.</p>
+
+        <p>Ich zeige dir gerne konkret, welche Stellschrauben deine Seite hat. Neukunden biete ich ein kostenloses SEO-Audit an – inklusive Analyse und konkreten Verbesserungsvorschlägen.</p>
+
+        <p><strong>Neugierig? Dann tritt mit mir in Kontakt und erzähl mir, welche Ziele du mit deiner Webseite erreichen möchtest. Ich freue mich auf deine Anfrage!</strong></p>
+
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/seo-fuer-anfaenger/">DE</a> | <a href="https://marcoaures.ch/en/seo-for-beginners/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

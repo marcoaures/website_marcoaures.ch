@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/google-ads-zielgruppe-finden/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/find-your-audience-in-google-ads/" hreflang="en-CH">
+
+    <meta name="description" content="Durch die Keyword-Auswahl, optimierte Anzeigentexte und die passende Landingpage kannst du deine Zielgruppe effizienter erreichen und Werbebudget sparen.">
+    <link rel="canonical" href="https://marcoaures.ch/google-ads-zielgruppe-finden/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Zielgruppe in Google Ads finden | Marco Aures: Online Marketing">
+    <meta property="og:description" content="Durch die Keyword-Auswahl, optimierte Anzeigentexte und die passende Landingpage kannst du deine Zielgruppe effizienter erreichen und Werbebudget sparen.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/google-ads-zielgruppe-finden/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+
+    <title>Zielgruppe in Google Ads finden | Marco Aures: Online Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/google-ads-zielgruppe-finden/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/google-ads-zielgruppe-finden/"
+      },
+      "headline": "Die richtige Zielgruppe in Google Ads finden",
+      "description": "Durch die Keyword-Auswahl, optimierte Anzeigentexte und die passende Landingpage kannst du deine Zielgruppe effizienter erreichen und Werbebudget sparen.",
+      "image": "https://marcoaures.ch/assets/img/icons/keyword-copy-lp.svg",
+      "datePublished": "2025-01-12",
+      "dateModified": "2025-01-12",
+      "inLanguage": "de-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/sea-fishing.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking" style="background-color: rgba(184,93,37,.8);">
+            <h1 style="margin-top:20px;">Die richtige Zielgruppe in Google Ads finden</h1>
+            <p>Warum Targeting in Google Ads über Zielgruppeneinstellungen hinausgeht – und wie du damit Geld sparen und Conversionraten steigern kannst</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        </button>
+    </div>
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 12.01.2025 | Aktualisiert: 16.06.2026<br>
+            Thema: SEA-Grundlagen, Google-Ads-Targeting, Keywordrecherche, Google-Ads Keywordoptionen, Leadqualifizierung
+        </div>
+
+        <p>In meinem <a href="/google-ads-targeting/" target="_blank">Artikel zu den Zielgruppeneinstellungen</a> habe ich bereits einen tiefgehenden Einblick in die Methoden gegeben, die Google Werbetreibenden bietet, um die richtigen Nutzer per (Search) Ads zu erreichen. Aber: <b>diese Einstellungen allein reichen selten aus.</b></p>
+        <p>Nehmen wir zum Beispiel an, wir schaffen es per Zielgruppenoptionen tatsächlich Hochzeitsplaner für unsere Eventlocation zu erreichen. Das hilft leider nichts, wenn dieser Hochzeitsplaner ausschliesslich Outdoor-Hochzeiten durchführt, wir aber eine Eventhalle unterhalten. Und selbst bei perfekt passender Zielgruppe kann es sein, dass der Nutzer <b>noch nicht tief genug im Entscheidungsprozess ist,</b> um eine Entscheidung zu treffen.</p>
+        <p>Wir alle möchten, dass unsere Suchanzeigen <a href="/beste-google-ads-branchen/" target="_blank">möglichst viele Abschlüsse und/oder Leads mit möglichst geringen Kosten</a> generieren. Gerade deshalb ist es so wichtig, nicht einfach aufzuhören, wenn es an das Feintuning geht. <b>Und bei Ads läuft das über Keywords, Werbetexte (Ad Copy) und Landingpage.</b></p>
+        <hr>
+        <h2 id="keywords">Die passenden Keywords finden</h2>
+        <p>Bei der Keyword-Recherche <a href="/seo-fuer-anfaenger/#keywordrecherche" target="_blank">(hier findest du einen kurzen Einstieg)</a> stehen oft Kennzahlen wie <b>Suchvolumen, durchschnittlicher CPC und Wettbewerbsintensität</b> im Fokus. Doch selbst Keywords mit hohem Suchvolumen und niedrigem Klickpreis können herausgeworfenes Geld bedeuten, wenn sie die falsche Suchintention ansprechen.</p>
+        <img src="/assets/img/keywords-hochzeitslocation.webp" alt="Screenshot Keywords Hochzeitslocation">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Eigener Screenshot</p>
+        <p>Oft ist genau das der Fall. Es gibt fast immer einen Grund, <b>warum Mitbewerber ein Keyword ignorieren:</b> Die Suchintention passt nicht.</p>
+        <hr>
+        <h3>Suchintention: Der wichtigste Faktor für conversionstarke Keywords</h3>
+        <p>Die Suchintention – oder User Intent – beschreibt, <b>was ein Nutzer mit einer Suchanfrage erreichen will.</b> Will er sich nur informieren? Sucht er etwas Bestimmtes? Oder ist er bereit, etwas zu kaufen oder eine Anfrage zu stellen?</p>
+        <p>Die Suchintention wird oft in diese drei Kategorien eingeteilt:</p>
+        <table id="table-tracking">
+            <tbody>
+                <tr>
+                    <th>Kategorie</th>
+                    <th>Ziel des Nutzers</th>
+                    <th>Beispiel</th>
+                </tr>
+                <tr>
+                    <td><strong>Informational</strong></td>
+                    <td>Etwas herausfinden</td>
+                    <td>"E-Bike Funktionsweise"</td>
+                </tr>
+                <tr>
+                    <td><strong>Navigational</strong></td>
+                    <td>Etwas Bestimmtes finden</td>
+                    <td>«&#8239;E-Bike-Kurse Anbieter&#8239;»</td>
+                </tr>
+                <tr>
+                    <td><strong>Transactional</strong></td>
+                    <td>Etwas erledigen (Anfrage oder Kauf)</td>
+                    <td>«&#8239;E-Bike kaufen&#8239;»</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Keyword-Tools wie SEMrush geben oft sogar an, in welche dieser Kategorie ein Keyword fällt. <b>Aber meistens reicht schon der gesunde Menschenverstand,</b> um einzuschätzen, was ein Nutzer mit einer Suchanfrage erreichen will. Damit kannst du Keywords zusätzlich danach filtern, wo sie im Sales Funnel stehen.</p>
+        <hr>
+        <h3>Top-of-Funnel und Bottom-of-Funnel Keywords</h3>
+        <p>Nicht jedes Informational Keyword ist ungeeignet für SEA. Selbst ein Nutzer, der sich «&#8239;nur&#8239;» informiert, <b>kann kurz vor einer Entscheidung stehen.</b> Deshalb unterscheidet man zusätzlich zur Suchintention nach der Position eines Keywords im Sales Funnel:</p>
+        <ul>
+            <li><strong>Top-of-Funnel Keywords:</strong> Allgemeine Keywords für erste Kontaktpunkte</li>
+            <li><strong>Bottom-of-Funnel Keywords:</strong> Spezifische Keywords mit hoher «&#8239;Kaufabsicht&#8239;»</li>
+        </ul>
+        <p>Ein Nutzer, der «&#8239;Gartenumbau Ideen&#8239;» sucht, steht z.B. noch ganz am Anfang und ist vermutlich Wochen oder Monate von einer Anfrage entfernt. Sucht jemand hingegen «&#8239;Gartenumbau Permakultur&#8239;», hat er schon eine klare Vorstellung, braucht aber vielleicht trotzdem noch ein paar Tage. Wer hingegen «&#8239;Landschaftsgärtner für Permakultur Bern&#8239;» sucht, ist kurz davor, eine Anfrage zu senden – <b>vorausgesetzt, er findet den passenden Anbieter.</b></p>
+        <hr>
+        <h3>Bitte beachten: Keyword-Optionen</h3>
+        <p>Wenn die passenden Bottom-of-Funnel Keywords gefunden sind, gibt es noch eine wichtige Sache, die man beachten sollte: die Keyword-Optionen. Google bietet nämlich drei verschiedene Arten, wie stark unsere Keywords die Anzeigenauslieferung beeinflussen: <b>«&#8239;weitgehend passend&#8239;», «&#8239;passende Wortgruppe&#8239;» und «&#8239;genau passend&#8239;».</b> Und sie lassen sich dadurch steuern, wie wir unsere Keywords in die Kampagne eingeben.</p>
+        <p>Ohne Anpassung wählt Google z. B. automatisch «&#8239;weitgehend passend&#8239;». Das heisst, dass Anzeigen auch bei themenverwandten Suchanfragen ausgeliefert werden können. Ist unser weitgehend passendes Keyword zum Beispiel «&#8239;Sportschuhe&#8239;», kann unsere Anzeige auch bei Suchanfragen wie «&#8239;Tennisschuhe&#8239;» oder «&#8239;Wanderstiefel&#8239;» erscheinen.</p>
+        <p>Mit passender Wortgruppe (indem man das Keyword in Anführungszeichen setzt, z. B. "Sportschuhe") wird das Targeting genauer. Hier erscheinen Anzeigen nur bei Suchanfragen, die das Keyword oder nahestehende Variationen davon enthalten. Früher wurde man bei «&#8239;weitgehend passend&#8239;» nur ausgeliefert, wenn das exakte Wort in der Suchanfrage enthalten war, aber diese Zeiten sind (leider) vorbei: <b>Google hat diese Keyword-Option in den letzten zwei Jahren stark aufgeweicht.</b> Mit «&#8239;passender Wortgruppe&#8239;» werden wir inzwischen zum Beispiel ausgespielt, wenn ein Nutzer nach roten Sportschuhen oder Sneakers sucht. </p>
+        <p>Wer es ganz genau wissen will, sollte «&#8239;genau passende Keywords&#8239;» verwenden. Dazu setzt man das Keyword einfach in eckige Klammern (z. B. [Sportschuhe]). So wird die Anzeige nur noch bei exakt diesem Keyword ausgeliefert. Selbst wenn ein Nutzer «&#8239;rote Sportschuhe&#8239;» oder «&#8239;Sportschuhe kaufen&#8239;» eingibt, wird die Anzeige nicht angezeigt.</p>
+        <img src="/assets/img/keywordmatchtypes.svg" alt="Keyword Matchtypes">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;"><a href="https://support.google.com/google-ads/answer/7478529" target="_blank">Quelle: Google</a></p>
+        <div class="highlight">
+            <p><strong>Mein Tipp:</strong> Meistens arbeite ich mit «&#8239;passender Wortgruppe&#8239;». Exakt passende Keywords haben oft zu wenig Suchvolumen, um genug Klicks und Conversions zu erzielen. «&#8239;Weitgehend passend&#8239;» eignet sich meistens höchstens, um neue Keyword-Ideen zu entdecken – hier solltest du aber unbedingt mit negativen Keywords arbeiten, um Streuverluste zu vermeiden. Und auch bei «&#8239;passende Wortgruppe&#8239;» lohnt es sich inzwischen verstärkt mit negativen Keywords zu arbeiten.</p>
+        </div>
+        <hr>
+        <h2>Auch der Anzeigetext ist ein Filter</h2>
+        <p>Faire Warnung: Auch mit der Auswahl der richtigen Keywords und den passenden Zielgruppeneinstellungen wird man nicht ausschliesslich abschlusswillige Personen aus seiner Zielgruppe erreichen. Deshalb ist es eine gute Idee, weiterzufiltern – <b>und zwar über den Anzeigentext.</b></p>
+        <p>Natürlich soll der Anzeigentext für eine hohe Klickrate (CTR) sorgen. Gerade im Hinblick auf den Qualitätsfaktor ist das wichtig. Aber wer schon über Zielgruppeneinstellungen und Keywords möglichst engmaschig unpassende Personen ausschliesst, kann es sich leisten, mit dem Anzeigentext zumindest die unpassendsten Nutzer abzuschrecken. <b>Ein Klick kostet schliesslich Geld</b> – und der Algorithmus lernt so besser, wen unsere Anzeigen tatsächlich interessieren.</p>
+        <div class="beispiel">
+            <p><strong>Beispiel:</strong> Ein Landschaftsgärtner, der nur im Kanton Zürich arbeitet, sollte das im Text klar machen: «&#8239;Landschaftsgärtner in Zürich&#8239;». So filtert er Personen aus, die beispielsweise in Zürich arbeiten und die Anzeige dadurch sehen könnten, aber eigentlich im Aargau wohnen.</p>
+        </div>
+        <p>Ähnlich kannst du andere Dealbreaker integrieren: Ein Reinigungsdienst, der nur Firmenliegenschaften betreut, vermeidet durch den Anzeigentitel «&#8239;Reinigungsdienst für Unternehmen&#8239;» Klicks von Privatpersonen, die eine Putzkraft für ihr Einfamilienhaus suchen.</p>
+        <p>Und auch ein klarer Call-to-Action (CTA) wie <b>«&#8239;Jetzt anfragen&#8239;», «&#8239;Musterbestellung&#8239;» oder ein Preis im Text</b> kann helfen, unpassende Nutzer abzuschrecken – und genau das ist in unserem Fall erwünscht.</p>
+        <hr>
+        <h2>Mit der Landingpage Leads qualifizieren</h2>
+        <p>Wenn alles gut läuft, sollten die Nutzer, die auf deiner Landingpage landen, perfekt in deine Zielgruppe passen. Trotzdem kannst du hier noch einmal auf Nummer Sicher gehen und die letzten Streuverluste vermeiden.</p>
+        <p><b>Alle Dealbreaker, die du schon in der Anzeige erwähnt hast, sollten auch auf der Landingpage auftauchen.</b> Hier hast du mehr Platz und kannst diese noch deutlicher kommunizieren: Wenn du z. B. nur im Kanton Zürich arbeitest, kannst du das mit einer kleinen Karte und hervorgehobenen Grenzen deines Einzugsgebiets sogar visuell unterstreichen.</p>
+        <p>Aber auch dein Anfrageformular eignet sich hervorragend, um unqualifizierte Leads herauszufiltern. Wer z. B. nur Bestellungen ab 1000 Stück annimmt, kann eine Frage einbauen wie: «&#8239;Für welche Stückmengen interessieren Sie sich?&#8239;» Antwortoptionen wie «&#8239;1000-5000&#8239;», «&#8239;5000-10000&#8239;» und «&#8239;10000+&#8239;» verhindern, dass Nutzer mit Kleinmengen-Anfragen überhaupt weiterkommen.</p>
+        <p>Das ist nicht nur für dich effizienter, sondern auch für die Kampagnen-Performance wichtig: <b>Conversions werden als Signal an Google zurückgespielt und beeinflussen, wem die Anzeigen in Zukunft gezeigt werden.</b> Dadurch, dass du bewusst einige Abschlüsse verhinderst, machst du also deine Kampagne langfristig effektiver und erfolgreicher.</p>
+        <hr>
+        <h2>Die passende Zielgruppe = Erfolgreiche Kampagne</h2>
+        <p>Die richtige Zielgruppe per Google Ads zu erreichen, erfordert mehr als nur <a href="/google-ads-targeting/" target="_blank">die passenden Einstellungen.</a> Indem du Keywords gezielt nach Suchintention und Funnel-Position auswählst, deine Anzeigentexte als zusätzlichen Filter nutzt und Streuverluste auf der Landingpage minimierst, kannst du nicht nur Kosten sparen <a href="/was-kosten-google-ads/" target="_blank">(hier übrigens mein Artikel zu Google Ads Kosten)</a>, sondern auch die Conversionrate deutlich steigern. Mit dieser ganzheitlichen Herangehensweise <b>optimierst du nicht nur die Performance deiner Kampagne, sondern stellst auch sicher, dass jeder investierte Klick möglichst nah an deinem Ziel bleibt:</b> qualifizierte Leads und mehr Abschlüsse.</p>
+        <p>Brauchst du Hilfe bei der Umsetzung? Gerne berate ich dich in einem unverbindlichen Erstgespräch rund um Ads, Zielgruppen und Leadsqualifizierung durch Targeting.</p>
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+    </div>
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/google-ads-zielgruppe-finden/">DE</a> | <a href="https://marcoaures.ch/en/find-your-audience-in-google-ads/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/tools/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/tools/" hreflang="en-CH">
+
+    <meta name="description" content="Kompakte Tools für effizientes Online Marketing: Checklisten, Formeln und Scripts, die schnelle Einschätzungen erleichtern und typische Aufgaben vereinfachen.">
+    <link rel="canonical" href="https://marcoaures.ch/tools/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Tools | Marco Aures: Online Marketing">
+    <meta property="og:description" content="Kompakte Tools für effizientes Online Marketing: Checklisten, Formeln und Scripts, die schnelle Einschätzungen erleichtern und typische Aufgaben vereinfachen.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/tools/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+    <title>Tools | Marco Aures: Online Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" --></head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="content">
+	
+<h1 class="no-hero">Tools & Ressourcen</h1>
+
+<p>Online Marketing lebt von Erfahrung, klarer Analyse und dem Gespür für die passenden Hebel. Viele Abläufe lassen sich aber standardisieren und dadurch stark vereinfachen, zum Beispiel um einen Überblick zu bekommen. Dafür nutze ich zum Beispiel Checklisten, kurze Formeln und kleine Scripts, die schnelle Einschätzungen ermöglichen, Daten prüfen und typische Aufgaben effizienter machen.</p>
+
+<p>Hier findest du eine Auswahl solcher kompakten Hilfen – meine Tools, die dir ermöglichen sollen, schneller Übersicht zu gewinnen, fundierter zu entscheiden und dein Online Marketing strukturierter umzusetzen.</p>
+
+	<div class="tools-filter-bar">
+	  <button class="tools-filter-btn is-active" data-filter="all">Alle Tools</button>
+	  <button class="tools-filter-btn" data-filter="rechner">Rechner</button>
+	  <button class="tools-filter-btn" data-filter="analyse">Analyse-Tools</button>
+	  <button class="tools-filter-btn" data-filter="interaktivechecklist">Interaktive Checklisten</button>
+	  <button class="tools-filter-btn" data-filter="download">Downloads</button>
+	</div>
+    <script src="/assets/js/toolslist.js"></script>
+
+<!--
+<div class="tools-filter-search">
+  <input
+    type="search"
+    placeholder="Tools durchsuchen…"
+    aria-label="Tools durchsuchen"
+    data-tools-search
+  >
+</div>
+-->
+
+<div class="tools-grid">
+
+  <article class="tool-card"
+           data-tool-type="analyse">
+    <div class="tool-card__type">#analysetools</div>
+    <div class="tool-card__title">
+      Sitemap-Analyse
+    </div>
+    <div class="tool-card__body">
+      <p class="tool-card__description">
+        Ruft Sitemaps ab und analysiert die Anzahl der Unterseiten, Aktualität, Mehrsprachigkeit und andere Kennzahlen.
+      </p>
+		<a href="/tools/sitemap-analyse/" class="tool-card__cta" target="_blank">Aufrufen</a>
+    </div>
+  </article>
+
+  <article class="tool-card"
+           data-tool-type="download">
+    <div class="tool-card__type">#download</div>
+    <div class="tool-card__title">
+      Infografik: AI Customer Journey
+    </div>
+    <div class="tool-card__body">
+      <p class="tool-card__description">
+        AI verändert die klassische Online-Marketing-Kundenreise merklich. Diese Infografik zeigt wie.
+      </p>
+		<a href="/assets/pdf/ai-veraendert-customer-journey.pdf" class="tool-card__cta" target="_blank">Herunterladen</a>
+    </div>
+  </article>
+
+  <article class="tool-card"
+           data-tool-type="interaktivechecklist">
+    <div class="tool-card__type">#interaktivechecklist</div>
+    <div class="tool-card__title">
+      Analytics- & Event-Tracking-Check
+    </div>
+    <div class="tool-card__body">
+      <p class="tool-card__description">
+        Finde heraus, wie vollständig dein Analytics- & Event-Tracking-Setup ist und was noch fehlt.
+      </p>
+		<a href="/tools/analytics-event-tracking-check/" class="tool-card__cta">Aufrufen</a>
+    </div>
+  </article>
+
+  <article class="tool-card"
+           data-tool-type="rechner">
+    <div class="tool-card__type">#rechner</div>
+    <div class="tool-card__title">
+      Ads-Kosten-Rechner
+    </div>
+    <div class="tool-card__body">
+      <p class="tool-card__description">
+        Dieser Rechner schätzt, welche Kosten pro Abschluss du erwarten kannst und welches Ads-Budget sinnvoll ist.
+      </p>
+      <a href="/tools/ads-kosten-rechner/" class="tool-card__cta">Aufrufen</a>
+    </div>
+  </article>
+  
+  <article class="tool-card"
+           data-tool-type="download">
+    <div class="tool-card__type">#download</div>
+    <div class="tool-card__title">
+      Flowchart: Online-Marketing-Schwerpunkt
+    </div>
+    <div class="tool-card__body">
+      <p class="tool-card__description">
+        Je nach Unternehmen bieten sich manche Kanäle mehr oder weniger an. Diese Flowchart gibt einen Überblick.
+      </p>
+		<a href="/assets/pdf/Entscheidungshilfe_Online-Marketing.pdf" class="tool-card__cta" target="_blank">Herunterladen</a>
+    </div>
+  </article>
+
+</div>
+<hr>
+<div class="github-wrapper">
+	<p class="github">More (well, maybe) on my <a href="https://github.com/marcoaures" target="_blank">GitHub</a></p>
+</div>
+<div class="github-wrapper">
+	<a href="https://github.com/marcoaures" target="_blank"><img src="/assets/img/github-mark.svg" alt="Github Logo" class="github" style="width:30px;"></a>
+</div>
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+    <footer>
+    <!--#include virtual="/includes/footertop-de.html" -->
+            <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/tools/">DE</a> | <a href="https://marcoaures.ch/en/tools/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" --></body>
+</html>

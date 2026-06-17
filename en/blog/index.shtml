@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/blog/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/blog/" hreflang="en-CH">
+
+    <meta name="description" content="There is actually a lot to say about online marketing. Here you will find my articles on the subject, whether it's SEO, user consent, or much more.">
+    <link rel="canonical" href="https://marcoaures.ch/en/blog/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Blog | Marco Aures: Digital Marketing">
+    <meta property="og:description" content="There is actually a lot to say about online marketing. Here you will find my articles on the subject, whether it's SEO, user consent, or much more.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/en/blog/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CH">
+    <title>Blog | Marco Aures: Digital Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" --></head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div class="content" data-show-more="Show more">
+        <h1 class="no-hero">Blog</h1>
+		
+	<!--#include virtual="/includes/blogfilter-en.html" -->
+
+		<a href="/en/best-industries-for-google-ads/" class="article-tile-link" data-category="sea">
+			<div class="article-tile">
+				<img src="/assets/img/icons/hia.svg" alt="High-intent Google Ads icon">
+				<div>
+					<h2>The Best Industries for Google Ads</h2>
+					<p>Some industries are better suited for SEA than others. And so-called high-intent industries are exceptionally well suited for Google Ads: when purchase intent is high, time pressure is strong and alternatives are unclear, Google Ads can almost run themselves. But that doesn’t mean there’s nothing to keep in mind. What you should know – and why it can still be worth hiring an SEA expert – is explained here.</p>
+				</div>
+			</div>
+		</a>
+
+        <a href="/en/clientside-cookieless-tracking/" class="article-tile-link" data-category="analytics, tech">
+            <div class="article-tile">
+                <img src="/assets/img/nocookies.svg" alt="No Cookies Icon">
+                <div>
+                    <h2>Clientside Cookieless Tracking with GA4</h2>
+                    <p>Sometimes you have to make do without a cookie: Using the specific case of a customer who wanted to track an interactive iframe on a partner website, I show how client-side tracking can still be implemented in such cases. Using this specific example, I show what GA4 needs to function without cookies and how to send standard and custom events directly to the Analytics endpoint, but also why this approach is still not recommended in every case.</p>
+                </div>
+            </div>
+        </a>
+
+		<a href="/en/digital-marketing-freelancer-or-agency/" class="article-tile-link" data-category="general">
+			<div class="article-tile">
+				<img src="/assets/img/icons/en/vergleich-icon-en.png" alt="Comparison icon">
+				<div>
+					<h2>Marketing freelancer, agency or directly in-house?</h2>
+					<p>This comparison explains in practical terms which model – from freelancer to in-house – is best suited for different marketing goals and where the limitations of each option lie. It highlights the strengths, weaknesses and typical use cases, and also helps you assess when a hybrid setup – for example a combination of freelancer and agency – may offer the best solution.</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="/en/ai-changes-digital-marketing/" class="article-tile-link" data-category="general, ai, seo">
+			<div class="article-tile">
+				<img src="/assets/img/icons/ai-journey-icon.svg" alt="AI Journey Icon">
+				<div>
+					<h2>How AI Is Already Changing Digital Marketing</h2>
+					<p>AI is already transforming online marketing in major ways: customer journeys no longer work the way they did a few years ago, and users come into contact with your website much later in the process. This has a significant impact on how you should build your SEO strategy. How to adapt — and how AI may even become an advantage for you — is explained here.</p>
+				</div>
+			</div>
+		</a>
+
+        <a class="article-tile-link" href="/en/social-media-pixel-external-tools-and-csp/" data-category="analytics, tech, social">
+            <div class="article-tile">
+                <img src="/assets/img/icons/pixel-csp.svg" alt="Pixel with CSP icon">
+                <div>
+                    <h2>Using Social Media Pixels &amp; External Tools with CSP</h2>
+                    <p>Even if your tracking basically works with a Content Security Policy in place, social media pixels like Meta, TikTok or LinkedIn often still cause issues. Learn why nonce and hash aren’t enough here, how to safely allow external resources via whitelisting, and how to use CSP reporting to detect possible sources of error—so your tracking stays secure without losing functionality.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/csp-and-google-tag-manager/"  data-category="analytics, tech">
+            <div class="article-tile">
+                <img src="/assets/img/icons/en/csp-gtm-icon_en.png" alt="CSP Icon">
+                <div>
+                    <h2>Using Google Tag Manager with Content Security Policy</h2>
+                    <p>Using GTM with CSP? Not exactly straightforward—but definitely not impossible. The key is to add a nonce to your GTM snippet and then make this nonce available as a variable for your own scripts. In this step-by-step guide, I show you how to do exactly that, so your website remains secure for users—even with tracking requirements in place.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/content-security-policy-for-marketers/"  data-category="analytics, tech">
+            <div class="article-tile">
+                <img src="/assets/img/icons/csp-icon.svg" alt="CSP Icon">
+                <div>
+                    <h2>Content Security Policy for Marketers</h2>
+                    <p>Maybe you’ve heard the term Content Security Policy (CSP) before. Unfortunately, this security measure doesn’t always play nicely with Google Tag Manager. In this article, I explain what you need to know as a marketer without a computer science degree: what a CSP actually is, why it so often blocks GTM, which shortcut you absolutely shouldn’t take, and what you need to tell your IT team so they can help you fix the problem.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/find-your-audience-in-google-ads/" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/keyword-copy-lp.svg" alt="Venn diagram keyword text landing page">
+                <div>
+                    <h2>Finding Your Audience in Google Ads</h2>
+                    <p>Once you’re familiar with the audience settings in Google Ads (see article below), you can learn here how to filter users further using keywords, ad copy, and your landing page—and avoid wasted spend. You’ll learn which keywords are suitable at all, which match types to use in which situations, what your ad copy definitely needs to include, and how your landing page helps ensure that the leads you generate are high quality.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/google-ads-targeting/" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/ads-targeting-icon.svg" alt="Ads Targeting Icon">
+                <div>
+                    <h2>The Right Targeting in Google Ads</h2>
+                    <p>Not every website visitor is equally valuable to you. With the right audience settings when you set up your campaigns, you can make sure in Google Search Ads that you only spend money on the right users. This article is a beginner-friendly introduction to location settings, observation vs. targeting audiences, and demographic-based optimizations—so your first Ads campaign is off to a solid start.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/seo-and-accessibility-online/" class="article-tile-link" data-category="seo">
+            <div class="article-tile">
+                <img src="/assets/img/icons/barrierefreiheit_icon.svg" alt="Accessibility icon">
+                <div>
+                    <h2>Why Good SEO Is Accessible</h2>
+                    <p>Accessibility and SEO are very similar in many ways: good UX, clean and well-structured code, clear language, and websites that are easy to navigate. In this article, I explain why that is and share practical tips on how to improve both. From key aspects of content preparation and standards in accessible web design to the ever-popular question of what you actually need to consider with alt text—dive in and let yourself be convinced.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/analyzing-google-analytics-events/" data-category="analytics">
+            <div class="article-tile">
+                <img src="/assets/img/icons/events-auswertungen.svg" alt="Custom Event Icon">
+                <div>
+                    <h2>Google Events &amp; Analysis</h2>
+                    <p>Which events should you track on your website, which tools should you set up, and why? Event tracking differs from site to site and from company to company. The good news: most of these questions can be answered quite easily with a structured process. That’s exactly what this article is about: I explain everything you need to know about tools, metrics, and reporting intervals. There’s also a small questionnaire that gives you an initial, tailored assessment. Give it a try!</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/how-much-do-google-ads-cost/" data-category="sea, social">
+            <div class="article-tile">
+                <img src="/assets/img/icons/en/ads-kosten-tile_en.png" alt="Google Ads Cost Icon">
+                <div>
+                    <h2>How Much Do Google Ads Cost?</h2>
+                    <p>When they see a cost-per-click of several francs, many companies back away from Google Ads again. Often unfairly—because Google Ads can easily bring back many times your ad spend in revenue. In this article, I explain what you need to know about Google Ads costs and which conditions need to be in place for a campaign to be successful. There’s also a small infographic showing which type of online marketing makes the most sense in which situation.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/seo-for-beginners/" data-category="seo">
+            <div class="article-tile">
+                <img src="/assets/img/icons/en/seo-tipps-icon_en.png" alt="SEO Tip Icon">
+                <div>
+                    <h2>5 SEO Tips for Beginners</h2>
+                    <p>For newcomers, SEO often feels like a total mystery. In this article, we look at the fundamental aspects of search engine optimization to improve your website’s visibility. From choosing the right keywords to the technical optimization of your site, I share five important tips to help you start optimizing your website for SEO yourself.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="https://omr.com/en/reviews/contenthub/quality-factor-google-ads" target="_blank" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/omr.png" alt="Online Marketing Rebels &amp; Google Ads Logo">
+                <div>
+                    <h2>Google Ads Quality Score: The Key Indicator for Thrifty Shoppers (Guest article for OMR Reviews)</h2>
+                    <p>Google Ads are considered expensive. But they don’t have to be. There’s a not-so-secret way to get more out of your SEA budget. The magic word is “Quality Score”. Google also accepts positive user experience as a form of currency, which means campaigns with a good Quality Score often cost only a fraction as much. In my guest article for OMR Reviews, I explain what you need to know and how you can improve your Quality Score.</p>
+                </div>
+            </div>
+        </a>
+
+        <a class="article-tile-link" href="/en/meta-ads-beginners-mistakes/" data-category="social">
+            <div class="article-tile">
+                <img src="/assets/img/icons/en/fuenf_en.png" alt="5 Errors">
+                <div>
+                    <h2>5 Beginner Mistakes in Meta Ads (Repost)</h2>
+                    <p>What does “Learning limited” mean in Facebook or Instagram Ads? Can you just click “Boost post”, or is there something you need to watch out for? And how do you use your ads budget as effectively as possible? If you’ve ever asked yourself these (or similar) questions, you’re in the right place. I explain what to look out for in Meta Ads and which beginner mistakes you should absolutely avoid.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <footer>
+    <!--#include virtual="/includes/footertop-en.html" -->
+	<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/blog/">DE</a> | <a href="https://marcoaures.ch/en/blog/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" --></body>
+</html>

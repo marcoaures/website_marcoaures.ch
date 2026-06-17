@@ -1,0 +1,13 @@
+_auth/
+*.log
+Thumbs.db
+.DS_Store
+.htaccess
+*.bak
+*.tmp
+*.swp
+.claude/
+hidden/
+*.pdf
+callback-form.js
+contactsubm.js

@@ -1,0 +1,52 @@
+<div class="contactsection" id="callback">
+  <div class="contactsection-form">
+    <div class="callbackform">
+      <form id="callback-form" novalidate>
+        <div id="callback-start" class="step">
+          <h3>Lass dich zurückrufen</h3>
+          <p>Hinterlasse kurz deine Nummer: Ich melde mich in der Regel innerhalb von 24 Stunden persönlich bei dir.</p>
+          <div class="field">
+            <label for="callback_name">Dein Name *</label>
+            <input id="callback_name" name="name" type="text" autocomplete="name" placeholder="Maria Mustermann" required aria-required="true" aria-describedby="callback_name_error">
+            <span id="callback_name_error" class="field__error">Bitte gib deinen Namen ein.</span>
+          </div>
+          <div class="field">
+            <label for="callback_company">Unternehmen / Organisation *</label>
+            <input id="callback_company" name="company" type="text" autocomplete="organization" placeholder="Musterfirma AG" required aria-required="true" aria-describedby="callback_company_error">
+            <span id="callback_company_error" class="field__error">Bitte gib dein Unternehmen ein.</span>
+          </div>
+          <div class="field">
+            <label for="callback_tel">Telefonnummer *</label>
+            <input id="callback_tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="076 000 00 00" required aria-required="true" aria-describedby="callback_tel_error">
+            <span id="callback_tel_error" class="field__error">Bitte gib eine gültige Schweizer Telefonnummer ein.</span>
+          </div>
+          <div class="field">
+            <label for="callback_note">Hinweis für den Rückruf (optional)</label>
+            <input id="callback_note" name="note" type="text" autocomplete="off" placeholder="Z.B. beste Uhrzeit oder kurzer Kontext">
+          </div>
+		  <div class="hp-field" aria-hidden="true">
+		    <label for="callback_hp">Du bist ein Mensch, oder? (Pflichtfeld)</label>
+		    <input id="callback_hp" name="callback_hp" type="checkbox" tabindex="-1" autocomplete="off">
+		  </div>
+          <div class="field">
+            <button type="submit" class="callbackform__cta">Unverbindlichen Rückruf anfragen</button>
+          </div>
+        </div>
+        <div id="callback-success" class="step" role="status" aria-live="polite" tabindex="-1">
+          <h3>Danke, deine Rückrufanfrage ist angekommen</h3>
+          <p>Ich melde mich in der Regel innerhalb 24 Stunden bei dir.</p>
+          <p>Falls ich dich nicht erreiche, versuche ich es ein zweites Mal oder hinterlasse eine Nachricht um einen Termin abzumachen.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="contactsection-free">
+    <h3>Oder lieber per E-Mail?</h3>
+    <p>Ich antworte dir meistens innerhalb der nächsten paar Stunden. Wenn du möchtest, kannst du bereits erklären, um was es geht, und mir einen Link zu deiner Webseite hinterlassen.</p>
+    <div class="button-container">
+      <button type="button" class="btn-sec-cta" id="contactMailBtn"><span id="Kontakt-Start">Schreib mir eine Nachricht</span></button>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/callback-form.js" defer></script>

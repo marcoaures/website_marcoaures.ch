@@ -1,0 +1,177 @@
+<div class="calculator">
+	<div id="cpcr" class="step">
+		<h2>Input</h2>
+		<p><strong>Note:</strong> This calculator estimates the likely range of your cost per conversion and the budget needed for stable Google Ads optimisation. The values are guidelines – not a guarantee – but they provide a first sense of whether Google Ads is feasible for you.</p>
+
+		<div class="calculatorfields">
+
+			<!-- CPC -->
+			<div class="field cpcr-field">
+				<p class="flex-question">
+					Average cost per click in CHF
+					<span class="tooltip-container">
+						<span
+							tabindex="0"
+							role="button"
+							aria-label="Info about typical CPC"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							In Switzerland usually between approx. CHF 0.80 and CHF 20.
+						</span>
+					</span>
+				</p>
+
+				<input
+					type="text"
+					inputmode="decimal"
+					id="cpcr-cpc"
+					name="cpcr-cpc"
+					placeholder="e.g. 1.25">
+			</div>
+
+			<!-- CR -->
+			<div class="field cpcr-field cpcr-cr-field">
+				<p class="flex-question">
+					Average conversion rate in percent
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							Conversion rates are usually between 0.5% and 10%.
+						</span>
+					</span>
+				</p>
+
+				<input
+					type="text"
+					inputmode="decimal"
+					id="cpcr-cr"
+					name="cpcr-cr"
+					placeholder="e.g. 4.6">
+
+				<!-- Hint overlay -->
+				<div id="cpcr-cr-hint" class="cpcr-hint">
+					Note: This field expects absolute percentage values (e.g. 3.5 for 3.5%).
+				</div>
+			</div>
+
+			<!-- Info -->
+			<div class="field cpcr-field">
+				<p class="flex-hint">
+					If you're unsure, you can usually Google average CPCs / conversion rates for your industry.
+				</p>
+			</div>
+		</div>
+
+		<hr>
+		<h2>Results</h2>
+
+		<!-- CPA -->
+		<div class="calculatorfields">
+
+			<div class="field">
+				<p class="flex-question">
+					Low cost per conversion
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							10–50% deviation from the calculated «&#8239;expected cost per conversion&#8239;», based on CPC and conversion rate. High CPCs and low CRs tend to make campaigns more volatile.
+						</span>
+					</span>
+				</p>
+				<input type="text" id="cpcr-lowcpa" readonly placeholder="Result will be shown here">
+			</div>
+
+			<div class="field">
+				<p class="flex-question">
+					Expected cost per conversion
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							This value is calculated: CPC ÷ CR.
+						</span>
+					</span>
+				</p>
+				<input type="text" id="cpcr-medcpa" readonly placeholder="Result will be shown here">
+			</div>
+
+			<div class="field">
+				<p class="flex-question">
+					High cost per conversion
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							10–50% deviation from the calculated «&#8239;expected cost per conversion&#8239;», based on CPC and conversion rate. High CPCs and low CRs tend to make campaigns more volatile.
+						</span>
+					</span>
+				</p>
+				<input type="text" id="cpcr-highcpa" readonly placeholder="Result will be shown here">
+			</div>
+		</div>
+
+		<!-- Budget -->
+		<div class="calculatorfields">
+
+			<div class="field">
+				<p class="flex-question">
+					Minimum budget level
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							From around 15 conversions per month, Google Ads can start to detect first patterns. Optimisation is possible, but still unstable.
+						</span>
+					</span>
+				</p>
+				<input type="text" id="cpcr-minbudget" readonly placeholder="Result will be shown here">
+			</div>
+
+			<div class="field">
+				<p class="flex-question">
+					Workable budget level
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							Around 25 conversions per month provide enough signals for more reliable optimisation and noticeably more stable results.
+						</span>
+					</span>
+				</p>
+				<input type="text" id="cpcr-lowbudget" readonly placeholder="Result will be shown here">
+			</div>
+
+			<div class="field">
+				<p class="flex-question">
+					Comfortable budget level
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							From about 50 conversions per month, the algorithm works optimally: fast, robust and consistent performance.
+						</span>
+					</span>
+				</p>
+				<input type="text" id="cpcr-normbudget" readonly placeholder="Result will be shown here">
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<script src="/assets/js/adscalculator-en.js"></script>

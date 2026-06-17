@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/content-security-policy-fuer-marketer/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/content-security-policy-for-marketers/" hreflang="en-CH">
+
+    <meta name="description" content="As a marketer, you may have heard the term Content Security Policy (CSP). Here, I'll explain what you need to know about it - without getting an IT degree.">
+    <link rel="canonical" href="https://marcoaures.ch/en/content-security-policy-for-marketers/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Content-Security-Policy (CSP) for Marketers | Marco Aures">
+    <meta property="og:description" content="As a marketer, you may have heard the term Content Security Policy (CSP). Here, I'll explain what you need to know about it - without getting an IT degree.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/en/content-security-policy-for-marketers/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CH">
+
+    <title>Content-Security-Policy (CSP) for Marketers | Marco Aures</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/en/content-security-policy-for-marketers/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/en/content-security-policy-for-marketers/"
+      },
+      "headline": "Content Security Policy (CSP) for Marketers",
+      "description": "As a marketer, you may have heard the term Content Security Policy (CSP). Here, I'll explain what you need to know about it - without getting an IT degree.",
+      "image": "https://marcoaures.ch/assets/img/icons/csp-icon.svg",
+      "datePublished": "2025-06-09",
+      "dateModified": "2025-11-27",
+      "inLanguage": "en-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/csp-marketer.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">Content Security Policy for Marketers</h1>
+            <p>Maybe you’ve already come across the term Content Security Policy (CSP) as a marketer. Here’s what you need to know about it - without getting an IT degree.</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        </button>
+    </div>
+    <div class="content" id="start">
+        <div class="bloginfo">
+            Published: 09.06.2025 | Updated: 16.06.2026<br>
+            Content: Content Security Policy (CSP), Google Tag Manager (GTM), unsafe-inline, nonce, hash, tracking issues
+        </div>
+        <p>Admittedly, marketing and IT security rarely cross paths, but when they do, it’s often because of CSPs. And <b>CSPs frequently clash with Google Tag Manager,</b> which digital marketers use for everything from integrating external tools to conversion tracking for search and social campaigns.</p>
+        <p>This article explains what you, as a Digital Marketing Manager, need to know about Content Security Policies. It also covers everything required to follow my practical guide <a href="/en/csp-and-google-tag-manager/">«&#8239;Using Google Tag Manager with a CSP&#8239;»</a> or to troubleshoot issues when <a href="/en/social-media-pixel-external-tools-and-csp/">your CSP causes problems with social media pixels or external tools.</a></p>
+        <hr>
+        <h2 id="csp-erklaert">What is a CSP</h2>
+        <p>A <b>Content Security Policy is a security directive</b> designed to prevent external content such as scripts, images or embedded elements from being executed on a website without permission. A CSP defines exactly which sources are allowed for specific content types (for example scripts, styles, media or embeds). The most important rules, at least in the context of Google Tag Manager, include...</p>
+        <ul>
+            <li><strong><i>'self'</i>:</strong> Only allows content of this type to be loaded directly from the website’s own domain</li>
+            <li><strong>Domains &amp; URLs:</strong> Only allows content from defined domains (e.g. https://example.ch, *.example.ch) or protocols (e.g. https)</li>
+            <li><strong><i>'none'</i>:</strong> Completely disallows this content type</li>
+            <li><strong><i>'unsafe-inline'</i>:</strong> Allows inline content that is placed directly in the HTML document - but more on that later</li>
+            <li><strong>Nonce/Hash:</strong> Allows selected inline content that has been approved through a one-time token or fingerprint – how this works is explained in my GTM &amp; CSP guide</li>
+        </ul>
+        <div class="highlight">
+            <p><strong>Info:</strong> A <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank">Nonce ( <i>«&#8239;number used once&#8239;»</i> )</a> is a one-time random token generated when the page loads, essentially a single-use password for the script. A <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank">Hash,</a> on the other hand, is a kind of checksum or fingerprint for your script. The hash only matches if the script’s content is unchanged, preventing manipulation.</p>
+        </div>
+        <p>When a user visits a webpage with a CSP, the server sends the policy to the browser via an HTTP header. <b>The browser checks each piece of content as it loads to determine whether it is allowed.</b> If this is not the case, the content is blocked.</p>
+        <img src="/assets/img/csp-infografik.webp" alt="Infographic CSP process">
+        <p>A Content Security Policy therefore mainly <b>protects against attacks</b> such as cross-site scripting (XSS) and similar threats. Many purely static sites work entirely without inline scripts (note that the GTM initialization script must itself be loaded inline – this special case is explained later). In such cases, neither a nonce nor a hash is required as long as all necessary scripts come from clearly defined external sources.</p>
+        <p>If you use inline scripts without defining a CSP, however, an attacker could use an insecure form to inject a script that sends user data to third parties or uses a compromised third-party script to load malware onto the user’s device.</p>
+        <hr>
+        <h2 id="csp-gtm-problem">The problem with Google Tag Manager</h2>
+        <p>Perhaps you have already recognized the Gordian knot: One of the advantages of Google Tag Manager is that <b>marketers can embed scripts or external tools on their website</b> without editing the site’s code directly. You can adjust <a href="/en/analyzing-google-analytics-events/">event tracking</a> at any time, experiment freely and avoid depending on developers. A CSP, however, tries to prevent exactly that.</p>
+        <p>To make things more complicated, <b>the Tag Manager’s initialization code is typically embedded as an inline script</b> in the page’s head, which becomes a problem when inline scripts are disallowed by the CSP.</p>
+        <p>This usually results in errors in the browser console:</p>
+        <img src="/assets/img/csp-error.webp" alt="CSP Errors on my site">
+        <p>Or worse still: tracking stops working and no one knows why. The likely reason is that your <b>GTM snippet and/or tags executed through GTM were blocked.</b></p>
+        <h3 id="unsafe-inline">The dangerous shortcut: 'unsafe-inline'</h3>
+        <p>Earlier, I mentioned the <i>'unsafe-inline'</i> rule. At first glance, it looks promising because it allows your blocked GTM snippet to run again. However, using <b><i>'unsafe-inline'</i> (or, worse, <i>'unsafe-eval'</i>, which is rarely needed in marketing contexts) is generally discouraged.</b></p>
+        <p>If your website handles sensitive information (login forms or other forms collecting confidential data) or processes such data in the backend, there is a good reason for this: <i>'unsafe-inline'</i> makes it easier for attackers to exploit existing vulnerabilities.</p>
+        <div class="beispiel">
+            <p><strong>Example:</strong> Your site has a form and a confirmation page where users review their entries. If the form is poorly validated and user input is not sanitized, a malicious actor could enter a script directly into a form field. When the confirmation page displays the input, the page executes the injected script and does whatever the attacker intended. If <i>'unsafe-inline'</i> were disallowed, the script would not run because it is not a separate file on your server.</p>
+        </div>
+        <p>In short, <i>script-src 'unsafe-inline'</i> weakens <b>one of the key security mechanisms of a CSP.</b> Other attack vectors – such as unauthorized tracking pixels, <i>'unsafe eval'</i> or complex, dynamically updated malware from a third-party source – are still blocked, but inline scripts remain an open door.</p>
+        <p>For commercial sites that allow user inputs, or for web applications in general, <i>'unsafe-inline'</i> should therefore not be used. If your website only delivers static content and does not process user input at all, a strict CSP is usually less critical. But <b>if your IT department has already decided that a CSP is necessary, chances are high that <i>'unsafe-inline'</i> is too risky for your use case.</b></p>
+        <div class="highlight">
+            <p><strong>Info:</strong> <i>'unsafe-inline'</i> is convenient but dangerous. It can be helpful in development or test environments – but in production, especially on sites with user inputs or logins, it should not be allowed for JavaScript.</p>
+        </div>
+        <hr>
+        <h2 id="abschluss">And now?</h2>
+        <p>You now know the essentials of Content Security Policies as a Digital Marketing Manager. If you are currently dealing with a CSP-related tracking issue, the best approach is this: Ask your developers to <b>generate a nonce for each page load and push it into the DOM.</b> Then follow my tutorial to <a href="/en/csp-and-google-tag-manager/">configure Google Tag Manager</a> so everything works again.</p>
+        <p>If you need help with the implementation, please get in touch - together we will find a solution:</p>
+    		<!--#include virtual="/includes/contact-callback-en.html" -->
+        <hr>
+        <p><strong>PS:</strong> If you're a tech-savvy reader, you may already have checked my CSP and noticed that I allow <i>'unsafe-inline'</i> for scripts. Guilty! For my current risk profile (static site without logins/forms) this is – as described above – an acceptable trade-off. For real web applications, however, I would not configure it this way. 😉</p>
+    </div>
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-en.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/content-security-policy-fuer-marketer/">DE</a> | <a href="https://marcoaures.ch/en/content-security-policy-for-marketers/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

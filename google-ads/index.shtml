@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<link rel="alternate" href="https://marcoaures.ch/google-ads/" hreflang="de-CH">
+		<link rel="alternate" href="https://marcoaures.ch/en/google-ads/" hreflang="en-CH">
+		<meta name="description" content="Der perfekte Kanal für Unternehmen, die wissen wollen, welche Werbeausgaben tatsächlich zu Anfragen, Terminen oder Verkäufen führen.">
+		<link rel="canonical" href="https://marcoaures.ch/google-ads/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Google Ads | Marco Aures: Online Marketing">
+		<meta property="og:description" content="Der perfekte Kanal für Unternehmen, die wissen wollen, welche Werbeausgaben tatsächlich zu Anfragen, Terminen oder Verkäufen führen.">
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+		<meta property="og:url" content="https://marcoaures.ch/google-ads/">
+		<meta property="og:type" content="website">
+		<meta property="og:locale" content="de_CH">
+		<title>Google Ads | Marco Aures: Online Marketing</title>
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/google-ads/#webpage",
+						"url": "https://marcoaures.ch/google-ads/",
+						"name": "Google Ads / SEA",
+						"description": "Google Ads und SEA für Unternehmen, die wissen wollen, welche Werbeausgaben tatsächlich zu Anfragen, Terminen oder Verkäufen führen.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/google-ads/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/google-ads/#service",
+						"name": "Google Ads / SEA",
+						"alternateName": [
+							"Google Ads Betreuung",
+							"SEA Betreuung",
+							"Suchmaschinenwerbung"
+						],
+						"description": "Google Ads und SEA für Unternehmen, die messbare Anfragen, Termine oder Verkäufe generieren möchten. Inklusive Kampagnenaufbau, Conversion-Tracking, Testzeitraum und laufender Optimierung nach Aufwand.",
+						"serviceType": [
+							"Google Ads",
+							"SEA",
+							"Suchmaschinenwerbung",
+							"Google Ads Kampagnenaufbau",
+							"Google Ads Betreuung",
+							"Conversion-Tracking"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "KMU und Unternehmen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/google-ads/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/google-ads/#offer",
+							"url": "https://marcoaures.ch/google-ads/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Google-Ads-Betreuung mit transparenter Verrechnung nach tatsächlichem Aufwand statt Abo-Modell oder prozentualem Anteil am Werbebudget."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/google-ads/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/google-ads/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/google-ads/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/google-ads/#faq-existing-campaigns",
+								"name": "Übernimmst du auch bestehende Kampagnen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Generell ja, aber das ist abhängig von der individuellen Kampagne. Professionell aufgebaute Kampagnen kann ich u.U. nahtlos weiterführen. Gelegentlich kommt es allerdings vor, dass bestehende Kampagnen unsauber aufgebaut sind. Dann ist es meist effizienter und günstiger, eine Kampagne zu beenden und neu aufzubauen."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/google-ads/#faq-costs",
+								"name": "Was kostet die Betreuung durch dich?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Viele Agenturen verlangen einen prozentualen Anteil am Ad-Spend oder bieten ein Abo-Modell für die Ads-Betreuung an. Mit mir als Google-Ads-Freelancer bezahlst du hingegen nur die Zeit, die ich tatsächlich für die Optimierung der Kampagne benötige. Der Aufwand hängt von der Kampagne ab, aber generell kannst du mit 15-60 Minuten/Woche Betreuungsaufwand rechnen, mit einem Kostendach, das von deiner Kampagnengrösse abhängt."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/google-ads/#faq-test-period",
+								"name": "Was passiert, wenn ich nach dem Testzeitraum nicht zufrieden bin?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das entscheidest du: Nach 3 Monaten läuft die Kampagne aus und ich verlängere sie nur, nachdem du mir deine aktive Zusage zur Verlängerung / Weiterführung gegeben hast. Dein Ads-Account bleibt in deinem Besitz, also kannst du die Kampagne danach auch selbst weiterführen oder einem anderen Marketer übergeben, wenn du möchtest."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/google-ads/#faq-minimum-budget",
+								"name": "Muss ich ein Mindestbudget für Google Ads einsetzen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Google lässt fast jedes Budget zu, was aber nicht heisst, dass jedes Budget sinnvoll ist. Kampagnen lernen durch die Nutzerdaten und werden dadurch akkurater und günstiger. Minimalbudgets verursachen meistens, dass der Ads-Algorithmus zu wenig Daten zum Lernen erhält und die Kampagne im Total zwar günstig ist, die Kosten pro Conversion jedoch deutlich höher. Ein Gefühl dafür, welches Budget sinnvoll ist, gibt dir mein Ads-Kosten-Rechner."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/google-ads/#faq-short-campaigns",
+								"name": "Sind auch kürzere Kampagnen (z.B. ein Monat) möglich?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Die ersten Wochen einer neuen Kampagne sind «&#8239;Lernphase&#8239;» während der Google zu verstehen versucht, welche Teile deiner Zielgruppe worauf anspringt. Dieses Experimentieren lässt sich marginal beschleunigen, indem man das Budget erhöht, aber generell hat sich eine Kampagne meist erst nach 10-12 Wochen richtig eingespielt."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/google-ads/#faq-conversion-tracking",
+								"name": "Brauche ich Conversion-Tracking? Kann ich dafür nicht einfach GA4 verwenden?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Conversion-Tracking ist meistens notwendig, um zu messen, wie erfolgreich eine Kampagne wirklich ist. GA4 kann als Conversionquelle verwendet werden, aber in den meisten Fällen ist ein Setup mit Google Tag Manager verlässlicher und sauberer. Du musst dir darum aber keine Sorgen machen: Das Einrichten von Conversion-Tracking ist bei mir – falls notwendig – bereits im Kampagnenaufbau eingerechnet."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Google Ads / SEA</h1>
+					<p>Für Unternehmen, die wissen wollen, welche Werbeausgaben tatsächlich zu Anfragen, Terminen oder Verkäufen führen.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/sea-hero-de.html" -->
+			</section>
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Google Ads sind einer der schnellsten Wege, abschlussbereite Interessenten zu erreichen. Ob <b>Suchanzeigen, Shopping Ads, lokale Kampagnen für Google Maps oder Call-Only-Ads,</b> kaum ein anderer Kanal lässt sich <a href="/google-ads-targeting/">so präzise steuern</a> und Erfolg so genau messen. <b>ABER:</b> Auf kaum einer anderen Plattform ist es für unerfahrene Werbetreibende so leicht, drei- bis vierstellige Budgets zu verschwenden.</p>
+				<p>Seit mehr als 5 Jahren schalte ich Google Ads für verschiedenste Unternehmen und helfe dir als <b>erfahrener Google-Ads-Freelancer</b> deine Kampagnen erfolgreich umzusetzen.</p>
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Geeignet für Unternehmen, die messbare Anfragen, Verkäufe oder Interaktionen generieren möchten und wissen wollen, was ihre Werbeausgaben tatsächlich gebracht haben.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Suchkampagnen, Shopping Ads und weitere Formate, wenn sie zur Strategie passen. Inklusive sauberem Conversion-Tracking, damit sichtbar wird, welche Kampagnen tatsächlich Ergebnisse liefern.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>Transparente Verrechnung nach Aufwand statt Vertragsbindung, «&#8239;Abo-Zwang&#8239;» oder dass ich einen Prozentsatz der Werbeausgaben verlange. Mit klar definierten Zielen und einem Testzeitraum.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Google Ads (oder AdWords, der alte Name hält sich immer noch hartnäckig) lassen sich <b>vom Ein-Mann-Betrieb bis zum grösseren Unternehmen, B2B wie B2C, ganz branchenunabhängig</b> einsetzen. Wenn du mir sagen kannst, was ein Kunde auf deiner Webseite tun soll – ein Formular abschicken, einen Termin buchen, etwas kaufen – und es Leute gibt, die aktiv nach dem suchen, was du anbietest, können wir damit arbeiten.</p>
+				<div class="spacer"></div>
+				<h2>Wann machen Google Ads Sinn?</h2>
+				<p>Über ein paar Rahmenbedingungen, die wir uns im Erstgespräch anschauen, solltest du dir bewusst sein. Sie entscheiden, wie erfolgreich Google Ads tatsächlich sein können:</p>
+				<ul>
+					<li>Klickpreise liegen meistens zwischen einem und zehn Franken. Bei passenden Stückpreisen, hohem Absatzvolumen oder hohem «&#8239;Customer-Lifetime-Value&#8239;» geht diese Rechnung <a href="/beste-google-ads-branchen/">meistens positiv</a> auf. Bei niedrigpreisigen Impulskäufen sind <a href="/bing-linkedin-meta-ads/">Social Media Ads</a> oft die bessere Wahl.</li>
+					<li>Google Ads bringen Leute nur auf deine Seite. Erst dort entscheidet sich, ob auch wirklich ein Abschluss, z.B. ein Kauf oder eine Anfrage, stattfindet. Das heisst, dass die Nutzerfreundlichkeit, Transparenz und Conversion-Optimierung einen grossen Anteil am Erfolg haben.</li>
+				</ul>
+				<p>Über alles andere musst du dir an dieser Stelle noch keine Gedanken machen. Mit mir als deinem SEA-Freelancer erhältst du du – vom Kampagnenaufbau bis zum <a href="/tracking-analytics/">Conversion-Tracking</a> – alles aus einer Hand und ich kann dir, als die Person, die <b>deine Kampagne vom Aufbau bis zur Auswertung</b> betreut, meistens bereits im Erstgespräch eine individuelle Einschätzung geben.</p>
+				<div class="button-container">
+					<button type="button" class="btn-prim-cta" id="jump-to-callback-mid">Erstgespräch vereinbaren</button>
+				</div>
+				<div class="spacer"></div>
+				<h2>So läuft das ab</h2>
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Unverbindliches Erstgespräch</h3>
+							<p>Gemeinsam besprechen wir deine Ziele und Ausgangslage. Ich empfehle dir, ob und wie eine Google-Ads-Kampagne bei dir umgesetzt werden könnte.</p>
+						</div>
+					</article>
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Kampagnenaufbau</h3>
+							<p>Ich baue deine Kampagne auf und richte bei Bedarf dein Conversion-Tracking ein. Du bekommst alle Lieferinhalte zur Freigabe.</p>
+						</div>
+					</article>
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>Testzeitraum</h3>
+							<p>Niemand kann garantieren, wie gut Google Ads für ein spezifisches Unternehmen funktionieren. Google Ads benötigen ausserdem sowieso ein paar Wochen, um sich «&#8239;einzuspielen&#8239;». Deshalb starte ich gerne mit einem 3-monatigen Testzeitraum.</p>
+						</div>
+					</article>
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Besprechung &amp; Verlängerung</h3>
+							<p>Nach dem Testzeitraum besprechen wir die Ergebnisse deiner Kampagne. Wenn du mit deinen Google Ads zufrieden bist, entscheidest du, wie du weiter vorgehen willst.</p>
+						</div>
+					</article>
+				</section>
+				<h2>Beispiele aus der Praxis</h2>
+				<p>Aus Diskretionsgründen veröffentliche ich keine Kundennamen im Zusammenhang mit Projektdetails oder detaillierten Fallstudien. Diese Zahlen stammen aber <b>aus realen Kundenprojekten</b> und dienen als Orientierung. Eine Auswahl der Kundinnen und Kunden, die ich schon betreuen durfte, findest du zusätzlich in <a href="/">meinen Referenzen</a>.</p>
+				<div class="accordion accordion--subtle">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Suchkampagne für Unternehmen mit regional begrenztem Einzugsgebiet</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das Unternehmen bietet B2C-Lösungen mit längeren Entscheidungszyklen und persönlicher Beratung als zentralem Bestandteil des Verkaufsprozesses. Wegen des begrenzten Einzugsgebiets und der hohen Auftragswerte lag der Fokus nicht auf möglichst vielen Anfragen, sondern auf der Generierung qualifizierter Beratungstermine.</p>
+								<p><strong>Umsetzung</strong></p>
+								<ul>
+									<li>Suchkampagne mit Fokus auf kaufnahe Suchanfragen</li>
+									<li>Geografische Eingrenzung auf das relevante Einzugsgebiet</li>
+									<li>Direkte Terminbuchung über ein Online-Buchungssystem</li>
+									<li>Durchschnittliches Werbebudget: CHF 20 pro Tag</li>
+								</ul>
+								<p><strong>Ergebnis (12 Monate)</strong></p>
+								<ul>
+									<li>121 gebuchte Erstgespräche</li>
+									<li>Ca. CHF 60 Werbekosten pro Terminbuchung</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Suchkampagne für ein produzierendes B2B-Unternehmen</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das Unternehmen vertreibt individuelle Lösungen im B2B-Bereich mit hohem Volumen pro Auftrag. Ziel war die Generierung qualifizierter Offertanfragen über Google Ads.</p>
+								<p><strong>Umsetzung</strong></p>
+								<ul>
+									<li>Suchkampagnen auf transaktionsnahe Keywords</li>
+									<li>Fokus auf Suchanfragen mit konkreter Beschaffungsabsicht</li>
+									<li>Durchschnittliches Werbebudget: CHF 30 pro Tag</li>
+								</ul>
+								<p><strong>Ergebnis (12 Monate)</strong></p>
+								<ul>
+									<li>173 Offertanfragen</li>
+									<li>Ca. CHF 65 Werbekosten pro Anfrage</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>Übrigens: Wenn du eine budgetschonendere Variante von SEA bevorzugst, habe ich zumindest im Bereich B2B gute Neuigkeiten. Analog zu Google Ads lässt sich <a href="/bing-linkedin-meta-ads/">Microsoft Advertising</a> auch auf <b>Bing Werbung</b> schalten.</p>
+				<p>Der Marktanteil ist zwar geringer, aber zumindest auf Geschäftsgeräten, auf denen die Standard-Suchmaschine meist voreingestellt ist, vertretbar. Die <b>Klickpreise bei Bing Ads</b> rangieren, meiner Erfahrung nach, 10-20% unter Google.</p>
+				<div class="spacer"></div>
+				<!--#include virtual="/includes/animations/sea-keywords-de.html" -->
+				<h2>Häufig gestellte Fragen</h2>
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Übernimmst du auch bestehende Kampagnen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Generell ja, aber das ist abhängig von der individuellen Kampagne. Professionell aufgebaute Kampagnen kann ich u.U. nahtlos weiterführen. Gelegentlich kommt es allerdings vor, dass bestehende Kampagnen unsauber aufgebaut sind. Dann ist es meist effizienter und günstiger, eine Kampagne zu beenden und neu aufzubauen.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was kostet die Betreuung durch dich?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Viele Agenturen verlangen einen prozentualen Anteil am Ad-Spend oder bieten ein Abo-Modell für die Ads-Betreuung an. Mit mir als Google-Ads-Freelancer bezahlst du hingegen nur die Zeit, die ich tatsächlich für die Optimierung der Kampagne benötige. Der Aufwand hängt von der Kampagne ab, aber generell kannst du mit 15-60 Minuten/Woche Betreuungsaufwand rechnen, mit einem Kostendach, das von deiner Kampagnengrösse abhängt.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was passiert, wenn ich nach dem Testzeitraum nicht zufrieden bin?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das entscheidest du: Nach 3 Monaten läuft die Kampagne aus und ich verlängere sie nur, nachdem du mir deine aktive Zusage zur Verlängerung / Weiterführung gegeben hast. Dein Ads-Account bleibt in deinem Besitz, also kannst du die Kampagne danach auch selbst weiterführen oder einem anderen Marketer übergeben, wenn du möchtest.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Muss ich ein Mindestbudget für Google Ads einsetzen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Google lässt fast jedes Budget zu, was aber nicht heisst, dass jedes Budget sinnvoll ist. Kampagnen lernen durch die Nutzerdaten und werden dadurch akkurater und günstiger. Minimalbudgets verursachen meistens, dass der Ads-Algorithmus zu wenig Daten zum Lernen erhält und die Kampagne im Total zwar günstig ist, die Kosten pro Conversion jedoch deutlich höher. Ein Gefühl dafür, welches Budget sinnvoll ist, gibt dir mein <a href="/tools/ads-kosten-rechner/">Ads-Kosten-Rechner</a>.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Sind auch kürzere Kampagnen (z.B. ein Monat) möglich?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Die ersten Wochen einer neuen Kampagne sind «&#8239;Lernphase&#8239;» während der Google zu verstehen versucht, welche Teile deiner Zielgruppe worauf anspringt. Dieses Experimentieren lässt sich marginal beschleunigen, indem man das Budget erhöht, aber generell hat sich eine Kampagne meist erst nach 10-12 Wochen richtig eingespielt.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Brauche ich Conversion-Tracking? Kann ich dafür nicht einfach GA4 verwenden?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Conversion-Tracking ist meistens notwendig, um zu messen, wie erfolgreich eine Kampagne wirklich ist. GA4 kann als Conversionquelle verwendet werden, aber in den meisten Fällen ist ein Setup mit Google Tag Manager verlässlicher und sauberer. Du musst dir darum aber keine Sorgen machen: Das <a href="/tracking-analytics/">Einrichten von Conversion-Tracking</a> ist bei mir – falls notwendig – bereits im Kampagnenaufbau eingerechnet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="spacer"></div>
+				<h2>Das könnte dich interessieren</h2>
+				<div class="related-grid-wrap is-collapsed" id="relatedGrid">
+					<div class="related-grid">
+						<a href="/tools/ads-kosten-rechner/" class="related-card" data-type="tool">
+							<span class="related-card__type">#tool</span>
+							<h3>Google Ads Kosten-Rechner</h3>
+							<p>Gibt dir ein Gefühl dafür, welches Budget für deine Kampagne sinnvoll ist.</p>
+						</a>
+						<a href="/was-kosten-google-ads/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Was kosten Google Ads?</h3>
+							<p>Gibt dir einen Überblick über mögliche Kosten und Rentabilitätsfaktoren.</p>
+						</a>
+						<a href="/assets/pdf/Entscheidungshilfe_Online-Marketing.pdf" class="related-card" data-type="download" target="_blank">
+							<span class="related-card__type">#download</span>
+							<h3>Flowchart: Online-Marketing-Schwerpunkt</h3>
+							<p>Diese Flowchart gibt einen Überblick, welche Marketingkanäle geeignet sind.</p>
+						</a>
+						<a href="/google-ads-targeting/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Das richtige Google-Ads-Targeting</h3>
+							<p>Hier lernst du, wie Google Ads gesteuert werden können &amp; sollten.</p>
+						</a>
+						<a href="/google-ads-zielgruppe-finden/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Die richtige Zielgruppe in Google Ads</h3>
+							<p>Tipps &amp; Tricks zum Targeting jenseits der Kampagneneinstellungen.</p>
+						</a>
+						<a href="/beste-google-ads-branchen/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Die besten Branchen für Google Ads</h3>
+							<p>Hier lernst du, wieso sich High-Intent-Branchen so gut für SEA eignen.</p>
+						</a>
+					</div>
+				</div>
+				<div class="related-more-wrap" id="relatedMoreWrap">
+					<button type="button" class="related-show-more" id="relatedShowMore">Mehr anzeigen</button>
+				</div>
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/google-ads/">DE</a> | <a href="https://marcoaures.ch/en/google-ads/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/anfaengerfehler-meta-ads/" hreflang="de-CH" />
+    <link rel="alternate" href="https://marcoaures.ch/en/meta-ads-beginners-mistakes/" hreflang="en-CH" />
+
+    <meta name="description" content="From the Ads Manager to «&#8239;Learning limited&#8239;»: avoid these pitfalls in your Meta ads and use your advertising budget more effectively.">
+    <link rel="canonical" href="https://marcoaures.ch/en/meta-ads-beginners-mistakes/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="5 Beginner Mistakes in Facebook and Instagram Ads | Marco Aures: Digital Marketing" />
+    <meta property="og:description" content="5 Beginner Mistakes in Facebook and Instagram Ads: avoid these pitfalls in your Meta ads and use your advertising budget more effectively." />
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+    <meta property="og:url" content="https://marcoaures.ch/en/meta-ads-beginners-mistakes/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_CH" />
+    <title>5 Beginner Mistakes in Facebook &amp; Instagram Ads | Marco Aures</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/en/meta-ads-beginners-mistakes/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/en/meta-ads-beginners-mistakes/"
+      },
+      "headline": "5 Beginner Mistakes in Facebook and Instagram Ads",
+      "description": "From the Ads Manager to «&#8239;Learning limited&#8239;»: avoid these pitfalls in your Meta ads and use your advertising budget more effectively.",
+      "image": "https://marcoaures.ch/assets/img/icons/en/fuenf_en.png",
+      "datePublished": "2021-02-10",
+      "dateModified": "2026-06-16",
+      "inLanguage": "en-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/anfaengerfehler_geld.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">5 Beginner Mistakes in Facebook and Instagram Ads</h1>
+            <p>Avoid these pitfalls in your ad campaigns and use your ad budget more effectively.</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div class="content" id="start">
+        <div class="bloginfo">
+            Published: 10.02.2021 | Updated: 16.06.2026<br>
+            Content: SMM, Facebook Ads, Instagram Ads, Meta Business Suite
+        </div>
+
+        <p><strong>In this article, I’ll show you a few easy steps to avoid some costly beginner mistakes when creating and optimizing Facebook and Instagram ads.</strong></p>
+        <p><a href="/en/bing-linkedin-meta-ads/">Social media advertising</a> has long since become commonplace among SMEs and other smaller organizations. The days when only large companies like Adidas or Audi appeared in our feeds with a small “Sponsored” label are over. It’s no surprise: Facebook ads can be published from any business account without long waiting times, you don’t need a media planner, and even with a modest two-digit or low three-digit ad budget you can already achieve your first positive results.</p>
+        <p>Plus, with Facebook ads you can reach both Meta platforms at once: <b>nearly <a href="https://bernet.ch/blog/2026/01/22/social-media-zahlen-schweiz-instagram-waechst-weiter-facebook-unter-vorjahresniveau/" target="_blank">2.5 million Facebook profiles (trending downward) and around 4.3 million Instagram accounts (trending upward)</a> access these platforms here in Switzerland.</b> That means the potential for advertising is enormous. But social media advertising isn’t without its pitfalls either. What does “Learning limited” even mean? And how do you use your budget most effectively? That’s what I’ll explain here.</p>
+        <p><strong>You should avoid the following rookie mistakes in Meta Ads:</strong></p>
+
+        <hr>
+
+        <h2>Beginner Mistake #1: Using “Boost Post”</h2>
+        <p>This is the most common beginner mistake in Facebook and Instagram advertising: the “Boost Post” button is often the first touchpoint many page admins have with Meta ads. The tech company wants to make advertising easy and low-effort for businesses. That’s why you’ll frequently receive notifications, especially for posts that are performing well, suggesting that you promote the post with just a few clicks.</p>
+        <p><b>As tempting as it looks: don’t do it!</b> The biggest reason is how you communicate. Organic (“normal”) posts are mostly aimed at existing fans and customers. And just because a post performs well with them doesn’t mean it will resonate with new customers or even people who are just interested. Do you speak to loyal customers the same way you speak to someone interacting with your business for the first time? Probably not.</p>
+        <img src="/assets/img/carousel.jpg" alt="Example Carousel-Ad">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">© Meta</p>
+        <p>The options are also extremely limited. Audience creation, campaign objectives, and analytics are only a few of the many functions that are much more detailed and powerful in the <a href="https://business.facebook.com/" target="_blank">Meta Business Suite</a>, the actual platform for advertisers. Carousel ads, for example, cannot be created this way. In short: anyone relying on “Boost Post” is not advertising as effectively as they could.</p>
+        <div class="highlight">
+            <p><strong>Tip: use the Meta Ads Manager to create your ad campaigns.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>Beginner Mistake #2: Ignoring Ad Relevance</h2>
+        <p>Most advertisers are aware that Meta allocates ad placements through an auction. But it doesn’t work like a traditional auction where the highest bidder automatically wins. You set your budget, and the delivery system decides how to get you the best possible results. What many still underestimate is that Meta considers more than just money in these auctions.</p>
+        <p>But here’s the bigger difference from traditional bidding: you’re not only bidding with money. Meta recognizes a second currency… ad relevance. <b>Facebook and Instagram want to keep users interested and on the platforms as long as possible.</b> That’s why engaging ads, such as strong video content, are far more valuable to Meta than boring slogans or long-winded, dry prose.</p>
+        <p>Even if one advertiser offers 10 cents and another offers CHF 1.50, the 10-cent ad might win if it’s more engaging, especially if the more expensive ad targets an audience that isn’t relevant for the product. Meta gives all these aspects a name: <a href="https://www.facebook.com/business/help/436113280262012?id=561906377587030" target="_blank">ad relevance</a>. And those who ignore it literally pay a price.</p>
+        <p>Similar to Google Ads, ad relevance is broken down into three categories: <b>«&#8239;Quality Ranking&#8239;», «&#8239;Engagement Rate Ranking&#8239;» and «&#8239;Conversion Rate Ranking&#8239;»</b>. You can add these key figures as columns in the Ads Manager and see exactly what is already working well with your individual ads and what you can still improve.</p>
+        <p>By now there are additional metrics such as Creative Score and Opportunity Score that provide a broader picture of how well your ad is expected to perform in Meta’s environment. Together, these signals influence delivery, cost, and how quickly the system will pick up your ads and start delivering results.</p>
+        <div class="highlight">
+            <p><strong>So my tip: focus on creative that feels engaging and platform-native, choose your audience thoughtfully, and monitor Meta’s relevance diagnostics. These insights reveal exactly where you’re losing efficiency and how to improve your results.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>Beginner Mistake #3: Not Running Split Tests</h2>
+        <p>Imagine you’re planning to buy a car. Would you spend all your money on the first offer before comparing brands and models, let alone taking a test drive? Probably not. You’d research, compare options, and invest some time and effort into test drives. You should do the same with your Facebook and Instagram ads.</p>
+        <p>If you’re planning a big campaign, <b>start with a smaller one with a reduced bid and compare results</b>. Which images perform well with the target group? Which ad text doesn’t get clicks at all? Even experienced marketers prefer not to rely solely on their gut feeling. Some ads will just inevitably flop, while others will outperform expectations by a magnitude. And the best way to find out is by testing with your actual target audience. After the tests, you can confidently invest your budget in the winning variant (often called an A/B test or split test) and spend less money on underperforming ads.</p>
+        <p>The Meta Business Suite offers <a href="https://www.facebook.com/business/help/1159714227408868" target="_blank">several tools and methods</a> for running automated A/B tests, which saves you manual effort. But manual split tests still work well too.</p>
+        <div class="highlight">
+            <p><strong>My tip: run a split test before larger campaigns, or use the functions in the Meta Business Suite, and make your ad spend more efficient.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>Beginner Mistake #4: Optimization Goals That Can’t Be Achieved</h2>
+        <p>Do you know the game “Who am I?” with the sticky notes on your forehead? Facebook plays a similar game with ads. <b>Regardless of your audience settings, it constantly compares ad performance with user behavior.</b> Do dog owners click more often? At what time do married people respond best? Are people from Basel-Stadt particularly likely to click “Like”? If the Facebook Pixel is installed, Facebook even optimizes based on user behavior on your website.</p>
+        <p>But just like in the real game, the one who gets to ask the most questions wins. Facebook has limited time to find the best recipients for your campaign, and even in long campaigns data falls out of the so-called attribution window.</p>
+        <img src="/assets/img/whoami.webp" alt="Illustration Who am I">
+        <p>That’s why it’s important to give Facebook the room it needs. Otherwise, you’ll see annoying messages like <b>«&#8239;Learning Phase Limited&#8239;» or «&#8239;Learning Limited&#8239;»</b> and your campaign won’t perform as well as it could. Campaigns that only run for a week or less are usually far too short for Meta to determine who the best audience is. And someone spending only 50 francs per month may get a much worse ROAS than someone spending 300 francs. Small audiences or unrealistic optimization goals, such as phone calls for a business that hardly receives calls, can also be treacherous here.</p>
+        <div class="highlight">
+            <p><strong>My tip: let your campaign learn! Choose an optimization goal that can realistically be achieved at least 50 times (e.g. 50 clicks, 50 conversions) and plan enough time and budget for that.</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>Beginner Mistake #5: Not (Continuously) Optimizing Campaigns</h2>
+        <p>Creating a campaign is the first and most important step for successful Facebook ads, but definitely not the last. A common beginner mistake is to create campaigns and then forget about them. Unlike newspaper ads or billboards, Meta offers a major advantage: <b>campaigns can be continuously optimized.</b> Facebook handles some of this automatically during the learning phase, so don't go wild just yet. But afterward, you should absolutely take a look at your Ads Manager.</p>
+        <p>The data available in the Meta Ads Manager is extensive and valuable. <b>It allows you to use your budget much more efficiently.</b> If a demographic performs poorly, you can remove it. Ads with low click-through or conversion rates can be paused. The remaining ads will likely use your budget more effectively.</p>
+        <div class="highlight">
+            <p><strong>My tip: optimize campaigns continuously after the learning phase. Pause ads with poor results so your top performers can use a larger share of your budget.</strong></p>
+        </div>
+
+        <hr>
+
+        <h3>About the article</h3>
+        <p>I wrote this article a while ago for OMH and am reposting it here. Admittedly, I do more <a href="/en/google-ads/">Google Ads</a> than <a href="/en/bing-linkedin-meta-ads/">social media ads</a> these days. But since the tips are still useful, it would be a shame to let the article gather dust. And yes, I still know what to watch out for, so feel free to reach out if you’d like advice. 😊</p>
+    		<!--#include virtual="/includes/contact-callback-en.html" -->
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <footer>
+    <!--#include virtual="/includes/footertop-en.html" -->
+            <p>Select Language | Sprache wählen:
+                <a href="https://marcoaures.ch/anfaengerfehler-meta-ads/">DE</a> |
+                <a href="https://marcoaures.ch/en/meta-ads-beginners-mistakes/">EN</a>
+            </p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" --></body>
+</html>

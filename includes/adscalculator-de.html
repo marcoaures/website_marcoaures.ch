@@ -1,0 +1,176 @@
+<div class="calculator">
+	<div id="cpcr" class="step">
+		<h2>Eingabe</h2>
+<p><strong>Hinweis:</strong> Dieser Rechner schätzt ab, in welchem Rahmen sich Kosten pro Conversion voraussichtlich bewegen und welches Budget für stabile Google-Ads-Optimierung angebracht ist. Die Werte sind Richtgrössen – keine Garantie – geben aber ein erstes Gefühl für die Machbarkeit von Google Ads.</p>
+		<div class="calculatorfields">
+
+			<!-- CPC -->
+			<div class="field cpcr-field">
+				<p class="flex-question">
+					Durchschnittlicher Klickpreis (CPC) in CHF
+					<span class="tooltip-container">
+						<span
+							tabindex="0"
+							role="button"
+							aria-label="Info zum typischen CPC"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							In der Schweiz meist zwischen ca. CHF 0.80 und CHF 20.
+						</span>
+					</span>
+				</p>
+
+				<input
+					type="text"
+					inputmode="decimal"
+					id="cpcr-cpc"
+					name="cpcr-cpc"
+					placeholder="z. B. 1.25">
+			</div>
+
+			<!-- CR -->
+			<div class="field cpcr-field cpcr-cr-field">
+				<p class="flex-question">
+					Durchschnittliche Abschlussrate in Prozent
+					<span class="tooltip-container">
+						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+							<sup>&#x1F6C8;</sup>
+						</span>
+						<span class="tooltip-text" role="tooltip" hidden>
+							Conversionraten liegen meistens zwischen 0.5% und 10%. 
+						</span>
+					</span>
+				</p>
+
+				<input
+					type="text"
+					inputmode="decimal"
+					id="cpcr-cr"
+					name="cpcr-cr"
+					placeholder="z. B. 4.6">
+
+				<!-- Hinweis-Overlay -->
+				<div id="cpcr-cr-hint" class="cpcr-hint">
+					Hinweis: Dieses Feld erwartet absolute Prozentwerte (z. B. 3.5 für 3.5 %).
+				</div>
+			</div>
+
+			<!-- Info -->
+			<div class="field cpcr-field">
+				<p class="flex-hint">
+					Solltest du dir nicht sicher sein, kann man durchschnittliche CPCs / Conversionraten pro Branche meist googlen.
+				</p>
+			</div>
+			</div>
+
+			<hr>
+			<h2>Ergebnisse</h2>
+
+			<!-- CPA -->
+			<div class="calculatorfields">
+
+				<div class="field">
+					<p class="flex-question">
+						Niedrige Kosten pro Abschluss
+						<span class="tooltip-container">
+							<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+								<sup>&#x1F6C8;</sup>
+							</span>
+							<span class="tooltip-text" role="tooltip" hidden>
+								10-50% Abweichung der rechnerisch ermittelten «&#8239;erwartbare Kosten pro Abschluss&#8239;», basierend auf Klickpreisen und Conversionraten: Hohe CPCs und niedrige CRs machen Kampagnen erfahrungsgemäss volatiler.
+							</span>
+						</span>
+					</p>
+					<input type="text" id="cpcr-lowcpa" readonly placeholder="Ergebnis wird hier angezeigt">
+				</div>
+
+				<div class="field">
+					<p class="flex-question">
+						Erwartbare Kosten pro Abschluss
+						<span class="tooltip-container">
+							<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+								<sup>&#x1F6C8;</sup>
+							</span>
+							<span class="tooltip-text" role="tooltip" hidden>
+								Dieser Wert ist rechnerisch ermittelt: CPC &divide; CR
+							</span>
+						</span>
+					</p>
+					<input type="text" id="cpcr-medcpa" readonly placeholder="Ergebnis wird hier angezeigt">
+				</div>
+
+				<div class="field">
+					<p class="flex-question">
+						Hohe Kosten pro Abschluss
+						<span class="tooltip-container">
+							<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+								<sup>&#x1F6C8;</sup>
+							</span>
+							<span class="tooltip-text" role="tooltip" hidden>
+								10-50% Abweichung der rechnerisch ermittelten «&#8239;erwartbare Kosten pro Abschluss&#8239;», basierend auf Klickpreisen und Conversionraten: Hohe CPCs und niedrige CRs machen Kampagnen erfahrungsgemäss volatiler.
+							</span>
+						</span>
+					</p>
+					<input type="text" id="cpcr-highcpa" readonly placeholder="Ergebnis wird hier angezeigt">
+				</div>
+			</div>
+
+			<!-- Budget -->
+			<div class="calculatorfields">
+
+				<div class="field">
+					<p class="flex-question">
+						Unterste Budgetgrenze
+						<span class="tooltip-container">
+							<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+								<sup>&#x1F6C8;</sup>
+							</span>
+							<span class="tooltip-text" role="tooltip" hidden>
+								Ab ca. 15 Conversions pro Monat kann Google Ads erste Muster erkennen. Optimierung ist möglich, aber noch instabil.
+							</span>
+						</span>
+					</p>
+					<input type="text" id="cpcr-minbudget" readonly placeholder="Ergebnis wird hier angezeigt">
+				</div>
+
+				<div class="field">
+					<p class="flex-question">
+						Arbeitsfähige Budgethöhe
+						<span class="tooltip-container">
+							<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+								<sup>&#x1F6C8;</sup>
+							</span>
+							<span class="tooltip-text" role="tooltip" hidden>
+								Rund 25 Conversions pro Monat liefern genug Signale für zuverlässigere Optimierungen und spürbar stabilere Ergebnisse. 
+							</span>
+						</span>
+					</p>
+					<input type="text" id="cpcr-lowbudget" readonly placeholder="Ergebnis wird hier angezeigt">
+				</div>
+
+				<div class="field">
+					<p class="flex-question">
+						Komfortable Budgethöhe
+						<span class="tooltip-container">
+							<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
+								<sup>&#x1F6C8;</sup>
+							</span>
+							<span class="tooltip-text" role="tooltip" hidden>
+								Ab etwa 50 Conversions pro Monat arbeitet der Algorithmus optimal: schnelle, robuste und konsistente Performance.
+							</span>
+						</span>
+					</p>
+					<input type="text" id="cpcr-normbudget" readonly placeholder="Ergebnis wird hier angezeigt">
+				</div>
+
+			</div>
+
+
+</div>
+</div>
+<script src="/assets/js/adscalculator-de.js"></script>

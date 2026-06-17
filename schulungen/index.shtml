@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/schulungen/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/training/" hreflang="en-CH" />
+
+		<meta name="description" content="Damit du das Wissen selbst im Haus hast, statt jemanden beauftragen zu müssen: Meine Schulungen zu SEO, Google Ads, Analytics helfen dir dabei.">
+		<link rel="canonical" href="https://marcoaures.ch/schulungen/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Marketing-Schulungen | Marco Aures: Online Marketing" />
+		<meta property="og:description" content="Damit du das Wissen selbst im Haus hast, statt jemanden beauftragen zu müssen: Meine Schulungen zu SEO, Google Ads, Analytics helfen dir dabei." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/schulungen/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+
+		<title>Marketing-Schulungen | Marco Aures: Online Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/schulungen/#webpage",
+						"url": "https://marcoaures.ch/schulungen/",
+						"name": "Marketing-Schulungen | Marco Aures: Online Marketing",
+						"description": "Damit du das Wissen selbst im Haus hast, statt jemanden beauftragen zu müssen: Meine Schulungen zu SEO, Google Ads, Analytics helfen dir dabei.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/schulungen/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/schulungen/#service",
+						"name": "Marketing-Schulungen",
+						"alternateName": [
+							"Online-Marketing-Schulungen",
+							"SEO-Schulung",
+							"Google Ads Schulung",
+							"Google Tag Manager Schulung",
+							"Analytics-Schulung",
+							"Marketing-Training"
+						],
+						"description": "Individuelle Schulungen zu SEO, Google Ads, Analytics und Google Tag Manager, abgestimmt auf Vorwissen und Ziele. Per Videocall oder vor Ort, einzeln oder im Team, nach Möglichkeit am eigenen Setup mit echten Konten und Daten. Ohne festen Lehrplan, mit Schulungsunterlagen und Nachbetreuung bei Rückfragen.",
+						"serviceType": [
+							"Marketing-Schulungen",
+							"SEO-Schulung",
+							"Google Ads Schulung",
+							"Google Tag Manager Schulung",
+							"Analytics-Schulung",
+							"On-Page-SEO-Schulung",
+							"Tracking-Schulung",
+							"Marketing-Training"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "Einzelpersonen und Teams in KMU und Unternehmen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/schulungen/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/schulungen/#offer",
+							"url": "https://marcoaures.ch/schulungen/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Massgeschneiderte Schulungen mit individueller Offerte nach Aufwand. Per Videocall oder vor Ort, einzeln oder im Team, inklusive Vorbereitung, Schulungsunterlagen und Nachbetreuung."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/schulungen/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/schulungen/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/schulungen/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/schulungen/#faq-aufzeichnen",
+								"name": "Darf ich die Schulung aufzeichnen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Na klar, das empfehle ich dir sogar. Ich möchte, dass sie dich langfristig weiterbringt. Und dazu gehört, dass du jederzeit dein Wissen wieder auffrischen kannst. Aus demselben Grund teile ich auch meine Schulungsunterlagen mit dir."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/schulungen/#faq-rueckfragen",
+								"name": "Wie lange kann ich dir Rückfragen stellen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Generell bin ich da sehr kulant. Selbst wenn es mehrere Monate (auch Jahre kamen schon vor) danach ist, kannst du mir eine E-Mail mit deinen Folgefragen schreiben. Wenn es nur eine Fachfrage ist, musst du dir keine Sorgen machen. Und falls wir feststellen, dass eine Nachschulung oder Vertiefungsschulung sinnvoll wäre, helfe ich dir ebenfalls gerne."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/schulungen/#faq-doch-abgeben",
+								"name": "Was, wenn ich nach der Schulung merke, dass ich es doch lieber abgebe?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Kein Problem: So gut wie alle Themen, die ich schule, setze ich auch um. Du bist durch eine Schulung zu nichts verpflichtet und kannst dich jederzeit dafür entscheiden, einen Teil oder das Ganze doch auszulagern."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Schulungen</h1>
+					<p>Damit du das Wissen selbst im Haus hast, statt für jede Frage jemanden beauftragen zu müssen.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/schulungen-hero-de.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Nicht jedes Unternehmen will sein Marketing auslagern: <b>Manchmal ist es sinnvoller, das Wissen intern aufzubauen,</b> z. B. weil jemand im Team ohnehin die Arbeit übernimmt, weil man verstehen möchte, was eine Agentur eigentlich tut, oder weil man bei den täglichen Handgriffen nicht jedes Mal extern nachfragen will.</p>
+				<p>Genau dafür gebe ich Schulungen. <b>Ich bringe dir und/oder deinem Team bei, was ihr für eure Aufgabe braucht,</b> ob On-Page-SEO, <a href="/google-ads/">Google Ads</a> oder <a href="/tracking-analytics/">Google Tag Manager</a>. Am Ende könnt ihr es selbst, und ein externer Dienstleister wird nicht zum Bottleneck, wenn es mal schnell oder ohne Budget gehen muss.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Für Einzelpersonen und Teams, die eine bestimmte Disziplin selbst beherrschen wollen, statt sie dauerhaft abzugeben. Egal, ob Grundlagen oder Vertiefung in einem konkreten Bereich.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Eine auf dein Vorwissen und deine Ziele zugeschnittene Schulung per Videocall oder vor Ort, einzeln oder im Team. Mit Fokus auf das, was du in der Praxis wirklich brauchst.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>In deinem Setup, nicht im Standardlehrplan. Wir arbeiten, wenn möglich, an deinen echten Konten, damit das Gelernte direkt anwendbar ist und nicht im Theoretischen bleibt.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Eine Schulung ist dann sinnvoll, wenn das Wissen langfristig bei dir bleiben soll. Statt eine einzelne Aufgabe für dich zu erledigen, gebe ich dir das Rüstzeug, sie selbst zu übernehmen.</p>
+
+				<h2>Inhalte, Schwerpunkte und Format bestimmst du</h2>
+				<p>Es gibt bei mir keinen festen Lehrplan, den jeder durchläuft. Stattdessen richten sich meine Schulungen nach dem, was du tatsächlich brauchst. Das kann eine Einführung in die Grundlagen sein, wenn du neu in ein Thema einsteigst, oder eine gezielte Vertiefung, wenn du an einem konkreten Punkt nicht weiterkommst.</p>
+				<p>Thematisch decke ich alle Bereiche ab, in denen ich auch sonst arbeite: <b>SEO und die Frage, wie man Inhalte für Suchmaschinen aufbereitet, Google Ads vom Kampagnenaufbau bis zur Auswertung, oder der Google Tag Manager und das saubere Aufsetzen von Tracking und Events.</b> Was davon im Vordergrund steht, klären wir vorab, damit die Zeit in die Themen fliesst, die dir nützen.</p>
+				<p>Ob per Videocall oder vor Ort und ob als Einzelperson oder im Team, richtet sich danach, was für dich am besten ist. Wir arbeiten dabei nach Möglichkeit an deinem eigenen Setup, also an deinen Konten, deiner Website und deinen Daten. So ist das Gelernte sofort anwendbar und du nimmst nicht nur Theorie mit, sondern etwas, das du am nächsten Tag verwenden kannst.</p>
+				<div class="spacer"></div>
+
+				<h2>So läuft das ab</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Erstgespräch & Abklärung</h3>
+							<p>Wir klären, wer geschult werden soll, welches Vorwissen vorhanden ist und welches Thema im Vordergrund steht.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Vorbereitung</h3>
+							<p>Ich stelle die Inhalte auf dein Ziel und dein Vorwissen ab und bereite die Schulung so vor, dass wir möglichst an deinem eigenen Setup arbeiten können.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>Schulung</h3>
+							<p>Wir gehen die Themen gemeinsam durch, per Videocall oder vor Ort. Es ist genug Raum für Fragen und für die konkreten Fälle, die in deinem Alltag auftauchen.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Nachbetreuung</h3>
+							<p>Tauchen nach der Schulung Fragen auf, kannst du dich melden. Rückfragen zum Besprochenen gehören für mich zum Umfang meiner Zusammenarbeit mit dir.</p>
+						</div>
+					</article>
+				</section>
+
+				<div class="spacer"></div>
+
+				<p><b>Schulung und Umsetzung schliessen sich übrigens nicht gegenseitig aus.</b> Wenn du manche Themen selbst übernehmen, andere aber abgeben möchtest, lässt sich das verbinden, etwa eine Schulung im On-Page-SEO, während ich das <a href="/en/google-ads/">SEO</a> oder das <a href="/en/tracking-analytics/">Tracking-Setup</a> übernehme. Auch wenn du später punktuell Hilfe brauchst, zum Beispiel <a href="/en/relaunch-seo/">für einen Relaunch</a>, helfe ich dir gerne. Was du selbst machst und was du auslagerst, entscheidest du.</p>
+
+				<div class="spacer"></div>
+				<h2>Häufig gestellte Fragen</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Darf ich die Schulung aufzeichnen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Na klar, das empfehle ich dir sogar. Ich möchte, dass sie dich langfristig weiterbringt. Und dazu gehört, dass du jederzeit dein Wissen wieder auffrischen kannst. Aus demselben Grund teile ich auch meine Schulungsunterlagen mit dir.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Wie lange kann ich dir Rückfragen stellen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Generell bin ich da sehr kulant. Selbst wenn es mehrere Monate (auch Jahre kamen schon vor) danach ist, kannst du mir eine E-Mail mit deinen Folgefragen schreiben. Wenn es nur eine Fachfrage ist, musst du dir keine Sorgen machen. Und falls wir feststellen, dass eine Nachschulung oder Vertiefungsschulung sinnvoll wäre, helfe ich dir ebenfalls gerne.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was, wenn ich nach der Schulung merke, dass ich es doch lieber abgebe?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Kein Problem: So gut wie alle Themen, die ich schule, setze ich auch um. Du bist durch eine Schulung zu nichts verpflichtet und kannst dich jederzeit dafür entscheiden, einen Teil oder das Ganze doch auszulagern.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+
+			</div>
+
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/schulungen/">DE</a> | <a href="https://marcoaures.ch/en/training/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

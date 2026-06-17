@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+	<!-- hreflang tags -->
+	<link rel="alternate" href="https://marcoaures.ch/tools/sitemap-analyse/" hreflang="de-CH" />
+	<link rel="alternate" href="https://marcoaures.ch/en/tools/sitemap-analysis/" hreflang="en-CH" />
+
+	<meta name="description" content="Dieses Tool wertet Sitemaps aus: Anzahl URLs, Freshness und aktualisierte Seiten nach Zeitraum und ein paar andere, interessante Kennzahlen.">
+	<link rel="canonical" href="https://marcoaures.ch/tools/sitemap-analyse/">
+	<meta name="author" content="Marco Aures">
+	<meta property="og:title" content="Tool: Sitemap-Analyse | Marco Aures - Online Marketing" />
+	<meta property="og:description" content="Dieses Tool wertet Sitemaps aus: Anzahl URLs, Freshness und aktualisierte Seiten nach Zeitraum und ein paar andere, interessante Kennzahlen." />
+	<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+	<meta property="og:url" content="https://marcoaures.ch/tools/sitemap-analyse/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="de_CH" />
+    <title>Tool: Sitemap-Analyse | Marco Aures - Online Marketing</title>
+    <!--#include virtual="/includes/integrations.html" -->
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="content">
+		<div class="toolpage">
+			<h1><strong>Sitemap-Analyse</strong></h1>
+			<a href="/tools/" class="tools-back">Zurück zur Übersicht</a>
+
+			<!--#include virtual="/includes/sitemapanalysis-de.html" -->
+
+		</div>
+	</div>
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+	<footer>
+    <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/tools/sitemap-analyse/">DE</a> | <a href="https://marcoaures.ch/en/tools/sitemap-analysis/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+			</footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+		</body>
+		</html>

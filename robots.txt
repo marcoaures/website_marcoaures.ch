@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /hidden/
+Disallow: /*?verylegitimatequeryparam=
+
+Sitemap: https://marcoaures.ch/sitemap-index.xml

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/seo-and-accessibility-online/" hreflang="en-CH">
+
+    <meta name="description" content="Barrierefreiheit und SEO sind sich sehr oft sehr ähnlich. In diesem Artikel erkläre ich dir wieso und gebe dir wertvolle Tipps, wie du beides verbessern kannst.">
+    <link rel="canonical" href="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="SEO & Barrierefreiheit | Marco Aures Online-Marketing">
+    <meta property="og:description" content="Barrierefreiheit und SEO sind sich sehr oft sehr ähnlich. In diesem Artikel erkläre ich dir wieso und gebe dir wertvolle Tipps, wie du beides verbessern kannst.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+
+    <title>SEO & Barrierefreiheit | Marco Aures: Online-Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/"
+      },
+      "headline": "Warum gute SEO immer barrierefrei ist",
+      "description": "Barrierefreiheit und SEO sind sich sehr oft sehr ähnlich. In diesem Artikel erkläre ich dir wieso und gebe dir wertvolle Tipps, wie du beides verbessern kannst.",
+      "image": "https://marcoaures.ch/assets/img/icons/barrierefreiheit_icon.svg",
+      "datePublished": "2024-07-24",
+      "dateModified": "2024-07-24",
+      "inLanguage": "de-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/hero_barrierefreiheit.jpg');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">Warum gute SEO immer barrierefrei ist</h1>
+            <p>Barrierefreiheit und SEO sind sich sehr ähnlich. Deshalb solltest du beides auf deiner Webseite berücksichtigen</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 24.07.2024 | Aktualisiert: 16.06.2026<br>
+            Inhalt: SEO Best Practices, UX, Barrierefreiheit, Technisches SEO
+        </div>
+
+        <p>Als Online-Marketing-Freelancer teste ich regelmässig neue SEO-Tools. Falls ich das Tool danach nicht behalten will, lösche ich danach meistens einfach mein Konto. Aber genau dabei bin ich nun auf etwas gestossen, das mich ein wenig frustriert hat:</p>
+        <img src="/assets/img/kontoloeschung.jpg" alt="Bitte rufe uns an um dein Konto zu löschen">
+        <p>Zugegeben: «&#8239;Du musst uns anrufen, damit wir deine Daten löschen&#8239;» fände ich so oder so nervig. Aber das ist gar nicht, was mich daran am meisten stört. Denn Fakt ist, dass es sicherlich <b>nicht barrierefrei ist, Kunden zu zwingen ein Callcenter anzurufen</b>, damit sie von ihrem Recht von Datenlöschung Gebrauch machen können.</p>
+        <p>Für gehörlose Menschen ist das nahezu unmöglich oder mit erheblichem Mehraufwand verbunden. Aber auch für Menschen mit Sozialphobien, nonverbale Menschen (z. B. mit Autismus-Spektrum-Störung), oder einfach nur schwerhörige Menschen ist das eine enorme Hürde.</p>
+        <p>Gerade bei einem SEO-Tool macht mich das einfach nur stutzig, weil SEO-Spezialisten immer Barrierefreiheit im Auge behalten sollten. <b>Gute Suchmaschinenoptimierung ist nämlich barrierefrei.</b></p>
+
+        <h2>Warum Barrierefreiheit und SEO immer Hand in Hand gehen</h2>
+        <p>Der offensichtlichste Grund dafür liegt klar auf der Hand, nämlich die Rechtslage. Alle grossen Internetdienstleister – Google, Apple, Meta &amp; Co. – sind compliance-getrieben. Und viele Rechtssysteme haben inzwischen <b>Gesetze zur Barrierefreiheit, die oft auch die Accessibility von digitalen Angeboten regeln.</b></p>
+        <p>In den USA gibt es beispielsweise den Americans with Disabilities Act (ADA), in der EU gibt es den European Accessibility Act (EAA) und sogar in der Schweiz gibt es das BehiG, das zumindest für staatliche Webseiten Barrierefreiheit vorschreibt. Diese Gesetze für Papiertiger zu halten, wäre falsch, denn das Thema wurde bereits ausgiebig vor Gerichten litigiert und hat einigen grösseren Firmen bereits hohe Bussen gekostet.</p>
+        <img src="/assets/img/ada-klagen.jpg" alt="Infografik: Ausgewählte Rechtsstreite zur Barrierefreiheit">
+        <p>Gerade deshalb ist es nicht überraschend, dass Google das Thema ernst nimmt und auch seine Content Provider möglichst lenken will, <b>Best Practices der Barrierefreiheit einzuhalten</b>. Nicht zuletzt deshalb ist es zum Beispiel eine Standard-Praktik bei SEO, für jedes Bild einen Alt-Text zu hinterlegen.</p>
+
+        <h2>Diese Best Practices zur Barrierefreiheit helfen auch deiner Suchmaschinenoptimierung</h2>
+        <p>Accessibility ist aber längst nicht nur ein «&#8239;muss man halt machen&#8239;»-Thema. Häufig läuft Barrierefreiheit im Internet parallel zu SEO-Best-Practices. Denn eigentlich verfolgt beides dasselbe Ziel: <b>Gute UX, sauberer, gut strukturierter Code, verständliche Sprache und einfach navigierbare Webseiten.</b> All das sind nicht nur die Voraussetzungen für einen hohen Rank auf Google, sondern auch die Grundvoraussetzungen, dass beeinträchtigte Menschen eine Internetseite nutzen können. Dafür gibt es viele Beispiele:</p>
+
+        <h3>Alt-Texte</h3>
+        <p>Wie bereits angesprochen, hat vermutlich jeder SEO-Spezialist und Content Manager am ersten Tag gelernt: <a href="/seo-fuer-anfaenger/">«&#8239;Kurze, aussagekräftige Alt-Texte für jedes Bild.&#8239;»</a> Und der Grund dafür ist nicht, wie häufig fälschlicherweise angenommen, dass der spezifische Text ein Ranking-Faktor wäre.</p>
+        <p>Nein, Alt-Texte helfen Menschen, die <b>das Internet per Screenreader navigieren</b> (z.B. blinde Personen). Anstatt die Bilder zu sehen, bekommen sie das Bild «&#8239;vorgelesen&#8239;». Und für Google ist dies ein einfacher Weg zu überprüfen, ob eine Webseite barrierefrei ist und sie andernfalls im Ranking abzustrafen.</p>
+        <p><b>Aber auch für andere Nutzer können Alt-Texte hilfreich sein:</b> Wenn ein Bild versehentlich gelöscht wird oder jemand mit einer langsamen Internetverbindung die Webseite aufruft, macht dadurch die Internetseite trotzdem noch Sinn, auch wenn das Bild fehlt.</p>
+
+        <h3>HTML-Tags und Struktur</h3>
+        <p>Es ist ein gängiges Phänomen, dass Website-Betreiber einfach H3-Überschriften statt H2-Überschriften verwenden, wenn es «&#8239;schöner aussieht&#8239;». Meine Empfehlung ist ganz klar, <b>lieber das Stylesheet zu überarbeiten</b> oder notfalls die Grösse per inline-CSS abzuändern, als solche Workarounds zu nutzen. Denn das schadet sowohl der Barrierefreiheit als auch der SEO einer Seite.</p>
+        <p>Eine Person mit Screenreader kann einen Text nur verstehen, wenn die HTML-Tags auch Sinn machen und eine H3-Überschrift wirklich nur verwendet wird, wenn der Absatz eine Vertiefung einer H2-Überschrift ist.</p>
+        <p>(Wer jetzt übrigens neugierig ist, wie eine Webseite mit Screenreader navigiert wird, kann sich dieses Video ansehen [Englisch])</p>
+        <button type="button" class="embed-placeholder embed-placeholder--video"
+                data-embed-src="https://www.youtube-nocookie.com/embed/q_ATY9gimOM?si=OZvkwjH9lcMywBdy"
+                data-embed-ratio="16/9">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            <span class="embed-placeholder__label">Video laden</span>
+            <span class="embed-placeholder__note">Das Video wird erst nach dem Klick geladen.</span>
+            <span class="embed-placeholder__cta">Jetzt laden</span>
+        </button>
+        <p>Aber dasselbe Problem hat auch der Google-Crawler. Er versteht auch nicht, wenn eine Überschriftenebene rein aus ästhetischen Gründen zweckentfremdet wurde, und interpretiert den Text so falsch. Der wichtigste Abschnitt deines Blogartikels wird so schnell zum nebensächlichen Einschub in den Augen der Suchmaschine.</p>
+        <p>Und <b>auch ARIA-Elemente (Accessible Rich Internet Applications)</b> sagen zum Beispiel sowohl einem Screenreader als auch dem Google-Crawler, wie er ein Element – zum Beispiel ein Formularfeld – interpretieren soll.</p>
+
+        <h3>Aussagekräftige Navigationselemente</h3>
+        <p>Ein ähnlicher Mechanismus gilt übrigens <b>auch für Links und Navigationselemente.</b> Ein ankerloser Link (also ein Link ohne Text) gibt weder einer blinden Person noch dem Google-Crawler irgendeinen Hinweis darauf, was ihn auf der verlinkten Seite erwartet und wo der Zusammenhang zur aktuellen Seite ist. Dadurch wird es sehr schwer, das wichtige Ranking-Signal des Linktexts effektiv zu nutzen.</p>
+
+        <h3>Tabellen und Aufzählungen in Bildern</h3>
+        <p>Der nächste Faux-Pas ist besonders ärgerlich: Häufig sieht man auf Internetseiten Aufzählungen und Tabellen, die aus ästhetischen Gründen…</p>
+        <ul>
+            <li>in Powerpoint erstellt</li>
+            <li>gescreenshotet</li>
+            <li>und dann als Bild hochgeladen wurden.</li>
+        </ul>
+        <p>Dabei sind Tabellen, Aufzählungen und andere hochstrukturierte Elemente <b>besonders informationsreich und enthalten hochrelevante Hinweise für das Verständnis des Texts.</b> Im Gegensatz dazu ist ein Bild für Screenreader UND Google unlesbar. Dadurch sind die Informationen – die wahrscheinlich sehr positiv für das Ranking der Seite wären – aber nun komplett unzugänglich.</p>
+
+        <h2>So verbessert Barrierefreiheit auch deine User Experience</h2>
+        <p>Aber Best Practices für barrierefreies Webdesign haben nicht nur direkte, positive Auswirkungen auf SEO. <b>Auch indirekt helfen sie der Seite auf verschiedensten Weisen.</b> Der beste Rank auf dem stärksten Keyword bringt nichts, wenn 99% der Nutzer in Sekundenschnelle die Website wieder verlassen. SEO-Spezialisten und Content Manager sollten sich deswegen immer auch um die Nutzererfahrung kümmern. Und auch dazu gibt es natürlich einige natürliche Parallelen zwischen Barrierefreiheit im Internet und Content-Management-Best-Practices.</p>
+
+        <h3>Untertitel deine Videos</h3>
+        <p>Eigentlich offensichtlich: Wenn du auf deiner Webseite ein YouTube-Video ohne Untertitel einbaust, können Menschen mit Hörproblemen es nicht wirklich anschauen. Das ist aber längst nicht der einzige Grund, weshalb du Untertitel verwenden solltest. Wir konsumieren das Internet inzwischen meist auf dem Handy. Häufig im Zug. Vielleicht auch wenn man auf einen Kollegen in einem Café wartet. Oder auf der Arbeit, wenn man kurz 2 Minuten Pause macht.</p>
+        <p>An keinem dieser Orte können wir ohne Kopfhörer ein Video mit Ton schauen. Für all diese Menschen ist das Video deshalb dann genauso unbrauchbar wie für einen gehörlosen Menschen. <b>Übrigens werden Untertitel zunehmend auch unabhängig vom Ort oder Gerät relevant:</b> 80% der 18- bis 24-Jährigen sagen inzwischen, dass sie Serien und Filme manchmal oder immer mit Untertiteln schauen. Wenn du willst, dass Leute sich dein Video anschauen, brauchst du heutzutage also Untertitel.</p>
+
+        <h3>Intensive Animationen, Blitze und laute Töne</h3>
+        <p>Ganz egal ob es ein blitzendes Video, stroboskopartige CSS-Animationen, überraschende Pop-Ups oder laute Töne aus einem Video auf Auto-Play sind: <b>Diese Elemente können ernsthafte Episoden für Epileptiker oder Menschen mit PTSD auslösen.</b> Aber auch für alle anderen Menschen kann das sehr schnell sehr stressig wirken und generell reagieren Menschen auf akuten, unerwarteten Stress am häufigsten mit Flucht und schliessen wahrscheinlich einfach deine Seite.</p>
+
+        <h3>Kontraste und Schriftgrössen</h3>
+        <p>Das hier ist ein fundamentaler Gesichtspunkt des barrierefreien Webdesign. Kleine Schriften oder unpassende Kontraste zwischen Hintergrund und Text machen die Seite für Menschen mit schlechter Sicht – aber zum Beispiel auch Legastheniker – zur Herausforderung. <b>Aber auch Menschen mit perfekter Sicht haben oft sehr wenig Toleranz dafür.</b> Deine Seite zu schliessen und die eines Mitbewerbers zu öffnen ist meistens einfach 100-mal leichter, als sich durch den schwer lesbaren Text zu kämpfen.</p>
+
+        <h3>Fehlermeldungen</h3>
+        <p>Mit dieser Praktik verbaust du dir nicht nur die Barrierefreiheit, sondern <b>zerstörst auch deinen Conversion-Pfad:</b> Wenn ein Formular auf deiner Webseite den Nutzer bei einem Fehler nicht klar und verständlich darauf hinweist, was er bei der Absendung falsch gemacht hat, musst du damit rechnen, dass manche Menschen das Formular nicht absenden werden. Denn mit einem Screenreader, für Menschen mit kognitiven Einschränkungen oder auch ältere, weniger digitalaffine Menschen ist die Lösung des Problems unter Umständen einfach unmöglich.</p>
+        <p>Auch hier musst du deshalb davon ausgehen, dass die Kunden, die diesem Problem begegnen, ihr Anliegen einfach anderweitig platzieren.</p>
+
+        <h2>So testest du die Barrierefreiheit deiner Webseite</h2>
+        <p>Ich hoffe, dass dadurch eigentlich klar ist, weshalb du dich vielleicht auch regelmässig fragen solltest, ob deine Internetseite barrierefrei ist. Wenn du jetzt deine eigene Webseite testen willst, kann ich dir empfehlen, einen <b>Accessibility-Scan mit Google Lighthouse</b> zu machen. Dafür benötigst du nur Google Chrome. Mache dazu auf einer Internetseite einfach einen Rechtsklick, wähle «&#8239;Untersuchen&#8239;» und wechsle in den Tab «&#8239;Lighthouse&#8239;».</p>
+        <img src="/assets/img/lighthouse_accessibility.jpg" alt="Lighthouse Accessibility Report Tool">
+        <p>Auch zu überprüfen, wie deine Webseite sich auf Screenreadern navigieren lässt, ist übrigens ganz einfach. Auf deinem Handy kannst du den Screenreader-Modus <a href="https://support.google.com/accessibility/android/answer/6283677?hl=de&sjid=9247831926287153038-EU" target="_blank">sowohl auf Android</a> als auch <a href="https://support.apple.com/de-ch/guide/iphone/iph96b214f0/ios" target="_blank">auf dem iPhone</a> mit nur wenigen Klicks aktivieren.</p>
+        <p>Und wenn du nun ganz Feuer und Flamme für Barrierefreiheit im Netz bist, kannst du dich in den Web Content Accessibility Guidelines <a href="https://www.w3.org/Translations/WCAG20-de/" target="_blank">zusätzlich tiefgehend in das Thema einlesen</a>. Wenn du allerdings bei der Analyse von Barrieren auf deiner Webseite oder bei ihrer Behebung Probleme hast, helfe ich dir gerne weiter und sorge dafür, <b>dass deine Webseite nicht nur auf SEO-, sondern auf Barrierefreiheit bestmöglich optimiert ist.</b></p>
+        <p>Da das Thema Barrierefreiheit im Netz eine Herzensangelegenheit für mich ist, biete ich dir dazu eine <b>kostenlose und unverbindliche Beratung zum Thema</b> an.</p>
+        <p>Ich würde mich freuen, von dir zu hören.</p>
+
+        <!--#include virtual="/includes/contact-callback-de.html" -->
+
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/">DE</a> | <a href="https://marcoaures.ch/en/seo-and-accessibility-online/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

@@ -1,0 +1,440 @@
+<div class="questionnaire">
+<div class="step" id="trackquest-step1-intro">
+<h2>Welcome to the individual tracking check</h2>
+<p>On 6 (reasonably) short pages we answer the most important questions about tracking for your individual website. <strong>At the end, you will receive a complete, customized initial assessment that you can download as a PDF.</strong> </p>
+<p>You can recognize mandatory questions by the * and if you are not sure about something, simply guess or choose the most appropriate answer. Please also note that this check cannot replace an analysis by a specialist.</p>
+<p>PS: Don't worry, you don't have to enter your email to get the results (but you can if you want to work with me to get your analytics up and going 🙂).</p>
+<button class="trackquest-nav-button" data-target-step="trackquest-step2-analyse">Start</button>
+</div>
+<div class="step" id="trackquest-step2-analyse" style="display:none;">
+<h2>Before we start</h2>
+<p>As soon as I have received a certain number of responses, I would like to compile a small market analysis from the results of this check. For this I would like to save your answers completely anonymously, but only if you agree, of course. Do you okay with this?</p>
+<hr/>
+<p class="question">May I record your data for an anonymous study? *</p>
+<input class="main-answer" id="trackquest-studie-ja" name="trackquest-studie" type="radio" value="stat-y"/>
+<label for="trackquest-studie-ja">Yes, I agree</label><br/>
+<input class="main-answer" id="trackquest-studie-nein" name="trackquest-studie" type="radio" value="stat-n"/>
+<label for="trackquest-studie-nein">No, please do not save my answers</label><br/>
+<progress max="7" value="1">2/8</progress>
+<div class="button-wrapper">
+<button class="trackquest-nav-button" data-target-step="trackquest-step1-intro">Back</button>
+<button class="trackquest-nav-button" data-target-step="trackquest-step3-tools">Next</button>
+</div>
+</div>
+<div class="step" id="trackquest-step3-tools" style="display:none;">
+<h2>Tools</h2>
+<p>Some tools are required for event tracking and reportings. Please indicate which tools (to your knowledge) you already use. You can select multiple answers.</p>
+<hr/>
+<p class="question">What tools do you use? *</p>
+<input class="main-answer" id="trackquest-tools-analytics" name="trackquest-tools" type="checkbox" value="ga4"/>
+<label for="trackquest-tools-analytics">Google Analytics</label><br/>
+<input class="main-answer" id="trackquest-tools-gsc" name="trackquest-tools" type="checkbox" value="gsc"/>
+<label for="trackquest-tools-gsc">Google Search Console</label><br/>
+<input class="main-answer" id="trackquest-tools-gtm" name="trackquest-tools" type="checkbox" value="gtm"/>
+<label for="trackquest-tools-gtm">Google Tag Manager</label><br/>
+<input class="main-answer" id="trackquest-tools-wmt" name="trackquest-tools" type="checkbox" value="wmt"/>
+<label for="trackquest-tools-wmt">Bing Webmaster Tools</label><br/>
+<input class="main-answer" id="trackquest-tools-other" name="trackquest-tools" type="checkbox" value="tlo"/>
+<label for="trackquest-tools-other">Other tools</label><br/>
+<div class="conditionalquestion" id="other-tools" style="display:none;">
+						I use the following tools:<br/><input id="toolnames" placeholder="Enter tools" type="text"/>
+</div>
+<input class="main-answer" id="trackquest-tools-none" name="trackquest-tools" type="checkbox" value="notools"/>
+<label for="trackquest-tools-none">None of them</label><br/>
+<progress max="7" value="2">3/8</progress>
+<div class="button-wrapper">
+<button class="trackquest-nav-button" data-target-step="trackquest-step2-analyse">Back</button>
+<button class="trackquest-nav-button" data-target-step="trackquest-step4-orgarchit">Next</button>
+</div>
+</div>
+<div class="step" id="trackquest-step4-orgarchit" style="display:none;">
+<h2>Purpose of your website</h2>
+<p>What role your website plays in the overall direction of your company/organization changes what you should track and how often you should check the key figures. The following questions will help me make an assessment.</p>
+<hr/>
+<p class="question">Who is your website aimed at? *</p>
+<input class="main-answer" id="trackquest-b2-c" name="trackquest-b2" type="radio" value="b2c"/>
+<label for="trackquest-b2-c">Predominantly or exclusively to end customers (B2C)</label><br/>
+<input class="main-answer" id="trackquest-b2-b" name="trackquest-b2" type="radio" value="b2b"/>
+<label for="trackquest-b2-b">Predominantly or exclusively to corporate customers (B2B)</label><br/>
+<p class="question">Are there any interactions on your website that you see <u>as a key components for the success of your company</u>? (e.g. can users demand quotes or purchase something) *</p>
+<input class="main-answer" id="trackquest-goals-y" name="trackquest-goals" type="radio" value="goals-y"/>
+<label for="trackquest-goals-y">Yes, they do exist</label><br/>
+<input class="main-answer" id="trackquest-goals-n" name="trackquest-goals" type="radio" value="goals-n"/>
+<label for="trackquest-goals-n">No, does not apply</label><br/>
+<p class="question">Are there other actions that are not core objectives, but <u>still crucial for the company</u>? (e.g. newsletter registrations, applicant portal) *</p>
+<input class="main-answer" id="trackquest-supaction-y" name="trackquest-supaction" type="radio" value="supaction-y"/>
+<label for="trackquest-supaction-y">Yes, they do exist</label><br/>
+<input class="main-answer" id="trackquest-supaction-n" name="trackquest-supaction" type="radio" value="supaction-n"/>
+<label for="trackquest-supaction-n">No, does not apply</label><br/>
+<progress max="7" value="3">4/8</progress>
+<div class="button-wrapper">
+<button class="trackquest-nav-button" data-target-step="trackquest-step3-tools">Back</button>
+<button class="trackquest-nav-button" data-target-step="trackquest-step5-actions">Next</button>
+</div>
+</div>
+<div class="step" id="trackquest-step5-actions" style="display:none;">
+<h2>Interactive Elements</h2>
+<p>Many interactions that users can carry out on a website can be tracked. Please select all interactions that are possible on your website.</p>
+<hr/>
+<p class="question">What interactive elements exist on your website? *</p>
+<input class="main-answer" id="trackquest-interaction-mailtotel" name="trackquest-interaction" type="checkbox" value="interaction-mailtotel"/>
+<label for="trackquest-interaction-mailtotel">Clickable e-mail addresses &amp; telephone numbers</label><br/>
+<input class="main-answer" id="trackquest-interaction-newsletter" name="trackquest-interaction" type="checkbox" value="interaction-newsletter"/>
+<label for="trackquest-interaction-newsletter">Newsletter registration &amp; lead forms</label><br/>
+<input class="main-answer" id="trackquest-interaction-contactform" name="trackquest-interaction" type="checkbox" value="interaction-contactform"/>
+<label for="trackquest-interaction-contactform">General contact forms</label><br/>
+<input class="main-answer" id="trackquest-interaction-inquiryform" name="trackquest-interaction" type="checkbox" value="interaction-inquiryform"/>
+<label for="trackquest-interaction-inquiryform">Special request forms
+						<span class="tooltip-container">
+<span aria-label="Tooltip special request forms" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)" role="button" tabindex="0">
+<sup>🛈</sup>
+</span>
+<span class="tooltip-text" role="tooltip">e.g. also product sample orders or questions about specific products</span>
+</span>
+</label><br/>
+<input class="main-answer" id="trackquest-interaction-feedbackform" name="trackquest-interaction" type="checkbox" value="interaction-feedbackform"/>
+<label for="trackquest-interaction-feedbackform">Feedback or Review forms</label><br/>
+<input class="main-answer" id="trackquest-interaction-booking" name="trackquest-interaction" type="checkbox" value="interaction-booking"/>
+<label for="trackquest-interaction-booking">Reservations or appointment bookings (e.g. Calendly)</label><br/>
+<input class="main-answer" id="trackquest-interaction-ecom" name="trackquest-interaction" type="checkbox" value="interaction-ecom"/>
+<label for="trackquest-interaction-ecom">Webshop / E-Commerce</label><br/>
+<input class="main-answer" id="trackquest-interaction-downloads" name="trackquest-interaction" type="checkbox" value="interaction-downloads"/>
+<label for="trackquest-interaction-downloads">Downloads</label><br/>
+<input class="main-answer" id="trackquest-interaction-SoMe" name="trackquest-interaction" type="checkbox" value="interaction-SoMe"/>
+<label for="trackquest-interaction-SoMe">Links to your social media profiles or other channels</label><br/>
+<input class="main-answer" id="trackquest-interaction-search" name="trackquest-interaction" type="checkbox" value="interaction-search"/>
+<label for="trackquest-interaction-search">Search bar / search function</label><br/>
+<input class="main-answer" id="trackquest-interaction-members" name="trackquest-interaction" type="checkbox" value="interaction-members"/>
+<label for="trackquest-interaction-members">Registration &amp; Login</label><br/>
+<input class="main-answer" id="trackquest-interaction-media" name="trackquest-interaction" type="checkbox" value="interaction-media"/>
+<label for="trackquest-interaction-media">Videos, podcasts or other media elements</label><br/>
+<input class="main-answer" id="trackquest-interaction-ctas" name="trackquest-interaction" type="checkbox" value="interaction-ctas"/>
+<label for="trackquest-interaction-ctas">Important calls-to-action and other interactive elements
+						<span class="tooltip-container">
+<span aria-label="Tooltip interactive elements" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)" role="button" tabindex="0">
+<sup>🛈</sup>
+</span>
+<span class="tooltip-text" role="tooltip">e.g. buttons or expandable text for special promotions or job advertisements</span>
+</span>
+</label><br/>
+<input class="main-answer" id="trackquest-interaction-none" name="trackquest-interaction" type="checkbox" value="interaction-none"/>
+<label for="trackquest-interaction-none">None of the above</label><br/>
+<div class="conditionalquestion" id="forms-additional" style="display:none;">
+<p class="question">Do you have forms that are divided into several pages? *</p>
+<input class="main-answer" id="trackquest-formul-withsteps" name="trackquest-formul" type="radio" value="forms-withsteps"/>
+<label for="trackquest-formul-withsteps">Yes, with (some) forms you have to click «&#8239;Next&#8239;» or similar</label><br/>
+<input class="main-answer" id="trackquest-formul-onepage" name="trackquest-formul" type="radio" value="forms-onepage"/>
+<label for="trackquest-formul-onepage">No, my forms only have one page</label><br/>
+</div>
+<progress max="7" value="4">5/8</progress>
+<div class="button-wrapper">
+<button class="trackquest-nav-button" data-target-step="trackquest-step4-orgarchit">Back</button>
+<button class="trackquest-nav-button" data-target-step="trackquest-step6-existtrack">Next</button>
+</div>
+</div>
+<div class="step" id="trackquest-step6-existtrack" style="display:none;">
+<h2>Existing tracking</h2>
+<p>The results page will generate an individual checklist about event tracking that you still need to implement. For this purpose: Please tell me which user interactions you are currently already tracking.</p>
+<hr/>
+<p class="question">Which of these events are you already tracking? *</p>
+<div id="conditional-mailtotel" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-mailtotel" name="trackquest-existtrack" type="checkbox" value="existtrack-mailtotel"/>
+<label for="trackquest-existtrack-mailtotel">Clickable e-mail addresses &amp; telephone numbers</label><br/>
+</div>
+<div id="conditional-newsletter" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-newsletter" name="trackquest-existtrack" type="checkbox" value="existtrack-newsletter"/>
+<label for="trackquest-existtrack-newsletter">Newsletter registration &amp; lead generation</label><br/>
+<input class="main-answer" id="trackquest-existtrack-newsletter-abm" name="trackquest-existtrack" type="checkbox" value="existtrack-newsletter-abm"/>
+<label for="trackquest-existtrack-newsletter-abm">Unsubscribe from my newsletter</label><br/>
+<input class="main-answer" id="trackquest-existtrack-newsletter-ctr" name="trackquest-existtrack" type="checkbox" value="existtrack-newsletter-ctr"/>
+<label for="trackquest-existtrack-newsletter-ctr">Open and click rate of my newsletter</label><br/>
+</div>
+<div id="conditional-contactform" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-contactform" name="trackquest-existtrack" type="checkbox" value="existtrack-contactform"/>
+<label for="trackquest-existtrack-contactform">General contact forms</label><br/>
+</div>
+<div id="conditional-inquiryform" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-inquiryform" name="trackquest-existtrack" type="checkbox" value="existtrack-inquiryform"/>
+<label for="trackquest-existtrack-inquiryform">Special request forms</label><br/>
+</div>
+<div id="conditional-feedbackform" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-feedbackform" name="trackquest-existtrack" type="checkbox" value="existtrack-feedbackform"/>
+<label for="trackquest-existtrack-feedbackform">Feedback or Review forms</label><br/>
+</div>
+<div id="conditional-formabandonment" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-formabandonment" name="trackquest-existtrack" type="checkbox" value="existtrack-formabandonment"/>
+<label for="trackquest-existtrack-formabandonment">Page change in forms &amp; form abandonment
+						<span class="tooltip-container">
+<span aria-label="Tooltip Form Abandonment" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)" role="button" tabindex="0">
+<sup>🛈</sup>
+</span>
+<span class="tooltip-text" role="tooltip">Users who leave the form without submitting it / the page on which they leave the form</span>
+</span>
+</label><br/>
+</div>
+<div id="conditional-booking" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-booking" name="trackquest-existtrack" type="checkbox" value="existtrack-booking"/>
+<label for="trackquest-existtrack-booking">Reservations or appointment bookings (e.g. Calendly)</label><br/>
+</div>
+<div id="conditional-ecom" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-ecom-wk" name="trackquest-existtrack" type="checkbox" value="existtrack-ecom-wk"/>
+<label for="trackquest-existtrack-ecom-wk">Add item to shopping cart</label><br/>
+<input class="main-answer" id="trackquest-existtrack-ecom-co" name="trackquest-existtrack" type="checkbox" value="existtrack-ecom-co"/>
+<label for="trackquest-existtrack-ecom-co">Checkout in the webshop</label><br/>
+<input class="main-answer" id="trackquest-existtrack-ecom-sa" name="trackquest-existtrack" type="checkbox" value="existtrack-ecom-sa"/>
+<label for="trackquest-existtrack-ecom-sa">Shopping-Cart-Abandonment
+						<span class="tooltip-container">
+<span aria-label="Tooltip Cart Abandonment" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)" role="button" tabindex="0">
+<sup>🛈</sup>
+</span>
+<span class="tooltip-text" role="tooltip">Where users leave during shopping or the checkout process</span>
+</span>
+</label><br/>
+</div>
+<div id="conditional-downloads" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-downloads" name="trackquest-existtrack" type="checkbox" value="existtrack-downloads"/>
+<label for="trackquest-existtrack-downloads">Downloads</label><br/>
+</div>
+<div id="conditional-SoMe" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-SoMe" name="trackquest-existtrack" type="checkbox" value="existtrack-SoMe"/>
+<label for="trackquest-existtrack-SoMe">Clicks on links to social media profiles / other channels</label><br/>
+</div>
+<div id="conditional-search" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-search" name="trackquest-existtrack" type="checkbox" value="existtrack-search"/>
+<label for="trackquest-existtrack-search">Search bar / search function</label><br/>
+</div>
+<div id="conditional-members" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-members" name="trackquest-existtrack" type="checkbox" value="existtrack-members"/>
+<label for="trackquest-existtrack-members">Registration &amp; Login</label><br/>
+</div>
+<div id="conditional-media" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-media" name="trackquest-existtrack" type="checkbox" value="existtrack-media"/>
+<label for="trackquest-existtrack-media">Videos, podcasts or other media elements</label><br/>
+</div>
+<div id="conditional-ctas" style="display: none;">
+<input class="main-answer" id="trackquest-existtrack-ctas" name="trackquest-existtrack" type="checkbox" value="existtrack-ctas"/>
+<label for="trackquest-existtrack-ctas">Important calls-to-action and other interactive elements</label><br/>
+</div>
+<input class="main-answer" id="trackquest-existtrack-none" name="trackquest-existtrack" type="checkbox" value="existtrack-none"/>
+<label for="trackquest-existtrack-none">None of these interactions yet</label><br/>
+<progress max="7" value="5">6/8</progress>
+<div class="button-wrapper">
+<button class="trackquest-nav-button" data-target-step="trackquest-step5-actions">Back</button>
+<button class="trackquest-nav-button" data-target-step="trackquest-step7-final">Next</button>
+</div>
+</div>
+<div class="step" id="trackquest-step7-final" style="display:none;">
+<h2>Final push</h2>
+<p>These questions mainly provide information about how heavily your website is used and how intensively you should monitor the data. Approximate or estimated values are perfectly fine for this purpose.</p>
+<hr/>
+<p class="question">Approximately how many visitors does your website get each month? *</p>
+<input class="main-answer" id="trackquest-visitors-verylow" name="trackquest-visitors" type="radio" value="visitors-verylow"/>
+<label for="trackquest-visitors-verylow">0 to 100 visitors</label><br/>
+<input class="main-answer" id="trackquest-visitors-low" name="trackquest-visitors" type="radio" value="visitors-low"/>
+<label for="trackquest-visitors-low">100 to 1,000 visitors</label><br/>
+<input class="main-answer" id="trackquest-visitors-med" name="trackquest-visitors" type="radio" value="visitors-med"/>
+<label for="trackquest-visitors-med">1,000 to 10,000 visitors</label><br/>
+<input class="main-answer" id="trackquest-visitors-high" name="trackquest-visitors" type="radio" value="visitors-high"/>
+<label for="trackquest-visitors-high">10,000 to 100,000 visitors</label><br/>
+<input class="main-answer" id="trackquest-visitors-veryhigh" name="trackquest-visitors" type="radio" value="visitors-veryhigh"/>
+<label for="trackquest-visitors-veryhigh">100,000 to 1,000,000 visitors</label><br/>
+<p class="question">How often do you currently check the key figures of your website / your analytics? *</p>
+<input class="main-answer" id="trackquest-check-none" name="trackquest-check" type="radio" value="check-none"/>
+<label for="trackquest-check-none">Not at all</label><br/>
+<input class="main-answer" id="trackquest-check-year" name="trackquest-check" type="radio" value="check-year"/>
+<label for="trackquest-check-year">1-2 times a year</label><br/>
+<input class="main-answer" id="trackquest-check-quarter" name="trackquest-check" type="radio" value="check-quarter"/>
+<label for="trackquest-check-quarter">1-2 times a quarter</label><br/>
+<input class="main-answer" id="trackquest-check-month" name="trackquest-check" type="radio" value="check-month"/>
+<label for="trackquest-check-month">1-2 times a month</label><br/>
+<input class="main-answer" id="trackquest-check-week" name="trackquest-check" type="radio" value="check-week"/>
+<label for="trackquest-check-week">1-2 times a week</label><br/>
+<input class="main-answer" id="trackquest-check-day" name="trackquest-check" type="radio" value="check-day"/>
+<label for="trackquest-check-day">More than 2 times a week</label><br/>
+<p class="question">Do you create reports on the performance of your website yourself or have them created? *</p>
+<input class="main-answer" id="trackquest-reportings-none" name="trackquest-reportings" type="radio" value="reportings-none"/>
+<label for="trackquest-reportings-none">No, not (yet)</label><br/>
+<input class="main-answer" id="trackquest-reportings-occasional" name="trackquest-reportings" type="radio" value="reportings-occasional"/>
+<label for="trackquest-reportings-occasional">Yes, occasionally or if there is a specific need</label><br/>
+<input class="main-answer" id="trackquest-reportings-regularly" name="trackquest-reportings" type="radio" value="reportings-regularly"/>
+<label for="trackquest-reportings-regularly">Yes, regularly</label><br/>
+<div class="conditionalquestion" id="reporting-conditional" style="display:none;">
+<p class="question">Do you create your reports yourself or do you have them created by an agency / external marketing specialist? *</p>
+<input class="main-answer" id="reporting-who-self" name="reporting-who" type="radio" value="who-self"/>
+<label for="reporting-who-self">I create them myself</label><br/>
+<input class="main-answer" id="reporting-who-both" name="reporting-who" type="radio" value="who-both"/>
+<label for="reporting-who-both">Partly in-house, partly external</label><br/>
+<input class="main-answer" id="reporting-who-agency" name="reporting-who" type="radio" value="who-agency"/>
+<label for="reporting-who-agency">I have them created externally</label><br/>
+</div>
+<p class="question">Would you be interested in a non-binding, free consultation on the topic of reporting &amp; tracking? (voluntary)</p>
+<input class="main-answer" id="trackquest-aquisition" name="trackquest-aquisition" type="checkbox" value="aquisition-y"/>
+<label for="trackquest-aquisition">Yes, please contact me!</label><br/>
+<div class="conditionalquestion" id="aquisition-contactinfo" style="display:none;">
+<label for="namefirm">Name &amp; Company *</label><br/>
+<input id="namefirm" name="namefirm" placeholder="Erika Musterfrau, sample company" required="" type="text"/>
+<p></p>
+<label for="email">Your e-mail *</label><br/>
+<input id="email" name="email" placeholder="name@domain.ch" required="" type="email"/>
+<p></p>
+<label for="telNo">Your phone number *</label><br/>
+<input id="telNo" name="telNo" placeholder="+41 76 000 00 00" required="" type="tel"/>
+<p class="question">Please contact me by... *</p>
+<input id="aquisition-preference-mail" name="aquisition-preference" type="radio" value="preference-mail"/>
+<label for="aquisition-preference-mail">By e-mail</label><br/>
+<input id="aquisition-preference-tel" name="aquisition-preference" type="radio" value="preference-tel"/>
+<label for="aquisition-preference-tel">By phone</label><br/>
+<p class="question">Consent to the use of your data *</p>
+<input id="aquisition-consent" name="aquisition-consent" type="checkbox" value="consent-yes"/>
+<label for="aquisition-consent">Do you consent to me storing your data and using it to contact you?
+							<span class="tooltip-container">
+<span aria-label="Tooltip data processing" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)" role="button" tabindex="0">
+<sup>🛈</sup>
+</span>
+<span class="tooltip-text" role="tooltip">Your data is stored in a Google Sheet via Apps Script and deleted monthly. Apart from me, nobody has access to the data you have entered here and it will only be used for the purpose of contacting you. Information from the survey will not be forwarded, only the contact details provided here.</span>
+</span>
+</label><br/>
+<div id="honig" style="display:none;">
+<p class="question">You're not a bot, are you? *</p>
+<input id="leckerleckerhonig" name="leckerleckerhonig" required="" type="radio" value="ichliebehonig"/>
+<label for="leckerleckerhonig">No, please, please give me delicious delicious honey!</label><br/>
+</div>
+</div>
+<progress max="7" value="6">7/8</progress>
+<div class="button-wrapper">
+<button class="trackquest-nav-button" data-target-step="trackquest-step6-existtrack">Back</button>
+<button class="trackquest-nav-button" data-target-step="trackquest-step8-results">Next</button>
+</div>
+</div>
+<div class="step" id="trackquest-step8-results" style="display:none;">
+<h2 class="results">Results</h2>
+<div class="conditionalresult" id="contact-confirm" style="display:none;">
+<hr/>
+<h3 class="results">Thank you for your request</h3>
+<p><strong>I will get back to you as soon as possible.</strong> If you have any questions in the meantime - whether it's about event tracking, reportings, SEO or Google Ads - you can reach me at <a href="mailto:hoi@marcoaures.ch">hoi@marcoaures.ch</a> at any time.</p>
+</div>
+<hr/>
+<h3 class="results">Tools you use</h3>
+<div class="conditionalresult" id="tools-congrats" style="display:none;">
+<div class="two-column">
+<div class="text-column-left">
+<p><strong>Congratulations, you have set up all the recommended tools! ✔️</strong> </p>
+<div class="conditionalresult" id="bwmt-option" style="display:none;">
+<p><strong>Optional:</strong> In addition to the Google Search Console, you could also set up the <a href="https://www.bing.com/webmasters/about" target="_blank">Bing Webmaster Tools</a>. Microsoft's search engine «&#8239;only&#8239;» has a global market share of 5-10%, but the setup is relatively simple as you can validate your ownership through your Google Search Console property.</p>
+</div>
+</div>
+<div class="icon-column-left">
+<img alt="Tool symbol in laurel wreath" class="scaled-icon" src="/assets/img/questtrack-cong.svg"/>
+</div>
+</div>
+</div>
+<div class="conditionalresult" id="tools-improv" style="display:none;">
+<div class="two-column">
+<div class="text-column-left">
+<p><strong>Attention, you have not set up all the necessary tools! ⚠️</strong> </p>
+<ul class="resultchecklist">
+<li id="ga4miss" style="display:none;"><strong>Still to be set up - Google Analytics 4:</strong> If you do not use GA4 or any other analytics, it is impossible to evaluate user behavior and use the insights from it to optimize your website.</li>
+<li id="gscmiss" style="display:none;"><strong>Still to be set up - Google Search Console:</strong> Visibility in Google is a key aspect of winning new customers these days. Without the Search Console, you have no overview over which potential customers see which of your pages in Google and when... and how many of them actually visit the page.</li>
+<li id="gtmmiss" style="display:none;"><strong>Still to be set up - Google Tag Manager:</strong> Google Tag Manager makes it easier to add and manage tools on your website and significantly simplifies the setup of event tracking. This keeps you flexible and allows your analytics to grow with your website.</li>
+<li id="bwtmiss" style="display:none;"><strong>Still to be set up - Bing Webmaster Tools:</strong> You have indicated that your website is in the B2B sector. As some companies preset the default search engine for users, it is also worth setting up Microsoft's equivalent to the Search Console.</li>
+</ul>
+</div>
+<div class="icon-column-left">
+<img alt="Tool symbol in warning sign" class="scaled-icon" src="/assets/img/questtrack-impr.svg"/>
+</div>
+</div>
+</div>
+<hr/>
+<h3 class="results">Monitoring &amp; Reportings</h3>
+<div class="two-column">
+<div class="text-column-left">
+<div class="conditionalresult" id="monirec-daily" style="display:none;">
+<p>For a website like yours, I recommend that you <strong>check your analytics tools almost daily</strong>. If possible, you should even purchase additional tools such as SEMrush/SERanking/Ahrefs to get better evaluations and have an individual dashboard (e.g. in Looker Studio) set up so that you can see your data at a glance.</p>
+</div>
+<div class="conditionalresult" id="monirec-weekly" style="display:none;">
+<p>For a website like yours, I recommend that you <strong>check the analytics tools on a weekly basis</strong>. Ideally, you should perhaps even have a customized dashboard set up (e.g. in Looker Studio) so that you can see your data at a glance. It may make sense to purchase additional tools such as SEMrush/SERanking/Ahrefs for better analysis.</p>
+</div>
+<div class="conditionalresult" id="monirec-monthly" style="display:none;">
+<p>For a website like yours, I recommend that you <strong>briefly check your analytics tools every month</strong>. A dashboard in Google Looker Studio (which allows you to see all data at a glance) or additional tools (SEMrush, SERanking, Ahrefs) for more detailed evaluations are not necessarily required.</p>
+</div>
+<div class="conditionalresult" id="monirec-quarterly" style="display:none;">
+<p>For a website like yours, it is often enough if you <strong>look at your analytics tools once or twice a quarter</strong>. However, you should keep an eye on the volume of visitors to your website and respond if your website becomes a more relevant channel for your organization.</p>
+</div>
+<div class="conditionalresult" id="monirec-rarely" style="display:none;">
+<p>In your specific case, it is actually enough, <strong>if you check your analytics tools sporadically</strong>. Nevertheless, keep an occasional eye on whether your website is still working or whether something has changed in your visitor volume.</p>
+</div>
+<div class="conditionalresult" id="monirec-notenough" style="display:none;">
+<p><strong>That is less than you are currently checking your analytics tools. ⚠️</strong> </p>
+</div>
+<div class="conditionalresult" id="monirec-alreadyenough" style="display:none;">
+<p><strong>You already check your analytics tool often enough. ✔️</strong> </p>
+</div>
+<div class="conditionalresult" id="reporec-sporadic" style="display:none;">
+<p>You should consider <strong>auditing the state of your website every 3-5 years</strong>. The reason is that content of low-volume websites often loses relevancy or becomes outdated without anyone noticing. However, it is not absolutely necessary.</p>
+</div>
+<div class="conditionalresult" id="reporec-monthly" style="display:none;">
+<p>In addition to this <strong>monthly reporting with clear, actionable recommendations</strong> for the purpose of briefing stakeholders and adressing potential opportunities or problems is recommended.</p>
+</div>
+<div class="conditionalresult" id="reporec-quarterly" style="display:none;">
+<p>In addition to this <strong>quarterly reporting with clear, actionable recommendations</strong> for the purpose of briefing stakeholders and adressing potential opportunities or problems is recommended.</p>
+</div>
+<div class="conditionalresult" id="reporec-yearly" style="display:none;">
+<p>In addition to this <strong>a reporting once or twice a year with clear, actionable recommendations</strong> for the purpose of briefing stakeholders and adressing potential opportunities or problems is recommended.</p>
+</div>
+<div id="reporec-service">
+<p><strong>PS:</strong> If you need help with this, I'd be thrilled to support you with audits and reporting. <a href="mailto:hoi@marcoaures.ch">Feel free to reach out.</a> </p>
+</div>
+</div>
+<div class="icon-column-left">
+<img alt="Icon Reportings" class="scaled-icon" src="/assets/img/questtrack-analy.svg"/>
+</div>
+</div>
+<hr/>
+<h3 class="results">Missing event tracking</h3>
+<div class="conditionalresult" id="events-congrats" style="display:none;">
+<p><strong>Perfect, you already track all recommended events!</strong> </p>
+</div>
+<div class="conditionalresult" id="events-improv" style="display:none;">
+<p><strong>You are not tracking all events yet!</strong> Based on your answers, I recommend that you set up these events in your specific case:</p>
+</div>
+<div class="conditionalresult" id="events-none" style="display:none;">
+<p><strong>Attention, you are not tracking any events yet!</strong> You have indicated that you do not yet track any of the possible interactions on your website. I recommend that you set up event tracking in your specific case:</p>
+</div>
+<div class="conditionalresult" id="results-missingeventtracking">
+<ul class="resultchecklist">
+<li id="missing-mailtotel" style="display:none;"><strong>Clickable e-mail addresses &amp; telephone numbers:</strong> So that you can measure the difference between clicks and actual contacts and identify incorrect contact details.</li>
+<li id="missing-newsletterleads" style="display:none;"><strong>Newsletter registration &amp; lead generation:</strong> So that you can measure the conversion/registration rate and evaluate user paths on your website (e.g. lead magnet, landing page or calls-to-action).</li>
+<li id="missing-newslettercancel" style="display:none;"><strong>Unsubscribe from my newsletter:</strong> So that you can recognize patterns, optimize your newsletter campaigns and keep leads warm for longer.</li>
+<li id="missing-newsletterctr" style="display:none;"><strong>Opening and click rate of my newsletter:</strong> So that you can check and improve the performance of your newsletter campaigns.</li>
+<li id="missing-contactform" style="display:none;"><strong>General contact forms:</strong> So that you can evaluate the effectiveness of your contact forms, especially when broken down to user groups.</li>
+<li id="missing-inquiryform" style="display:none;"><strong>Special request forms:</strong> So that you can evaluate the effectiveness of your request/quote funnel (especially broken down to user groups) and identify cohorts with a high probabilty to convert.</li>
+<li id="missing-feedbackform" style="display:none;"><strong>Feedback or Review forms:</strong> So that you can assess and improve the representativeness of your feedback.</li>
+<li id="missing-formabandonment" style="display:none;"><strong>Page change in forms &amp; form abandonment:</strong> So that you can measure the completion rate, identify hurdles and improve the completion rate.</li>
+<li id="missing-bookings" style="display:none;"><strong>Reservations or appointment bookings:</strong> So that you can evaluate the effectiveness of your UX and identify hurdles in user journeys.</li>
+<li id="missing-cartadd" style="display:none;"><strong>Add item to shopping cart:</strong> So that you can measure and improve key figures such as the number of items in the shopping carts per user.</li>
+<li id="missing-checkout" style="display:none;"><strong>Checkout in the webshop:</strong> So that you can measure the completion rate and identify problems in user journeys.</li>
+<li id="missing-cartabandonment" style="display:none;"><strong>Shopping-Cart-Abandonment:</strong> So that you can identify user groups that are currently not making it to the checkout and thus increase your sales.</li>
+<li id="missing-downloads" style="display:none;"><strong>Downloads:</strong> So that you can evaluate and improve the findability and effectiveness of your download section.</li>
+<li id="missing-SoMe" style="display:none;"><strong>Clicks on links to social media profiles or your other channels:</strong> So that you can measure and improve the user flow to other channels.</li>
+<li id="missing-search" style="display:none;"><strong>Search bar / search function:</strong> So that you can recognize search patterns and improve your page structure. Remember that only a fraction of users use the search function. The rest often simply cannot find the content they are looking for.</li>
+<li id="missing-register" style="display:none;"><strong>Registration &amp; Login:</strong> So that you can measure and improve the registration rate and evaluate the returns per user.</li>
+<li id="missing-media" style="display:none;"><strong>Videos, podcasts or other media elements:</strong> So that you can measure the cost-benefit of these often very complex formats.</li>
+<li id="missing-ctas" style="display:none;"><strong>Important calls-to-action and other interactive elements:</strong> So that you can evaluate the interaction rate per cohort and gain deeper insights into their user journey, which you can often be used to improve the conversion rate.</li>
+</ul>
+</div>
+<div class="conditionalresult" id="alleventstracked" style="display:none;">
+<p><strong>Awesome!</strong> You are already tracking all events. Make sure you regularly check whether new interactions have been added to your website and track them if necessary. ✔️</p>
+</div>
+<div class="conditionalresult" id="has-conversions" style="display:none;">
+<p><strong>You have indicated that you consider some interactions on your website to be crucial for the success of your business:</strong> Make sure that you mark these events as conversions / key events in Google Analytics. To do this, go to <i>«&#8239;Administration&#8239;» ➔ «&#8239;Data Display&#8239;» ➔ «&#8239;Conversions&#8239;»</i> and select the relevant events.</p>
+</div>
+<div class="conditionalresult" id="has-via" style="display:none;">
+<p><strong>You have indicated that some user interactions on your website are particularly important for your company:</strong> Under certain circumstances, you should (also) mark these events as conversions / key events in Google Analytics. You can find the option under <i>«&#8239;Administration&#8239;» ➔ «&#8239;Data Display&#8239;» ➔ «&#8239;Conversions&#8239;»</i>.</p>
+</div>
+<button onclick="createTextPDF()">Download results as PDF</button>
+</div>
+</div>
+    <script src="/assets/js/noneunchck.js"></script>	
+    <script src="/assets/js/trackingquiz.js"></script>
+    <script src="/assets/js/pdfdownload.js"></script>
+    <script src="/assets/js/contactsubm.js"></script>

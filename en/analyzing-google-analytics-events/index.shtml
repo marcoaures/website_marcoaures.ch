@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/analyzing-google-analytics-events/" hreflang="en-CH">
+
+    <meta name="description" content="Which Google Analytics events should you track, and which tools do you need for that? Learn more in this article & find out what you're missing in a small quiz.">
+    <link rel="canonical" href="https://marcoaures.ch/en/analyzing-google-analytics-events/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Google Analytics Events & Reports | Marco Aures">
+    <meta property="og:description" content="Which Google Analytics events should you track, and which tools do you need for that? Learn more in this article & find out what you're missing in a small quiz.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/en/analyzing-google-analytics-events/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CH">
+
+    <title>Google Analytics Events & Reports | Marco Aures</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/en/analyzing-google-analytics-events/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/en/analyzing-google-analytics-events/"
+      },
+      "headline": "Google Analytics Events & Reports",
+      "description": "Which Google Analytics events should you track, and which tools do you need for that? Learn more in this article & find out what you're missing in a small quiz.",
+      "image": "https://marcoaures.ch/assets/img/icons/events-auswertungen.svg",
+      "datePublished": "2024-04-04",
+      "dateModified": "2025-11-27",
+      "inLanguage": "en-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/trackingreporting.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">Google Analytics Events & Reports</h1>
+            <p>Which events should you track on your website? Do you also need to set up conversions in Google Analytics? And why, exactly?</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div class="content" id="start">
+        <div class="bloginfo">
+            Published: 04.04.2024 | Updated: 27.11.2025<br>
+            Content: Google Analytics events, event tracking setup, GA4 setup, marketing KPIs, marketing tools
+        </div>
+
+        <p>Over the past few years, I’ve helped many companies – from small businesses to large corporate groups – <b>set up their tracking and evaluate Google Analytics events in reports</b>. And that’s exactly why I can say with confidence: the answer to the question “what do we actually need to track?” is different for every website. At the same time, my own decision-making has become much clearer when it comes to which KPIs I really care about and which Google Analytics custom events I need to track them.</p>
+        <p>With this article, I want to shed some light on the topic. Together, we’ll answer the question of <b>what the actual purpose of analytics events is</b>. I’ll explain which website metrics you can derive from them and why they matter. We’ll look at whether you really need to set up conversion tracking in Google Analytics, or whether the “Events” tab is enough. And finally, I’ll share my honest view on when audits, reports and analyses are actually useful. But first...</p>
+
+        <h2 id="Tracking-Questionnaire"><strong>Which Google Analytics events do you actually need to track?</strong></h2>
+        <p>These days, I follow a fairly clear process when deciding which tools and which tracking setup a website needs. That process is easy to reuse. Which is why I can give you <b>a rough, individual first assessment right here</b> of how your current tracking setup is doing: in the questionnaire below, you’ll see what’s already working well on your site in terms of analytics – and what’s still missing.</p>
+
+        <!--#include virtual="/includes/trackquest-en.html" -->
+
+        <hr>
+        <h2>What is website tracking?</h2>
+        <p>Before we dive in, we should start by asking a basic question: <b>what is website tracking actually, and why are we putting in the effort?</b> The fact is that only a small minority of companies (in Switzerland and worldwide) generate a significant share of their revenue purely through visits to their website – that is, through <em>page views</em> without purchases or leads. Realistically, this mostly applies to blogs and other sites with very high traffic that monetize via banner ads. Even for online shops, a simple visit to the website is rarely the central business goal. For an online shop, that goal is usually the purchase.</p>
+        <p>On the other hand, websites today are <b>very often directly or indirectly relevant to business success</b>. A brick-and-mortar store that builds up a second revenue stream via e-commerce will see very clearly in the balance sheet how well the online shop is performing. Other companies regularly remind existing leads and former customers that they exist and gradually move them further down the conversion funnel. And even if neither of those scenarios applies: job seekers now search almost exclusively online, and virtually every company depends on attracting good employees.</p>
+        <p>So it shouldn’t be hard to see why it makes sense to optimize your website. And that already explains why tracking is necessary: <b>optimization without data isn’t really optimization.</b> Optimization without data is just trial and error based on gut feeling. And especially if you, for example, <a href="/en/how-much-do-google-ads-cost/">run Google Ads, things can get very expensive very fast</a>.</p>
+
+        <hr>
+        <h2>Which tools do I need to analyze my website KPIs?</h2>
+        <p>Good news: <b>every tool you need to track your website performance is free.</b> There are paid alternatives, of course, but Google’s product suite is still the undisputed market leader and fully covers all basics. If in doubt, I recommend these tools to pretty much every website owner:</p>
+        <ul>
+            <li><strong>Google Search Console:</strong> to monitor your organic visibility in Google Search.</li>
+            <li><strong>Google Analytics 4:</strong> to analyze user behavior on your site.</li>
+            <li><strong>Google Tag Manager:</strong> to implement scripts, custom events, Google conversion tracking and much more.</li>
+        </ul>
+        <p>On top of that, I’ve started encouraging all clients to also set up <a href="https://www.bing.com/webmasters/about" target="_blank">Bing Webmaster Tools</a>. Microsoft’s search engine has a significantly smaller market share, but there are still <b>specific user groups that are overrepresented there</b> and who “bing” something every now and then.</p>
+        <p>There’s another important reason Bing has gained a lot of relevance in the last few years: AI. Bing has its own AI via Microsoft Copilot. But ChatGPT and Azure AI applications (the AI companies can use alongside Microsoft 365 and/or Azure) also currently use Bing for web results – at least for now. If you want to show up when someone asks ChatGPT “Who is the best provider for X?”, you can’t afford to ignore Bing anymore.</p>
+        <p>All of this would only be a decisive factor for me if the setup were complicated. Fortunately, it isn’t: if you’ve already set up a domain property in Google Search Console, you basically just <b>click a single button</b> to verify ownership in Bing using your existing Google verification. And based on my experience, Bing tends to give a small bonus to sites whose owners pay attention to the search engine.</p>
+
+        <hr>
+        <h2>What are events in Google Analytics?</h2>
+        <p>If you’ve taken the questionnaire, you might have noticed that a fairly large part of it was about <b>Google Analytics events</b> (often simply called “events” in GA). Even the examples above – purchases, applications, newsletter sign-ups – are mostly custom Google Analytics events or can easily be broken down into them. Strictly speaking, everything that happens on your site – from page views and page changes (page hits) to scrolling and bounces – can be represented as events.</p>
+        <img src="/assets/img/custom-events.webp" alt="Example custom events in GA4">
+        <p>Some of these are tracked by default when you set up GA4 (page views, scrolls, etc.). Others vary so much from site to site that Google can’t detect them automatically. Those <b>need to be created and configured manually</b> – and the easiest way to do that is <a href="/en/tracking-analytics/">via Google Tag Manager.</a> This extra step is often absolutely worth it.</p>
+        <p>Simple example: you’ve built a landing page for a new product. It ends with a call-to-action that opens a contact form. After a month, you’ve had 200 page views – but only 2 enquiries via the form. Why? Even without custom events, you can see that users stay on the page for almost three minutes on average.</p>
+        <p>If you’ve set up <b>just three additional custom events</b>, you might see that around 30 people clicked the call-to-action. The “form submitted” event confirms that only 2 people actually sent the form – so it’s not a technical error. If you also track the individual steps or page changes in the form, you might discover that users keep dropping off on the second-to-last step, perhaps because a question is confusing or off-putting.</p>
+        <p>As long as your events are genuinely relevant to business success, there are almost no limits to the insights you can get from them. If it happens on the website, you can <b>turn most interactions into trackable events</b>. Got a search function? Then you can quickly find out which products or subpages are hard to find. All you have to do is track search queries as an event and then analyze the search terms in Google Analytics.</p>
+
+        <h3>Setting up Google Analytics event tracking</h3>
+        <p>If you’re now wondering how to actually set this up, there are two main options: you can either configure events directly in GA4, or you can define them in Google Tag Manager and then send them to Analytics from there. <b>My recommendation is to use Google Tag Manager for this.</b> It gives you far more options than GA4 alone, and you get the extra benefit of being able to pass the same events to other tools – for example Google Ads or Meta Ads – as conversions.</p>
+        <p>And if you’re planning to use website interactions for remarketing, I strongly recommend setting up event tracking via GTM, because that lets you configure Google’s “Consent Mode v2” at the event level – which Google has also required in Switzerland since 31 July 2024.</p>
+        <img src="/assets/img/GTM-trigger.webp" alt="Available triggers in Google Tag Manager">
+        <p>To set up Google Analytics events via Tag Manager, you can use a wide range of tag templates – including GA4 event tags – and built-in triggers that make configuration relatively straightforward. You decide when which values are sent to Google Analytics, and whether that should happen only once per page load or multiple times. Finally, you can add “parameters” as extra information to each event in GA4 – for example, which exact subpage the email click happened on.</p>
+        <div class="highlight">
+            <p><strong>Tip:</strong> Don’t forget that you still need to activate those parameters in GA4 under “Admin ➔ Data display ➔ Custom dimensions”. Otherwise they won’t show up in your reports, even if you’re already collecting them.</p>
+        </div>
+
+        <hr>
+        <h2>Which website KPIs should I keep an eye on?</h2>
+        <p>As mentioned earlier, <b>GA4 already tracks a number of metrics out of the box</b>. You can see how many users come to your site and how long they stay there in the standard reports as soon as you’ve set up your property. You’ll also find the engagement rate (which used to be the “bounce rate” in Universal Analytics, but works the other way round) right in the dashboard.</p>
+        <p>But these aren’t usually the metrics you should focus on first. It’s much more useful to ask <b>what goals your website actually has</b> and then work backwards from there. Let’s take an e-commerce site as an example. The truly interesting user actions are purchases – and the goal is to increase revenue.</p>
+        <p>So we already know that we should track the checkout process, and that this is a key metric. If we divide completed purchases by total users, we get the website’s conversion rate. We should also pay attention to the shopping cart abandonment rate – i.e. how many people add items to their cart but never complete the purchase. If that value is unusually high, we need to ask ourselves whether the checkout process is too complicated – or whether we should use retargeting ads to bring users who abandoned their cart back and push them towards a purchase. All we need to do is track “add to cart” as an event and then divide the number of converters by the number of users who triggered that event.</p>
+        <p><b>Speaking of “bringing users back”:</b> if you’re running a newsletter, you should also track all related actions, because repeat customers are a particularly valuable audience for any e-commerce store. Here, you might want to know how much your newsletter list has grown and whether it’s growing more strongly on certain subpages or from specific channels (for example users arriving from Instagram). To get those insights, you simply filter by the relevant event or parameters.</p>
+
+        <hr>
+        <h2>Do I really need to set up Google Analytics conversions?</h2>
+        <p>A very common question is how <b>Google Analytics conversions, Google Ads conversions and Google Analytics events differ from each other</b>. The distinction between Ads conversions and GA4 conversions has caused a lot of confusion – so much so that Google has started renaming GA4 conversions as “key events”. That makes sense, because those two metrics are actually completely separate:</p>
+        <ul>
+            <li><strong>Google Analytics key events (often also called conversions or key events):</strong> these are particularly important events that you mark in GA4 so they stand out and appear in special reports. That makes it easier to analyze enquiries, transactions or other highly business-relevant interactions in detail.</li>
+            <li><strong>Google Ads conversions:</strong> these are events defined separately in Google Ads. They’re the actions Google Ads monitors as your campaign “goals” and uses to optimize bidding and delivery.</li>
+        </ul>
+        <p>The difference between “conversions”/key events and regular events in GA4 is more subtle. Key events are simply a subset of events that you, as the property owner, have marked as particularly important. Which events count as key events – and thus as “Analytics conversions” – is <b>completely up to you and depends on the business</b>. It will differ from account to account and from property to property.</p>
+        <p>In any case, I recommend that every website owner at least mark their important events as key events. From that point on, it only takes one click to see that <a href="/en/seo-for-beginners/">you might have great SEO</a> – but the users you acquire that way never convert. In that case, it might make sense to “pre-announce” your conversion goal in the meta title or description.</p>
+
+        <hr>
+        <h2>When does a Google Analytics report actually make sense?</h2>
+        <p>None of these events, conversions and metrics should be collected just for the sake of it. <b>A perfect tracking setup without any monitoring is about as useful as no tracking at all.</b> So how, and how often, should you analyze the data? That also depends on your company and your specific website. As a rule of thumb: the more traffic you have, the more often you should check your tools. Many companies benefit from having a more in-depth website report created on top of regular checks. How often that makes sense depends on the size and traffic of the site – for many businesses, a quarterly or annual report is a good starting point.</p>
+        <p>These reports should always be created by someone with expertise, even if they’re in-house. You’re taking a big step back and looking at the bigger picture: are some areas or funnels on my site simply not working? How are acquisition channels changing – and should I be shifting my marketing focus? That takes experience and a bit of intuition. But very often, you gain <b>insights that can fundamentally influence the long-term strategy for your website and online marketing</b>. It’s more common than you’d think for a company to “outgrow” a website that was built 10 years ago. And an honest, data-based report is usually the perfect place to realize that.</p>
+
+        <h3>Everything clear so far?</h3>
+        <p>Whether you’re just curious, already know you want a Google Analytics report, or need help setting up your event tracking – I’m happy to help. If you like, send me an email, request a callback or <a href="#Tracking-Questionnaire">use the tracking questionnaire</a> to submit an inquiry. I’m looking forward to hearing from you.</p>
+    		<!--#include virtual="/includes/contact-callback-en.html" -->
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-en.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/">DE</a> | <a href="https://marcoaures.ch/en/analyzing-google-analytics-events/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

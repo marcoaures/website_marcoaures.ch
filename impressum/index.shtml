@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+	<!-- hreflang tags -->
+	<link rel="alternate" href="https://marcoaures.ch/impressum/" hreflang="de-CH" />
+	<link rel="alternate" href="https://marcoaures.ch/en/imprint/" hreflang="en-CH" />
+
+	<meta name="description" content="Verantwortlich für den Inhalt dieser Seite ist Marco Aures. Hier findest du meine vollständigen Kontaktdaten.">
+	<link rel="canonical" href="https://marcoaures.ch/impressum/">
+	<meta name="author" content="Marco Aures">
+	<meta property="og:title" content="Impressum | Marco Aures: Online Marketing" />
+	<meta property="og:description" content="Verantwortlich für den Inhalt dieser Seite ist Marco Aures. Hier findest du meine vollständigen Kontaktdaten."/>
+	<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+	<meta property="og:url" content="https://marcoaures.ch/impressum/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="de_CH" />
+    <title>Impressum | Marco Aures: Online Marketing</title>
+    <!--#include virtual="/includes/integrations.html" --></head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div id="start" class="content">
+    <div class="legalese">
+	<h1>Impressum</h1>
+	<h2>Kontakt</h2>
+	<p>Marco Aures - Online-Marketing<br/>
+	Unterführungsstrasse 30<br/>
+	4600 Olten<br/>
+	Schweiz<br/>
+	E-Mail: <a href="mailto:hoi@marcoaures.ch">hoi@marcoaures.ch</a></p>
+	<h3>Vertretungsberechtigte Personen</h3>
+	<p>Marco Aures</p>
+	<h2>Haftungsausschluss</h2>
+	<p>Der Autor übernimmt keine Gewähr für die Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen. Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, die aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen. Alle Angebote sind freibleibend. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.</p>
+	<h2>Haftungsausschluss für Inhalte und Links</h2>
+	<p>Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.</p>
+	<h2>Urheberrechtserklärung</h2>
+	<p>Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, gehören ausschliesslich Marco Aures oder den speziell genannten Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.</p>
+	<h2>Sonstiges</h2>
+	<p>Gehostet auf <a href="https://uberspace.de/" target="_blank">Uberspace</a> (Seriously, check them out - they are awesome!).</p>
+	<br>
+	<hr>
+	</div>
+			</div>
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+			<footer>
+    <!--#include virtual="/includes/footertop-de.html" -->
+				<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/impressum/">DE</a> | <a href="https://marcoaures.ch/en/imprint/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+			</footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

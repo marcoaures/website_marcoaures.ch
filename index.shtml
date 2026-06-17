@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/" hreflang="en-CH" />
+
+		<meta name="description" content="Dein Freelancer für datengetriebenes Online-Marketing in der Deutschschweiz: Google Ads, Tracking, technisches SEO & mehr für KMUs und Unternehmen.">
+		<link rel="canonical" href="https://marcoaures.ch">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Marco Aures: Online-Marketing-Freelancer in Olten" />
+		<meta property="og:description" content="Dein Freelancer für datengetriebenes Online-Marketing in der Deutschschweiz: Google Ads, Tracking, technisches SEO & mehr für KMUs und Unternehmen." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+		<title>Marco Aures: Online-Marketing-Freelancer in Olten</title>
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "Organization",
+						"@id": "https://marcoaures.ch/#organization",
+						"name": "Marco Aures - Online-Marketing",
+						"url": "https://marcoaures.ch",
+						"logo": "https://marcoaures.ch/assets/img/og-logo.jpg",
+						"description": "Freelancer für datengetriebenes Online-Marketing in der Deutschschweiz: Google Ads, Tracking, technisches SEO & mehr für KMUs und Unternehmen.",
+						"contactPoint": [
+							{
+								"@type": "ContactPoint",
+								"contactType": "sales",
+								"email": "hoi@marcoaures.ch",
+								"availableLanguage": [
+									"de",
+									"en"
+								]
+							}
+						],
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						}
+					},
+					{
+						"@type": "Person",
+						"@id": "https://marcoaures.ch/#person",
+						"name": "Marco Aures",
+						"url": "https://marcoaures.ch",
+						"image": "https://marcoaures.ch/assets/img/Marco.webp",
+						"jobTitle": "Online-Marketing-Freelancer",
+						"description": "Online-Marketing-Freelancer mit mehrjähriger Erfahrung in SEO, SEA, Google Ads, Webanalyse, Tracking und digitaler Strategie für KMU & Unternehmen.",
+						"sameAs": [
+							"https://www.linkedin.com/in/marco-aures-98b623180",
+							"https://www.instagram.com/ma.aures/"
+						],
+						"knowsAbout": [
+							"Suchmaschinenoptimierung (SEO)",
+							"Suchmaschinenwerbung (SEA)",
+							"Google Ads",
+							"Microsoft Ads",
+							"Webanalyse",
+							"Tracking und Event-Tracking",
+							"Online-Marketing-Strategie",
+							"Reports und Audits",
+							"Online-Marketing-Schulungen"
+						],
+						"worksFor": {
+							"@id": "https://marcoaures.ch/#organization"
+						}
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://marcoaures.ch/#website",
+						"url": "https://marcoaures.ch",
+						"name": "Marco Aures - Online-Marketing",
+						"publisher": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/#homepage",
+						"url": "https://marcoaures.ch",
+						"name": "Marco Aures: Online-Marketing-Freelancer in Olten",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"inLanguage": "de-CH"
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+			<div class="hero">
+				<div class="parallax-container">
+					<div class="parallax-layer layer10" style="background-image: url('/assets/img/bwp.webp');"></div>
+				</div>
+				<div class="offer">
+					<h1>Dein Freelancer für datengetriebenes Online-Marketing</h1>
+					<p>Google Ads, Tracking, technisches SEO & mehr für KMUs und Unternehmen</p>
+				</div>
+				<button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+				</button>
+			</div>
+			<div id="start" class="content">
+				<p style="font-size:1.7em; margin-bottom:0.5em; font-weight: bold;">Hoi, Servus und Hallo!</p>
+				<p>Ich bin Marco Aures, ein <b>Online-Marketing-Freelancer aus Olten,</b> und ich übernehme für dich gerne die eher technische Seite des Online-Marketings: Google Ads und Performance Marketing, das zu echten Anfragen führt, und technisches SEO, damit du sichtbarer wirst und bleibst. Dazu kommt sauberes Tracking & Analytics, damit du die Ergebnisse auch nachprüfen kannst, und Reportings & Dashboards, die dir genau zeigen, wo noch Potenzial liegt.</p>
+				<p>Bei mir hast du <b>eine Ansprechperson für das Ganze, von der Konzeption bis zur Auswertung.</b> Abgerechnet wird nach Aufwand, ohne Abo oder Ähnliches. Und wenn du dir trotzdem noch unsicher bist, ob ich der richtige Partner für dein Unternehmen bin, kann ich dich beruhigen: Das Erstgespräch ist sowieso kostenlos.</p>
+				<div class="spacer"></div>
+				<div class="button-container">
+					<button type="button" class="btn-prim-cta" id="jump-to-callback-top">Jetzt Kontakt aufnehmen</button>
+				</div>
+				<div class="bg-spacer"></div>
+				<h2 id="angebot">Bei was kann ich dir helfen?</h2>
+				<div class="svc-list">
+
+					<div class="svc-row">
+						<div class="svc-row__icon">
+							<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<path fill="none" d="M0 480V0h480v480zm259-38-10-32-3-3-9-1-32-3q-29-5-51-20-25-15-44-38a156 156 0 0 1-36-111 161 161 0 0 1 56-119q20-18 42-28 28-12 59-14 20 0 40 3 33 5 60 23 23 17 41 38a157 157 0 0 1 35 106l2 5 33 11c7-60-17-150-106-198-70-38-163-35-233 29a203 203 0 0 0 156 352m150 8 41-41-84-84 72-24v-2l-198-59 59 198h1l25-73zm-46-215a124 124 0 1 0-230 66c23 42 65 62 102 62l-11-36-3-3q-33-6-52-35a85 85 0 0 1-14-65q8-41 44-61 24-14 53-9 30 4 50 25 17 17 22 41l3 4z"/>
+							<path fill="currentColor" d="M259 442a203 203 0 1 1 183-183l-33-11-2-5q0-24-6-48-8-31-29-58-18-21-41-38-27-18-60-23-20-3-40-3a153 153 0 0 0-101 42 161 161 0 0 0-56 119q-1 32 9 63 9 27 27 48 19 23 44 38 23 15 51 20l32 3 9 1 3 3z"/>
+							<path fill="currentColor" d="m409 450-84-85-25 73h-1l-59-198 198 59v1l-72 25 84 84z"/>
+							<path fill="currentColor" d="m363 235-36-11-3-4q-5-24-22-41a83 83 0 0 0-50-25q-29-5-53 9a83 83 0 0 0-44 61 85 85 0 0 0 66 100l3 3 11 36c-37 0-79-20-102-62-28-48-17-107 14-143 41-45 98-49 139-33 53 21 78 74 77 110"/>
+							</svg>
+						</div>
+						<div class="svc-row__body">
+							<p class="svc-row__q">«&#8239;Ich will mehr Anfragen / Abschlüsse generieren.&#8239;»</p>
+							<p class="svc-row__desc">Kampagnen, die Anfragen, Termine oder Verkäufe bringen — nicht nur Klicks. Und bei denen du nachher weisst, was sie gebracht haben.</p>
+						</div>
+						<div class="svc-row__links">
+							<a class="svc-pill" href="/google-ads/">Google Ads <span class="arr">→</span></a>
+							<a class="svc-pill" href="/bing-linkedin-meta-ads/">Weitere Kanäle <span class="arr">→</span></a>
+						</div>
+					</div>
+
+					<div class="svc-row">
+						<div class="svc-row__icon">
+							<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<path fill="none" d="M480 480H0V0h480zm-177-53h146V261H307q-5 0-4 5v61h-44V153h44v60q-1 7 6 6h140V53H303v63H177V53H31v166h146v-66h45v211h81z"/>
+							<path fill="currentColor" d="M303 427v-63h-81V153h-45v66H31V53h146v63h126V53h146v166H309q-7 1-6-6v-60h-44v174h44v-61q-1-5 4-5h142v166zM140 182V90H68v92zm200 0h72V90h-72zm72 208v-92h-72v92z"/>
+							<path fill="none" d="M140 182H68V90h72zm200 0V90h72v92zm72 208h-72v-92h72z"/>
+							</svg>
+						</div>
+						<div class="svc-row__body">
+							<p class="svc-row__q">«&#8239;Ich will wissen, was meine Daten sagen.&#8239;»</p>
+							<p class="svc-row__desc">Sauberes Tracking, datenschutzkonform & verständlich — und Auswertungen, die dir die besten nächsten Schritte zeigen.</p>
+						</div>
+						<div class="svc-row__links">
+							<a class="svc-pill" href="/tracking-analytics/">Tracking & Analytics <span class="arr">→</span></a>
+							<a class="svc-pill" href="/reportings/">Reportings <span class="arr">→</span></a>
+							<a class="svc-pill" href="/data-studio-dashboards/">Dashboards <span class="arr">→</span></a>
+						</div>
+					</div>
+
+					<div class="svc-row">
+						<div class="svc-row__icon">
+							<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<path fill="none" d="M0 480V0h480v480zm400-107 5-9q14-27 8-57-10-40-46-60a89 89 0 0 0-56-8q-35 5-55 33a88 88 0 0 0-15 77q6 25 26 42 22 20 53 23 27 2 51-13l4 1 15 14 51 50 27-25zM251 120l-80 129-60-70-98 156 30 22 73-116 61 70 75-124 21 31q1 3 5 1l32-11zm186-88L327 208l36 5q4 1 5-2l22-34 63-100 14-22z"/>
+							<path fill="currentColor" d="m400 373 68 68-27 25-51-50-15-14-4-1a81 81 0 0 1-51 13q-31-2-53-23a85 85 0 0 1-26-42q-11-42 15-77 20-28 55-33 30-5 56 8 37 20 46 60 6 30-8 57zm-74 4c28 2 52-24 52-50 0-30-23-53-51-53-29 0-50 23-52 47-3 33 27 59 51 56m-75-257 59 88-32 11q-4 2-5-1l-21-31-75 124-61-70-73 116-30-22 98-156 60 70zm186-87 30 21-14 22-85 134q-1 3-5 2l-36-5z"/>
+							<path fill="none" d="M326 377c-24 3-54-23-51-56 2-24 23-47 52-47 28 0 51 23 51 53 0 26-24 52-52 50"/>
+							</svg>
+						</div>
+						<div class="svc-row__body">
+							<p class="svc-row__q">«&#8239;Bei meinem SEO bleibt Potenzial liegen.&#8239;»</p>
+							<p class="svc-row__desc">Oft liegt’s nicht am Texten, sondern an dem, was unter der Haube passiert. Ich schau es mir an — und mache deinen Relaunch zum SEO-Erfolg.</p>
+						</div>
+						<div class="svc-row__links">
+							<a class="svc-pill" href="/technisches-seo/">Technisches SEO & Audits <span class="arr">→</span></a>
+							<a class="svc-pill" href="/relaunch-seo/">Relaunch-SEO <span class="arr">→</span></a>
+						</div>
+					</div>
+
+					<div class="svc-row">
+						<div class="svc-row__icon">
+							<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<path fill="none" d="M480 480H0V0h480zm-5-134V178l-3-4-19-11-77-41-77-43-57-30h-5l-20 11-56 30-86 47-58 32-11 6 68 38q15 6 13 21v110l2 6 84 46 64 34h5l29-15 79-44 39-21q4-2 3-5V233q-1-14 11-19l35-17v146l3 3z"/>
+							<path fill="currentColor" d="M475 346h-34l-3-3V197l-35 17q-12 5-11 19v111q1 5-3 6l-39 21-79 44-34 15-64-34-84-46-2-6V234q2-15-13-21L6 175l11-6 58-32 86-47 56-30 20-11h5l57 30 77 43 77 41 19 11 3 4zM82 176l51 27 40 22 63 35h7l49-26 82-45 25-14-159-85zm42 65v83l2 4 13 7 32 17 64 36q5 3 9 0l56-31 52-29q2 0 3-4v-82l-24 12-88 47q-3 3-7 0l-51-27-26-14z"/>
+							<path fill="none" d="m82 176 158-86 159 85-25 14-82 45-49 26h-7l-63-35-40-22z"/>
+							<path fill="none" d="m124 241 35 19 26 14 51 27q4 3 7 0l88-47 24-12v82q-1 4-3 4l-52 29-56 31q-4 3-9 0l-64-36-32-17-13-7-2-4z"/>
+							</svg>							
+						</div>
+						<div class="svc-row__body">
+							<p class="svc-row__q">«&#8239;Ich würde es gerne selber können.&#8239;»</p>
+							<p class="svc-row__desc">Manchmal ist es sinnvoller, das Wissen im Haus zu haben. Dann bring ich’s dir oder deinem Team bei — an eurem echten Setup, nicht am Standardlehrplan.</p>
+						</div>
+						<div class="svc-row__links">
+							<a class="svc-pill" href="/schulungen/">Schulungen <span class="arr">→</span></a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="bg-spacer"></div>
+				<h2 id="about">Über mich</h2>
+				<div class="portrait-box">
+					<div class="portrait-img">
+						<img src="/assets/img/scsum25.webp" class="portrait-thumbnail" alt="SCSUM25 Speaker">
+					</div>
+					<div class="portrait-text">
+						<p>Aufgewachsen in einer Handwerkerfamilie in Bayern, startete ich meine berufliche Laufbahn ebenfalls im Handwerk als Technischer Zeichner. Mein Interesse an kreativen und analytischen Themen führte mich allerdings schon bald darauf zum <b>Studium der Medienwissenschaften und der Amerikanischen Kulturwissenschaften</b> an der Universität Erlangen-Nürnberg, wo ich erste Einblicke in die Welt des Online-Marketings, im Rahmen einer Nebenbeschäftigung bei Siemens Healthineers in den <b>Departments User Experience und Content Management,</b> sammeln durfte.</p>
+						<p>Die Liebe zog mich anschliessend in die Schweiz, wo ich meine Karriere als Online Content Manager bei der <a href="https://omh.swiss" target="_blank">OMH AG</a> fortsetzte. Unter anderem baute ich in dieser Rolle eine <a href="https://kundencommunity.bekb.ch" target="_blank">Open-Innovation-Plattform für die Berner Kantonalbank</a> mit auf. Heute arbeite ich auch weiterhin in Teilzeit bei der BEKB. Zusätzlich bin ich seit 2024 selbstständig als Freelancer im Online-Marketing.</p>
+						<p>Ich sitze in Olten, mitten im Dreieck Bern–Basel–Zürich, und auch Luzern ist schnell erreichbar. Das meiste läuft ohnehin remote, aber wenn's Sinn ergibt, komme ich auch gerne bei dir vorbei.</p>
+						<p>Geprägt durch meine Wurzeln im Handwerk lege ich noch immer grossen Wert auf <b>massgeschneiderte Lösungen, Transparenz und Kommunikation auf Augenhöhe.</b> Dank meiner vielseitigen Erfahrung, von technischem Know-how und einer Affinität für neue, innovative Methoden bis hin zu einem Gespür für Storytelling und Datenanalyse, entwickle ich einzigartige Lösungen, die spezifisch und individuell auf die Bedürfnisse meiner Kunden abgestimmt sind.</p>
+					</div>
+				</div>
+				<div id="popup" class="popup">
+					<span class="close-btn" id="popupCloseBtn">&times;</span>
+					<img class="popup-content" id="popup-img">
+				</div>
+				<h3 id="numbers">In Zahlen</h3>
+				<div class="stat-container">
+					<div class="stat-tile--v2">
+						<div class="stat-value">8</div>
+						<div class="stat-label">Jahre Erfahrung im digitalen Marketing</div>
+					</div>
+					<div class="stat-tile--v2">
+						<div class="stat-value">19</div>
+						<div class="stat-label">Unternehmen seit 2024 begleitet</div>
+					</div>
+					<div class="stat-tile--v2">
+						<div class="stat-value">30+</div>
+						<div class="stat-label">SEA-Kampagnen erfolgreich umgesetzt</div>
+					</div>
+					<div class="stat-tile--v2">
+						<div class="stat-value">25+</div>
+						<div class="stat-label">Google-Tag-Manager-Setups aktiv betreut</div>
+					</div>
+				</div>
+				<div class="spacer"></div>
+				<div class="button-container">
+					<button type="button" class="btn-prim-cta" id="jump-to-callback-mid">Jetzt Kontakt aufnehmen</button>
+				</div>
+
+				<div class="bg-spacer"></div>
+
+				<h2>Kunden & Partner</h2>
+				<div class="client-container">
+					<div class="client-tile">
+						<a href="https://www.hauptstadt.be/" target="_blank"><img src="/assets/img/logos/hauptstadt.png" alt="Hauptstadt - Neuer Berner Journalismus"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://permapack.ch/" target="_blank"><img src="/assets/img/logos/permapack.png" alt="Permapack AG"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://thommengroup.com" target="_blank"><img src="/assets/img/logos/thommengroup.png" alt="Thommen Group"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.rework.ch/" target="_blank"><img src="/assets/img/logos/rework.png" alt="Rework AG"></a>
+					</div>
+				</div>
+				<div class="client-container">
+					<div class="client-tile">
+						<a href="https://myky.ch" target="_blank"><img src="/assets/img/logos/myky.png" alt="myky"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://edorex.ch/" target="_blank"><img src="/assets/img/logos/edorex.png" alt="Edorex AG"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.multipack.ch/" target="_blank"><img src="/assets/img/logos/multipack.png" alt="MP Multipack AG"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.wynigerevents.ch/" target="_blank"><img src="/assets/img/logos/wyniger.png" alt="Wyniger Events by Ryago"></a>
+					</div>
+				</div>
+				<div class="client-container">
+					<div class="client-tile">
+						<a href="https://emmental.edulab.net/" target="_blank"><img src="/assets/img/logos/edulab.png" alt="eduLAB Emmental"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://chuchibude.ch/" target="_blank"><img src="/assets/img/logos/chuchibude.png" alt="chuchibude AG"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.medienmitzukunft.org/de/" target="_blank"><img src="/assets/img/logos/medienmitzukunft.png" alt="Verband Medien mit Zukunft"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.arillo.ch/" target="_blank"><img src="/assets/img/logos/arillo.png" alt="Arillo – Design + Development"></a>
+					</div>
+				</div>
+				<!--
+					<div class="client-container">
+						<div class="client-tile">
+							<a href="https://prosenex.ch" target="_blank"><img src="/assets/img/logos/prosenex.png" alt="Pro Senex"></a>
+						</div>
+						<div class="client-tile">
+							<a href="https://omh.swiss" target="_blank"><img src="/assets/img/logos/omh.png" alt="OMH AG"></a>
+						</div>
+						<div class="client-tile">
+							<a href="https://www.tagemo.ch/" target="_blank"><img src="/assets/img/logos/tagemo.png" alt="Tagemo Immobilien"></a>
+						</div>
+						<div class="client-tile">
+							<a href="https://www.spenglereiaures.de/" target="_blank"><img src="/assets/img/logos/spenglereiaures.png" alt="Spenglerei Aures GmbH"></a>
+						</div>
+					</div>
+				-->
+				<div class="bg-spacer"></div>
+				<h2 id="Blog">Aktuelle Artikel & Blogbeiträge</h2>
+				<div class="featured-article-container">
+
+					<a href="/beste-google-ads-branchen/" class="featured-article">
+						<h3>Die besten Branchen für Google Ads</h3>
+						<p>Manche Branchen eignen sich besser für SEA als andere. Und sogenannte High-Intent-Branchen eigenen sich sogar extrem gut. Hier erfährst du mehr dazu.</p>
+					</a>
+
+					<a href="/clientside-cookieless-tracking/" class="featured-article">
+						<h3>Clientside Cookieless Tracking mit GA4</h3>
+						<p>Manchmal muss man ohne Cookies auskommen: Am konkreten Fall eines Kunden zeige ich, wie man in solchen Fällen trotzdem Tracking implementieren kann.</p>
+					</a>
+
+					<a href="/online-marketing-freelancer-oder-agentur/" class="featured-article">
+						<h3>Marketing-Freelancer, Agentur oder In-House?</h3>
+						<p>Lieber Freelancer, Agentur oder eigenes Team? Dieser Vergleich erklärt dir praxisnah, was sich für welche Ziele eignet und wo die jeweiligen Grenzen liegen.</p>
+					</a>
+
+				</div>
+				<div class="bg-spacer"></div>
+				<h2 id="kontakt">Kontakt</h2>
+				<p>Hast du Fragen oder möchtest direkt loslegen? Lass dich zurückrufen oder schreib mir, was du vorhast, und ich bereite mich auf unser Erstgespräch vor, ob telefonisch, per Videocall oder vor Ort. Ganz egal ob es um <a href="/google-ads/">Google Ads</a>, <a href="/tracking-analytics/">Tracking</a>, <a href="/reportings/">Reportings</a> oder etwas anderes geht: Gemeinsam gehen wir es an.</p>
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch">DE</a> | <a href="https://marcoaures.ch/en/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

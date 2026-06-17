@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="en-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/bing-linkedin-meta-ads/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/bing-linkedin-meta-ads/" hreflang="en-CH" />
+
+		<meta name="description" content="Whether it's all retargeting or standalone campaigns: I'm your single point of contact for campaigns on individual or multiple channels.">
+		<link rel="canonical" href="https://marcoaures.ch/en/bing-linkedin-meta-ads/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Bing, LinkedIn and Meta Ads | Marco Aures: Digital Marketing" />
+		<meta property="og:description" content="Whether it's all retargeting or standalone campaigns: I'm your single point of contact for campaigns on individual or multiple channels." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/en/bing-linkedin-meta-ads/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_CH" />
+
+		<title>Bing, LinkedIn and Meta Ads | Marco Aures: Digital Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#webpage",
+						"url": "https://marcoaures.ch/en/bing-linkedin-meta-ads/",
+						"name": "Bing, LinkedIn and Meta Ads | Marco Aures: Digital Marketing",
+						"description": "Whether it's all retargeting or standalone campaigns: I'm your single point of contact for campaigns on individual or multiple channels.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "en-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#service",
+						"name": "Bing, LinkedIn and Meta Ads",
+						"alternateName": [
+							"Bing Ads",
+							"LinkedIn Ads",
+							"Meta Ads",
+							"Social media advertising",
+							"Multi-channel campaigns",
+							"Retargeting"
+						],
+						"description": "Performance marketing campaigns on Bing, LinkedIn, Meta and other platforms, individually or in the coordinated interplay of several channels including retargeting. Including concept, tracking setup, pixel integration in line with consent and the revised Swiss FADP, as well as ongoing analysis.",
+						"serviceType": [
+							"Bing, LinkedIn and Meta Ads",
+							"Bing Ads",
+							"LinkedIn Ads",
+							"Meta Ads",
+							"Social media advertising",
+							"Multi-channel campaigns",
+							"Retargeting",
+							"Performance marketing",
+							"Social media pixel",
+							"Conversion tracking"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "SMEs and businesses in German-speaking Switzerland"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/en/bing-linkedin-meta-ads/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/assets/pdf/agb-EN.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#offer",
+							"url": "https://marcoaures.ch/en/bing-linkedin-meta-ads/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Campaigns on individual or multiple channels with an individual quote based on time spent. Including concept, tracking and retargeting setup, and analysis."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#faq-bing-lohnt-sich",
+								"name": "Is Bing even worth it?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "That depends on your audience. The market share is smaller than Google's, but on company computers Bing is often the preset default. An additional advantage: Bing click prices are usually noticeably below those of Google. Because Bing works almost the same as Google Ads technically, the extra effort is small if you're already running Google Ads."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#faq-was-ist-retargeting",
+								"name": "What is retargeting?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Retargeting re-engages people who have already been in contact with you, such as visitors to your website. Instead of only addressing new people, you specifically reach those who have already shown interest. Across multiple channels, this is particularly effective."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#faq-retargeting-voraussetzungen",
+								"name": "Does retargeting have technical requirements?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Yes, but they're usually no problem at all for people who set up tracking regularly: it needs the pixels of the respective platforms, cleanly integrated and in line with consent requirements and the revised Swiss FADP. I set that up, in a privacy-compliant way and without you having to deal with it separately."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/bing-linkedin-meta-ads/#faq-alle-kanaele-aus-einer-hand",
+								"name": "Do you handle all channels from a single source?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Yes. You have one point of contact for your paid advertising, instead of a different place for every channel. Especially when several channels work together, this is the point where things otherwise often go wrong."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-en.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Bing, LinkedIn or Meta Ads</h1>
+					<p>For campaigns on additional channels and for advertising that works together across multiple channels.</p>
+					<button class="callbackform__hero-tile">Book a first consultation now</button>
+				</div>
+				<!--#include virtual="/includes/animations/smm-channels-en.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>For many businesses, Google Ads are the most obvious advertising channel, and often the most important one too. But not every campaign lives on Google search alone: sometimes another channel fits the audience better, sometimes a time-limited push on social media is worthwhile, and in some cases the impact only unfolds when several channels are coordinated with one another.</p>
+				<p><a href="/en/google-ads/">Google Ads have their own page</a> with me because they're my focus. But I also regularly do performance marketing on other channels: <b>advertising on Bing, LinkedIn, Meta or other platforms.</b> And that both as a single campaign and as a coordinated interplay of several channels, including retargeting.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Who it's for</p>
+						<p>For businesses thinking beyond Google Ads: for a campaign on a suitable channel, as well as for a coordinated setup across multiple platforms.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">What you get</p>
+						<p>Campaigns on Bing, LinkedIn and Meta, individually or combined, and/or retargeting across the channels.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">How I work</p>
+						<p>Channels aren't an end in themselves. I recommend what fits your goal and budget, and I'll also tell you when an additional channel isn't worth it for you.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Which channels make sense <b>depends on your goal, your audience and your budget.</b> Sometimes that's a single campaign on one channel, sometimes the interplay of several. I offer both.</p>
+				<h2>Single campaigns on individual channels</h2>
+				<p>Not every ad needs a multi-channel concept. Often a targeted campaign on a single channel is exactly the right thing:</p>
+				<ul>
+					<li>Bing Ads work <a href="/en/google-ads/">almost the same as Google Ads</a> technically and can be implemented with manageable extra effort. The market share is smaller, but on business devices Bing is often the preset search engine, and click prices are usually below those of Google.</li>
+					<li>LinkedIn is suitable when you want to reach a clearly defined professional audience, but it's comparatively expensive.</li>
+					<li>Meta is great for reach and visual appeal in the B2C space. Meta also works excellently for «&#8239;entry-level offers&#8239;» (e.g. to get people to subscribe to your newsletter so they become customers later).</li>
+				</ul>
+				<p>By the way, LinkedIn and Meta in particular are <b>a good fit for time-limited campaigns around a specific occasion or offer.</b></p>
+
+				<div class="spacer"></div>
+
+				<h2>How it works</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 01</span>
+							<h3>Non-binding first consultation</h3>
+							<p>We discuss your goal and consider which channels fit it and which don't. You get an individual quote based on time spent.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 02</span>
+							<h3>Concept & tracking</h3>
+							<p>I define which channel takes on which task and set up the necessary tracking. Where it fits, the retargeting setup is part of that.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 03</span>
+							<h3>Build & launch</h3>
+							<p>I build the campaigns on the chosen platforms and get them running. If you like, you receive the campaign content for approval before anything goes live.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 04</span>
+							<h3>Analysis</h3>
+							<p>After launch I look at how the channels perform individually and together, and where needed we discuss the next steps on an ongoing basis: expand, adjust, extend, shorten or cleanly end a campaign.</p>
+						</div>
+					</article>
+				</section>
+
+				<div class="spacer"></div>
+
+				<h2>Campaigns across multiple channels</h2>
+				<p>If you advertise across multiple paid channels, I take care of coordinating the whole thing. <b>The individual channels each take on different tasks:</b> one brings new people to your site, the other uses retargeting to re-engage those who have already shown interest. That way, someone who came to your website via Google search can be reached again later on Meta.</p>
+				<p>For this to work, <a href="/en/tracking-analytics/">the right tracking is needed</a> in the background: <b>the pixels of the individual platforms, integrated correctly and in line with consent and data protection.</b> That's my field of expertise anyway, which is why the technical foundation for cross-channel campaigns is part of my offering.</p>
+				<div class="spacer"></div>
+				<h2>Frequently asked questions</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Is Bing even worth it?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>That depends on your audience. The market share is smaller than Google's, but on company computers Bing is often the preset default. An additional advantage: Bing click prices are usually noticeably below those of Google. Because Bing works almost the same as Google Ads technically, the extra effort is small if you're already running Google Ads.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">What is retargeting?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Retargeting re-engages people who have already been in contact with you, such as visitors to your website. Instead of only addressing new people, you specifically reach those who have already shown interest. Across multiple channels, this is particularly effective.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Does retargeting have technical requirements?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Yes, but they're usually no problem at all for people who set up tracking regularly: it needs the pixels of the respective platforms, cleanly integrated and in line with consent requirements and the revised Swiss FADP. I set that up, in a privacy-compliant way and without you having to deal with it separately.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Do you handle all channels from a single source?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Yes. You have one point of contact for your paid advertising, instead of a different place for every channel. Especially when several channels work together, this is the point where things otherwise often go wrong.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+				<h2>You might also be interested in</h2>
+
+				<div class="related-grid-wrap is-collapsed" id="relatedGrid">
+					<div class="related-grid">
+
+						<a href="/en/meta-ads-beginners-mistakes/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>5 beginner mistakes in Meta Ads</h3>
+							<p>Avoid these pitfalls in your ad campaigns and use your ad budget more effectively.</p>
+						</a>
+
+						<a href="/assets/pdf/Flowchart_Digital-Marketing.pdf" class="related-card" data-type="download" target="_blank">
+							<span class="related-card__type">#download</span>
+							<h3>Flowchart: digital marketing focus</h3>
+							<p>This flowchart gives an overview of which marketing channels are suitable.</p>
+						</a>
+
+						<a href="/en/social-media-pixel-external-tools-and-csp/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Using social media pixels with CSP</h3>
+							<p>Explains what you should know about the interplay of CSP & social media pixels.</p>
+						</a>
+
+					</div>
+				</div>
+
+				<div class="related-more-wrap" id="relatedMoreWrap">
+					<button type="button" class="related-show-more" id="relatedShowMore">Show more</button>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-en.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-en.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-en.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/bing-linkedin-meta-ads/">DE</a> | <a href="https://marcoaures.ch/en/bing-linkedin-meta-ads/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

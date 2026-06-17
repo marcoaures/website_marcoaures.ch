@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/ai-veraendert-online-marketing/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/ai-changes-digital-marketing/" hreflang="en-CH">
+
+    <meta name="description" content="AI is already radically changing digital marketing today: from user journeys to SEO strategy. Find out what this means and what you need to focus on now.">
+    <link rel="canonical" href="https://marcoaures.ch/en/ai-changes-digital-marketing/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="How AI Is Already Changing Digital Marketing | Marco Aures">
+    <meta property="og:description" content="AI is already radically changing digital marketing today: from user journeys to SEO strategy. Find out what this means and what you need to focus on now.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/icons/ai-journey-icon.svg">
+    <meta property="og:url" content="https://marcoaures.ch/en/ai-changes-digital-marketing/">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_CH">
+
+    <title>How AI Is Already Changing Digital Marketing | Marco Aures</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/en/ai-changes-digital-marketing/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/en/ai-changes-digital-marketing/"
+      },
+      "headline": "How AI Is Already Changing Digital Marketing",
+      "description": "AI is already radically changing digital marketing today: from user journeys to SEO strategy. Find out what this means and what you need to focus on now.",
+      "image": "https://marcoaures.ch/assets/img/icons/ai-journey-icon.svg",
+      "datePublished": "2025-12-06",
+      "dateModified": "2026-06-16",
+      "inLanguage": "en-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!--#include virtual="/includes/headmenu-en.html" -->
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/chatgpt-ui.jpg');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking" style="background-color: rgba(184,93,37,.8);">
+            <h1 style="margin-top:20px;">How AI Is Already Changing Digital Marketing</h1>
+            <p>AI is already radically changing digital marketing today: from user journeys to SEO strategy. Here’s what that means and what you need to focus on now.</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        </button>
+    </div>
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Published: 06.12.2025 | Updated: 16.06.2026<br>
+            Topics: AI basics, AI and marketing, LLMO/AIO/GEO, user journey, content strategy, SEO
+        </div>
+
+        <p>Since the launch of ChatGPT about three years ago, AI has noticeably changed how we work, make decisions and what we expect, especially in digital industries and roles. Marketing clearly falls into this category as well: widespread use is no longer limited to curious early adopters.</p>
+        <p>This article is meant to give you an overview of <b>what you, as a web or SEO lead, should know:</b> What does all of this mean for our content strategy? What should we expect? And what do we need to tackle now so we don’t fall behind?</p>
+
+        <hr>
+
+        <h2 id="ai-und-seo">AI is changing search and user behaviour</h2>
+        <p>Digital marketing has always been about <a href="/en/technical-seo/">being visible to potential customers at the exact moment it matters.</a> Marketers like to structure this around the classic user journey: from awareness to consideration and purchase, all the way to retention and ideally recommendation.</p>
+        <p>If you have a digital marketing strategy, you probably have carefully planned touchpoints for each of these stages: awareness is built via social media or blog content, at the consideration stage, prospects find your benefits, USPs and other information on landing pages or in blog posts that are supposed to support their decision. The purchase journey is CRO-optimised, and for retention and advocacy you approach customers directly via newsletters and similar channels.</p>
+        <p>Now for the bad news: <a href="/en/best-industries-for-google-ads/">depending on your industry</a> and target audience, this model has become <b>outdated or, in some cases, even completely irrelevant due to AI.</b> I can confirm that, for example, impressions on blog posts that traditionally covered the awareness and consideration stages have dropped by up to 60% (on average around 35%). My experience here aligns with larger studies on the topic.</p>
+		
+        <img src="/assets/img/en/ai-changes-customer-journey.webp" alt="Infographic of an AI-influenced user journey">
+
+        <p>The reason is pretty clear. Who still reads 1,000-word blog posts (yes, I’m aware of the irony) hoping to find actionable information for a specific question, when a chatbot can provide <b>far more specific, and therefore more useful, answers</b> in 60 words? A modern user journey now looks much more like the infographic above.</p>
+
+		<div class="button-container">
+			<button type="button" id="download-infographic" class="btn-sec-cta" onclick="window.open('/assets/pdf/ai-changes-customer-journey.pdf', '_blank');">Download infographic as PDF</button>
+		</div>
+
+        <hr>
+
+        <h2 id="awareness-consideration">Awareness & consideration in the age of AI</h2>
+        <p>Of course, <a href="/en/bing-linkedin-meta-ads/">creating initial awareness via social media</a> is still possible, but it’s nowhere near as decisive as it was back in 2020. Anyone who has ever used AI as a sparring partner knows that such a bot often surfaces problems, connections and “quality of life” potential that they themselves would never have thought of. And regardless of where awareness happens, <b>the user journey changes radically at the latest right after that step.</b></p>
+        <p>Once a user is already inside ChatGPT, they will hardly leave at this point: <b>conversational AI is designed to imitate natural conversations.</b> And if a “specialist” has just pointed out a problem, people rarely say “goodbye!” and start doing their research on their own from scratch.</p>
+		<p>Questions also go straight to the AI: Does this also apply if I have X? Is the budget version enough here or is the higher price worth it? How much maintenance does this require? All of these questions, which used to be covered in long form on company blogs, now completely bypass the old pattern.</p>
+
+        <hr>
+	
+        <h2 id="purchase">Purchase: where users step back in</h2>
+
+        <p>Despite all these changes, there’s one step AI (still) can’t take over: the final conversion. And funnily enough it seems that <b>users still behave very traditionally here</b> and do not simply let themselves be dropped straight onto the page at the last step before checkout or sending an enquiry.</p>
+        <p>If they did, we’d see a high number of users <a href="/en/tracking-analytics/">in the analytics data</a> coming from one of the common models, in other words “Session source/medium: chatgpt.com / referral”. In my experience, though, this share of users (regardless of the size of the site and therefore likely largely independent of its AI visibility) is in the per-mille range.</p>
+
+        <img src="/assets/img/en/ai-referrals-en.jpg" alt="Evaluation of AI referral share in analytics">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">AI referral share in three analytics setups I manage.</p>
+
+        <p>Whether the reason is psychological (“I make the final decision”), whether users want to double-check that the AI is actually right, or whether OpenAI, Perplexity & co. simply de-incentivise leaving the chat via UX, I can’t say. But <b>if AI chat is a “no-click medium”,</b> that logically means <a href="/en/technical-seo/" target="_blank">SEO</a> comes back into play at this stage.</p>
+
+        <hr>
+        
+		<h3>How to reach users now</h3>
+
+        <p>The conclusion for our SEO strategy is actually quite straightforward: SEO has simply shifted to a point where we need to <b>optimise for a more “informed” audience.</b> And that is actually very manageable with tried-and-tested tactics.</p>
+        <p>Concretely, this might mean that your content strategy changes along the following lines:</p>
+
+        <table id="table-tracking">
+            <tbody>
+                <tr>
+                    <th>Industry</th>
+                    <th>Typical entry point before AI</th>
+                    <th>Likely entry point after AI research</th>
+                </tr>
+                <tr>
+                    <td><strong>Kitchen design & installation</strong></td>
+                    <td>Which materials are best for kitchen units?</td>
+                    <td>Granite worktops: how edge processing impacts the final price</td>
+                </tr>
+                <tr>
+                    <td><strong>Nutrition coaching</strong></td>
+                    <td>Tips for switching to a vegan diet</td>
+                    <td>Which nutrients you need to supplement on a vegan diet (including a Migros shopping list to download)</td>
+                </tr>
+                <tr>
+                    <td><strong>E-commerce</strong></td>
+                    <td>Gift ideas for 12-year-olds</td>
+                    <td>Our Lego bestsellers this year: budget CHF 50 / 100 / 500</td>
+                </tr>
+                <tr>
+                    <td><strong>Travel agency</strong></td>
+                    <td>Romantic honeymoon: where to go?</td>
+                    <td>Our resort recommendations in Mexico for unforgettable honeymoons, and which extras (candlelight dinner, upgrades) are really worth it.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+	
+        <h2 id="retention-recommendation">How retention and recommendation change through AI</h2>
+
+        <p>Things are far less dramatic, if they are relevant for your business at all, when it comes to customer retention. Sure, if users troubleshoot on their own instead of contacting support, some important signals for improving the customer experience can be lost. On the other hand, chatbots make it much easier to engage with your site’s help section and other customer-experience resources. Every customer basically gets 1:1 support without needing an account manager.</p>
+        <p>For this to work well, you now need to do what SEOs have been saying for years: <b>keep content up to date, regularly “declutter” old pages, implement structured data</b> <!--(why this is especially important for AI is something I’ll explain in my follow-up article)--> and maintain basic site hygiene that improves crawlability not only for AI but also for the Google Search crawler.</p>	
+
+        <div class="highlight">
+            <p><strong>A word of warning:</strong> the temptation is big right now to simply add your own chatbot to your website. Speaking as someone who has already been involved in a RAG project (<a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank">“Retrieval Augmented Generation”</a>), I strongly advise caution here. It’s very easy to implement a bad RAG bot. It’s extremely hard to implement a good one, and it usually requires expert support, especially when it comes to things like chunking.</p>
+        </div>
+
+        <p>When it comes to the recommendation phase, we are actually in a new feedback loop. Instead of asking friends and family for recommendations, many people now start in an AI chat, so word-of-mouth may indeed look obsolete at first glance.</p>	
+        <p>But AI doesn’t just pull these answers out of thin air: it follows its training data. If you already have strong social proof spread across the web, e.g. products praised in specialist forums and other user-generated content or mentioned positively in press articles, AI will act as a megaphone and <b>make these reputation signals much more visible.</b> So if you haven’t yet set up a professional referral and review management process, you now have an additional, very good reason to do so.</p>	
+
+        <hr>
+	
+        <h2 id="seo-not-dead">SEO’s Not Dead</h2>
+        <p>As with <a href="https://en.wikipedia.org/wiki/Punks_Not_Dead" target="_blank">punk</a>, “the reports of its death are greatly exaggerated”. As someone who still remembers when SEO was suddenly declared redundant because “the internet is going to happen only on Facebook” (I know, the good old days!), I’d be careful about getting fatalistic now.</p>
+        <p>As we’ve seen above, <b>we still need SEO, just in a different way.</b> And if you’d also like to work on your AI visibility in parallel, I recommend <!--reading my follow-up article [coming soon] or--> reaching out to me directly so we can make your website fit for ChatGPT, Claude and <a href="/en/technical-seo/">AI search in general</a>.</p>
+    		<!--#include virtual="/includes/contact-callback-en.html" -->
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+    <footer>
+        <!--#include virtual="/includes/footertop-en.html" -->
+        <p>Select language | Sprache wählen: <a href="https://marcoaures.ch/ai-veraendert-online-marketing/">DE</a> | <a href="https://marcoaures.ch/en/ai-changes-digital-marketing/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

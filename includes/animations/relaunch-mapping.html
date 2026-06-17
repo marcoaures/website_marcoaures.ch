@@ -1,0 +1,58 @@
+<style>
+
+	#rl {
+width: 80%;
+height: auto;
+  align-items: center;
+	}
+
+  .rl-svg { width: 100%; display: block; overflow: visible; }
+ 
+  /* windows */
+  .rl-win-body { fill: #fff; stroke: var(--color-brand-dark); stroke-width: 2; }
+  .rl-win-bar  { fill: var(--color-brand); }
+  .rl-win-dot  { fill: #fff; }
+  /* right-side (new) windows tinted as the relaunch target */
+  .rl-win-bar.new { fill: var(--color-brand); }
+ 
+  /* redirect connector lines: drawn via dash */
+  .rl-link {
+    fill: none; stroke: var(--color-accent); stroke-width: 2.5; stroke-linecap: round;
+    stroke-dasharray: var(--len); stroke-dashoffset: var(--len);
+  }
+  .rl-link.draw { animation: drawLink .7s ease forwards; }
+  @keyframes drawLink { to { stroke-dashoffset: 0; } }
+ 
+  /* count label */
+  .rl-count {
+    text-align: center;
+    font-weight: 800;
+    color: var(--color-accent);
+    font-size: 1.8rem;
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+  .rl-count.show { opacity: 1; }
+  .rl-count small {
+    display: block; font-size: .68rem; font-weight: 700; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--color-brand-dark); opacity: .6;
+    margin-top: .15em;
+  }
+ 
+  @media (prefers-reduced-motion: reduce) {
+    .rl-link { stroke-dashoffset: 0; animation: none; }
+    .rl-count { opacity: 1; transition: none; }
+  }
+</style>
+
+<div class="service-hero-animation">
+  <div id="rl">
+    <svg class="rl-svg" viewBox="0 0 420 230" aria-label="Weiterleitungen beim Relaunch">
+      <g id="rlLinks"></g>
+      <g id="rlWins"></g>
+    <div class="rl-count" id="rlCount">Permanent | 301<small>Redirects</small></div>
+    </svg>
+  </div>
+</div>
+
+<script src="/assets/js/animations/relaunch-mapping.js" defer></script>

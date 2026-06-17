@@ -1,0 +1,80 @@
+<style>
+.iw-header {
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    color: var(--color-brand-dark);
+    line-height: 1.3;
+	  margin-top: 1em;
+  }
+
+  .iw-pills {
+    display: flex; flex-wrap: wrap; gap: 0.45em; justify-content: center;
+    margin-bottom: 1em; min-height: 2.2em; align-content: flex-start;
+  }
+  .iw-pill {
+    background: #fff; border: 1px solid var(--color-border-light);
+    border-radius: 999px; padding: 0.4em 0.85em;
+    font-size: 0.78rem; font-weight: 600; color: var(--color-brand-dark);
+    box-shadow: 0 2px 6px rgba(0,0,0,.05);
+    opacity: 0; transform: translateY(6px);
+    transition: opacity .6s ease, transform .6s ease,
+                border-color .7s ease, color .7s ease, box-shadow .7s ease;
+  }
+  .iw-pill.show { opacity: 1; transform: translateY(0); }
+  .iw-pill.active {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    box-shadow: 0 2px 8px rgba(184,93,37,.18);
+  }
+  .iw-pill.filed {
+    border-color: var(--color-border-light);
+    color: var(--color-brand-dark);
+    box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  }
+
+  .iw-svg { width: 100%; display: block; overflow: visible; }
+
+  .iw-edge { stroke: var(--color-border-light); stroke-width: 1.2; opacity: .55; transition: stroke .7s ease, opacity .7s ease; }
+  .iw-node {
+    fill: var(--color-brand); opacity: .5;
+    transition: fill .7s ease, opacity .7s ease;
+  }
+  .iw-node.glow { fill: var(--color-accent); opacity: 1; }
+  .iw-edge.lit { stroke: var(--color-accent); opacity: .5; }
+
+  .iw-ring {
+    fill: none; stroke: var(--color-accent); stroke-width: 2;
+    opacity: 0; transform-box: fill-box; transform-origin: center;
+  }
+  .iw-ring.go { animation: ring 1.4s ease forwards; }
+  @keyframes ring {
+    0% { opacity: .7; transform: scale(.6); }
+    100% { opacity: 0; transform: scale(2.6); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .iw-pill { transition: none; }
+    .iw-ring.go { animation: none; }
+  }
+</style>
+
+<div class="service-hero-animation">
+  <div id="iw">
+
+    <svg class="iw-svg" viewBox="0 0 420 240" aria-label="Datennetz, aus dem Erkenntnisse abgeleitet werden">
+      <g id="iwEdges"></g>
+      <g id="iwNodes"></g>
+      <circle class="iw-ring" id="iwRing" r="9" cx="0" cy="0"/>
+    </svg>
+
+    <h4 class="iw-header">Actionable insights based on your analytics data</h4>
+
+    <div class="iw-pills" id="iwPills"></div>
+
+  </div>
+</div>
+
+<script src="/assets/js/animations/reporting-hero-en.js" defer></script>

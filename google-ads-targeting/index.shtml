@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/google-ads-targeting/" hreflang="de-CH" />
+    <link rel="alternate" href="https://marcoaures.ch/en/google-ads-targeting/" hreflang="en-CH" />
+
+    <meta name="description" content="Mit den richtigen Google-Ads-Zielgruppeneinstellungen stellst du sicher, dass du die richtigen Leute erreichst und dein Werbebudget nicht verschwendest.">
+    <link rel="canonical" href="https://marcoaures.ch/google-ads-targeting/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Das richtige Google-Ads-Targeting | Marco Aures: Online Marketing" />
+    <meta property="og:description" content="Mit den richtigen Google-Ads-Zielgruppeneinstellungen stellst du sicher, dass du die richtigen Leute erreichst und dein Werbebudget nicht verschwendest." />
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+    <meta property="og:url" content="https://marcoaures.ch/google-ads-targeting/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_CH" />
+
+    <title>Das richtige Google-Ads-Targeting | Marco Aures: Online Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/google-ads-targeting/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/google-ads-targeting/"
+      },
+      "headline": "Das richtige Google-Ads-Targeting",
+      "description": "Mit den richtigen Google-Ads-Zielgruppeneinstellungen stellst du sicher, dass du die richtigen Leute erreichst und dein Werbebudget nicht verschwendest.",
+      "image": "https://marcoaures.ch/assets/img/icons/ads-targeting-icon.svg",
+      "datePublished": "2025-01-11",
+      "dateModified": "2025-01-11",
+      "inLanguage": "de-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/sea-darts-2.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">Das richtige Google-Ads-Targeting</h1>
+            <p>Nicht jeder Webseitenbesucher ist gleich wertvoll für dich: So stellst du in Google Search Ads sicher, dass du nur für die passende Zielgruppe Geld ausgibst.</p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 11.01.2025 | Aktualisiert: 16.06.2026<br>
+            Thema: SEA-Grundlagen, Google-Ads-Targeting, Google Ads Zielgruppeneinstellungen, Beobachtungs- &amp; Ausrichtungszielgruppen
+        </div>
+        <p>Stell dir vor, du bist ein Schneider, der moderne Anzüge nach Mass verkauft. Auf deiner Internetseite können Kunden direkt Beratungstermine buchen, und du hast täglich 2000 Website-Besucher. <b>Super, oder?</b> Doch was, wenn es sich um 2000 Teenager handelt, die nur einen günstigen Leihanzug für den Abschlussball suchen? Oder um 2000 Senioren, die mit modernen Schnitten nichts anfangen können und im letzten Moment doch absagen?</p>
+        <p>Was bei Suchmaschinenoptimierung ärgerlich wäre, wird bei SEA (speziell bei Google Search Ads) vor allem eines: teuer (PS: <a href="/was-kosten-google-ads/" target="_blank">Hier erfährst du mehr zu Google-Ads-Kosten</a>). Jeder der 2000 Klicks kostet dich Geld – und nimmt vielleicht echten Interessenten den Platz weg, weil dein Budget schon ausgeschöpft ist. Das Beispiel zeigt: <b>Nicht jeder Website-Besucher ist gleich wertvoll.</b> Manche – wie der Senior, der Beratung in Anspruch nimmt, aber nichts kauft – sind sogar ein Verlustgeschäft. Zeit, Budget und Ressourcen verpuffen im Nichts.</p>
+        <p>Auch Google erkennt dieses Problem und bietet eine einfache Lösung zur Filterung: Zielgruppensteuerung. <b>Google Ads gibt dir die Möglichkeit, genau einzustellen, wen du erreichen willst – und wen nicht.</b> Und das funktioniert auf mehr Arten, als du vielleicht denkst.</p>
+        <hr>
+        <h2>Zielgruppeneinstellungen in Google Ads</h2>
+        <p>Bereits beim Erstellen einer Kampagne kannst du den Empfängerkreis deiner Anzeigen eingrenzen. Dazu gehören:</p>
+        <ul>
+            <li><strong>Standort:</strong> Du kannst spezifische Regionen oder Orte ein- oder ausschliessen.</li>
+            <li><strong>Sprache:</strong> Wähle aus, welche Sprachen die Zielgruppe spricht.</li>
+            <li><strong>Zielgruppensegmente:</strong> Von «&#8239;Eltern mit Kleinkindern&#8239;» über «&#8239;Fans von High-End-Computern&#8239;» bis hin zu Personen, die nach einer Buchhaltungssoftware suchen.</li>
+        </ul>
+        <p>An dieser Stelle wählst du auch, ob du diese Zielgruppensegmente zur Ausrichtung oder Beobachtung verwenden möchtest: <b>Die Option «&#8239;Ausrichtung&#8239;», auch Zielgruppenausrichtung genannt,</b> bedeutet dabei, dass nur Personen, die Google im ausgewählten Segment verortet, die Anzeige sehen. <b>Die Option «&#8239;Beobachtung&#8239;», auch Beobachtungszielgruppen,</b> hingegen schränken die Auslieferung nicht ein, zeigen dir aber zur Kampagnenoptimierung Statistiken zu den Zielgruppen und ermöglicht Gebotsanpassungen. Zum Beispiel: «&#8239;Für Mieter möchte ich 50 % weniger Werbebudget ausgeben als für einen identischen Wohneigentümer.&#8239;» Mehr zu den <a href="https://support.google.com/google-ads/answer/2497941" target="_blank">Zielgruppensegmenten kannst du hier lesen.</a></p>
+        <img src="/assets/img/ads-targeting.webp" alt="Screenshot Targetingeinstellungen">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Eigener Screenshot</p>
+        <p>Zudem kannst du gezielt einzelne Segmente ausschliessen, selbst wenn deine Kampagne nur Beobachtungszielgruppen nutzt.</p>
+        <div class="highlight">
+            <p><strong>Tipp:</strong> Ich habe festgestellt, dass die Option «&#8239;Ausrichtung&#8239;» den Klickpreis massiv in die Höhe treibt. Zudem verlierst du mögliche Nutzer, die Google (noch) nicht vollständig der richtigen Zielgruppe zuordnen kann. Deshalb nutze ich inzwischen lieber Beobachtungszielgruppen mit starken Gebotsanpassungen.</p>
+        </div>
+        <hr>
+        <h2>Die richtige Demographie finden</h2>
+        <p>So weit, so gut. Wohn-/Arbeitsort und Sprache allein bieten aber noch keine wirkliche Eingrenzung. <b>«&#8239;Deutschsprechende Nutzer im Kanton Zürich&#8239;» ist zu breit gefasst</b> und auch mit der Gebotsanpassung für «&#8239;Fans von High-End-Computern&#8239;» kommen wir hier nicht weiter: Von der 18-jährigen Gamerin bis zum 50-jährigen Head-of-IT könnte jeder gemeint sein. Und genau hier kommen die Demographie-Einstellungen ins Spiel.</p>
+        <p>Google bietet dir viel Kontrolle, um <b>einzelne Demographien ganz auszuschliessen, Gebote anzupassen und deine Zielgruppenanalyse so zu verfeinern.</b> Diese Optionen stehen dir in der Schweiz zur Verfügung:</p>
+        <ul>
+            <li><strong>Geschlecht:</strong> Weiblich, Männlich, Unbekannt.</li>
+            <li><strong>Alter:</strong> 18-24, 25-34, 35-44, 45-54, 55-64, 65+</li>
+        </ul>
+        <h3>Sei vorsichtig mit Ausschlüssen</h3>
+        <p>Bei manchen Produkten macht es Sinn, von Beginn an kleine Anpassungen vorzunehmen. Vermutlich kennst du deine Zielgruppe schon und <b>hast eine grobe Vorstellung davon, wie deine Persona aussieht.</b> Bei Schwangerschaftskleidung könnte es zum Beispiel sinnvoll sein, Männer auszuschliessen oder die Gebote für sie stark zu reduzieren. Für Haussanierungen bewirbt man die Altersgruppe «&#8239;18 bis 24&#8239;» eher selten. </p>
+        <p><b>Aber natürlich gibt es immer Ausnahmen:</b> Ein Mann könnte für seine schwangere Partnerin Umstandsmode recherchieren, und ein 18-Jähriger könnte Informationen zu Sanierungsthemen für seine wenig internetaffinen Eltern suchen. Man würde auf den ersten Blick, z.B. auch nicht erwarten, dass eine 18- bis 24-jährige Person nach Veranstaltungsorten für eine grosse Firmenfeier sucht, aber genau das ist der Fall für grossen Unternehmen mit relativ jungen Eventmanagement-Teams.</p>
+        <img src="/assets/img/conversion-demographie.webp" alt="Screenshot Conversions &amp; Conversionrate per Demographie">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Eigene Screenshots</p>
+        <div class="highlight">
+            <p><strong>Tipp:</strong> Gehe offen an deine Kampagne heran. Analysiere die Statistiken regelmässig, bevor du Ausschlüsse vornimmst. Überlege frühzeitig, wer mögliche Entscheidungsträger oder Beeinflusser für dein Produkt sein könnten, aber optimiere erst mit klaren Daten.</p>
+        </div>
+        <hr>
+        <h2>Schneider bleib bei deiner Zielgruppe</h2>
+        <p>Zurück zu unserem Anfangsbeispiel: Wie würde der Schneider seine Kampagne optimal aufsetzen? Zunächst würde er sich die wichtigsten Eigenschaften seiner Zielgruppe überlegen – <b>etwa Alter, Geschlecht, Wohnort und Interessen/Charakteristika.</b> Er könnte beispielsweise die Altersgruppen unter 25 und über 65 Jahren ausschliessen oder stark reduzieren, da diese weniger wahrscheinlich an massgeschneiderten Anzügen interessiert sind.</p>
+        <p>Frauen könnte er ebenfalls direkt ausschliessen oder das Gebot zumindest stark reduzieren. In diesem konkreten Fall würde ich das aber nicht empfehlen und selbst bei der anfänglichen Gebotsanpassung maximal -20% für Frauen einstellen: Wer weiss, wie häufig eine Partnerin ihren Mann einen massgeschneiderten Anzug zum Geburtstag schenkt? Wenn sich nach einem Monat allerdings zeigt, dass nur 5 % der Buchungen von Frauen kommen, <b>kann man die Zielgruppe immer noch anpassen.</b></p>
+        <p>Gleichzeitig könnte unser Schneider ausserdem mit Beobachtungszielgruppen arbeiten, <b>um die Performance verschiedenster Segmente zu analysieren und seine Gebote entsprechend anzupassen.</b> In diesem Fall würde ich z.B. «&#8239;Geschäftsleute&#8239;», «&#8239;Luxusartikelkäufer&#8239;» und «&#8239;Kaufbereit für Anzüge, Kostüme und Businesskleidung&#8239;» hinterlegen. Aber auch «&#8239;Arbeitet in: Finanzbranche&#8239;» oder «&#8239;Stellensuchend: Geschäftsführungs- und Managementtätigkeiten&#8239;» wären spannend, da sich herausstellen könnte, dass viele Private Banker und Personen, die bereits ein wichtiges Vorstellungsgespräch am Horizont sehen, nach Massanzügen suchen.</p>
+        <hr>
+        <h2>Zielgruppe perfekt? Noch lange nicht</h2>
+        <p>Das ist erst der Anfang. Das richtige Targeting hat nicht nur mit den spezifischen Zielgruppeneinstellungen zu tun – auch ausserhalb dieser Optionen kannst du <b>mit einfachen Mitteln deine Besucher, Kosten und Abschlüsse ganz gezielt optimieren.</b> Wenn du neugierig bist, wie das geht, lies jetzt meinen Folgebeitrag zum Thema <a href="/google-ads-zielgruppe-finden/">«&#8239;Targeting in Google Ads&#8239;».</a></p>
+
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+
+    </div>
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/google-ads-targeting/">DE</a> | <a href="https://marcoaures.ch/en/google-ads-targeting/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

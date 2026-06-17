@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/blog/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/blog/" hreflang="en-CH">
+
+    <meta name="description" content="Zu Online-Marketing gibt es eigentlich viel zu erzählen. Hier findest du meine Artikel rund um das Thema, egal ob SEO oder User Consent.">
+    <link rel="canonical" href="https://marcoaures.ch/blog/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Blog | Marco Aures: Online Marketing">
+    <meta property="og:description" content="Zu Online-Marketing gibt es eigentlich viel zu erzählen. Hier findest du meine Artikel rund um das Thema, egal ob SEO oder User Consent.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/blog/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+    <title>Blog | Marco Aures: Online Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" --></head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="content" data-show-more="Mehr anzeigen">
+        <h1 class="no-hero">Blog</h1>
+
+	<!--#include virtual="/includes/blogfilter-de.html" -->
+	
+        <a href="/beste-google-ads-branchen/" class="article-tile-link" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/hia.svg" alt="High Intent Ads Icon">
+                <div>
+                    <h2>Die besten Branchen für Google Ads</h2>
+                    <p>Manche Branchen eigenen sich besser für SEA als andere. Und sogenannte High-Intent-Branchen eigenen sich sogar extrem gut für Google Ads: Wenn die Kaufabsicht hoch, der Zeitdruck gross und die Alternativen unklar, sind Google Ads beinahe Selbstläufer. Aber das bedeutet nicht, dass es nichts dabei zu beachten gibt. Was du wissen musst - und wieso es sich trotzdem lohnt, einen SEA-Experten zu beauftragen, erkläre ich dir hier.</p>
+                </div>
+            </div>
+        </a>
+	
+        <a href="/clientside-cookieless-tracking/" class="article-tile-link" data-category="analytics, tech">
+            <div class="article-tile">
+                <img src="/assets/img/nocookies.svg" alt="No Cookies Icon">
+                <div>
+                    <h2>Clientside Cookieless Tracking mit GA4</h2>
+                    <p>Manchmal muss man ohne Cookies auskommen: Am konkreten Fall eines Kunden, der ein interaktives iframe auf einer Partnerwebseite tracken wollte, zeige ich, wie man in solchen Fällen trotzdem clientseitiges Tracking implementieren kann. Am konkreten Beispiel zeige ich, was GA4 benötigt, um ohne Cookies zu funktionieren und wie man Standard- und Custom Events direkt an den Analytics-Endpoint sendet, aber weshalb dieser Ansatz sich trotzdem nicht für jeden Fall empfiehlt.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/online-marketing-freelancer-oder-agentur/" class="article-tile-link" data-category="general">
+            <div class="article-tile">
+                <img src="/assets/img/icons/vergleich-icon-de.png" alt="Vergleich Icon">
+                <div>
+                    <h2>Marketing-Freelancer, Agentur oder direkt In-House?</h2>
+                    <p>Dieser Vergleich erklärt praxisnah, welches Modell – von Freelancer bis In-House – sich für welche Marketing-Ziele eignet und wo die jeweiligen Grenzen liegen. Er zeigt die Stärken, Schwächen und typischen Einsatzbereiche auf und hilft dir gleichzeitig einzuschätzen, wann eine hybride Lösung – zum Beispiel eine Kombination aus Freelancer und Agentur – die beste Lösung ist.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/ai-veraendert-online-marketing/" class="article-tile-link" data-category="general, ai, seo">
+            <div class="article-tile">
+                <img src="/assets/img/icons/ai-journey-icon.svg" alt="AI Journey Icon">
+                <div>
+                    <h2>Wie AI Online Marketing bereits jetzt verändert</h2>
+                    <p>AI verändert das Online Marketing schon heute drastisch: Customer Journeys funktionieren längst nicht mehr wie noch vor ein paar Jahren und Nutzer kommen erst deutlich später mit deiner Webseite in Kontakt. Das hat deutliche Auswirkungen darauf, wie du deine SEO-Strategie gestalten solltest. Wie du das hinbekommst und wie AI vielleicht sogar zum Vorteil für dich werden kann, liest du hier.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/social-media-pixel-externe-tools-mit-csp/" class="article-tile-link" data-category="analytics, tech, social">
+            <div class="article-tile">
+                <img src="/assets/img/icons/pixel-csp.svg" alt="Pixel mit CSP Icon">
+                <div>
+                    <h2>Social Media Pixel & externe Tools mit CSP nutzen</h2>
+                    <p>Auch wenn dein Tracking mit Content Security Policy grundsätzlich läuft, machen Social Media Pixel wie Meta, TikTok oder LinkedIn oft noch Probleme. Erfahre, warum Nonce und Hash hier nicht ausreichen, wie du externe Ressourcen gezielt per Whitelisting freigibst und mit CSP-Reporting mögliche Fehlerquellen erkennst – damit dein Tracking sicher bleibt, ohne an Funktionalität zu verlieren.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/csp-und-google-tag-manager/" class="article-tile-link"  data-category="analytics, tech">
+            <div class="article-tile">
+                <img src="/assets/img/icons/csp-gtm-icon.svg" alt="CSP Icon">
+                <div>
+                    <h2>Google Tag Manager mit Content-Security-Policy nutzen</h2>
+                    <p>GTM mit CSP einsetzen? Gar nicht so einfach. Aber auch nicht unmöglich: Wichtig ist einfach, dass du das Snippet für deinen GTM mit einem Nonce versehen wirst und diesen Nonce für eigene Scripts als Variable nutzbar macht. Wie du das anstellen kannst, zeige ich in dieser Schritt-für-Schritt-Anleitung: Damit deine Webseite trotz Trackinganforderungen für Nutzer weiterhin sicher bleibt.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/content-security-policy-fuer-marketer/" class="article-tile-link" data-category="analytics, tech">
+            <div class="article-tile">
+                <img src="/assets/img/icons/csp-icon.svg" alt="CSP Icon">
+                <div>
+                    <h2>Content-Security-Policy für Marketer</h2>
+                    <p>Vielleicht hast du schon einmal den Begriff Content-Security-Policy (CSP) gehört. Gerade mit dem Google Tag Manager verträgt sich diese Sicherheitsmassnahme aber leider gar nicht. Was du – als Marketer ohne IT-Studium – dazu wissen musst, erkläre ich dir hier: Was eine CSP überhaupt ist, weshalb sie so oft den Google Tag Manager blockiert, welchen Shortcut du keinesfalls nehmen sollst und was du deiner IT-Abteilung sagen musst, um das Problem wieder gerade zu biegen.</p>
+                </div>
+            </div>
+        </a>
+        
+        <a href="/google-ads-zielgruppe-finden/" class="article-tile-link" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/keyword-copy-lp.svg" alt="Venn-Diagram Keyword-Text-Landingpage">
+                <div>
+                    <h2>Deine Zielgruppe in Google Ads finden</h2>
+                    <p>Nachdem du die Zielgruppeneinstellungen in Google Ads (siehe Artikel unterhalb) kennengelernt hast, kannst du hier lernen, wie du direkt mit Keywords, Anzeigentexten und deiner Landingpage Nutzer weiter filtern und Streuverluste vermeiden kannst. Du lernst welche Keywords überhaupt geeignet sind, welche Keyword-Optionen sich wann anbieten, was du unbedingt in deinen Anzeigentext einbauen solltest und wie du mit deiner Landingpage noch einmal sicherstellst, dass deine Leads eine hohe Qualität haben.</p>
+                </div>
+            </div>
+        </a> 
+        
+        <a href="/google-ads-targeting/" class="article-tile-link" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/ads-targeting-icon.svg" alt="Ads Targeting Icon">
+                <div>
+                    <h2>Das richtige Google-Ads-Targeting</h2>
+                    <p>Nicht jeder Webseitenbesucher ist gleich wertvoll für dich. Aber mit den richtigen Zielgruppeneinstellungen beim Kampagnenaufbau stellst du in Google Search Ads sicher, dass du nur für die passenden Nutzer Geld ausgibst. Dieser Artikel ist ein anfängerfreundlicher Einstieg in Standort-Einstellungen, Beobachtungs- und Ausrichtungszielgruppen und Optimierungen auf Basis der Demographie. Damit gelingt die erste eigene Ads-Kampagne ganz bestimmt.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/seo-und-barrierefreiheit-im-internet/" class="article-tile-link" data-category="seo">
+            <div class="article-tile">
+                <img src="/assets/img/icons/barrierefreiheit_icon.svg" alt="Barrierefreiheit Icon">
+                <div>
+                    <h2>Warum gute SEO barrierefrei ist</h2>
+                    <p>Barrierefreiheit und SEO sind sich sehr oft sehr ähnlich: Gute UX, sauberer, gut strukturierter Code, verständliche Sprache und einfach navigierbare Webseiten. In diesem Artikel erkläre ich dir weshalb das so ist und gebe dir wertvolle Tipps, wie du beides verbessern kannst. Von wichtigen Aspekten bei der Aufbereitung von Content über Standards des barrierefreien Webdesigns bis zur Antwort auf die Frage, was man bei Alt-Texten jetzt eigentlich wirklich beachten muss. Les' rein und lass dich überzeugen.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/google-analytics-ereignisse-auswertungen/" class="article-tile-link" data-category="analytics">
+            <div class="article-tile">
+                <img src="/assets/img/icons/events-auswertungen.svg" alt="Custom Event Icon">
+                <div>
+                    <h2>Google Events & Auswertungen</h2>
+                    <p>Welche Ereignisse solltest du auf deiner Website tracken, welche Tools einrichten und warum eigentlich? Event-Tracking unterscheidet sich von Seite zu Seite und von Unternehmen zu Unternehmen. Dabei sind die meisten dieser Fragen relativ gut durch einen strukturierten Prozess leicht zu beantworten. Genau dieses Ziel hat dieser Artikel: Ich erkläre dir alles rund um Tools, Kennzahlen und Reportingintervalle. Und ein kleines Questionnaire, das dir eine individuelle Ersteinschätzung ermittelt, findest du auch. Probier' es aus! </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/was-kosten-google-ads/" class="article-tile-link" data-category="sea, social">
+            <div class="article-tile">
+                <img src="/assets/img/icons/ads-kosten-tile.svg" alt="Google Ads Kosten Icon">
+                <div>
+                    <h2>Was kosten Google Ads?</h2>
+                    <p>Bei einem Klickspreis von mehreren Franken schrecken viele Unternehmen erst einmal wieder zurück, wenn sie Google Ads in Erwägung ziehen. Zu Unrecht, denn können Google Ads leicht ein Vielfaches des Werbebudgets als Umsatz zurück ins Unternehmen spülen. Was man zu Google-Ads-Kosten wissen muss und welche Bedingungen für eine erfolgreiche Kampagne notwendig sind, erkläre ich in diesem Artikel. Und eine kleine Infografik, wann welche Art des Online-Marketings am sinnvollsten ist, gibt es auch.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/seo-fuer-anfaenger/" class="article-tile-link" data-category="seo">
+            <div class="article-tile">
+                <img src="/assets/img/icons/seo-tipps-icon.svg" alt="SEO-Tipp Icon">
+                <div>
+                    <h2>5 SEO-Tipps für Anfänger</h2>
+                    <p>Für Neulinge ist SEO oft ein Buch mit sieben Siegeln. In diesen tauchen wir darum in die grundlegenden Aspekte der Suchmaschinenoptimierung ein, um die Sichtbarkeit deiner Webseite zu verbessern. Von der richtigen Auswahl von Keywords bis hin zur technischen Optimierung deiner Webseite gebe ich dir 5 wichtige Tipps, wie du selbst beginnen kannst, deine Webseite zu SEO-optimieren.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://omr.com/de/reviews/contenthub/qualitatsfaktor-google-ads" target="_blank" class="article-tile-link" data-category="sea">
+            <div class="article-tile">
+                <img src="/assets/img/icons/omr.png" alt="Online Marketing Rebels & Google Ads Logo">
+                <div>
+                    <h2>Google-Ads-Qualitätsfaktor: Die Kennzahl für Sparfüchse<br>
+                    (Gastartikel für OMR Reviews)</h2>
+                    <p>Google Ads sind eher teuer. Das muss aber nicht unbedingt so sein. Es gibt nämlich ein (gar nicht so geheimes) Geheimnis, wie man bei SEA mehr von seinem Geld bekommen kann. Das Zauberwort heisst «&#8239;Qualitätsfaktor&#8239;». Denn Google akzeptiert auch positive Nutzererfahrung als Währung, weswegen Kampagnen mit gutem Qualitätsfaktor häufig nur einen Bruchteil kosten. Was du dazu wissen musst und wie du deinen Qualitätsfaktor anheben kannst, erkläre ich dir in meinem Gastartikel für OMR Reviews.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/anfaengerfehler-meta-ads/" class="article-tile-link" data-category="social">
+            <div class="article-tile">
+                <img src="/assets/img/icons/fuenf.svg" alt="5 Fehler">
+                <div>
+                    <h2>5 Anfängerfehler bei Meta Ads<br>(Wiederveröffentlichung)</h2>
+                    <p>Was bedeutet denn bitte «&#8239;Lernphase eingeschränkt&#8239;» bei Facebook Ads? Kann ich auf Instagram einfach «&#8239;Beitrag bewerben&#8239;» klicken oder muss ich irgendetwas besonderes beachten? Und wie nutze ich mein Ads-Budget am effektivsten? Falls du dir diese (oder ähnliche) Fragen schon einmal gestellt hast, bist du hier genau richtig. Ich erkläre dir, worauf du bei Meta Ads achten solltest und welche Anfängerfehler du unbedingt vermeiden solltest.</p>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+    <footer>
+    <!--#include virtual="/includes/footertop-de.html" -->
+            <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/blog/">DE</a> | <a href="https://marcoaures.ch/en/blog/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" --></body>
+</html>

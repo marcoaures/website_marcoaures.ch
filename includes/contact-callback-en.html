@@ -1,0 +1,52 @@
+<div class="contactsection" id="callback">
+  <div class="contactsection-form">
+    <div class="callbackform">
+      <form id="callback-form" novalidate>
+        <div id="callback-start" class="step">
+          <h3>Let me call you back</h3>
+          <p>Just leave your number: I'll usually get back to you personally within 24 hours.</p>
+          <div class="field">
+            <label for="callback_name">Your name *</label>
+            <input id="callback_name" name="name" type="text" autocomplete="name" placeholder="Maria Mustermann" required aria-required="true" aria-describedby="callback_name_error">
+            <span id="callback_name_error" class="field__error">Please enter your name.</span>
+          </div>
+          <div class="field">
+            <label for="callback_company">Company / Organisation *</label>
+            <input id="callback_company" name="company" type="text" autocomplete="organization" placeholder="Sample Company AG" required aria-required="true" aria-describedby="callback_company_error">
+            <span id="callback_company_error" class="field__error">Please enter your company.</span>
+          </div>
+          <div class="field">
+            <label for="callback_tel">Phone Numer (CH-only) *</label>
+            <input id="callback_tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="076 000 00 00" required aria-required="true" aria-describedby="callback_tel_error">
+            <span id="callback_tel_error" class="field__error">Please enter a valid Swiss phone number.</span>
+          </div>
+          <div class="field">
+            <label for="callback_note">Leave a note (optional)</label>
+            <input id="callback_note" name="note" type="text" autocomplete="off" placeholder="E.g. best time or brief context">
+          </div>
+		  <div class="hp-field" aria-hidden="true">
+		    <label for="callback_hp">You're a human, right? (Required field)</label>
+		    <input id="callback_hp" name="callback_hp" type="checkbox" tabindex="-1" autocomplete="off">
+		  </div>
+          <div class="field">
+            <button type="submit" class="callbackform__cta">Request a callback</button>
+          </div>
+        </div>
+        <div id="callback-success" class="step" role="status" aria-live="polite" tabindex="-1">
+          <h3>Thank you, I've received your callback request</h3>
+          <p>I'll usually get back to you within 24 hours.</p>
+          <p>If I can't reach you, I'll try again or leave a message to schedule an appointment.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="contactsection-free">
+    <h3>Or would you prefer email?</h3>
+    <p>I usually get back to you within the next few hours. If you'd like, you can go ahead and explain what this is about and leave me a link to your website.</p>
+    <div class="button-container">
+      <button type="button" class="btn-sec-cta" id="contactMailBtn"><span id="Kontakt-Start">Send me a message</span></button>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/callback-form.js" defer></script>

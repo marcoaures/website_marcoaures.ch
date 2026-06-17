@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/reportings/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/reportings/" hreflang="en-CH" />
+
+		<meta name="description" content="Meine Reportings helfen dir dabei, dass aus deinen Daten nicht nur Diagramme werden, sondern priorisierte Massnahmen, die du direkt umsetzen kannst.">
+		<link rel="canonical" href="https://marcoaures.ch/reportings/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Reportings & Analytics-Reviews | Marco Aures: Online Marketing" />
+		<meta property="og:description" content="Meine Reportings helfen dir dabei, dass aus deinen Daten nicht nur Diagramme werden, sondern priorisierte Massnahmen, die du direkt umsetzen kannst." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/reportings/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+
+		<title>Reportings & Analytics-Reviews | Marco Aures: Online Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/reportings/#webpage",
+						"url": "https://marcoaures.ch/reportings/",
+						"name": "Reportings & Analytics-Reviews | Marco Aures: Online Marketing",
+						"description": "Meine Reportings helfen dir dabei, dass aus deinen Daten nicht nur Diagramme werden, sondern priorisierte Massnahmen, die du direkt umsetzen kannst.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/reportings/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/reportings/#service",
+						"name": "Reportings & Analytics-Reviews",
+						"alternateName": [
+							"Marketing-Reportings",
+							"Analytics-Reviews",
+							"Datenanalyse",
+							"Marketing-Analyse",
+							"Handlungsempfehlungen",
+							"Conversion-Analyse"
+						],
+						"description": "Vollständige oder auf deinen Fokus zugeschnittene Auswertung deiner Marketingdaten, von Sichtbarkeits- und Content-Analyse bis zu vollständigen User Journeys und Conversionpfaden. Du erhältst die Befunde nach Wirkung priorisiert als Präsentation mit konkreten Handlungsempfehlungen, persönlich vorgestellt. Als einmalige Tiefenanalyse oder als wiederkehrendes Review ohne Abo oder Vertragsbindung.",
+						"serviceType": [
+							"Reportings & Analytics-Reviews",
+							"Marketing-Reporting",
+							"Analytics-Review",
+							"Datenanalyse",
+							"Sichtbarkeits-Analyse",
+							"Content-Analyse",
+							"Conversion-Analyse",
+							"Handlungsempfehlungen"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "KMU und Unternehmen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/reportings/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/reportings/#offer",
+							"url": "https://marcoaures.ch/reportings/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Reportings und Analytics-Reviews mit individueller Offerte nach Aufwand. Einmalig oder wiederkehrend, ohne Abo oder Vertragsbindung. Inklusive Datencheck, Analyse, priorisierten Empfehlungen und persönlicher Präsentation."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/reportings/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/reportings/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/reportings/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/reportings/#faq-sauberes-tracking",
+								"name": "Brauche ich dafür schon ein sauberes Tracking?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das kommt auf deinen Fokus an: Für ein reines Sichtbarkeits- und Content-Reporting reichen meist die Basics aus Google Search Console und Analytics. Sobald es um User Journeys oder Conversions geht, braucht es mehr. Was bei dir nötig ist, prüfe ich während der Offerten-Erstellung und sage dir – falls zusätzliches Tracking notwendig ist –, ob sich Kosten & Nutzen rechtfertigen."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/reportings/#faq-wie-oft",
+								"name": "Wie oft sollte ich ein Reporting machen lassen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das hängt von deiner Grösse, dem Umfang deines Reportings und deinem Marketing-Tempo ab. Bei manchen Kunden lohnt sich ein Quartalsrhythmus, bei anderen reicht ein jährliches Review. Mehr oder weniger ist genauso möglich: Wir finden im Austausch den passenden Intervall für dich."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/reportings/#faq-vertrag-abo",
+								"name": "Bin ich an einen Vertrag oder ein Abo gebunden?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Nein. Wiederkehrende Reviews kannst du mit einem Monat Vorlauf jederzeit beenden oder pausieren. Wenn zum Beispiel dein nächstes Reporting im Juli ansteht, reicht eine kurze Mail im Juni. Auch einzelne, zusätzliche Auswertungen oder ein erstes Reporting «&#8239;zum Reinschnuppern&#8239;» sind problemlos möglich."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/reportings/#faq-fokus",
+								"name": "Kann ich den Fokus selbst bestimmen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja. Du sagst mir, was dich interessiert und ich schlage dir eine Struktur vor. Egal, ob das die ganze Bandbreite ist oder gezielt ein Bereich wie SEA oder Sichtbarkeit. Wenn du unsicher bist, schlage ich dir auf Basis deiner Ziele einen sinnvollen Fokus vor."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/reportings/#faq-umsetzung",
+								"name": "Wer übernimmt die Umsetzung der erkannten Massnahmen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das kommt darauf an: Grundsätzlich überlasse ich den endgültigen Entscheid über die Massnahmen bei dir: Du kannst alle Massnahmen, die du für sinnvoll hältst, selbst umsetzen oder durch eigene Partner umsetzen lassen. Wenn du möchtest, kann ich die Umsetzung aber auch für dich übernehmen oder einen Umsetzungspartner aus meinem Netzwerk empfehlen."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Reportings & Analytics-Reviews</h1>
+					<p>Damit aus deinen Daten nicht nur Diagramme werden, sondern priorisierte Massnahmen, die du direkt umsetzen kannst.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/reporting-hero-de.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Viele Unternehmen sammeln Nutzerdaten, werten sie aber kaum aus. Dashboards (egal ob <a href="/tracking-analytics/">Analytics</a>, SEO oder <a href="/google-ads/">Ads</a>) werden einmal eingerichtet und danach höchstens überflogen, der regelmässige Rapport gegenüber den Stakeholdern ist eine Pflichtübung, und am Ende bleibt offen, was man jetzt machen sollte.</p>
+				<p>Genau da setze ich an: Ich werte deine Marketingdaten vollständig aus, ordne ein, was wichtig ist, und sage dir klar, wo Handlungsbedarf und Optimierungspotenzial besteht. Du bekommst keine Zahlenschlacht, sondern eine <b>fokussierte, individuelle Analyse mit priorisierten Empfehlungen,</b> die ich dir persönlich vorstelle.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Für Marketingverantwortliche, die wissen wollen, was ihre Daten wirklich sagen. Und was sie als Nächstes tun sollten. Egal ob als regelmässiges Review oder als einmalige Tiefenanalyse.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Eine vollständige oder auf deinen Fokus zugeschnittene Auswertung deiner Marketingdaten als Präsentation, inklusive persönlicher Vorstellung und priorisierten Handlungsempfehlungen.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>Kein Abo, keine Vertragsbindung. Wiederkehrende Reviews kannst du mit einem Monat Vorlauf jederzeit pausieren, anpassen oder beenden.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Ein Reporting ist schnell erstellt: die meisten Tools spucken auf Knopfdruck Zahlen aus. Aber eine Tabelle voller Sessions, Absprungraten und Conversions ist noch keine Erkenntnis. Die eigentliche Arbeit beginnt dort, wo jemand die Zahlen liest, in den Kontext deines Geschäfts setzt und beurteilt, was relevant und was Rauschen ist.</p>
+				<h2>Daten erheben ist die eine Sache, sie zu verstehen die andere</h2>
+				<p>Daten zeigen dir nur, dass etwas passiert ist, nicht <b>warum es wichtig ist, was du dagegen tun solltest oder wo noch Potenzial liegt.</b> Genau diese Übersetzung ist meine Aufgabe: Ich arbeite mich tief in deine Daten ein, je nach Fokus von der Sichtbarkeits- und Content-Analyse bis zu vollständigen User Journeys, und leite daraus ein klares Bild ab.</p>
+
+				<!--#include virtual="/includes/animations/reporting-graph-de.html" -->
+
+				<p>Wenn ich ein Problem sehe, notiere ich es und sortiere am Schluss meine Befunde danach, was am meisten Wirkung hat. Du erhältst also keine zwanzig gleichwertigen Beobachtungen, sondern eine Reihenfolge: was zuerst, was dringend ist und was warten kann. So weisst du nach dem Termin nicht nur, wie es um deine Zahlen steht, sondern auch, womit du anfangen solltest.</p>
+				<p><b>Den Fokus bestimmst übrigens du.</b> Ich mache vollständige Auswertungen über alle Kanäle oder Teilreportings, z. B. nur «&#8239;Content & Sichtbarkeit&#8239;» oder «&#8239;Conversionpfade&#8239;». Was in deinem Fall sinnvoll ist, können wir gemeinsam vereinbaren.</p>
+
+				<div class="spacer"></div>
+
+				<h2>So läuft das ab</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Unverbindliches Erstgespräch</h3>
+							<p>Wir besprechen, welche Fragen dich beschäftigen und wie ein sinnvolles Reporting für dich aussehen könnte. Auf dieser Basis bekommst du eine individuelle Offerte und einen Vorschlag für einen sinnvollen Intervall, falls du regelmässige Reviews möchtest.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Datencheck</h3>
+							<p>Ich prüfe, ob deine Datengrundlage das gewünschte Reporting hergibt. Fehlt nur etwas Kleines, korrigiere ich das gerne unkompliziert. Braucht es mehr, entscheiden wir gemeinsam, ob sich der Aufwand für deinen Fokus lohnt.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>Analyse</h3>
+							<p>Hier passiert die eigentliche Arbeit: Ich werte deine Daten vollständig aus, ordne die Befunde ein und priorisiere sie nach Wirkung.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Präsentation</h3>
+							<p>Du bekommst die Auswertung als saubere Präsentation und ich stelle sie dir / deinem Team persönlich vor: Ganz egal, ob remote oder vor Ort.</p>
+
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 05</span>
+							<h3>Umsetzung & nächstes Review</h3>
+							<p>Du entscheidest, was du mit den Empfehlungen machst. Bei wiederkehrenden Reviews schaue ich beim nächsten Mal, ob die Massnahmen gegriffen haben.</p>
+
+						</div>
+					</article>
+				</section>
+
+				<h2>Warum sich der genaue Blick lohnt</h2>
+
+				<p>Die wertvollsten Erkenntnisse stehen selten gross in einem Dashboard: Bei einem Kunden fiel mir in einem Quartalsreporting auf, dass bei einem Leadformular bei rund 4.5% der Nutzer ein Fehler auftrat. Auf den ersten Blick erst einmal unscheinbar und bei geringen Nutzerzahlen auch wenig brisant, weshalb das Problem lange unbemerkt geblieben ist.</p>
+				<p>Entscheidend war hier aber der Kontext. Das Unternehmen hatte gerade <a href="/google-ads/">eine grössere Kampagne geplant</a>, die auf genau dieses Leadformular geführt hätte. Auf das vorgesehene Werbebudget hochgerechnet <b>wäre ein höherer vierstelliger Betrag verschwendet worden,</b> wenn jede 23. Absendung wegen eines Fehlers nicht möglich gewesen wäre.</p>
+				<p>Der Fehler war übrigens eine Kleinigkeit, ein Pflichtfeld, das auf bestimmten Bildschirmgrössen nicht korrekt angezeigt wurde. Die Erkenntnis aus dem Reporting hat am Schluss mehr Werbebudget «&#8239;eingespart&#8239;», als die ganze Auswertung gekostet hat.</p>
+
+				<div class="spacer"></div>
+
+				<h2>Häufig gestellte Fragen</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Brauche ich dafür schon ein sauberes Tracking?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das kommt auf deinen Fokus an: Für ein reines Sichtbarkeits- und Content-Reporting reichen meist die Basics aus Google Search Console und Analytics. Sobald es um User Journeys oder Conversions geht, braucht es mehr. Was bei dir nötig ist, prüfe ich während der Offerten-Erstellung und sage dir – falls zusätzliches Tracking notwendig ist –, ob sich Kosten & Nutzen rechtfertigen.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Wie oft sollte ich ein Reporting machen lassen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das hängt von deiner Grösse, dem Umfang deines Reportings und deinem Marketing-Tempo ab. Bei manchen Kunden lohnt sich ein Quartalsrhythmus, bei anderen reicht ein jährliches Review. Mehr oder weniger ist genauso möglich: Wir finden im Austausch den passenden Intervall für dich.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Bin ich an einen Vertrag oder ein Abo gebunden?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Nein. Wiederkehrende Reviews kannst du mit einem Monat Vorlauf jederzeit beenden oder pausieren. Wenn zum Beispiel dein nächstes Reporting im Juli ansteht, reicht eine kurze Mail im Juni. Auch einzelne, zusätzliche Auswertungen oder ein erstes Reporting «&#8239;zum Reinschnuppern&#8239;» sind problemlos möglich.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Kann ich den Fokus selbst bestimmen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja. Du sagst mir, was dich interessiert und ich schlage dir eine Struktur vor. Egal, ob das die ganze Bandbreite ist oder gezielt ein Bereich wie SEA oder Sichtbarkeit. Wenn du unsicher bist, schlage ich dir auf Basis deiner Ziele einen sinnvollen Fokus vor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Wer übernimmt die Umsetzung der erkannten Massnahmen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das kommt darauf an: Grundsätzlich überlasse ich den endgültigen Entscheid über die Massnahmen bei dir: Du kannst alle Massnahmen, die du für sinnvoll hältst, selbst umsetzen oder durch eigene Partner umsetzen lassen. Wenn du möchtest, kann ich die Umsetzung aber auch für dich übernehmen oder einen Umsetzungspartner aus meinem Netzwerk empfehlen.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/reportings/">DE</a> | <a href="https://marcoaures.ch/en/reportings/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

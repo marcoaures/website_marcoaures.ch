@@ -1,0 +1,204 @@
+<style>
+.smm-hero-animation .orbit {
+  --r1: 117px;
+  --r2: 162px;
+  --r3: 207px;
+  --speed: 9s;
+
+  position: relative;
+  width: 380px;
+  height: 380px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.smm-hero-animation .ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px dotted var(--color-border-light);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.smm-hero-animation .ring.r1 {
+  width: calc(var(--r1) * 1.70);
+  height: calc(var(--r1) * 1.70);
+}
+
+.smm-hero-animation .ring.r2 {
+  width: calc(var(--r2) * 1.76);
+  height: calc(var(--r2) * 1.76);
+}
+
+.smm-hero-animation .ring.r3 {
+  width: calc(var(--r3) * 1.80);
+  height: calc(var(--r3) * 1.80);
+}
+
+.smm-hero-animation .window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55px;
+  height: 40px;
+  background: #fff;
+  border: 2px solid var(--color-brand-dark, #284a4b);
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.08);
+  overflow: hidden;
+  z-index: 3;
+}
+
+.smm-hero-animation .window::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 11px;
+  background: var(--color-brand, #427b7d);
+}
+
+.smm-hero-animation .window::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.smm-hero-animation .orbiter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+  animation: smmHeroOrbit var(--speed) linear infinite;
+}
+
+.smm-hero-animation .orbiter.o1 {
+  transform-origin: 15px var(--r1);
+  top: calc(50% - var(--r1) + 15px);
+}
+
+.smm-hero-animation .orbiter.o2 {
+  transform-origin: 15px var(--r2);
+  top: calc(50% - var(--r2) + 15px);
+  animation-delay: calc(var(--speed) / -3);
+}
+
+.smm-hero-animation .orbiter.o3 {
+  transform-origin: 15px var(--r3);
+  top: calc(50% - var(--r3) + 15px);
+  animation-delay: calc(var(--speed) / -1.5);
+}
+
+@keyframes smmHeroOrbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.smm-hero-animation .meta,
+.smm-hero-animation .li,
+.smm-hero-animation .bing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  animation: smmHeroOrbitRev var(--speed) linear infinite;
+}
+
+.smm-hero-animation .meta svg,
+.smm-hero-animation .li svg {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.smm-hero-animation .bing svg {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.smm-hero-animation .o1 .meta {
+  animation-delay: 0s;
+}
+
+.smm-hero-animation .o2 .li {
+  animation-delay: calc(var(--speed) / -3);
+}
+
+.smm-hero-animation .o3 .bing {
+  animation-delay: calc(var(--speed) / -1.5);
+}
+
+@keyframes smmHeroOrbitRev {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smm-hero-animation .orbiter,
+  .smm-hero-animation .meta,
+  .smm-hero-animation .li,
+  .smm-hero-animation .bing {
+    animation: none;
+  }
+}
+
+@media (max-width: 768px) {
+.smm-hero-animation .orbit {
+  --r1: 78px;
+  --r2: 108px;
+  --r3: 138px;
+  width: 300px;
+  height: 300px;
+}
+.smm-hero-animation .meta, .smm-hero-animation .li, .smm-hero-animation .bing {
+    width: 28px;
+	}
+}
+</style>
+
+<div class="service-hero-animation smm-hero-animation">
+  <div class="orbit">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+
+    <div class="window"></div>
+
+    <div class="orbiter o1">
+      <div class="meta">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.56 191">
+          <path fill="#b85d25" d="M31.06 125.96c0 10.98 2.41 19.41 5.56 24.51 4.13 6.68 10.29 9.51 16.57 9.51 8.1 0 15.51-2.01 29.79-21.76 11.44-15.83 24.92-38.05 33.99-51.98l15.36-23.6c10.67-16.39 23.02-34.61 37.18-46.96C181.07 5.6 193.54 0 206.09 0c21.07 0 41.14 12.21 56.5 35.11 16.81 25.08 24.97 56.67 24.97 89.27 0 19.38-3.82 33.62-10.32 44.87-6.28 10.88-18.52 21.75-39.11 21.75v-31.02c17.63 0 22.03-16.2 22.03-34.74 0-26.42-6.16-55.74-19.73-76.69-9.63-14.86-22.11-23.94-35.84-23.94-14.85 0-26.8 11.2-40.23 31.17-7.14 10.61-14.47 23.54-22.7 38.13l-9.06 16.05c-18.2 32.27-22.81 39.62-31.91 51.75-15.95 21.24-29.57 29.29-47.5 29.29-21.27 0-34.72-9.21-43.05-23.09-6.8-11.31-10.14-26.15-10.14-43.06z M24.49 37.3C38.73 15.35 59.28 0 82.85 0c13.65 0 27.22 4.04 41.39 15.61 15.5 12.65 32.02 33.48 52.63 67.81l7.39 12.32c17.84 29.72 27.99 45.01 33.93 52.22 7.64 9.26 12.99 12.02 19.94 12.02 17.63 0 22.03-16.2 22.03-34.74l27.4-.86c0 19.38-3.82 33.62-10.32 44.87-6.28 10.88-18.52 21.75-39.11 21.75-12.8 0-24.14-2.78-36.68-14.61-9.64-9.08-20.91-25.21-29.58-39.71l-25.79-43.08c-12.94-21.62-24.81-37.74-31.68-45.04-7.39-7.85-16.89-17.33-32.05-17.33-12.27 0-22.69 8.61-31.41 21.78z M82.35 31.23c-12.27 0-22.69 8.61-31.41 21.78-12.33 18.61-19.88 46.33-19.88 72.95 0 10.98 2.41 19.41 5.56 24.51l-26.48 17.44C3.34 156.6 0 141.76 0 124.85c0-30.75 8.44-62.8 24.49-87.55C38.73 15.35 59.28 0 82.85 0z"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="orbiter o2">
+      <div class="li">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+          <path fill="#b85d25" fill-rule="evenodd" d="M8 72h56c4.418 0 8-3.582 8-8V8c0-4.418-3.582-8-8-8H8C3.582 0 0 3.582 0 8v56c0 4.418 3.582 8 8 8ZM62 62H51.315625V43.8021149c0-4.9893607-1.8958333-7.7775826-5.8449219-7.7775826-4.2960937 0-6.540625 2.901578-6.540625 7.7775826V62H28.6333333V27.3333333h10.2967448v4.669595c0 0 3.0959636-5.7287132 10.452474-5.7287132C56.7356771 26.2742151 62 30.7644705 62 40.051212V62ZM16.349349 22.7940133C12.8420573 22.7940133 10 19.9296567 10 16.3970067 10 12.8643566 12.8420573 10 16.349349 10c3.5072916 0 6.3476562 2.8643566 6.3476562 6.3970067 0 3.53265-2.8403646 6.3970066-6.3476562 6.3970066ZM11.0325521 62H21.769401V27.3333333H11.0325521V62Z"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="orbiter o3">
+      <div class="bing">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="8475.16 1399.66 12748.61 18214.93">
+          <polygon fill="#b85d25" points="8475.16,1399.66 12124.09,2685.03 12136.1,15485.22 17223.25,12520.22 14741.02,11358.99 13148.22,7402.88 21223.77,10231.3 21217.16,14376.26 12123.05,19614.59 8487.02,17591.25"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>

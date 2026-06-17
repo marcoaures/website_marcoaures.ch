@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/401/" hreflang="de-CH" />
+    <link rel="alternate" href="https://marcoaures.ch/en/401/" hreflang="en-CH" />
+
+    <meta name="description" content="Marco Aures: Digital Marketing | This page is excluded from Google via no-index. If you see it there, something has gone horribly wrong." />
+    <link rel="canonical" href="https://marcoaures.ch/en/401/" />
+    <meta name="author" content="Marco Aures" />
+    <meta property="og:title" content="😱 401 😱 | Marco Aures: Digital Marketing" />
+    <meta property="og:description" content="Why are you posting a 401 page on social media?" />
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+    <meta property="og:url" content="https://marcoaures.ch/en/401/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_CH" />
+    <meta name="robots" content="noindex" />
+    <title>😱 401 😱 | Marco Aures: Digital Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script src="/assets/js/handle40x.js" defer></script>
+</head>
+<body>
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div id="start" class="content">
+        <div class="legalese">
+            <div class="error">
+                <h1>401</h1>
+                <hr>
+                <img src="/assets/img/error.gif" alt="Paging Dr. Waddles">
+                <span class="img-cap">© Gravity Falls, Disney</span>
+                <p>You shouldn't be here!</p>
+                <a href="#" id="reportBug">By the way, you can report an error here</a><br>
+                <a href="#" id="changeConsent" style="font-size: 0.65em;">Manage cookies</a>
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/relaunch-seo/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/relaunch-seo/" hreflang="en-CH" />
+
+		<meta name="description" content="Ich helfe dir, damit dein Website-Relaunch-Projekt dir nicht unbemerkt die Sichtbarkeit kostet, die du dir aufgebaut hast.">
+		<link rel="canonical" href="https://marcoaures.ch/relaunch-seo/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Relaunch-SEO | Marco Aures: Online Marketing" />
+		<meta property="og:description" content="Ich helfe dir, damit dein Website-Relaunch-Projekt dir nicht unbemerkt die Sichtbarkeit kostet, die du dir aufgebaut hast." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/relaunch-seo/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+
+		<title>Relaunch-SEO | Marco Aures: Online Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/relaunch-seo/#webpage",
+						"url": "https://marcoaures.ch/relaunch-seo/",
+						"name": "Relaunch-SEO | Marco Aures: Online Marketing",
+						"description": "Ich helfe dir, damit dein Website-Relaunch-Projekt dir nicht unbemerkt die Sichtbarkeit kostet, die du dir aufgebaut hast.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/relaunch-seo/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/relaunch-seo/#service",
+						"name": "Relaunch-SEO",
+						"alternateName": [
+							"SEO-Abnahme",
+							"Relaunch-Begleitung",
+							"Website-Migration SEO",
+							"Domain-Umzug SEO",
+							"Tracking-Migration",
+							"Go-Live-Begleitung"
+						],
+						"description": "SEO-Begleitung für Website-Relaunches und grössere Website-Änderungen, damit bestehende Sichtbarkeit den Umzug übersteht. Inklusive Bestandsaufnahme, SEO-Abnahme vor dem Go-Live, Redirect-Mapping und -Tests, Prüfung von Canonicals, Sitemaps und Metadaten, Go-Live-Begleitung, Nachkontrolle sowie optionaler Migration des Trackings (GA4, Google Tag Manager, Pixel und Events).",
+						"serviceType": [
+							"Relaunch-SEO",
+							"SEO-Abnahme",
+							"Website-Migration",
+							"Domain-Zusammenführung",
+							"Redirect-Mapping",
+							"Tracking-Migration",
+							"Go-Live-Begleitung",
+							"Technisches SEO"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "Unternehmen mit Relaunch-Projekten und Webagenturen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/relaunch-seo/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/relaunch-seo/#offer",
+							"url": "https://marcoaures.ch/relaunch-seo/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Relaunch-SEO-Projekte mit individueller Offerte nach Aufwand. Inklusive Bestandsaufnahme, SEO-Abnahme, Go-Live-Begleitung, Nachkontrolle und optionaler Tracking-Überführung."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/relaunch-seo/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/relaunch-seo/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/relaunch-seo/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/relaunch-seo/#faq-wann-einbinden",
+								"name": "Wann sollte ich dich ins Projekt holen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "So früh wie möglich, idealerweise sobald der Relaunch beschlossen ist, spätestens aber bevor die neue Seite fertiggestellt wird. Je früher ich dabei bin, desto mehr lässt sich von vornherein vermeiden, statt im Nachhinein zu reparieren."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/relaunch-seo/#faq-traffic-eingebrochen",
+								"name": "Mein Relaunch ist schon live und der Traffic ist eingebrochen. Kannst du noch helfen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja. Ideal ist dieser Zeitpunkt nicht, aber auch nach dem Go-Live lässt sich vieles retten: fehlende oder falsche Weiterleitungen, versehentlich nicht indexierbare Seiten, verlorene Metadaten. Je schneller wir draufschauen, desto weniger verfestigt sich der Schaden."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/relaunch-seo/#faq-webagentur",
+								"name": "Arbeitest du bei Bedarf direkt mit unserer Webagentur zusammen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja, das ist sogar häufig der Fall. Ich arbeite auch oft als Subunternehmer für Web-Agenturen, schaffe direkt mit dem Team zusammen und übernehme den Teil, den sie nicht abdecken. Und das, ohne dass für dich zusätzlicher Koordinationsaufwand entsteht."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/relaunch-seo/#faq-seo-abnahme",
+								"name": "Was bedeutet «&#8239;SEO-Abnahme&#8239;» konkret?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Du bekommst vor dem Go-Live eine klare Einschätzung aus SEO-Sicht: Ist die neue Seite bereit oder gibt es Punkte, die vorher behoben werden sollten? Im besten Fall steht am Ende ein «&#8239;Alles passt – Grünes Licht für SEO!&#8239;», andernfalls eine priorisierte Liste der offenen Punkte, damit niemand blind live schaltet."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/relaunch-seo/#faq-tracking-ueberfuehrung",
+								"name": "Gehört die Tracking-Überführung/-Erneuerung automatisch dazu?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Nein, sie ist optional, aber empfehlenswert, weil ein Relaunch das Tracking fast immer beeinflusst. Auf Wunsch ziehen GA4, Tag Manager und deine Events kontrolliert mit um. Wird dein Tracking an anderer Stelle betreut, koordiniere ich mich mit den Verantwortlichen."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/relaunch-seo/#faq-websites-zusammenfuehren",
+								"name": "Was, wenn wir nicht nur relaunchen, sondern zwei Websites zusammenführen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das ist einer der anspruchsvolleren Fälle, weil dabei ganze Domains und ihre Historie zusammengeführt werden. Gerade dann lohnt sich eine saubere Vorbereitung: Welche Inhalte wandern wohin, welche URLs werden zusammengelegt, und wie bleibt die Sichtbarkeit beider Seiten erhalten. Zusätzlich dazu muss geprüft werden, ob die Inhalte ähnliche Keywords & Intentionen abdecken und sich damit voraussichtlich kannibalisieren."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Relaunch-SEO</h1>
+					<p>Damit dein Website-Relaunch dir nicht unbemerkt die Sichtbarkeit kostet, die du dir aufgebaut hast.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/relaunch-mapping.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Ein Relaunch oder eine grössere Änderung an einer Webseite ändert häufig mehr, als man sich bewusst ist: Backlinks zeigen plötzlich ins Nirgendwo, die Linkstruktur wird umgekrempelt und Google hat alte Seiten oft noch eine ganze Weile «&#8239;im Gedächtnis&#8239;». <b>Ohne saubere Vorbereitung verliert man dadurch schnell Rankings,</b> die man sich über Jahre aufgebaut hat, und die Webseite steht schlimmstenfalls schlechter da als vor der Erneuerung. Und oft fällt das erst Wochen später auf, wenn der Traffic bereits zurückgegangen ist.</p>
+				<p>Genau darum muss SEO bereits während des Website-Projekts beachtet werden, <b>nicht erst zur Schadensbehebung danach:</b> Wenn es um Relaunches geht, mache ich als dein SEO-Freelancer die Webseiten-Abnahme, bevor die neue Seite live geht, prüfe die neue Architektur, teste die Weiterleitungen und sorge dafür, dass der Umzug deine bestehende Sichtbarkeit mitnimmt, statt sie zurückzulassen.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Für Unternehmen, die ihre Website grundlegend verändern. Und für Webagenturen, die SEO und Tracking nicht selbst anbieten und einen verlässlichen Partner für ihr Projekt suchen.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Eine SEO-Abnahme als fester Bestandteil deines Relaunchs. Prüfung der Seite auf Best Practices, Redirects etc. und (auf Wunsch) die saubere Überführung deines Trackings.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>Eingebunden statt nachgelagert: Ich arbeite direkt mit dir oder deiner Webagentur, verstehe Technik und Marketing und sorge dafür, dass SEO nicht erst nach dem Go-Live zum Thema wird.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Bei einem Relaunch richtet sich der Fokus verständlicherweise nach vorne: neues Design, neue Inhalte, neue Technik. Dabei gerät leicht in den Hintergrund, was die alte Seite bereits konnte. <a href="/technisches-seo/">Funktionierende URLs, bestehende Rankings und das über Jahre aufgebaute Vertrauen bei Google.</a> Das Ganze über den Umzug zu retten, klappt nur, wenn man früh genug darauf achtet.</p>
+				<div class="spacer"></div>
+				<h2>Was die SEO-Abnahme leistet</h2>
+				<p>Bevor man in ein Haus einzieht, lässt man es professionell prüfen. Bei einem Website-Relaunch bleibt diese «&#8239;Abnahme&#8239;» oft auf der Strecke, obwohl die Folgen ähnlich teuer werden können. <b>Genau hier setzt mein Relaunch-SEO-Service an:</b> Ich schaue mir die neue Seite an, bevor sie live ist, und prüfe typische Stolpersteine, bevor sie zum Problem werden. Dazu gehören unter anderem:</p>
+				<ul>
+					<li>das Mapping und Testen der Weiterleitungen, damit weder Besucher noch Crawler ins Leere laufen,</li>
+					<li>dass Canonicals, Sitemaps und Metadaten den Umzug überstehen und hürdenlos von Google verarbeitet werden können, damit Google die neue Webseite direkt «&#8239;versteht&#8239;»,</li>
+					<li>und dass wertvolle Backlinks und Seitenautorität nicht verloren gehen, weil die Signale nicht korrekt auf die neue Seite vererbt werden.</li>
+				</ul>
+				<p>Am Ende steht eine klare Einschätzung: grünes Licht für den Go-Live oder eine konkrete Liste, was vorher noch zu erledigen ist.</p>
+
+				<div class="spacer"></div>
+
+				<h2>So läuft das ab</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Unverbindliches Erstgespräch</h3>
+							<p>Wir besprechen, was du planst und wann der Go-Live geplant ist. Daraus ergibt sich, an welchen Punkten ich ins Projekt eingebunden werde.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Bestandsaufnahme</h3>
+							<p>Während die alte Seite noch live ist, prüfe ich die Ausgangslage: bestehende URLs, Rankings und das aktuelle Tracking-Setup.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>SEO-Abnahme</h3>
+							<p>Bevor die neue Seite live geht, prüfe ich sie systematisch: Redirects, Stolpersteine, SEO-Basics und mehr. Auf Wunsch bereite ich parallel die Tracking-Überführung vor.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Go-Live-Begleitung</h3>
+							<p>Beim Go-Live prüfe ich direkt danach, ob die Weiterleitungen greifen und ob alles sauber überführt wurde. So fallen Probleme nicht erst Wochen später auf.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 05</span>
+							<h3>Nachkontrolle</h3>
+							<p>In den Wochen nach dem Relaunch behalte ich im Blick, ob Rankings mitgewandert sind oder sich sogar verbessert haben. Und falls mir doch noch etwas auffällt, bessere ich nach: Der Umzug ist erst abgeschlossen, wenn alles sitzt.</p>
+						</div>
+					</article>
+				</section>
+
+				<h2>Warum auch das Tracking dazugehören sollte</h2>
+				<p>Ein Punkt, den klassisches SEO meist nicht abdeckt, aber bei mir problemlos Teil des Projekts sein kann: <b>Ein Relaunch zerstört fast immer das Tracking-Setup.</b> Tags greifen ins Leere, Custom Events verweisen auf Elemente, die es nicht mehr gibt, und am Ende fehlen genau die Daten, mit denen man irgendwann überprüfen möchte, ob die neue Webseite etwas gebracht hat.</p>
+				<!--#include virtual="/includes/animations/relaunch-hero.html" -->
+				<p>Darum biete ich die <a href="/tracking-analytics/">Migration deines Trackings</a> als Teil meines Relaunch-SEO-Service an: GA4, Google Tag Manager, <a href="/bing-linkedin-meta-ads/">Pixel-Setups</a> und deine Events ziehen mit um, statt nach dem Go-Live ad-hoc geflickt zu werden, nachdem das Kind schon in den Brunnen gefallen ist.</p>
+				<p>Wenn beim Relaunch ohnehin das Tracking angefasst wird, kann das übrigens auch oft eine gute Gelegenheit sein, das Tracking komplett zu sanieren: Wenn es auf deiner neuen Webseite neue Interaktionsmöglichkeiten, Zielgruppen oder Nutzerpfade gibt, lohnt es sich, <b>den Webseite-Relaunch mit einem Tracking-Relaunch zu verbinden,</b> damit danach alles sauber zueinander passt.</p>
+
+				<div class="spacer"></div>
+
+				<h2>Häufig gestellte Fragen</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Wann sollte ich dich ins Projekt holen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>So früh wie möglich, idealerweise sobald der Relaunch beschlossen ist, spätestens aber bevor die neue Seite fertiggestellt wird. Je früher ich dabei bin, desto mehr lässt sich von vornherein vermeiden, statt im Nachhinein zu reparieren.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Mein Relaunch ist schon live und der Traffic ist eingebrochen. Kannst du noch helfen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja. Ideal ist dieser Zeitpunkt nicht, aber auch nach dem Go-Live lässt sich vieles retten: fehlende oder falsche Weiterleitungen, versehentlich nicht indexierbare Seiten, verlorene Metadaten. Je schneller wir draufschauen, desto weniger verfestigt sich der Schaden.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Arbeitest du bei Bedarf direkt mit unserer Webagentur zusammen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja, das ist sogar häufig der Fall. Ich arbeite auch oft als Subunternehmer für Web-Agenturen, schaffe direkt mit dem Team zusammen und übernehme den Teil, den sie nicht abdecken. Und das, ohne dass für dich zusätzlicher Koordinationsaufwand entsteht.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was bedeutet «&#8239;SEO-Abnahme&#8239;» konkret?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Du bekommst vor dem Go-Live eine klare Einschätzung aus SEO-Sicht: Ist die neue Seite bereit oder gibt es Punkte, die vorher behoben werden sollten? Im besten Fall steht am Ende ein «&#8239;Alles passt – Grünes Licht für SEO!&#8239;», andernfalls eine priorisierte Liste der offenen Punkte, damit niemand blind live schaltet.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Gehört die Tracking-Überführung/-Erneuerung automatisch dazu?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Nein, sie ist optional, aber empfehlenswert, weil ein Relaunch das Tracking fast immer beeinflusst. Auf Wunsch ziehen GA4, Tag Manager und deine Events kontrolliert mit um. Wird dein Tracking an anderer Stelle betreut, koordiniere ich mich mit den Verantwortlichen.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was, wenn wir nicht nur relaunchen, sondern zwei Websites zusammenführen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das ist einer der anspruchsvolleren Fälle, weil dabei ganze Domains und ihre Historie zusammengeführt werden. Gerade dann lohnt sich eine saubere Vorbereitung: Welche Inhalte wandern wohin, welche URLs werden zusammengelegt, und wie bleibt die Sichtbarkeit beider Seiten erhalten. Zusätzlich dazu muss geprüft werden, ob die Inhalte ähnliche Keywords & Intentionen abdecken und sich damit voraussichtlich kannibalisieren.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/relaunch-seo/">DE</a> | <a href="https://marcoaures.ch/en/relaunch-seo/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

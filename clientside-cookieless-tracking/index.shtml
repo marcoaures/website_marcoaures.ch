@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/clientside-cookieless-tracking/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/clientside-cookieless-tracking/" hreflang="en-CH">
+
+    <meta name="description" content="Clientseitiges GA4-Tracking ohne Cookies klingt unmöglich – funktioniert aber mit Workarounds. Diese Case-Study zeigt, wie es funktioniert.">
+    <link rel="canonical" href="https://marcoaures.ch/clientside-cookieless-tracking/">
+    <meta name="author" content="Marco Aures">
+
+    <meta property="og:title" content="Clientside Cookieless Tracking mit GA4 | Marco Aures">
+    <meta property="og:description" content="Clientseitiges GA4-Tracking ohne Cookies klingt unmöglich – funktioniert aber mit Workarounds. Diese Case-Study zeigt, wie es funktioniert.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/clientside-cookieless-tracking/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+
+    <title>Clientside Cookieless Tracking mit GA4 | Marco Aures: Online-Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+	<!--#include virtual="/includes/prism.html" -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "@id": "https://marcoaures.ch/clientside-cookieless-tracking/#article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://marcoaures.ch/clientside-cookieless-tracking/"
+        },
+        "headline": "Clientside Cookieless Tracking mit GA4",
+        "description": "Clientseitiges GA4-Tracking ohne Cookies klingt unmöglich – funktioniert aber mit Workarounds. Diese Case-Study zeigt, wie es funktioniert.",
+        "image": "https://marcoaures.ch/assets/img/nocookies.svg",
+        "datePublished": "2026-02-28",
+        "dateModified": "2026-06-16",
+        "inLanguage": "de-CH",
+        "author": {
+            "@id": "https://marcoaures.ch/#person"
+        },
+        "publisher": {
+            "@id": "https://marcoaures.ch/#organization"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <!--#include virtual="/includes/headmenu-de.html" -->
+
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/good-cookies.webp');"></div>
+        </div>
+
+        <div class="text-section" id="hero-tracking">
+            <h1 style="margin-top:20px;">Clientside Cookieless Tracking mit GA4</h1>
+            <p>Google Analytics geht nicht ohne Cookies? Doch, mit ein paar Einschränkungen ist das möglich. Diese Case-Study zeigt wie.</p>
+        </div>
+
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 28.02.2026 | Aktualisiert: 16.06.2026<br>
+            Inhalt: Cookieless Tracking, Cross-Domain iFrame Tracking, Privacy Compliance, client_id/session_id, Measurement Protocol Endpoint, Case Study
+        </div>
+		
+		<p>Zugegeben, Cookieless Tracking ist im Analytics-Alltag nach wie vor eher die Ausnahme als die Regel. <b>Die meisten Setups verlassen sich (mindestens teilweise) auf Cookies,</b> z.B. um Nutzer zu identifizieren oder sitzungsübergreifend zu messen. Trotzdem gibt es immer wieder Situationen, in denen genau dieses Vorgehen nicht gewünscht oder sogar unmöglich ist:</p>
+		<p>Gerade in privacy-sensiblen Branchen oder generell im GDPR-Umfeld besteht sehr oft der Wunsch, die Datenerhebung (und damit rechtliche Angriffsfläche) auf ein Minimum zu reduzieren und/oder ohne Cookie-Banner auszukommen. In vielen Fällen lassen sich solche Anforderungen mit einem Privacy-First-Tool wie <a href="https://matomo.org/" target="_blank">Matomo</a> oder über ein <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">serverseitiges Tracking-Setup</a> lösen.</p>
+		<p>Aber: Das geht nicht immer oder der Aufwand dafür ist einfach nicht vertretbar. Genau ein solcher Fall ergab sich bei einem meiner Kunden, der ein kleines Tool als interaktives iframe auf einer Partnerwebseite einbinden lassen wollte. Der Kampagnenerfolg sollte selbstverständlich anschliessend ausgewertet werden, um die Wirksamkeit dieser Kampagne beurteilen zu können. Klingt einfach? Leider nein.</p>
+
+		<h2>Cross-Domain-Setups & Cookies</h2>
+		<p>Eine reguläre Einbindung von Google Tag Manager und GA4 ist aufgrund der Cross-Domain-Einschränkungen für solche Fälle leider nicht möglich. Moderne Browser und viele Webseiten unterbinden in solchen Szenarien, je nach Konfiguration, das Setzen von Cookies. <b>Selbst ein eigentlich «&#8239;unkritisches&#8239;» First-Party-Cookie wird in diesem Setup zum Third-Party-Cookie,</b> weil es von der Ursprungsdomain des iframe geschrieben wird. Und damit fehlt GA4 eine grundlegende Voraussetzung für die Initialisierung.</p>
+		<p>Der Roadblock war perfekt: Für eine zeitlich begrenzte Kampagne ein neues Analytics-Tool einzuführen oder serverseitiges Tracking aufzusetzen, wäre klar unverhältnismässig. Und damit landet man schnell bei der Frage «&#8239;Gibt es clientseitiges Tracking mit GA4 auch ohne Cookies?&#8239;» Und die Antwort lautet: Ja, zumindest wenn man mit ein paar Einschränkungen und ein paar «&#8239;hacky&#8239;» Workarounds leben kann.</p>
+
+		<h3>GA4 braucht (eigentlich) keine Cookies</h3>
+		<p>Ein «&#8239;normales&#8239;» Setup für GA4 mit dem Tag Manager ist <a href="/tracking-analytics/">eigentlich sehr unkompliziert</a>: Das GTM-Snippet wird eingebunden, im GTM-Container wird ein G-Tag angelegt und anschliessend wird die gewünschte Eventstruktur definiert. Die Bibliothek im Browser übernimmt von dort den Rest, setzt dafür die notwendigen Cookies und sendet die gesammelten Daten dann automatisiert an Google Analytics.</p>
+		<p>Im beschriebenen iframe-Szenario bricht dieser Ablauf jedoch direkt am Anfang. GA4 initialisiert nicht korrekt und dadurch werden überhaupt keine Daten an GA4 gesendet. Der Grund dafür ist eine fehlende Voraussetzung. <b>Das G-Tag schlägt fehl, wenn zentrale Werte wie die client_id nicht verfügbar sind.</b> Diese werden normalerweise aus dem Cookie ausgelesen. Und genau dieses Cookie kann in einem solchen Fall nicht geschrieben werden.</p>
+
+			<img src="/assets/img/ga4_payload.jpg" alt="Vergleich GA4-Payload und Cookie-Daten">
+			<p class="img-cap" style="text-align: center; margin-block-start: 0px;">Vergleich: Analytics-Request & Cookie-Daten</p>
+
+		<p>Auf den ersten Blick könnte man denken, dass clientseitiges Tracking mit GA4 ohne Cookies damit unmöglich ist. Das ist nicht ganz korrekt: <b>Tatsächlich benötigt GA4 nicht zwingend Cookies,</b> sondern nur die IDs, die im Normalfall aus dem Cookie stammen. Wenn man diese IDs anderweitig erzeugen und übermitteln kann, lassen sich Events auch ganz ohne Cookie an GA4 senden.</p>
+        <div class="highlight">
+            <p><strong>Hinweis</strong>: Cookieless bedeutet übrigens nicht zwangsläufig anonym. Auch ohne Cookies können beim Versand an GA4 personenbezogene bzw. personenbeziehbare Daten verarbeitet werden. Abhängig vom rechtlichen Kontext können daher weiterhin Anforderungen an Transparenz, Datenschutzerklärung oder Consent bestehen (bleiben). Im beschriebenen Projekt wurde das im Sinne des revDSG über einen Disclaimer im iframe berücksichtigt.</p>
+        </div>
+ 
+		<h2>Analytics-Daten direkt an den Endpoint schicken</h2>
+		<p>Die Lösung im Fall meines Kunden sah so aus: Wir senden GA4-Events per Measurement Protocol direkt an <span class="techbabble">/g/collect</span>, erzeugen dafür eine ephemere Pseudo-Session-ID und -Client-ID und steuern alles über den Tag Manager. <b>Sprich, wir machen alles, was die gtag.js Bibliothek normalerweise macht,</b> nur manuell und ohne ein Cookie zu setzen.</p>
+		<p>Wer schon mit SST gearbeitet hat, möchte dafür wahrscheinlich direkt den Measurement-Protocol-Endpoint <span class="techbabble">/mp/collect</span> verwenden, der typischerweise für serverseitiges Tracking oder Offline-Conversions gedacht ist. Für ein rein clientseitiges Setup bringt dieser Weg jedoch Hürden mit sich, nicht zuletzt die Anforderung, dafür api_secret im Frontend bereitzustellen.</p>
+		<p>API-Keys leaken wollten wir natürlich nicht, was diese Methode disqualifiziert hat. Aus diesem Grund fiel unsere Entscheidung auf den Web-Endpoint <span class="techbabble">/g/collect</span>, der auch von der regulären Web-Bibliothek genutzt wird und sich ohne zusätzliche Authentifizierung direkt aus dem Browser ansprechen lässt.</p>
+		<h3>GA4 Base Tag & Events ohne gtag.js</h3>
+		<p>Da in diesem Setup weder ein klassisches GA4-Tag noch die gtag.js-Bibliothek eingesetzt werden können, mussten alle benötigten Events manuell aufgebaut und versendet werden. Wie aufwändig das ist, hängt davon ab, wie viele Events umgesetzt werden sollen.</p>
+		<p>Für grundlegende Ereignisse wie first_visit, session_start und page_view wurde in unserem Fall ein gemeinsamer Tag definiert, der beim DOM Ready feuert. Innerhalb dieses Scripts wurden die notwendigen Parameter zusammengesetzt: <b>Measurement ID, pseudo client_id, pseudo session_id, Sprache sowie weitere Metadaten wie URL, Referrer oder Seitentitel.</b> Der Scriptblock bildete dabei im Grunde das nach, was gtag.js normalerweise im Hintergrund erledigt: Er baut die Request-URL und sendet Tracking-Daten via sendBeacon (oder alternativ per fetch) an Google Analytics.</p>
+
+<pre><code class="language-markup">&lt;script&gt;
+  (function() {
+    var measurementId = '{{Mess-ID}}'; // GA4-Mess-ID (z.B. «&#8239;G-A1BCDEF234&#8239;»)
+    var clientId = '{{ga4_pseudo_cid}}'; // Pseudo-Client-ID (unique value) – mehr dazu später
+    var sid = '{{ga4_pseudo_sid}}'; // Pseudo-Session-ID (unique value) – mehr dazu später
+    var lang = '{{language}}'; // User Language (hier aus URL-Query-Parameter)
+
+    var sct = 1; // Der Session-Count ist in diesem Fall als 1 hartcodiert, da keine echte Zählung über mehrere Sessions hinweg möglich ist
+
+      // session_start event :
+    var sessionStartURL = 'https://www.google-analytics.com/g/collect?v=2' +
+      '&tid=' + encodeURIComponent(measurementId) + 
+      '&cid=' + encodeURIComponent(clientId) +
+      '&sid=' + encodeURIComponent(sid) +
+      '&ul=' + encodeURIComponent(lang) + 
+      '&sct=' + encodeURIComponent(sct) +
+      '&en=session_start'; // en = event name.
+      // String-Konkatenation baut hier den Query-Parameter für GA4 /g/collect Endpoint
+
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon(sessionStartURL);
+    } else {
+      fetch(sessionStartURL, {method:'POST', keepalive:true, mode:'no-cors'});
+    }
+
+      // first_visit event :
+    var sessionStartURL = 'https://www.google-analytics.com/g/collect?v=2' +
+      '&tid=' + encodeURIComponent(measurementId) + 
+      '&cid=' + encodeURIComponent(clientId) +
+      '&sid=' + encodeURIComponent(sid) +
+      '&ul=' + encodeURIComponent(lang) + 
+      '&sct=' + encodeURIComponent(sct) +
+      '&en=first_visit'; // en = event name.
+
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon(sessionStartURL);
+    } else {
+      fetch(sessionStartURL, {method:'POST', keepalive:true, mode:'no-cors'});
+    }
+
+      // page_view event :
+    var pageViewURL = 'https://www.google-analytics.com/g/collect?v=2' +
+      '&tid=' + encodeURIComponent(measurementId) +
+      '&cid=' + encodeURIComponent(clientId) +
+      '&sid=' + encodeURIComponent(sid) +
+      '&sct=' + encodeURIComponent(sct) +
+      '&en=page_view' +
+      '&dl=' + encodeURIComponent(location.href) + // dl = document location: URL 
+      '&dr=' + encodeURIComponent(document.referrer) + // dr = verweisende Seite
+      '&ul=' + encodeURIComponent(lang) +
+      '&dt=' + encodeURIComponent('{{document_title}}'); // dt = document title: Seitentitel
+
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon(pageViewURL);
+    } else {
+      fetch(pageViewURL, {method:'POST', keepalive:true, mode:'no-cors'});
+    }
+  })();
+&lt;/script&gt;
+</code></pre>
+
+		<p>Da im Falle meines Kunden das iframe als Single Page Application umgesetzt wurde, konnte für diese Events problemlos ein gemeinsames Tag versendet werden, da kein klassischer Reload stattfindet. In anderen Szenarien (z.B. bei multiplen virtuellen Seitenwechseln) kann es sinnvoll sein, diese Events zu trennen und über eigene Trigger zu steuern.</p>
+		<p>Zusätzlich zum Basis-Tracking wurde auch ein user_engagement-Event implementiert. Für den Kunden war allerdings nicht nur relevant, wie oft das Banner eingeblendet wurde (im Gegensatz zu einer «&#8239;echten&#8239;» Seite ist durch den Load ja nicht sichergestellt, dass der Nutzer das Banner wahrgenommen hat), sondern vor allem auch, ob Nutzer aktiv damit interagieren. Darum weicht die Umsetzung vom «&#8239;GA4-Standard&#8239;» ab: Während GA4 user_engagement normalerweise auch nach einer gewissen Sitzungsdauer automatisch auslöst (das lässt sich, falls gewünscht, per Timer-Trigger in GTM nachbauen), sollte in unserem Fall erst ein bewusster Interaktionspunkt gemessen werden. Entsprechend wurde das Event über einen Klick-Trigger im iframe gesteuert. Ausserdem sendet unser Script neben den üblichen Parametern auch eine ungefähre Engagement-Zeit seit dem initialen Laden der Anwendung.</p>
+
+<pre><code class="language-markup">&lt;script&gt;
+(function() {
+var tid = '{{Mess-ID}}'; 
+var cid = '{{ga4_pseudo_cid}}'; 
+var sid = '{{ga4_pseudo_sid}}'; 
+var lang = '{{language}}'; 
+var sct = 1; 
+
+// Engagement-Zeit in Millisekunden seit Page-/SPA-Start (Annäherung an aktive Nutzungszeit)
+var engagedMs = Math.max(0, Math.round(performance.now()));
+
+// user_engagement Event an GA4 /g/collect Endpoint
+var url = 'https://www.google-analytics.com/g/collect?v=2' +
+'&tid=' + encodeURIComponent(tid) +
+'&cid=' + encodeURIComponent(cid) +
+'&sid=' + encodeURIComponent(sid) +
+'&sct=' + encodeURIComponent(sct) +
+'&ul=' + encodeURIComponent(lang) +
+'&en=user_engagement' + // GA4 Standard-Event für Engagement-Messung
+'&epn.engagement_time_msec=' + engagedMs; // Engagement-Dauer
+
+if (navigator.sendBeacon) {
+navigator.sendBeacon(url);
+} else {
+fetch(url, { method: 'POST', keepalive: true, mode: 'no-cors' });
+}
+})();
+&lt;/script&gt;
+</code></pre>
+
+		<h3>Custom Events per HTML-Tag</h3>
+		<p>Den gleichen Mechanismus konnten wir auch für weitere <a href="/google-analytics-ereignisse-auswertungen/">Custom Events</a> nutzen und auch hierzu gibt es bei diesem Ansatz <b>keine nennenswerten Einschränkungen.</b> Als typisches Beispiel nutze ich hier ausgehende Link-Klicks: Über einen Klick-Trigger im GTM wird ein Custom HTML Tag ausgelöst, das ein Event mit frei definierbarem Namen, hier linkclick_outgoing, sowie mit einem Event-Parameter für die Ziel-URL an GA4 schickt.</p>
+
+<pre><code class="language-markup">&lt;script&gt;
+(function() {
+  var measurementId = '{{Mess-ID}}';
+  var clientId = '{{ga4_pseudo_cid}}';
+  var sid = '{{ga4_pseudo_sid}}';
+  var lang = '{{language}}';
+  var sct = 1;
+  var linkUrl = '{{Click URL}}';
+
+  var url = 'https://www.google-analytics.com/g/collect?v=2' +
+    '&tid=' + encodeURIComponent(measurementId) +
+    '&cid=' + encodeURIComponent(clientId) +
+    '&sid=' + encodeURIComponent(sid) +
+    '&ul=' + encodeURIComponent(lang) +
+    '&sct=' + encodeURIComponent(sct) +
+// Custom Event Parameter
+    '&en=linkclick_outgoing' + // Eventname = linkclick_outgoing
+    '&ep.link_url=' + encodeURIComponent(linkUrl); // Event-Parameter (ep.) link_url 
+
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon(url);
+  } else {
+    fetch(url, {method:'POST', keepalive:true, mode:'no-cors'});
+  }
+})();
+&lt;/script&gt;
+</code></pre>
+
+		<h2>User-Level-Parameter und Pseudo-IDs</h2>
+		<p>Wie oberhalb bereits angedeutet, liegt der eigentliche Knackpunkt bei diesem Setup aber bei den Identifikatoren für Nutzer und Sitzung. <b>GA4 benötigt zwingend Werte, um Events einem Nutzer und einer Session zuordnen zu können.</b> Fehlen client_id und session_id, werden die eingehenden Hits zwar technisch verarbeitet, lassen sich aber nicht sinnvoll aggregieren und werden nicht korrekt angezeigt.</p>
+		<p>Im konkreten Projekt hatten wir hier einen entscheidenden Vorteil durch die technische Architektur: Im iframe lud eine Single Page Application. Da damit keine echten Seitenreloads stattfinden, konnten temporär persistente IDs erzeugt und im Data Layer abgelegt werden, wo sie für alle Events wiederverwendet werden konnten.</p>
+		<p>Für die pseudo client_id wurde dafür eine zufällige 128-Bit-ID generiert und in eine GTM-JavaScript-Variable gekapselt (wenn du eine CSP hast, <a href="/csp-und-google-tag-manager/#custom-js-variable">wirst du vermutlich eine der alternativen Methoden unterhalb nutzen müssen</a>). Diese JS-Variable prüft, ob bereits ein entsprechender Wert im Data Layer vorhanden ist, und erzeugt eine neue ID, wenn noch keine existiert. Dadurch bleibt die Kennung während der Sitzung stabil.</p>
+
+<pre><code class="language-javascript">function() {
+var DL_KEY = 'ga4_pseudo_cid';
+window.dataLayer = window.dataLayer || [];
+
+for (var i = window.dataLayer.length - 1; i >= 0; i--) {
+var e = window.dataLayer[i];
+if (e && typeof e === 'object' && e[DL_KEY]) {
+return e[DL_KEY];
+}
+}
+
+var cid;
+try {
+var a = new Uint8Array(16);
+(window.crypto || window.msCrypto).getRandomValues(a);
+var hex = Array.from(a, function(b) {
+return ('00' + b.toString(16)).slice(-2);
+}).join('');
+cid =
+hex.slice(0, 8) + '-' +
+hex.slice(8, 12) + '-' +
+hex.slice(12, 16) + '-' +
+hex.slice(16, 20) + '-' +
+hex.slice(20, 32);
+} catch (e) {
+cid = 'dl-' + Math.random().toString(16).slice(2) + Date.now().toString(16);
+}
+
+window.dataLayer.push({ [DL_KEY]: cid });
+
+return cid;
+}
+</code></pre>
+
+		<p>Die Anforderung an diese Pseudo-Client-ID ist übrigens vergleichsweise einfach: Sie muss (mit sehr hoher Wahrscheinlichkeit) eindeutig sein, damit nicht mehrere Sitzungen unterschiedlicher Nutzer fälschlicherweise zusammengeführt werden. Eine ausreichend komplexe Zufalls-ID erfüllt diesen Zweck dadurch mehr als ausreichend.</p>
+		<p><b>Noch unkomplizierter ist die Pseudo-Session-ID.</b> Da sie lediglich innerhalb eines Nutzers eindeutig sein muss, reicht ein monoton steigender Wert. In unserem Fall konnte das über einen UNIX-Time-Stamp sichergestellt werden, der beim ersten Ausführen der Variable erzeugt und ebenfalls im Data Layer abgelegt wird.</p>
+
+<pre><code class="language-javascript">function() {
+var DL_KEY = 'ga4_pseudo_sid';
+window.dataLayer = window.dataLayer || [];
+
+for (var i = window.dataLayer.length - 1; i >= 0; i--) {
+var e = window.dataLayer[i];
+if (e && typeof e === 'object' && e[DL_KEY]) {
+return e[DL_KEY];
+}
+}
+
+var sid = Math.floor(Date.now() / 1000).toString();
+
+window.dataLayer.push({ [DL_KEY]: sid });
+
+return sid;
+}
+</code></pre>
+
+		<p>Aber: Nicht jedes Szenario erlaubt die komfortable Data-Layer-Variante. Sobald echte Seitenwechsel stattfinden, muss sichergestellt werden, dass die IDs in irgendeiner Form zumindest innerhalb der Sitzung persistent bleiben. Das erfordert eine Abwägung zwischen Datenqualität, technischer Robustheit und Datenschutzüberlegungen:</p>
+		<p>Die Optionen dafür reichen von einer rein flüchtigen In-Memory-Speicherung über die Übergabe der Werte als Query-Parameter bis hin zur Nutzung von sessionStorage und haben eigene Vor- und Nachteile. <b>In-Memory-Werte sind datenschutzrechtlich am unproblematischsten,</b> aber bei jedem Reload verloren, wohingegen sessionStorage für die gesamte Browser-Session erhalten bleibt, jedoch datenschutzrechtlich nahe am Setzen eines Cookies ist. Welche Variante sinnvoll ist, hängt darum entsprechend vom konkreten Anwendungsfall und Privacy-Anforderungen ab.</p>
+		
+		<h2>Achtung: Nur für Edge Cases sinnvoll</h2>
+		<p>Mit überschaubarem Aufwand ist das Ziel erreicht: ein clientseitiges GA4-Tracking ohne Cookies. <strong>ABER:</strong> Die Implementierung ist selten der Zweck eines Tracking-Setups. Diese Architektur hat entscheidende Nachteile, die bedacht werden sollten und diese Lösung eher für Edge Cases relevant machen.</p>
+		
+		<h3>Kein sitzungsübergreifendes Tracking</h3>
+		<p>Der Session Count im session_start-Event ist in diesem Setup bewusst statisch. Die verwendeten Identifikatoren sind flüchtig und werden bei jedem Besuch neu generiert. <b>Entsprechend ist eine Wiedererkennung von Nutzern praktisch ausgeschlossen.</b></p>
+		<p>Für die Kampagne meines Kunden war dieser Nachteil vertretbar: Das Banner war kein Produkt, das Nutzer wiederholt aufrufen sollten. Entscheidend war darum weniger die Wiedererkennung einzelner Nutzer als vielmehr die Frage, wie häufig Interaktionen stattfinden und wie sich Nutzer innerhalb des Funnels verhalten. In einem regulären Website-Tracking kann die fehlende Wiedererkennung allerdings ein klarer Dealbreaker sein, der diese Methode unbrauchbar macht.</p>
+		<p>Privacy-First-Tools wie Matomo haben hier einen Vorteil, weil sie Nutzer über mehrere Besuche hinweg identifizieren können. Im konkreten iframe-Szenario hätte allerdings auch ein klassisches Matomo-Cookie nicht geschrieben werden können, sodass selbst dieses Tool sich lediglich auf heuristische Anhaltspunkte verlassen hätte müssen.</p>
+
+		<h3>Tracking-Maintenance und zusätzliche Fragilität</h3>
+		<p>Wer Tracking betreibt, weiss: Die grösste Herausforderung beginnt oft erst nach der Implementierung. Formulare werden umgebaut, CSS-Selektoren ändern sich, Data-Layer-Strukturen verschieben sich und plötzlich fehlen Monate später wichtige Daten, die unwiederbringlich verloren sind.</p>
+		<p>In diesem Setup vervielfältigt sich dieses Risiko. Neben den üblichen Änderungen durch Webseitenbetreiber entsteht nämlich ein zusätzlicher Abhängigkeitspunkt: der direkte Versand an den <span class="techbabble">/g/collect</span>-Endpoint. <b>Sollte Google Anpassungen an Parametern, Validierungslogik oder Request-Handling vornehmen, kann das Tracking ohne sichtbare Fehlermeldung ausfallen.</b> Diese Methode fällt darum ganz klar in die Kategorie «&#8239;Auf eigene Gefahr&#8239;». Und wenn in diesem Setup dann tatsächlich etwas kaputt geht, ist Debugging ebenfalls eher mühsam.</p>
+		<p>Aber auch dieses Risiko war im beschriebenen Projekt akzeptabel. Die Banner liefen nur innerhalb eines <a href="/google-ads/">klar begrenzten Kampagnenzeitraums</a>, und es war sichergestellt, dass die Analytics-Daten regelmässig geprüft werden. Für langfristige Tracking-Setups, die möglichst wartungsarm funktionieren sollen, spricht aber allein das klar gegen den Ansatz.</p>
+
+		<h2>Was möglich ist</h2>
+		<p>Nach dem Lesen dieser Einschränkungen könnte man sich fragen, ob eine solche Case Study überhaupt relevant ist. Meiner Meinung nach Ja: Gerade das iframe-Szenario, ein interaktives Banner auf einer Partnerseite, das messbar gemacht werden soll, ist zwar kein Daily Business, taucht aber in der Praxis trotzdem gelegentlich auf.</p>
+		<p>Der spannendere Take-Away liegt aber eine Ebene darüber: <b>Es zeigt wie flexibel Tracking-Setups wirklich sein können.</b> Die Google-Produktpalette bringt viele Komfortfunktionen mit, die direkt out-of-the-box funktionieren und alle gängigen Anwendungsfälle bedienen können. Gleichzeitig bedeutet das aber nicht, dass man auf die vorgesehenen Wege beschränkt ist. Mit einem guten Verständnis der zugrunde liegenden Mechanismen lassen sich auch ungewöhnliche Konstellationen abbilden und individuelle Anforderungen an Privacy, Flexibilität oder Datenkontrolle umsetzen.</p>
+		<p>Nicht jede dieser Lösungen ist universell oder langfristig sinnvoll, aber sie erweitern den Handlungsspielraum. Und manchmal ist genau das der Unterschied zwischen “geht nicht” und “geht doch, einfach mit Einschränkungen”. Und falls du bei einem ähnlichen Setup <a href="/tracking-analytics/">Unterstützung brauchst oder eine zweite Meinung willst,</a> meld dich gern.</p>
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+      
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/clientside-cookieless-tracking/">DE</a> | <a href="https://marcoaures.ch/en/clientside-cookieless-tracking/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

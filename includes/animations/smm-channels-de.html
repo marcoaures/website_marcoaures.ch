@@ -1,0 +1,113 @@
+<style>
+.stage {
+    position: relative;
+    width: 236px;
+    max-width: 100%;
+    aspect-ratio: 236 / 420;
+    height: auto;
+  }
+
+  .card {
+    position: absolute; inset: 0;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.10);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(14px) scale(.96);
+    transition: opacity .55s ease, transform .55s cubic-bezier(.22,1,.36,1);
+    pointer-events: none;
+  }
+  .card.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  .card.leaving {
+    opacity: 0;
+    transform: translateY(-14px) scale(.96);
+  }
+
+  .screen { position:absolute; inset:0; display:flex; flex-direction:column; }
+
+  .ph-line { background:#e6e6e6; border-radius:3px; height:7px; }
+  .ph-line.s{width:40%;} .ph-line.m{width:65%;} .ph-line.l{width:85%;}
+  .ph-av { width:26px; height:26px; border-radius:50%; background:#dcdcdc; flex:none; }
+  .ph-img { background:#ededed; }
+
+  .ad-tag {
+    display:inline-block; font-size:8px; font-weight:800; letter-spacing:.05em;
+    color:#fff; background:var(--color-accent); border-radius:3px; padding:1px 5px;
+  }
+  .ad-tag.dark { background:var(--color-brand-dark); }
+
+  .feed { padding:10px; gap:9px; display:flex; flex-direction:column; }
+  .post { border:1px solid #eee; border-radius:8px; padding:8px; display:flex; flex-direction:column; gap:6px; }
+  .post .row{display:flex;align-items:center;gap:6px;}
+  .post .col{display:flex;flex-direction:column;gap:4px;flex:1;}
+  .post.sponsored{border-color:var(--color-accent);box-shadow:0 2px 8px rgba(184,93,37,.12);}
+  .post .hero{height:74px;border-radius:6px;}
+  .post .cta{align-self:flex-start;font-size:9px;font-weight:700;color:#fff;background:var(--color-brand);border-radius:999px;padding:4px 10px;}
+
+  .story{background:linear-gradient(160deg,var(--color-brand) 0%,var(--color-brand-dark) 100%);color:#fff;}
+  .story .bars{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px;}
+  .story .bars i{flex:1;height:3px;border-radius:2px;background:rgba(255,255,255,.4);}
+  .story .bars i.active{background:#fff;}
+  .story .who{position:absolute;top:22px;left:12px;display:flex;align-items:center;gap:6px;}
+  .story .who .ph-av{width:22px;height:22px;background:rgba(255,255,255,.5);}
+  .story .who .ph-line{background:rgba(255,255,255,.6);}
+  .story .tag-tl{position:absolute;top:48px;left:12px;}
+  .story .center{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;}
+  .story .center .block{width:64%;height:140px;border-radius:12px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);}
+  .story .swipe{position:absolute;left:0;right:0;bottom:22px;text-align:center;}
+  .story .swipe .pill{display:inline-block;background:var(--color-accent);border-radius:999px;padding:6px 16px;font-size:10px;font-weight:700;color:#fff;}
+
+  .serp{padding:12px;gap:13px;display:flex;flex-direction:column;}
+  .serp .searchbar{display:flex;align-items:center;gap:6px;border:1px solid #e2e2e2;border-radius:999px;padding:7px 10px;}
+  .serp .result{display:flex;flex-direction:column;gap:5px;}
+  .serp .result .url{font-size:8px;color:#5a7d5a;}
+  .serp .result.ad .url{color:var(--color-accent);}
+  .serp .result .title{height:9px;width:80%;background:var(--color-brand);border-radius:3px;}
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: opacity .3s ease; transform: none; }
+    .card.leaving { transform: none; }
+  }
+</style>
+
+<div class="service-hero-animation" style="padding:0;">
+  <div id="adflip">
+    <div class="stage">
+
+      <div class="card" data-i="0">
+        <div class="screen feed">
+          <div class="post"><div class="row"><div class="ph-av"></div><div class="col"><div class="ph-line m"></div><div class="ph-line s"></div></div></div><div class="ph-line l"></div><div class="ph-img hero"></div></div>
+          <div class="post sponsored"><div class="row"><div class="ph-av"></div><div class="col"><div class="ph-line m"></div><span class="ad-tag">Gesponsert</span></div></div><div class="ph-img hero"></div><div class="ph-line l"></div><div class="cta">Mehr erfahren</div></div>
+          <div class="post"><div class="row"><div class="ph-av"></div><div class="col"><div class="ph-line m"></div><div class="ph-line s"></div></div></div><div class="ph-line l"></div></div>
+        </div>
+      </div>
+
+      <div class="card" data-i="1">
+        <div class="screen story">
+          <div class="bars"><i class="active"></i><i></i><i></i></div>
+          <div class="who"><div class="ph-av"></div><div class="ph-line s"></div></div>
+          <span class="ad-tag dark tag-tl">Gesponsert</span>
+          <div class="center"><span>Deine Anzeige auf Bing, Facebook, Instagram oder LinkedIn</span></div>
+          <div class="swipe"><span class="pill">Jetzt entdecken ↑</span></div>
+        </div>
+      </div>
+
+      <div class="card" data-i="2">
+        <div class="screen serp">
+          <div class="searchbar"><div class="ph-av" style="width:14px;height:14px;"></div><div class="ph-line m"></div></div>
+          <div class="result ad"><span class="ad-tag">Anzeige</span><div class="url">deineseite.ch</div><div class="title"></div><div class="ph-line l"></div><div class="ph-line m"></div></div>
+          <div class="result"><div class="url">beispiel.ch</div><div class="title"></div><div class="ph-line l"></div></div>
+          <div class="result"><div class="url">beispiel2.ch</div><div class="title"></div><div class="ph-line m"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/animations/smm-channels.js" defer></script>

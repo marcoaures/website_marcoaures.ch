@@ -1,0 +1,19 @@
+<div class="calculator sitemap-tool">
+  <p>This tool fetches a website’s sitemap(s) and automatically analyzes their contents. It detects how many sitemaps exist and how many URLs they contain.</p>
+  <p>Based on available lastmod values, it also shows how up-to-date the site is, how many pages were changed within predefined time periods, and how old the content is on average and by median. In addition, it provides metrics for images and video entries included in the sitemap, and indicates whether multilingual setup (via hreflang) is taken into account.</p>
+  <hr>
+  <div class="calculatorfields">
+    <div class="field">
+      <label for="sitemapInput" class="sitemap-tool-feldtext">Domain / URL</label>
+      <input id="sitemapInput" type="text" placeholder="e.g. marcoaures.ch or https://marcoaures.ch/en/tools">
+    </div>
+
+    <div class="field">
+      <label>&nbsp;</label>
+      <button id="sitemapGo" class="sitemap-tool-button" type="button">Analyze</button>
+    </div>
+  </div>
+
+  <div id="sitemapOut" class="sitemap-tool-out" aria-live="polite"></div>
+</div>
+<script src="/assets/js/sitemapanalysis-en.js"></script>

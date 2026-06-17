@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+	<!-- hreflang tags -->
+	<link rel="alternate" href="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/" hreflang="de-CH" />
+	<link rel="alternate" href="https://marcoaures.ch/en/analyzing-google-analytics-events/" hreflang="en-CH" />
+
+	<meta name="description" content="Welche Google-Analytics-Ereignisse solltest tracken & welche Tools brauchst du dafür? Erfahre in diesem Artikel (und einem kleinen Quiz) mehr.">
+	<link rel="canonical" href="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/">
+	<meta name="author" content="Marco Aures">
+	<meta property="og:title" content="Google-Analytics-Ereignisse & Auswertungen | Marco Aures" />
+	<meta property="og:description" content="Welche Google-Analytics-Ereignisse solltest tracken & welche Tools brauchst du dafür? Erfahre in diesem Artikel (und einem kleinen Quiz) mehr." />
+	<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+	<meta property="og:url" content="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="de_CH" />
+    <title>Google-Analytics-Ereignisse & Auswertungen | Marco Aures</title>
+    <!--#include virtual="/includes/integrations.html" -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "BlogPosting",
+	  "@id": "https://marcoaures.ch/google-analytics-ereignisse-auswertungen/#article",
+	  "mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://marcoaures.ch/google-analytics-ereignisse-auswertungen/"
+	  },
+	  "headline": "Google-Analytics-Ereignisse & Auswertungen",
+	  "description": "Welche Google-Analytics-Ereignisse solltest tracken & welche Tools brauchst du dafür? Erfahre in diesem Artikel (und einem kleinen Quiz) mehr.",
+	  "image": "https://marcoaures.ch/assets/img/icons/events-auswertungen.svg",
+	  "datePublished": "2024-04-04",
+	  "dateModified": "2025-01-12",
+	  "inLanguage": "de-CH",
+	  "author": {
+		"@id": "https://marcoaures.ch/#person"
+	  },
+	  "publisher": {
+		"@id": "https://marcoaures.ch/#organization"
+	  }
+	}
+	</script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+	<div class="hero">
+		<div class="parallax-container">
+			<div class="boring-hero" style="background-image: url('/assets/img/trackingreporting.webp');"></div>
+		</div>
+		<div class="text-section" id="hero-tracking">
+			<h1 style="margin-top:20px;">Google-Analytics-Ereignisse & Auswertungen</h1>
+			<p>Welche Ereignisse solltest du auf deiner Website tracken? Musst du auch in Google Analytics Conversions einrichten? Und warum eigentlich?</p>
+		</div>
+		<button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+		</button>
+	</div>
+    <div id="start" class="content">
+		<div class="bloginfo">
+			Veröffentlicht: 04.04.2024 | Aktualisiert: 16.06.2026<br>
+			Inhalt: Google Analytics Ereignisse, Einrichtung Event-Tracking, GA4-Setup, Marketing-KPIs, Marketing-Tools
+		</div>
+		<p>In den letzten Jahren habe ich vielen Firmen, vom Kleinbetrieb bis zur Unternehmensgruppe, geholfen ihr und <b>Tracking-Set-Up einzurichten und die ermittelten Google-Analytics-Ereignisse in Reportings auszuwerten</b>. Gerade deshalb kann ich jedem Marketingverantwortlichen bestätigen, dass die Antwort auf die Frage, was eigentlich getrackt werden muss, sich von Webseite zu Webseite unterscheidet. Zugleich wurde die Entscheidungsfindung, welche KPIs mich eigentlich interessieren und welche «&#8239;Google Analytics Custom Events&#8239;» ich dafür einrichten muss, aber immer klarer.</p>
+		<p>Mit diesem Artikel versuche ich deshalb ein wenig Licht ins Dunkle zu bringen. Gemeinsam beantworten wir die Fragen, <b>was eigentlich der Sinn und Zweck von Analytics-Events ist</b>. Ich erkläre dir, welche Website-Kennzahlen du daraus ableiten kannst und warum sie wichtig sind. Wir beantworten die Frage, ob du in Google Analytics Conversion-Tracking einrichten musst oder ob der «&#8239;Event&#8239;»-Tab nicht schon reicht. Und am Schluss gebe ich dir meine ehrliche Meinung zur Notwendigkeit von Audits, Reportings und Auswertungen. Aber zuerst&#8230;</p>
+	<h2 id="Tracking-Questionnaire"><strong>Welche Google-Analytics-Ereignisse musst du eigentlich tracken?</strong></h2>
+		<p>Wie erwähnt habe, folge ich inzwischen einem klaren Prozess bei der Überlegung, welche Tools und welches Tracking für eine Webseite eingerichtet werden muss. Dieses Vorgehen ist tatsächlich einfach replizierbar. Und darum kann ich dir hier und jetzt <b>direkt eine grobe, individuelle Ersteinschätzung</b> geben, wie es aktuell um dein Tracking-Set-Up steht: Im nachfolgenden Questionnaire erfährst du, was auf deiner Webseite in Sachen Analytics schon gut läuft und was dir noch fehlt.</p>
+<!--#include virtual="/includes/trackquest-de.html" -->
+	<hr>
+	<h2>Was ist Website-Tracking?</h2>
+		<p>Bevor wir tief einsteigen, sollten wir uns zuerst eine grundlegende Frage stellen: <b>Was ist Website-Tracking eigentlich und warum machen wir uns den Aufwand?</b> Fakt ist, dass nur eine Minderheit der Unternehmen (sowohl in der Schweiz als auch weltweit) eines signifikaten Teil ihres Umsatz rein über den <em>Aufruf</em> (also ohne Einkauf oder Abschluss) ihrer Webseite generieren. Eigentlich fallen in diese Kategorie nur Blogs und andere Seite, die eine sehr hohe Anzahl an Besucher haben und Bannerwerbung schalten. Selbst bei Webshops hingegen ist der einfache Besuch der Webseite extrem selten das zentrale Unternehmensziel. Bei Webshops beispielsweise wäre das nämlich z.B. der Einkauf.</p>
+		<p>Auf der anderen Seite sind Webseiten inzwischen <b>aber sehr häufig direkt oder indirekt für den Geschäftserfolg</b> von vielen Unternehmen relevant. Ein Ladengeschäft, das sich per E-Commerce ein zweites Standbein aufbaut, spürt in der Bilanz sehr deutlich, wie gut oder schlecht der Webshop läuft. Andere Unternehmen erinnern ehemalige Kunden und vorhandene Leads regelmässig an ihr Unternehmen und führen sie tiefer in den Conversion-Funnel. Und selbst wenn keine der beiden Optionen zutrifft: Stellenanzeigen werden inzwischen immer im Internet gesucht und so gut wie alle Unternehmen sind abhängig davon, gute Angestellte zu finden.</p>
+		<p>Es ist hoffentlich nicht schwer zu verstehen, weshalb man deshalb seine Webseite optimieren sollte. Und genau das erklärt bereits die Notwendigkeit von Website-Tracking: <b>Optimierungen ohne Daten ist keine Optimierung.</b> Optimierung ohne Daten ist einfach Trial-and-Error nach Rateprinzip. Und gerade wenn man z.B. <a href="/was-kosten-google-ads/">Google Ads schaltet, kann das sehr schnell sehr teuer werden</a>.</p>
+	<hr>
+	<h2>Welche Tools brauche ich um meine Website-Kennzahlen auszuwerten?</h2>
+		<p>Gute Nachrichten! <b>Alle Tools die du zum Tracken deiner Website-Performance benötigst sind gratis!</b> Häufig gibt es alternative, zahlungspflichtige Lösungen, aber die Produktpalette von Google ist unangefochtener Weltmarktführer und deckt die Grundbedürfnisse vollständig ab. Im Zweifelsfall empfehle ich allen Website-Betreibern folgende Tools:</p>
+		<ul>
+			<li><strong>Google Search Console:</strong> Damit kannst du deine Sichtbarkeit in der Suchmaschine überwachen.</li>
+			<li><strong>Google Analytics 4:</strong> Damit kannst du Nutzerverhalten auf deiner Seite analysieren.</li>
+			<li><strong>Google Tag Manager:</strong> Damit kannst du Scripts, Custom Events, Google-Conversion-Tracking und vieles mehr auf deiner Seite einbinden und verknüpfen.</li>
+		</ul>
+		<p>Zusätzlich dazu habe ich begonnen, alle Kunden zu ermutigen, auch die <a href="https://www.bing.com/webmasters/about" target="_blank">Bing Webmaster Tools</a> einzurichten. Der Google-Mitbewerber aus dem Hause Microsoft hat zwar einen deutlich kleineren Marktanteil, aber nichtsdestotrotz <b>vereinzelte Nutzergruppen, die darauf deutlich häufig (auch) vertreten sind</b> und zumindest hin- und wieder etwas «&#8239;bingen&#8239;».</p>
+		<p>Dazu kommt ein wesentlicher Vorteil, der Bing in den letzten beiden Jahren massiv an Relevanz gewinnen lassen hat: AI. Bing hat natürlich mit dem Microsoft Co-Pilot selbst eine AI. Aber auch ChatGPT und Azure-AI-Anwendungen (die künstliche Intelligenz, die Unternehmen zusammen mit Microsoft 365 und/oder der Azure Cloud nutzen können) verwenden - zumindest aktuell noch - Bing für Webergebnisse. Wenn du also gefunden werden willst, wenn ein User «&#8239;Wer ist der beste Anbieter für X?&#8239;» in ChatGPT eingibt, kannst du Bing nicht mehr ignorieren.</p>
+		<p>Aber all das wäre höchstens in Sonderfällen ein ausschlaggebender Punkt für mich, wenn die Einrichtung kompliziert wäre. Das ist sie, zum Glück, nicht: Wer bereits ein Domain-Property in der Google Search Console eingerichtet hat, muss <b>nur einen einzigen Button klicken</b> um die Inhaberschaft durch die bereits vorhandene Google-Verification zu bestätigen. Und der positive Nebeneffekt ist, dass nach meiner Erfahrung Bing ein klein wenig Seiten bevorzugt, die der Suchmaschine beachtung schenken.</p>
+	<hr>
+	<h2>Was sind Ereignisse in Google Analytics eigentlich?</h2>
+		<p>Falls du das Questionnaire gemacht hast, hast du vielleicht gemerkt, dass sich ein relativ grosser Teil rein um <b>Google-Analytics-Ereignisse (auch Google Analytics Events genannt)</b> gedreht hat. Sogar die Beispiele oben &#8211; Einkäufe, Bewerbungen, Newsletter-Registrierungen &#8211; sind zu einem grossen Teil benutzerdefinierte Google-Analytics-Ereignisse oder können in solche Ereignisse heruntergebrochen werden. Streng genommen sind sogar alles vom Seitenaufruf und -wechsel (Pagehit genannt) über das Scrollen bis zum Absprung Ereignisse.</p>
+			<img src="/assets/img/custom-events.webp" alt="Beispiel Custom Events">
+		<p>Manche davon werden bereits standardmässig bei Einrichtung von GA4 getrackt (Seitenaufrufe, häufig Scrolls, etc.). Andere sind so unterschiedlich von Seite zu Seite, dass Google sie nicht automatisch erfässt. Diese müssen dann erst <b>manuell erstellt und eingerichtet werden</b> und am einfachsten geht das <a href="/tracking-analytics/">per Google Tag Manager.</a> Häufig lohnt sich dieser Extraschritt aber.</p>
+		<p>Einfaches Beispiel: Du hast eine Landingpage für ein neues Produkt gebaut. Sie endet auf einem Call-to-Action, der ein Kontaktformular öffnet. Nun, nach einem Monat, hast du bereits 200 Seitenaufrufe aber gerade einmal 2 Anfragen über das Kontaktformular bekommen. Wieso? Bereits ohne benutzerdefinierte Google-Analytics-Ereignisse kannst du sehen, dass Nutzer im Durchschnitt fast drei Minuten auf der Seite bleiben.</p>
+		<p>Wer an dieser Stelle <b>nur drei zusätzliche Custom-Events</b> eingerichtet hat, kann sehen, dass knapp 30 Personen sogar den Call to Action geklickt haben. Das Formularabschluss-Ereignis bestätigt, dass aber tatsächlich nur 2 Personen auch abgesendet haben und es kein Fehler am Formular ist. Wer an dieser Stelle noch Seitenwechsel im Formular trackt, kann unter Umständen erkennen, dass der Fehler auf der vorletzten Seite des Formulars liegen muss und die Nutzer sich z.B. wegen einer unverständlich formulierten Frage von dem Gedanken einer Anfrage verabschiedet haben.</p>
+		<p>Generell sind den Ereignissen, sofern sie wirklich erfolgsrelevant sind, und den Erkenntnissen die man daraus ableitet, kaum Grenzen gesetzt. Sofern es auf der Webseite stattfindet, kann man <b>für die meisten Interaktionen ein Event-Tracking einrichten</b>. Hast du eine Suchfunktion? Dann könntest du beispielsweise ganz einfach herausfinden, welche Produkte und Unterseiten nur schwer auffindbar sind. Alles was du dazu tun musst, ist die Suche als Ereignis einzurichten und, anschliessend in Google Analytics, Suchbegriffe auswerten.</p>
+		<h3>Google Analytics Event-Tracking einrichten</h3>
+			<p>Wenn du dich jetzt fragst, wie du das Einrichten überhaupt funktioniert, musst du zwischen zwei Möglichkeiten unterscheiden: Du kannst Events entweder direkt in GA4 einrichten oder per Google Tag Manager und von dort an Analytics weitergeben lassen. <b>Meine Empfehlung ist den Google Tag Manager dafür zu nutzen.</b> Er bietet weit mehr Möglichkeiten als Google Analytics und du hast den zusätzlichen Vorteil, dass du erstellte Ereignisse auch anderen Tools, zum Beispiel Google oder Meta Ads, als Conversions übergeben kannst.</p>
+			<p>Und falls du planst irgendwelche Seiteninteraktionen für Remarketing zu verwenden, empfehle ich dir dringlichst dein Event-Tracking per GTM einzurichten, da du dadurch den Einwilligungsmodus «&#8239;Consent Mode V2&#8239;» eventspezifisch einstellen kannst, den Google seit 31. Juli 2024 auch in der Schweiz vorschreibt.</b>
+			<img src="/assets/img/GTM-trigger.webp" alt="Verfügbare Trigger in GTM">
+			<p>Um Google-Analytics-Ereignisse per Tag Manager einrichten zu können, kannst du darin sogar auf eine Vielzahl verschiedener Tag-Vorlagen &#8211; darunter auch GA4-Ereignisstracking &#8211; und Event-Trigger zurückgreifen, die die Einrichtung relativ einfach machen. Du kannst entscheiden, wann welche Werte in Google Analytics übergeben werden und ob dies z.B. nur einmal pro Seite oder unbegrenzt stattfinden soll. Am Schluss kannst du noch «&#8239;Parameter&#8239;» als Zusatzinformationen mit jedem Event in GA4 einspeisen. Beispielsweise auf welcher Unterseite jetzt konkret der E-Mail-Klick stattgefunden hat.</p>
+			<div class="highlight"><p><strong>Tipp:</strong> Beachte dabei, dass du die Werte per «&#8239;Verwaltung ➔ Datenanzeigen ➔ Benutzerdefinierte Dimensionen&#8239;» noch aktivieren musst. Ansonsten sind die per Google Analytics nicht auswertbar, selbst wenn sie übergeben werden.</p></div>
+	<hr>
+	<h2>Welche Website-Kennzahlen soll ich beobachten?</h2>
+		<p>Wie schon oberhalb erwähnt, <b>trackt GA4 einige Kennzahlen bereits selbst</b> und out-of-the-box. Wie viele Nutzer auf deine Webseite kommen und wie lange sie darauf bleiben, siehst du direkt nach der Einrichtung deines Properties in den entsprechenden Berichten. Auch die Interaktionsrate (die bei Universal Analytics noch Absprungrate hiess und genau nach dem umgekehrten Prinzip funktioniert hat) findest du von Anfang an im Dashboard.</p>
+		<p>Aber das sollten wahrscheinlich nicht die Werte sein, die dich in erster Linie interessieren. Viel spannender ist es zu überlegen, <b>welche Ziele deine Webseite eigentlich verfolgt</b> und von dort nach hinten hinaus aufzuschlüsseln. Nehmen wir als Beispiel eine E-Commerce-Webseite. Die wirklich interessanten Aktionen durch Nutzer sind schlussendlich Einkäufe und das Ziel ist, den Umsatz zu steigern.</p>
+		<p>Entsprechend wissen wir bereits, dass wir den Checkout tracken sollten, und dieser Wert sehr relevant ist. Daraus können wir, geteilt durch die Gesamtanzahl der Nutzer, die Conversionrate unserer Webseite berechnen. Was uns ebenfalls interessieren sollte, sind die Shopping-Cart-Abandonment-Rate. Diese beschreibt einfach, wie viele Leute Artikel in ihren Warenkorb legen, aber nie den Einkauf abschliessen. Wenn dieser Wert ungewöhnlich hoch ist, müssten wir uns überlegen, ob der Abschluss vielleicht zu kompliziert ist oder wir die Nutzer, die ihren Warenkorb verlassen haben, per Ads-Retargeting wieder aktivieren und noch zum Abschluss bewegen können. Alles was wir dazu machen müssen, ist «&#8239;In den Warenkorb&#8239;» als Event zu tracken und die Anzahl der Nutzer mit Conversions durch die Anzahl der Nutzer, die dieses Event durchgeführt haben, zu teilen.</p>
+		<p><b>Apropos «&#8239;Wieder aktivieren&#8239;»:</b> Wenn wir einen Newsletter haben, sollten wir alle Aktionen dazu ebenfalls tracken, da Repeat Customers eine besonders attraktive Zielgruppe für jeden Ecom-Shop darstellen. Hier interessiert uns beispielsweise, wie stark unsere Newsletter-Empfängerliste angewachsen ist und ob sie wegen bestimmten Unterseiten oder Kanälen (beispielsweise durch Nutzer, die von Instagram kamen) angewachsen ist. Um diese Kennzahlen zu erkennen, müssen wir einfach nur das Event filtern oder die Parameter überprüfen.</p>
+	<hr>
+	<h2>Muss ich wirklich Google-Analytics-Conversion einrichten</h2>
+		<p>Eine häufige Frage, ist wie sich <b>Google-Analytics-Conversions, Google-Ads-Conversions und Google-Analytics-Ereignisse voneinander unterscheiden</b>. Gerade die Differenz zwischen Ads- und GA4-Conversions hat hier für grosse Verwirrung gesorgt und sogar zur Folge, dass Google nun begonnen hat, Google-Analytics-Conversions in «&#8239;Schlüsselereignisse&#8239;» oder «&#8239;Key Events&#8239;» umzubenennen. Das liegt nahe, da die beiden Werte tatsächlich auch nichts miteinander zu tun haben:</p>
+		<ul>
+			<li><strong>Google-Analytics-Schlüsselereignisse (auch häufig Conversions oder Key Events genannt):</strong> Dabei handelt es sich um besonders wichtige Ereignisse, die in GA4 hervorgehoben und in eigenen Berichten erscheinen. Dies hilft dabei, sich z.B. Anfragen, Abschlüsse oder andere hochgradig geschäftsrelevante Interaktionen genau und dezidiert ansehen zu können.</li>
+			<li><strong>Google-Ads-Conversions:</strong> Das sind Ereignisse, die komplett separat von Google Analytics angelegt werden. Dabei handelt es sich um durch den Werbetreibenden festgelegte Ereignisse, die Google Ads überwacht und als «&#8239;Ziel&#8239;» für die Kampagne bewertet. Insbesondere werden sie genutzt, um die Kampagne auf das gewünschte Ziel hin zu optimieren.</li>
+		</ul>
+		<p>Die Unterscheidung zwischen «&#8239;Conversions&#8239;»/Schlüsselereignisse und Ereignissen in GA4 hingegen ist nicht so klar. Schlüsselereignisse sind eine Untergruppe der Ereignisse, die vom Nutzer des Analytics-Property als besonders wichtig festgelegt und gekennzeichnet wurden. Welches Ereignis ein Schlüsselereignis – und damit eine «&#8239;Analytics Conversion&#8239;» – ist, ist dabei <b>frei wählbar, hängt vom jeweiligen Unternehmen ab</b> und variiert von Konto zu Konto und Property zu Property.</p>
+		<p>In jedem Fall empfehle ich jedem Webseiten-Betreiber, zumindest die interessanten Ereignisse als Schlüsselereignisse festzulegen. Ab da ist es nämlich nur mehr ein einzige Klick um zu sehen, <a href="/seo-fuer-anfaenger/">dass man vielleicht super SEO hat</a>, aber die so gewonnenen Nutzer nie konvertieren und man vielleicht seine Conversion schon im Meta-Titel oder der Beschreibung «&#8239;ankündigen&#8239;» sollte.
+	<hr>
+	<h2>Wann macht eine Google-Analytics-Auswertung Sinn?</h2>
+		<p>Keine der Ereignisse, Conversions und Kennzahlen sollte erhoben werden, nur damit man es «&#8239;halt auch gemacht hat&#8239;». <b>Ein perfektes Tracking-Set-Up ohne Überwachung bringt nämlich genauso viel wie gar kein Tracking.</b> Aber wie und wie oft soll man die Daten auswerten? Auch das hängt vom Unternehmen und der konkreten Webseite ab. Generell gilt: Je mehr Traffic auf der Seite, desto öfter sollte man die Tools prüfen. Häufig profitieren Unternehmen aber gerade davon, neben der regelmässigen Website-Auswertung noch ein grundlegendes Reporting über den Stand der Webseite anfertigen zu lassen. Je nach Grösse und Traffic der Webseite variiert auch hier, wie oft es nötig ist. Bei den meisten Unternehmen macht aber ein Quartals- oder Jahresreporting Sinn.</p>
+		<p>Diese Reportings sollten aber auf jeden Fall durch einen Fachmann durchgeführt werden, selbst wenn er in-house sitzt. Denn dabei tritt man einen weiten Schritt zurück und sieht sich das «&#8239;bigger picture&#8239;» an. Funktionieren irgendwelche Bereiche oder Funnels auf meiner Webseite überhaupt nicht? Wie verändern sich die Akquisekanäle und muss ich mein Marketing viel stärker auf einen anderen Bereich fokusieren? Dafür braucht es ein bisschen Erfahrung und Gespür. Aber ganz häufig gewinnt man gerad dabei wertvolle <b>Erkenntnisse, die die langfristige Strategie der Webseite und des Online-Marketings eines Unternehmens stark verändern können</b>. Dass ein Unternehmen aus einer Webseite, die vor 10 Jahre gebaut wurde, irgendwann «&#8239;hinauswächst&#8239;» kommt häufiger vor als man glauben möchte. Und ein Reporting ist üblicherweise der perfekte Ort, um datenbasiert zu dieser Erkenntnis zu kommen.</p>
+	<h3>Alles klar soweit?</h3>
+		<p>Egal ob du jetzt nur neugierig bist, bereits entschlossen hast, dass du eine Google-Analytics-Auswertung oder ein Reporting erstellen lassen willst oder Hilfe brauchst, dein Event-Tracking einzurichten: Ich helfe dir gerne. Wenn du möchtest, schreib mir einfach eine E-Mail, lass dich zurückrufen oder <a href="#Tracking-Questionnaire">nutze das Tracking-Questionnaire</a> um eine Anfrage zu senden. Ich freue mich darauf, von dir zu hören!</p>
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+	</div>
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+	<footer>
+    <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/">DE</a> | <a href="https://marcoaures.ch/en/analyzing-google-analytics-events/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+			</footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+		</body>
+		</html>

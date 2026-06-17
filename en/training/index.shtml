@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/schulungen/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/training/" hreflang="en-CH" />
+
+		<meta name="description" content="So you have the knowledge in-house instead of having to hire someone: my training sessions on SEO, Google Ads and analytics help you do exactly that.">
+		<link rel="canonical" href="https://marcoaures.ch/en/training/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Marketing Training | Marco Aures: Digital Marketing" />
+		<meta property="og:description" content="So you have the knowledge in-house instead of having to hire someone: my training sessions on SEO, Google Ads and analytics help you do exactly that." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/en/training/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_CH" />
+
+		<title>Marketing Training | Marco Aures: Digital Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/en/training/#webpage",
+						"url": "https://marcoaures.ch/en/training/",
+						"name": "Marketing Training | Marco Aures: Digital Marketing",
+						"description": "So you have the knowledge in-house instead of having to hire someone: my training sessions on SEO, Google Ads and analytics help you do exactly that.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/training/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "en-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/en/training/#service",
+						"name": "Marketing Training",
+						"alternateName": [
+							"Digital marketing training",
+							"SEO training",
+							"Google Ads training",
+							"Google Tag Manager training",
+							"Analytics training",
+							"Marketing training"
+						],
+						"description": "Individual training on SEO, Google Ads, analytics and Google Tag Manager, tailored to prior knowledge and goals. Via video call or on-site, individually or as a team, where possible on your own setup with real accounts and data. Without a fixed curriculum, with training materials and follow-up support for questions.",
+						"serviceType": [
+							"Marketing Training",
+							"SEO training",
+							"Google Ads training",
+							"Google Tag Manager training",
+							"Analytics training",
+							"On-page SEO training",
+							"Tracking training",
+							"Marketing training"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "Individuals and teams in SMEs and businesses in German-speaking Switzerland"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/en/training/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/assets/pdf/agb-EN.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/en/training/#offer",
+							"url": "https://marcoaures.ch/en/training/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Tailor-made training with an individual quote based on time spent. Via video call or on-site, individually or as a team, including preparation, training materials and follow-up support."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/en/training/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/en/training/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/training/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/training/#faq-aufzeichnen",
+								"name": "May I record the training?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Of course, I even recommend it. I want it to benefit you in the long term. And part of that is being able to refresh your knowledge at any time. For the same reason, I also share my training materials with you."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/training/#faq-rueckfragen",
+								"name": "How long can I ask you follow-up questions?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Generally I'm very accommodating there. Even if it's several months later (or years in some cases - that has actually happened before), you can write me an email with your related questions. If it's just a quick question, you don't need to worry. And if we find that a refresher or in-depth training would make sense, I'm happy to help with that too."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/training/#faq-doch-abgeben",
+								"name": "What if, after the training, I realise I'd rather hand it off after all?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "No problem: I also implement almost all the topics I train. A training session doesn't commit you to anything, and you can decide at any time to outsource part of it or the whole thing after all."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-en.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Training</h1>
+					<p>So you have the knowledge in-house instead of having to hire someone for every question.</p>
+					<button class="callbackform__hero-tile">Book a first consultation now</button>
+				</div>
+				<!--#include virtual="/includes/animations/schulungen-hero-en.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Not every business wants to outsource its marketing: <b>sometimes it makes more sense to build the knowledge internally,</b> e.g. because someone on the team does the work anyway, because you want to understand what an agency actually does, or because you don't want to ask externally every single time for the day-to-day tasks.</p>
+				<p>That's exactly what I give training for. <b>I teach you and/or your team what you need for your task,</b> whether on-page SEO, <a href="/en/google-ads/">Google Ads</a> or <a href="/en/tracking-analytics/">Google Tag Manager</a>. In the end you can do it yourselves, and an external service provider doesn't become the bottleneck when something needs to happen fast or without budget.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Who it's for</p>
+						<p>For individuals and teams who want to master a particular discipline themselves instead of handing it off permanently. Whether basics or in-depth knowledge in a specific area.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">What you get</p>
+						<p>A training session tailored to your prior knowledge and your goals, via video call or on-site, individually or as a team. With a focus on what you really need in practice.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">How I work</p>
+						<p>In your setup, not in a standard curriculum. Where possible, we work on your real accounts, so that what you learn is directly applicable and doesn't stay theoretical.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>A training session makes sense when the knowledge is meant to stay with you in the long term. Instead of completing a single task for you, I give you the tools to take it on yourself.</p>
+
+				<h2>You decide the content, focus and format</h2>
+				<p>With me, there's no fixed curriculum that everyone goes through. Instead, my training sessions are based on what you actually need. That can be an introduction to the basics if you're new to a topic, or a targeted deep-dive if you're stuck at a specific point.</p>
+				<p>In terms of topics, I cover all the areas I work in otherwise: <b>SEO and the question of how to prepare content for search engines, Google Ads from campaign setup to analysis, or Google Tag Manager and the clean setup of tracking and events.</b> Which of these takes centre stage we clarify in advance, so that the time flows into the topics that benefit you.</p>
+				<p>Whether via video call or on-site, and whether as an individual or in a team, depends on what works best for you. Where possible, we work on your own setup, i.e. on your accounts, your website and your data. That way what you learn is immediately applicable and you don't just take away theory, but something you can use the next day.</p>
+				<div class="spacer"></div>
+
+				<h2>How it works</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 01</span>
+							<h3>First consultation & clarification</h3>
+							<p>We clarify who is to be trained, what prior knowledge exists and which topic takes centre stage.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 02</span>
+							<h3>Preparation</h3>
+							<p>I tailor the content to your goal and your prior knowledge and prepare the training so that we can work on your own setup as much as possible.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 03</span>
+							<h3>Training</h3>
+							<p>We go through the topics together, via video call or on-site. There's plenty of room for questions and for the concrete cases that come up in your everyday work.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 04</span>
+							<h3>Follow-up support</h3>
+							<p>If questions come up after the training, you can get in touch. Follow-up questions about what we covered are part of the scope of my collaboration with you.</p>
+						</div>
+					</article>
+				</section>
+
+				<div class="spacer"></div>
+
+				<p><b>By the way, training and implementation don't mutually exclude each other.</b> If you want to take on some topics yourself but hand off others, that can be combined, for example training in on-page SEO while I take on the <a href="/en/technical-seo/">technical SEO</a> or the <a href="/en/tracking-analytics/">tracking setup</a>. Even if you need help with specific tasks down the road (for example, <a href="/en/relaunch-seo/">for a relaunch</a>) I'd be happy to help you. What you do yourself and what you outsource is up to you.</p>
+
+				<div class="spacer"></div>
+				<h2>Frequently asked questions</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">May I record the training?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Of course, I even recommend it. I want it to benefit you in the long term. And part of that is being able to refresh your knowledge at any time. For the same reason, I also share my training materials with you.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">How long can I ask you follow-up questions?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Generally I'm very accommodating there. Even if it's several months later (or years in some cases - that has actually happened before), you can write me an email with your related questions. If it's just a quick question, you don't need to worry. And if we find that a refresher or in-depth training would make sense, I'm happy to help with that too.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">What if, after the training, I realise I'd rather hand it off after all?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>No problem: I also implement almost all the topics I train. A training session doesn't commit you to anything, and you can decide at any time to outsource part of it or the whole thing after all.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-en.html" -->
+
+			</div>
+
+			<!--#include virtual="/includes/consent-en.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-en.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/schulungen/">DE</a> | <a href="https://marcoaures.ch/en/training/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

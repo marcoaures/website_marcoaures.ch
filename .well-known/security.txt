@@ -1,0 +1,6 @@
+Contact: mailto:hoi@marcoaures.ch
+Expires: 2027-06-01T00:00:00.000Z
+Preferred-Languages: de, en
+Policy: This domain does not host sensitive systems but responsible disclosure is welcome.
+Acknowledgements: I may offer a small token of appreciation (gift card, symbolic amount, or thank-you) at my discretion for helpful reports.
+Canonical: https://marcoaures.ch/.well-known/security.txt

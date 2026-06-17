@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/technisches-seo/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/technical-seo/" hreflang="en-CH" />
+
+		<meta name="description" content="Du machst schon SEO, vermutest aber, dass Potenzial liegen bleibt? Oft liegt das nicht an deinen Texten, sondern an dem, was «&#8239;unter der Haube&#8239;» passiert.">
+		<link rel="canonical" href="https://marcoaures.ch/technisches-seo/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Technisches SEO & SEO-Audits | Marco Aures: Online Marketing" />
+		<meta property="og:description" content="Du machst schon SEO, vermutest aber, dass Potenzial liegen bleibt? Oft liegt das nicht an deinen Texten, sondern an dem, was «&#8239;unter der Haube&#8239;» passiert." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/technisches-seo/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+
+		<title>Technisches SEO & SEO-Audits | Marco Aures: Online Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/technisches-seo/#webpage",
+						"url": "https://marcoaures.ch/technisches-seo/",
+						"name": "Technisches SEO & SEO-Audits | Marco Aures: Online Marketing",
+						"description": "Du machst schon SEO, vermutest aber, dass Potenzial liegen bleibt? Oft liegt das nicht an deinen Texten, sondern an dem, was «&#8239;unter der Haube&#8239;» passiert.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/technisches-seo/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/technisches-seo/#service",
+						"name": "Technisches SEO & SEO-Audits",
+						"alternateName": [
+							"Technisches SEO",
+							"SEO-Audit",
+							"Crawling-Optimierung",
+							"Structured Data",
+							"Core Web Vitals Optimierung",
+							"LLM-Auffindbarkeit"
+						],
+						"description": "Technisches SEO und tiefgehende, manuell geprüfte SEO-Audits mit priorisierten Handlungsempfehlungen. Von Indexierung, Crawling und Core Web Vitals über Metadaten, Headline-Struktur und interne Verlinkung bis zu Structured Data, Backlink-Profil und Auffindbarkeit für KI-Systeme (LLMO). Auch als gezielte Punktleistungen statt vollständigem Audit.",
+						"serviceType": [
+							"Technisches SEO",
+							"SEO-Audit",
+							"Crawling-Optimierung",
+							"Indexierungsanalyse",
+							"Core Web Vitals Optimierung",
+							"Structured Data",
+							"Interne Verlinkung",
+							"LLM-Auffindbarkeit",
+							"LLMO"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "Unternehmen mit bestehendem SEO und Webagenturen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/technisches-seo/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/technisches-seo/#offer",
+							"url": "https://marcoaures.ch/technisches-seo/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Technische SEO-Projekte und Audits mit individueller Offerte nach Aufwand, abhängig von der Grösse der Website. Inklusive Scoping, manueller Analyse, priorisierter Massnahmenliste, optionaler Umsetzung und Nachbetreuung."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/technisches-seo/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/technisches-seo/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/technisches-seo/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/technisches-seo/#faq-seo-selbst",
+								"name": "Ich mache mein SEO eigentlich selbst: Brauche ich dich überhaupt?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Wenn dein SEO rund läuft, nicht unbedingt. Aber gerade, wenn du das Gefühl hast, dass du alles richtig machst und trotzdem nicht die Erfolge erreichst, die du möchtest, liegt die Ursache vielleicht im technischen Unterbau, den man von aussen nicht sieht. Technisches SEO ist keine Alternative zum On-Page-SEO, sondern eine ergänzende Sparte."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/technisches-seo/#faq-einzelne-sache",
+								"name": "Kann ich auch eine einzelne Sache machen lassen, ohne ein ganzes Audit?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja. Wenn du schon weisst, wo der Schuh drückt, steige ich direkt dort ein und liefere die konkrete Lösung, ohne dass wir vorher die ganze Website durchleuchten müssen."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/technisches-seo/#faq-kosten-audit",
+								"name": "Was kostet ein Audit?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Der Aufwand hängt vor allem von der Grösse deiner Website ab. Eine schlanke Seite ist schneller durchleuchtet als ein umfangreicher Shop. Du bekommst nach dem Erstgespräch eine konkrete Offerte und weisst vorher, woran du bist. Auch die spätere Umsetzung läuft transparent nach Aufwand und erst nach deiner aktiven Beauftragung, damit es keine bösen Überraschungen gibt."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/technisches-seo/#faq-on-page-seo",
+								"name": "Kannst du auch mein On-Page-SEO übernehmen/(regelmässig) Blogs für mich schreiben?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Das ist nicht mein Fokus. Du kennst deine Zielgruppe und dein Angebot am besten, deshalb bist du voraussichtlich beim inhaltlichen SEO im Vorteil. Wenn du dabei Unterstützung willst, schule ich dich gerne im On-Page-SEO, mache Keyword-Analysen, damit du weisst, welche Inhalte du wie schreiben solltest, oder überarbeite punktuell einen Text auf Keywords. Generell ist es aber selten wirtschaftlich, wenn ich (als fachfremde Person) regelmässig Texte für dich schreibe."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/technisches-seo/#faq-seo-ki-systeme",
+								"name": "Was hat es mit SEO für KI-Systeme auf sich?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Suchmaschinen sind nicht mehr die einzigen, die deine Website lesen. Auch KI-Systeme wie ChatGPT oder Claude greifen auf Webinhalte zu. Und sie sind fast noch einmal stärker auf gute Maschinenlesbarkeit angewiesen als der Google Crawler: Wer hier also früh sauber aufgestellt ist, verschafft sich einen Vorteil in einem Kanal, der gerade erst entsteht. Dabei sollte man aber immer beachten, dass LLMs und LLMO noch «&#8239;jung&#8239;» sind. D.h., Ergebnisse fluktuieren, Best Practices ändern sich laufend und Erfolge sind noch sehr volatil."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/technisches-seo/#faq-webagentur",
+								"name": "Arbeitest du mit meiner bestehenden Webagentur zusammen?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Gerne. Ich formuliere meine Befunde so, dass deine Agentur direkt damit arbeiten kann, und kläre technische Rückfragen bei Bedarf auch direkt mit ihr. Du musst nicht zwischen uns vermitteln."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Technisches SEO & SEO-Audits</h1>
+					<p>Du machst schon SEO, vermutest aber, dass Potenzial liegen bleibt? Oft liegt das nicht an deinen Texten, sondern an dem, was «&#8239;unter der Haube&#8239;» passiert.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/techseo-robots-de.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Die meisten Unternehmen, die bei SEO nicht vorankommen, hören als Erstes oft: «&#8239;Ihr braucht mehr Content.&#8239;» Häufig stimmt das. <b>Manchmal liegt das tatsächliche Problem aber ganz woanders:</b> in einer Sitemap, die Google nicht lesen kann, in fehlenden Überschriften-Ebenen, in einer internen Verlinkung, die wichtige Seiten vergräbt, oder in fehlenden strukturierten Daten, mit denen Such- und KI-Systeme deine Inhalte besser einordnen könnten.</p>
+				<p>Genau da setze ich als dein Freelancer für technisches SEO an: Ich schaue mir die «&#8239;versteckten&#8239;» Teile deiner Webseite an, die deine Besucher nie sehen, Google und LLMs aber sehr wohl. Danach sage ich dir, wo Sichtbarkeit wahrscheinlich verloren geht und was sich dagegen tun lässt.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Für Unternehmen, die bereits SEO betreiben und merken, dass etwas nicht aufgeht oder die einen unabhängigen, tiefen Blick auf den technischen Zustand ihrer Website wollen, statt nur «&#8239;mehr Texte&#8239;» zu hören.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Ein tiefes SEO-Audit mit priorisierten Handlungsempfehlungen oder gezielte Punktleistungen wie Structured Data, Crawling-Optimierung oder LLM-Auffindbarkeit. Klar dokumentiert und direkt umsetzbar.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>Ich arbeite unabhängig und transparent. Du bekommst klare Befunde, verständliche Prioritäten und konkrete nächste Schritte, damit du selbst entscheiden kannst, was du intern, mit deiner Agentur oder mit mir umsetzt.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Technisches SEO ist alles, was darüber entscheidet, ob Google und <a href="/ai-veraendert-online-marketing/">zunehmend auch KI-Systeme</a> deine Website überhaupt sauber erfassen, verstehen und einordnen können, bevor es überhaupt um den Inhalt geht: Die Maschinenlesbarkeit und der Aufwand, der dafür notwendig ist. Wenn dieses Fundament bröckelt, hilft auch der beste Text wenig: <b>Google rankt nicht, was es nicht richtig interpretieren kann.</b></p>
+				<p>Klar, Content ist wichtig. Aber «&#8239;mehr Blogs&#8239;» ist manchmal die einfache Antwort auf ein Problem, das komplizierter ist. Wenn Google auf deiner Webseite wichtige Unterseiten gar nicht erst indexiert, die Search-Console-Warnungen und Fehler ausspuckt oder wichtige Änderungen verspätet oder gar nicht durch Google erkannt werden, liegt das Problem meistens auf der technischen Seite. Und in diesen Fällen ist es dann egal, ob das Problem schon immer da war, sich <a href="/relaunch-seo/">durch einen Relaunch Fehler eingeschlichen haben</a> oder ein Core Update die Mechanik verändert hat: In solchen Fällen sorgt mehr Content vor allem für zusätzliche Seiten mit den gleichen, ungelösten Problemen. Mein Fachgebiet ist genau das: <b>Die technische Basis für SEO, damit dein Content die Position erreicht, die er verdient.</b></p>
+				<h2>Vom Audit zur Umsetzung</h2>
+				<p>Der Einstieg ist meistens ein Audit. Ich prüfe deine Website tiefgehend und von Hand: Indexierung, Crawling und Core Web Vitals. Von Metadaten, Headline-Struktur und interner Verlinkung bis zu Structured Data und Backlink-Profil. Am Ende erhältst du eine Massnahmenliste, was auf deiner Webseite verbessert werden kann, ohne dass du 20 neue Seiten schreiben musst.</p>
+
+				<div class="spacer"></div>
+
+
+				<h2>So läuft das ab</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Erstgespräch & Scoping</h3>
+							<p>Wir klären, wo du stehst, was du schon selbst machst und wo du Potenzial vermutest. Auf Basis deiner Seitengrösse und deines Anliegens bekommst du eine individuelle Offerte.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Analyse & Audit</h3>
+							<p>Beim Audit durchleuchte ich deine Website systematisch und dokumentiere jeden Befund nachvollziehbar. Wenn du schon weisst, wo der Schuh drückt (z.B. bei Structured Data oder Crawling), steige ich direkt dort ein und liefere die konkrete Lösung.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>Priorisierte Empfehlungen</h3>
+							<p>Du bekommst die Ergebnisse als saubere, verständliche Aufstellung: Jeder Punkt mit Einordnung, was er bringt und wie dringend er ist. Damit weisst du nicht nur, was nicht stimmt, sondern auch, womit du anfangen solltest.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Umsetzung nach Absprache</h3>
+							<p>Hier entscheidest du, wer was übernimmt: du, deine Agentur oder ich. Was ich umsetze, läuft transparent nach Aufwand.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 05</span>
+							<h3>Nachbetreuung</h3>
+							<p>Tauchen später Fragen zum Audit oder zur Umsetzung auf, kannst du dich natürlich melden. Kurze Erklärungen zu meinen Befunden und Empfehlungen gehören bei mir zum Projekt.</p>
+						</div>
+					</article>
+				</section>
+
+				<h2>Wie ein Audit aussieht</h2>
+				<p>Ein technisches SEO-Audit ist bei mir <b>KEIN automatisch generierter Tool-Report, den du auch selbst hättest ziehen können.</b> Ich arbeite mich tatsächlich durch deine Website. Natürlich nutze ich Tools und Scripts, aber ich prüfe alle Befunde manuell nach und ordne sie in den Kontext deines Geschäfts ein.</p>
+				<!--#include virtual="/includes/animations/techseo-hero-de.html" -->
+				<p>Wie das konkret aussieht, von der Indexierungsanalyse über Core Web Vitals und Structured Data bis zur priorisierten Massnahmenliste am Ende, kannst du dir in diesem Musteraudit ansehen.</p>
+
+				<div class="button-container">
+					<button type="button" id="download-sample-audit" class="btn-sec-cta" onclick="window.open('/assets/pdf/Musteraudit_Brunner-Bau.pdf', '_blank');">Musteraudit als PDF downloaden</button>
+				</div>
+
+				<h2>Häufig gestellte Fragen</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Ich mache mein SEO eigentlich selbst: Brauche ich dich überhaupt?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Wenn dein SEO rund läuft, nicht unbedingt. Aber gerade, wenn du das Gefühl hast, dass du alles richtig machst und trotzdem nicht die Erfolge erreichst, die du möchtest, liegt die Ursache vielleicht im technischen Unterbau, den man von aussen nicht sieht. Technisches SEO ist keine Alternative zum On-Page-SEO, sondern eine ergänzende Sparte.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Kann ich auch eine einzelne Sache machen lassen, ohne ein ganzes Audit?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja. Wenn du schon weisst, wo der Schuh drückt, steige ich direkt dort ein und liefere die konkrete Lösung, ohne dass wir vorher die ganze Website durchleuchten müssen.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was kostet ein Audit?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Der Aufwand hängt vor allem von der Grösse deiner Website ab. Eine schlanke Seite ist schneller durchleuchtet als ein umfangreicher Shop. Du bekommst nach dem Erstgespräch eine konkrete Offerte und weisst vorher, woran du bist. Auch die spätere Umsetzung läuft transparent nach Aufwand und erst nach deiner aktiven Beauftragung, damit es keine bösen Überraschungen gibt.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Kannst du auch mein On-Page-SEO übernehmen/(regelmässig) Blogs für mich schreiben?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Das ist nicht mein Fokus. Du kennst deine Zielgruppe und dein Angebot am besten, deshalb bist du voraussichtlich beim inhaltlichen SEO im Vorteil. Wenn du dabei Unterstützung willst, schule ich dich gerne im On-Page-SEO, mache Keyword-Analysen, damit du weisst, welche Inhalte du wie schreiben solltest, oder überarbeite punktuell einen Text auf Keywords. Generell ist es aber selten wirtschaftlich für meine Kunden, wenn ich (als fachfremde Person) regelmässig Texte für sie schreibe.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Was hat es mit SEO für KI-Systeme auf sich?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Suchmaschinen sind nicht mehr die einzigen, die deine Website lesen. Auch KI-Systeme wie ChatGPT oder Claude greifen auf Webinhalte zu. Und sie sind fast noch einmal stärker auf gute Maschinenlesbarkeit angewiesen als der Google Crawler: Wer hier also früh sauber aufgestellt ist, verschafft sich einen Vorteil in einem Kanal, der gerade erst entsteht.</p>
+								<p>Dabei sollte man aber immer beachten, dass LLMs und LLMO noch «&#8239;jung&#8239;» sind. D.h., Ergebnisse fluktuieren, Best Practices ändern sich laufend und Erfolge sind noch sehr volatil.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Arbeitest du mit meiner bestehenden Webagentur zusammen?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Gerne. Ich formuliere meine Befunde so, dass deine Agentur direkt damit arbeiten kann, und kläre technische Rückfragen bei Bedarf auch direkt mit ihr. Du musst nicht zwischen uns vermitteln.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+				<h2>Das könnte dich interessieren</h2>
+
+				<div class="related-grid-wrap is-collapsed" id="relatedGrid">
+					<div class="related-grid">
+
+						<a href="/seo-fuer-anfaenger/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>5 SEO-Tipps für Anfänger</h3>
+							<p>Hier lernst du die wichtigsten Grundlagen & Best Practices des On-Page-SEO.</p>
+						</a>
+
+						<a href="/tools/sitemap-analyse/" class="related-card" data-type="tool">
+							<span class="related-card__type">#tool</span>
+							<h3>Sitemap-Analyse</h3>
+							<p>Ruft Sitemaps ab und analysiert Unterseiten, Aktualität, Mehrsprachigkeit und mehr.</p>
+						</a>
+
+						<a href="/seo-und-barrierefreiheit-im-internet/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Warum gute SEO barrierefrei ist</h3>
+							<p>Barrierefreiheit und SEO sind sich sehr ähnlich. Hier erkläre ich dir, wieso.</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="related-more-wrap" id="relatedMoreWrap">
+					<button type="button" class="related-show-more" id="relatedShowMore">Mehr anzeigen</button>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/technisches-seo/">DE</a> | <a href="https://marcoaures.ch/en/technical-seo/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

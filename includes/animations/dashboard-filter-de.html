@@ -1,0 +1,79 @@
+<style>
+.vf-card {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.07);
+    padding: 1.2em 1.4em;
+    width: 80%;
+    box-sizing: border-box;
+  }
+
+  .vf-title {
+    font-size: .95rem; font-weight: 800; color: var(--color-brand-dark);
+    margin-bottom: 1.1em;
+  }
+  .vf-title .dim {
+    color: var(--color-accent);
+    display: inline-block;
+    transition: opacity .3s ease, transform .3s ease;
+  }
+  .vf-title .dim.swap { opacity: 0; transform: translateY(-4px); }
+
+  .vf-chart {
+    display: flex; flex-direction: column;
+    gap: 10px;
+  }
+  .vf-row { display: flex; align-items: center; gap: 10px; }
+  .vf-lbl {
+    font-size: .72rem; font-weight: 700; color: var(--color-brand-dark); opacity: .7;
+    white-space: nowrap; text-align: right;
+    width: 78px; flex: none;
+  }
+  .vf-track { flex: 1; }
+  .vf-bar {
+    height: 16px;
+    background: var(--color-brand);
+    border-radius: 0 4px 4px 0;
+    width: 0;
+    transition: width .7s cubic-bezier(.4,0,.2,1), background-color .4s ease;
+  }
+  .vf-bar.hot { background: var(--color-accent); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .vf-bar { transition: none; }
+    .vf-title .dim { transition: none; }
+  }
+  
+.vf-card {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.07);
+    padding: 1.2em 1.4em;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+@media (max-width: 768px) {
+.vf-card {
+    width: 100%;
+  }
+}
+  
+</style>
+
+<div class="service-hero-animation">
+  <div class="vf-card" id="vf">
+    <div class="vf-title">Seitenbesucher: <span class="dim" id="vfDim">Herkunft</span></div>
+    <div class="vf-chart" id="vfChart">
+      <div class="vf-row"><div class="vf-lbl" data-l="0"></div><div class="vf-track"><div class="vf-bar" data-b="0"></div></div></div>
+      <div class="vf-row"><div class="vf-lbl" data-l="1"></div><div class="vf-track"><div class="vf-bar" data-b="1"></div></div></div>
+      <div class="vf-row"><div class="vf-lbl" data-l="2"></div><div class="vf-track"><div class="vf-bar" data-b="2"></div></div></div>
+      <div class="vf-row"><div class="vf-lbl" data-l="3"></div><div class="vf-track"><div class="vf-bar" data-b="3"></div></div></div>
+      <div class="vf-row"><div class="vf-lbl" data-l="4"></div><div class="vf-track"><div class="vf-bar" data-b="4"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/animations/dashboard-filter-de.js" defer></script>

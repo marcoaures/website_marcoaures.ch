@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<html lang="en-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+
+		<link rel="alternate" href="https://marcoaures.ch/tracking-analytics/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/tracking-analytics/" hreflang="en-CH" />
+
+		<meta name="description" content="As a marketing freelancer, I build you clean website tracking & custom events you can trust: privacy-compliant, precise & traceable.">
+		<link rel="canonical" href="https://marcoaures.ch/en/tracking-analytics/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Tracking & Analytics | Marco Aures: Digital Marketing" />
+		<meta property="og:description" content="As a marketing freelancer, I build you clean website tracking & custom events you can trust: privacy-compliant, precise & traceable." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/en/tracking-analytics/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_CH" />
+
+		<title>Tracking & Analytics | Marco Aures: Digital Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/en/tracking-analytics/#webpage",
+						"url": "https://marcoaures.ch/en/tracking-analytics/",
+						"name": "Tracking & Analytics | Marco Aures: Digital Marketing",
+						"description": "Clean website tracking, Google Tag Manager, GA4 and custom events for businesses that need reliable marketing data.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/tracking-analytics/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "en-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/en/tracking-analytics/#service",
+						"name": "Tracking & Analytics",
+						"alternateName": [
+							"Website tracking",
+							"Google Tag Manager setup",
+							"GA4 setup",
+							"Analytics tracking",
+							"Conversion tracking",
+							"Custom event tracking"
+						],
+						"description": "Tracking & analytics for businesses that need reliable marketing data. Including Google Tag Manager, GA4, social media pixels, custom events, consent management, tracking concept and documentation.",
+						"serviceType": [
+							"Tracking & Analytics",
+							"Website tracking",
+							"Google Analytics 4",
+							"Google Tag Manager",
+							"Custom events",
+							"Conversion tracking",
+							"Consent management",
+							"Social media pixel",
+							"Tracking concept",
+							"Analytics documentation"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "SMEs and businesses in German-speaking Switzerland"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/en/tracking-analytics/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/assets/pdf/agb-EN.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/en/tracking-analytics/#offer",
+							"url": "https://marcoaures.ch/en/tracking-analytics/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Tracking and analytics projects with an individual quote based on time spent. Including tracking concept, implementation, consent considerations and documentation."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/en/tracking-analytics/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/en/tracking-analytics/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/tracking-analytics/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/tracking-analytics/#faq-google-tag-manager",
+								"name": "I already have Google Analytics 4. What do I need Google Tag Manager for?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Google Analytics is merely an analysis tool that collects, processes and presents data in reports. The Tag Manager is the intermediary piece that connects the website with Analytics as well as other analytics tools. You can also integrate Google Analytics without Google Tag Manager, but for more complex setups it's worth using a tag manager."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/tracking-analytics/#faq-was-messen",
+								"name": "What can I measure?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "In principle, you can measure most page interactions that happen directly on your website. There are a few special cases like iframes or data that can't be tapped directly from the DOM, but in most cases there's a clever workaround to capture the interaction or at least a proxy value. Being able to measure everything doesn't mean you should measure everything, though. Data minimisation reduces the privacy-related attack surface, and the insights from a few relevant metrics are usually better than the noise from too many analytics events."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/tracking-analytics/#faq-clientseitig-serverseitig",
+								"name": "Is client-side or server-side tracking better?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "There's no universal answer here. Both classic client-side tracking and server-side tagging and tracking have pros and cons. In many cases the extra effort for server-side tracking isn't worth it, but whether that applies in your specific case is best found out through dialogue and scoping."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/tracking-analytics/#faq-consent-mode-v2",
+								"name": "Are you familiar with Google's Consent Mode v2 too?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Yes, I take consent mode into account by default, if desired and possible in your architecture."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/tracking-analytics/#faq-andere-tools",
+								"name": "You talk about GA4 and GTM throughout: are you familiar with other tools, e.g. Matomo?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "My focus is on the Google ecosystem. I can also support other analytics platforms, but I'm happy to check in the first consultation whether I'm the right point of contact for your project."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-en.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Tracking & Analytics</h1>
+					<p>Clean website tracking & custom events you can trust: privacy-compliant, precise and traceable.</p>
+					<button class="callbackform__hero-tile">Book a first consultation now</button>
+				</div>
+
+				<!--#include virtual="/includes/animations/tracking-hero.html" -->
+
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>Tracking is complex, multi-layered and usually underestimated: from the marketing lead through information security and legal to IT, there are many points of contact and everyone has <b>different requirements and ideas.</b> On top of that, tracking setups are individual from company to company and usually only become "important" once necessary data suddenly turns out to be missing.</p>
+				<p>It doesn't have to be that way: <b>Tracking & Analytics are my specialty,</b> and as a freelancer I set up your Google Tag Manager and your GA4 so that even the most critical stakeholders give you the green light.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Who it's for</p>
+						<p>For businesses that value data-driven marketing. Whether for the first clean setup or for overhauling an existing one.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">What you get</p>
+						<p>Implementation or revision of your tracking setup. GA4, Google Tag Manager, social media pixels, custom events and consent management. Including documentation.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">How I work</p>
+						<p>Holistically: I understand tech & code, requirements around consent management & revised Swiss FADP/GDPR compliance, and also which data matters to the marketing team.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Admittedly, a small website that mainly serves as a "shop window" for a small business probably gets by with a mini setup or no analytics at all. But at the latest once the website delivers a <b>measurable share of business success,</b> more marketing budget is meant to flow, management or the board demands a report, or you want to <a href="/en/reportings/">improve your site based on data</a>, clean data is no longer a "luxury" but a minimum requirement.</p>
+				<h2>When analytics gets complex</h2>
+				<p>The crux: setting up simple analytics is actually relatively easy, but more complex setups aren't. As soon as <b>user consent, event listeners, custom events or the interplay of several endpoints</b> (<a href="/en/bing-linkedin-meta-ads/"></a>Meta Pixel</a>, <a href="/en/google-ads/">Google Ads Conversions</a>, GA4, <a href="/en/data-studio-dashboards/">Looker Studio</a>) come into play, it takes <a href="/en/content-security-policy-for-marketers/">interdisciplinary know-how.</a> There's no point in being able to track everything but not knowing <a href="/en/clientside-cookieless-tracking/">what you're allowed to track.</a> Just as little does a technically perfect tracking concept help if marketing can't use it to answer where the funnel breaks. And even if everything is in place: <b>tracking has to be maintained,</b> otherwise the next website relaunch destroys the setup - usually unnoticed.</p>
+
+				<!--#include virtual="/includes/animations/tracking-userflow.html" -->
+
+				<p>These are exactly the problems I can solve for you as a tracking freelancer: <a href="/en/analyzing-google-analytics-events/">I translate marketing requirements into clean GTM setups,</a> mediate between IT and marketing (or build the tech myself right away). From the pixel to the CRM, I know which data needs to land where – and where better not. <b>Consent, revised Swiss FADP and GDPR aren't add-ons with me,</b> but part of the setup. On top of that, I document everything cleanly, so that even in two years you still know what happens where and don't have to start from scratch every time the website is revised.</p>
+
+				<div class="button-container">
+					<button type="button" class="btn-prim-cta" id="jump-to-callback-mid">Book a first consultation</button>
+				</div>
+
+
+				<div class="spacer"></div>
+
+				<h2>How it works</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 01</span>
+							<h3>Non-binding first consultation</h3>
+							<p>Together we discuss what's possible where on your website and which tools you already have or still need to be set up. On this basis you get an individual quote based on time spent.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 02</span>
+							<h3>Tracking concept</h3>
+							<p>Based on your wishes & best practices, I prepare an individual tracking concept for you, which I send you for approval. In this step I also check your privacy terms and other dependencies.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 03</span>
+							<h3>Tracking build</h3>
+							<p>After your approval, it finally starts: I implement the tracking according to your requirements and make sure everything lands correctly in the desired tools (GA4, Meta Events Manager, etc.).</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 04</span>
+							<h3>Documentation</h3>
+							<p>To finish, you get documentation of your tracking, so you know exactly what is measured, how, where, when and why. That way you're equipped for all the questions internal stakeholders might ask you about your marketing data.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 05</span>
+							<h3>Follow-up support</h3>
+							<p>I'm deliberately very accommodating if questions come up later: should something be unclear – even weeks or months afterwards – you can get in touch any time. Brief explanations of the setup are part of the project scope with me.</p>
+						</div>
+					</article>
+
+				</section>
+
+				<p>By the way: collecting user data is one thing. Preparing, analysing and translating user data into actionable insights and measures is another.</p>
+
+				<p>If you need a <a href="/en/data-studio-dashboards/">Data Studio dashboard</a> in which your marketing team or other stakeholders find the charts, graphs and numbers they need, I can help you with that too. And if you'd like a regular "external audit" that checks and translates your data, my <a href="/en/reportings/">analytics reportings and KPI reviews</a> are exactly the right thing for you.</p>
+				<div class="spacer"></div>
+
+				<h2>Frequently asked questions</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">I already have Google Analytics 4. What do I need Google Tag Manager for?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Google Analytics is merely an analysis tool that collects, processes and presents data in reports. The Tag Manager is the intermediary piece that connects the website with Analytics (as well as other analytics tools). You can also integrate Google Analytics without Google Tag Manager, but for more complex setups it's worth using a tag manager.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">What can I measure?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>In principle, you can measure most page interactions that happen directly on your website. There are a few special cases (iframes, data that can't be tapped directly from the DOM, etc.), but in most cases there's a clever workaround to capture the interaction or at least a proxy value.</p>
+								<p>That said, "being able to measure everything" is far from meaning you should measure everything. Data minimisation reduces the privacy-related attack surface, and the insights from 20 metrics are usually better than the static noise from a sea of analytics events.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Is client-side or server-side tracking better?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>There's no universal answer here. Both "classic", client-side tracking and server-side tagging and tracking have pros and cons. In many cases the extra effort for SST isn't worth it, but whether that's the case for you is best found out through dialogue and scoping.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Are you familiar with Google's Consent Mode v2 too?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Yes, I take consent mode into account by default, if desired and possible in your architecture.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">You talk about GA4 and GTM throughout: are you familiar with other tools, e.g. Matomo?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>My focus is on the Google ecosystem. I can also support other analytics platforms, but I'm happy to check in the first consultation whether I'm the right point of contact for your project.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+				<h2>You might also be interested in</h2>
+
+				<div class="related-grid-wrap is-collapsed" id="relatedGrid">
+					<div class="related-grid">
+
+						<a href="/en/analyzing-google-analytics-events/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Analytics events & analysis</h3>
+							<p>Introduction to the topic of analytics & custom events with Google Tag Manager.</p>
+						</a>
+
+						<a href="/en/tools/analytics-event-tracking-check/" class="related-card" data-type="tool">
+							<span class="related-card__type">#tool</span>
+							<h3>Analytics/event tracking check</h3>
+							<p>Creates tracking recommendations & a to-do list for your individual website.</p>
+						</a>
+
+						<a href="/en/clientside-cookieless-tracking/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Client-side cookieless tracking with GA4</h3>
+							<p>Using a concrete client case, I show how you can track without cookies.</p>
+						</a>
+
+						<a href="/en/content-security-policy-for-marketers/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Content Security Policy for marketers</h3>
+							<p>Explains everything you need to know about CSP and its interplay with tracking.</p>
+						</a>
+
+						<a href="/en/csp-and-google-tag-manager/" class="related-card" data-type="tool">
+							<span class="related-card__type">#tool</span>
+							<h3>Using Google Tag Manager with CSP</h3>
+							<p>Explains how you can use GTM despite a Content Security Policy.</p>
+						</a>
+
+						<a href="/en/social-media-pixel-external-tools-and-csp/" class="related-card" data-type="blog">
+							<span class="related-card__type">#blog</span>
+							<h3>Using social media pixels with CSP</h3>
+							<p>Explains in particular what you should know about CSP & social media pixels.</p>
+						</a>
+
+					</div>
+				</div>
+
+				<div class="related-more-wrap" id="relatedMoreWrap">
+					<button type="button" class="related-show-more" id="relatedShowMore">Show more</button>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-en.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-en.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-en.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/tracking-analytics/">DE</a> | <a href="https://marcoaures.ch/en/tracking-analytics/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

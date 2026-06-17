@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+	<!-- hreflang tags -->
+	<link rel="alternate" href="https://marcoaures.ch/tools/ads-kosten-rechner/" hreflang="de-CH" />
+	<link rel="alternate" href="https://marcoaures.ch/en/tools/ads-cost-calculator/" hreflang="en-CH" />
+
+	<meta name="description" content="This calculator estimates realistic conversion costs in CHF and the required Google Ads budget. It provides quick guidance for your next campaign.">
+	<link rel="canonical" href="https://marcoaures.ch/en/tools/ads-cost-calculator/">
+	<meta name="author" content="Marco Aures">
+	<meta property="og:title" content="Tool: Ads Cost Calculator | Marco Aures" />
+	<meta property="og:description" content="This calculator estimates realistic conversion costs in CHF and the required Google Ads budget. It provides quick guidance for your next campaign." />
+	<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+	<meta property="og:url" content="https://marcoaures.ch/en/tools/ads-cost-calculator/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_CH" />
+    <title>Tool: Ads Cost Calculator | Marco Aures</title>
+    <!--#include virtual="/includes/integrations.html" -->
+</head>
+
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+
+<main>
+    <div class="content">
+		<div class="toolpage">
+			<h1><strong>Ads Cost Calculator</strong></h1>
+			<a href="/en/tools/" class="tools-back">Back to overview</a>
+
+			<!--#include virtual="/includes/adscalculator-en.html" -->
+
+		</div>
+	</div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+
+<footer>
+    <!--#include virtual="/includes/footertop-en.html" -->
+        <p>Select language | Sprache wählen: <a href="https://marcoaures.ch/tools/ads-kosten-rechner/">DE</a> | <a href="https://marcoaures.ch/en/tools/ads-cost-calculator/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+</footer>
+
+<!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

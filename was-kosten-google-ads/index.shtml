@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/was-kosten-google-ads/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/how-much-do-google-ads-cost/" hreflang="en-CH">
+
+    <meta name="description" content="Google Ads sind eher teuer, können sich aber schnell um ein Vielfaches auszahlen. In meinem Artikel erzähle ich dir, wann sich SEA lohnt.">
+    <link rel="canonical" href="https://marcoaures.ch/was-kosten-google-ads/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Was kosten Google Ads? | Marco Aures Online-Marketing">
+    <meta property="og:description" content="Google Ads sind eher teuer, können sich aber schnell um ein Vielfaches auszahlen. In meinem Artikel erzähle ich dir, wann sich SEA lohnt.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/was-kosten-google-ads/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+
+    <title>Was kosten Google Ads? | Marco Aures: Online-Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://marcoaures.ch/was-kosten-google-ads/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://marcoaures.ch/was-kosten-google-ads/"
+      },
+      "headline": "Was kosten Google Ads?",
+      "description": "Google Ads sind eher teuer, können sich aber schnell um ein Vielfaches auszahlen. In meinem Artikel erzähle ich dir, wann sich SEA lohnt.",
+      "image": "https://marcoaures.ch/assets/img/icons/ads-kosten-tile.svg",
+      "datePublished": "2024-03-27",
+      "dateModified": "2025-12-05",
+      "inLanguage": "de-CH",
+      "author": {
+        "@id": "https://marcoaures.ch/#person"
+      },
+      "publisher": {
+        "@id": "https://marcoaures.ch/#organization"
+      }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/was-kosten-ads.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking" style="background-color: rgba(184,93,37,.8);">
+            <h1 style="margin-top:20px;">Was kosten Google Ads?</h1>
+            <p>SEA ist eher teuer. Aber wenn ein paar kleine Bedingungen zutreffen, kann der Umsatz aus Google Ads die Ausgaben um ein Vielfaches übersteigen.</p>
+        </div>
+        <button class="scroll-arrow" onclick="scrollToContent()" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 27.03.2024 | Aktualisiert: 16.06.2026<br>
+            Inhalt: Google Ads Kosten, ROI/ROA, Customer-Lifetime-Value, SEA vs. SEO vs. SMM, Bing Ads
+        </div>
+
+        <p>Für viele Firmen, die sich das erste Mal an Suchmaschinenwerbung wagen, ist die wichtigste Frage <b>«&#8239;Was kosten Google Ads eigentlich?&#8239;»</b> Und dann folgt ein kurzer Schockmoment: Bei Google Ads bezahlt man pro Klick. Und der Cost-per-Click – also was in Google Ads Keywords kosten – liegt oft im Bereich von mehreren Franken. In besonders hart umkämpften Branchen, Software, Recht, B2B oder Finanzen zum Beispiel, kann ein Keyword leicht in den zweistelligen Bereich rutschen.</p>
+        <img src="/assets/img/teure-keywords.webp" alt="Teure Keywords Vergleich">
+        <p>Schockmoment überstanden? Gut, denn <b>oft lohnen sich Google Ads trotzdem</b>. Die meisten CPCs liegen nämlich irgendwo zwischen 1 und 5 Franken. Das Wichtigste ist folgendes: Auch wenn Google Ads eher teuer sind, sind sie es in manchen Fällen einfach wert. Wenn du die Gelegenheit hättest, täglich 100 Franken zu investieren und dafür am Tagesende 500 Franken bekommen würdest, würdest du dich auch nicht über den «&#8239;Verlust&#8239;» von 100 Franken beschweren. Ein bisschen so ist SEA.</p>
+        <p>In diesem Artikel erkläre ich dir darum <b>die wichtigsten Aspekte in Bezug auf Google-Ads-Kosten</b> und was zutreffen muss, damit sich eine Kampagne für dich lohnen kann.</p>
+
+        <hr>
+
+        <h2>Was kostet Google Werbung?</h2>
+        <p>Eine eindeutige Antwort gibt es auf diese Frage leider nicht. Wie schon erwähnt, kann sich das von <a href="/beste-google-ads-branchen/" target="_blank">Branche zu Branche,</a> Kampagne zu Kampagne und Suchanfrage zu Suchanfrage unterscheiden. Zusätzlich dazu muss noch einmal nach Art der Kampagne differenziert werden. <b>Google Ads sind nicht gleich Google Ads</b>. Der Suchmaschinenhersteller bietet eine Bandbreite an verschiedenen Ads-Typen an. Am häufigsten trifft man die folgenden drei an:</p>
+        <ul>
+            <li><strong>Search Ads:</strong> Das sind die Einträge ganz oben in der Suchergebnisseite mit dem Hinweis «&#8239;Gesponsert&#8239;» über ihnen. Generell sind das die teuerste der drei vorgestellten Arten und man bezahlt per Klick.</li>
+            <li><strong>Shopping Ads:</strong> Wenn du nach einem Produkt suchst und auf der Ergebnisseite (oder im Google Shopping-Tab) eine Zeile mit verschiedenen Produktkacheln erscheint, sind das oft Google Shopping Ads. Auch bei ihnen bezahlt man per Klick und generell sind sie ein wenig günstiger als Search Ads.</li>
+            <li><strong>Display Ads:</strong> Das ist die Bannerwerbung, die du auf manchen Internetseiten siehst. Bei ihnen kann man pro Klick oder «&#8239;Mille&#8239;» (CPM – Kosten pro 1000 Einblendungen) bezahlen. Display Ads sind sehr günstig, aber – zumindest in meiner Erfahrung – leider auch nur in sehr speziellen Fällen auch effektiv und damit lohnenswert.</li>
+        </ul>
+        <img src="/assets/img/display-ads.webp" alt="Beispiel Display Ads">
+        <p>Daneben gibt es noch Video / Youtube Ads, Local (sprich «&#8239;Maps&#8239;») Ads, App Ads usw. Auch sie unterscheiden sich im Preis zueinander und den drei oben genannten Arten von Google Ads.</p>
+
+        <hr>
+
+        <h3>Was den Klickpreis treibt und einschränkt</h3>
+        <p>Wie viel eine Kampagne dann schlussendlich kostet, <b>hängt aber auch vom Wettbewerb ab</b>. SEA funktioniert immer nach dem Auktionsprinzip, in welchem Google automatisch für dich gegen deine Mitbewerber bietet. Das bedeutet auch, dass der Preis schnell ansteigen kann, wenn deine Keywords besonders hart umkämpft sind. Wie teuer das in deiner Branche ist, kannst du im <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank">Google Keyword Planner</a> schnell selbst nachprüfen.</p>
+        <p>Dass dein Werbekonto jedoch täglich zehntausend Franken ausgibt, ohne dass du dir das leisten kannst, musst du aber auch nicht befürchten. Denn pro Kampagne definiert man beim Aufbau einer SEA-Kampagne <b>ein maximales Tagesbudget</b>, an das sich Google halten muss. Generell sollte man – je nach Branche und Keywords – pro Kampagne aber mindestens <b>ein mittleres, zweistelliges Tagesbudget</b> einrechnen. Nach oben gibt es keine Grenze und häufig lohnt es sich sogar, lieber mehr auszugeben.</p>
+        <p>Entsprechend ist die wichtige Frage gar nicht so sehr «&#8239;Was kosten Google Ads?&#8239;», sondern «&#8239;Was möchte ich für Google Ads ausgeben?&#8239;» oder am besten «&#8239;Welches Budget ergibt in meiner Situation Sinn?&#8239;»</p>
+
+        <hr>
+
+        <h2>Lohnen sich Google Ads dann überhaupt?</h2>
+        <p>Die weite Verbreitung, die Google Ads im Digital-Marketing-Sektor hat, zeigt eigentlich schon, dass für SEA das <b>Kosten-Nutzen-Verhältnis zumindest manchmal positiv ausfallen muss</b>. Was muss zutreffen muss, dass eine Kampagne wirklich Gewinn bringt, lässt sich am einfachsten an einer kleinen Milchbüchleinrechnung erklären:</p>
+        <p>Nehmen wir an, wir haben ein Tagesbudget von 50 Franken und das Ziel ist, mehr Anfragen über unsere Webseite zu generieren. Unser CPC auf alle Keywords ist im Durchschnitt CHF 2.50. Pro Monat bezahlen wir also circa CHF 1‘500 und erreichen in etwa 600 zusätzliche Nutzer.</p>
+        <p>Wie viele Personen davon jetzt tatsächlich anfragen, hängt allerdings von einigen Gesichtspunkten ab. Wenn deine Seite nicht nutzerfreundlich ist, das Anfrage-Formular ganz weit unten versteckt ist und zwanzig Pflichtfelder hat, wird kaum jemand eine Anfrage absenden. Aber auch wenn der Text der Landingpage nicht auf die Zielgruppe zugeschnitten ist oder deine Customer Persona aus anderen Gründen nicht überzeugt, wird es wahrscheinlich schwer, einen Mehrwert aus dem zusätzlichen Traffic zu ziehen.</p>
+        <div class="highlight">
+            <p><strong>Tipp:</strong> Auch dazu, wie du in Google Ads Zielgruppen per <a href="/google-ads-targeting/">Zielgruppeneinstellungen targeten kannst</a> und wie du über die richtigen Keywords, Anzeigentexte und deine Landingpage <a href="/google-ads-zielgruppe-finden/">Streuverluste vermeiden kannst</a>, habe ich Artikel.</p>
+        </div>
+        <p><b>Gute User-Experience ist für Google Ads unabdingbar</b>: Keine unnötigen Hürden – der Weg vom Aufruf der Seite bis zum Abschluss soll für den Nutzer möglichst «&#8239;schmerzfrei&#8239;» sein. Gerade deshalb lohnt sich übrigens eine Kampagne, bei der Kunden zwingend ein Geschäft besuchen müssen, oftmals ebenfalls nicht (ausser du ermöglichst deinen Kunden Online-Terminbuchungen). Nehmen wir für unseren Fall aber einfach an, dass die Landingpage effektiv unser Angebot ins beste Licht stellt und alle Elemente <a href="https://blog.hubspot.com/marketing/landing-page-best-practices" target="_blank" rel="noopener">bestmöglich auf UX optimiert</a> sind. Was kann ich erwarten?</p>
+
+        <hr>
+
+        <h3>Conversionrate: Was muss ich wissen?</h3>
+        <p>Die Conversionrate, also der Anteil an Nutzern, die tatsächlich die gewünschte Aktion durchführen, hängt von einigen wichtigen Aspekten ab:</p>
+        <ul>
+            <li>Ist das Produkt schwer zu verstehen oder spricht es nur eine sehr kleine Zielgruppe an?</li>
+            <li>Ist es ein teures Produkt, das Leute üblicherweise noch ein paar Tage vor dem Kauf überdenken wollen?</li>
+            <li>Gibt es irgendeinen Anreiz – Rabatt, limitierte Auflage oder ähnliches – der Nutzer motiviert, noch heute den Call-to-Action zu klicken?</li>
+        </ul>
+        <p>Was man sich erwarten kann, wird von diesen Fragen stark beeinflusst. Benchmarks zeigen allerdings, dass <b>die Conversionrate meist von unter 1% (B2B) bis über 5% (z.B. Arztpraxen) schwankt</b>. Bei einer Kampagne für einen Elektro-Pikettdienst habe ich in der Vergangenheit tatsächlich einmal eine Conversionrate von über 35% erzielt. Das ist allerdings wenig verwunderlich, denn wer überlegt es sich doch anders oder schläft noch eine Nacht darüber, nachdem er «&#8239;Notfall Elektriker&#8239;» gegoogelt hat?</p>
+        <p>Im Zweifelsfall kannst du jedenfalls von einer <b>durchschnittlichen Conversionrate von 2.5% ausgehen</b> oder die Benchmarks für deine Branche googlen. Einen noch besseren Richtwert bekommst du, wenn du <a href="/tracking-analytics/">deine organischen Conversion trackst</a> in Google Analytics überprüfst, wie viele deiner Nutzer im Durchschnitt aktuell konvertieren: Google Ads erzielt meist einen leicht besseren Wert als die organische Google-Suche, da du die Suchanfragen, auf denen du erscheinst, besser steuern kannst.</p>
+        <img src="/assets/img/conversions.webp" alt="Berechnung Conversions">
+        <p>Um das Ganze zusätzlich in einen praxisnahen Kontext zu setzen, hier ein Beispiel mit realistischen Annahmen: Heruntergebrochen auf unsere Beispielkampagne hätten wir über einen Monat Laufzeit bei 2.5% entsprechend 15 zusätzliche Anfragen bei einer Cost-per-Conversion von CHF 100. Das ist der Punkt, an dem ein Unternehmen oft schon entscheiden kann, ob die Kampagne sich für sie lohnt. Die Schlüsselkonzepte dabei sind die <b>Gewinnmarge und der Customer-Lifetime-Value (CLV).</b></p>
+
+        <hr>
+
+        <h3>Rechne deine Google-Ads-Kosten aus</h3>
+        <p>Damit du eine erste Einschätzung bekommst, in welchem Rahmen sich deine eigenen Kosten pro Conversion bewegen können und welches Budget realistisch ist, findest du hier <b>einen kleinen Rechner.</b> Gib einfach deinen durchschnittlichen Klickpreis und deine ungefähre Conversionrate ein – die Ergebnisse zeigen dir, was typischerweise möglich ist.</p>
+			<!--#include virtual="/includes/adscalculator-de.html" -->
+
+        <hr>
+
+        <h3>Der Return on Ad-Spend</h3>
+        <p>Es ist nicht schwer zu verstehen, dass CHF 1‘500 Werbebudget für einen kleinen eCommerce-Laden mit Bestellungen im Wert von 5 Franken Geldverschwendung wäre. Auf 15 Conversions wären das 75 Franken Umsatz, also knapp ein Zwanzigstel der reinen Werbeausgaben. Bei einer Schneiderei, die massgeschneiderte Anzüge mit einem Preispunkt von Franken 2000 aufwärts verkauft, sähe der «&#8239;Return-on-Ad-Spend&#8239;» hingegen schon ganz anders aus. Bei einem zusätzlichen Umsatz von 30‘000 Franken wären die Ausgaben sicherlich gut investiert und pro 100 Franken Werbeausgaben wurden 2‘000 Franken eingenommen. Sobald die Marge pro Anzug grösser ist als 100 Franken, wäre Gewinn erzielt worden.</p>
+        <p>Gerade bei Geschäften, bei denen die Kundenbeziehung über einen einfachen Auftrag oder Einkauf hinausgeht, <b>können sich die SEA-Kosten über die Dauer zusätzlich rechnen</b>. Ein Hauswart-Service, der zwar jeden Monat nur 200 Franken pro Kunde einnimmt, dessen Verträge aber so gut wie immer 5 Jahre oder länger bestehen bleiben, erwirtschaftet einen sogenannten Customer-Lifetime-Value von mindestens 12‘000 Franken im Laufe der Kundenbeziehung. Für die Akquise eines solchen Vertrags 100 Franken für Google Ads auszugeben, ist im Verhältnis wirklich nicht teuer.</p>
+
+        <hr>
+
+        <h2>Warte, da kommt noch etwas dazu: der Google-Ads-Spezialist</h2>
+        <p>Einen Kostenfaktor habe ich noch unterschlagen. Bisher habe ich hier nämlich mit den reinen Werbeausgaben kalkuliert. Aber damit Google-Ads-Kampagnen gute Ergebnisse erzielen, müssen sie erst einmal korrekt aufgebaut und optimiert werden. <b>Meine Empfehlung dazu ist, dies durch einen Experten erledigen zu lassen.</b></p>
+        <p>Zugegeben, eine professionelle Betreuung einer Kampagne ist nicht günstig und benötigt mehrere Stunden im Aufbau und dann wöchentlich – je nach Kampagnengrösse – zwischen 0,25 und 2 Stunden zur Optimierung. So verlockend es da klingt, das einfach selbst in die Hand zu nehmen. Es ist selten ratsam.</p>
+        <p>Gerade bei den hohen Klickpreisen für Google Ads ist das teuer. Ein schlechtes Keyword kann schon dazu führen, dass man leicht einen drei- bis vierstelligen Betrag pro Monat verschwendet. Und die Optimierung einer SEA-Kampagne benötigt ein sehr gutes Auge für Daten und viele Erfahrungswerte, auf die man dafür zurückgreifen muss. Erfahrungswerte, die man nur hat, nachdem man eben ein paar Jahre als «&#8239;Google-Ads-Spezialist&#8239;» gearbeitet hat.</p>
+        <p>Gerade deshalb lohnt es sich entsprechend, <b>eine Google-Ads-Kampagne möglichst lange laufen zu lassen</b>: Die Kosten für den Aufbau fallen nur einmalig an. Der Optimierungsaufwand nimmt in der Regel ab, sobald sich eine Kampagne erst einmal «&#8239;eingespielt&#8239;» hat. Und Google Ads lernen tatsächlich aus den Daten der Kampagne und werden dadurch effektiver. Aufwand und Nutzen kehren sich also im Laufe der Zeit.</p>
+
+        <hr>
+
+        <h3>Geheimtipp: Bing Ads</h3>
+        <p>Kürzlich hatte ich das erste Mal die Gelegenheit, mich auch an einer grösseren Kampagne in Bing Ads zu probieren. Für alle, die jetzt immer noch «&#8239;kostenskeptisch&#8239;» sind, könnte die SEA-Plattform von Microsoft eine Alternative darstellen. Zwar ist der Marktanteil (und damit die Nutzer, die man erreichen kann) merklich kleiner, aber die CPCs liegen meinen ersten Erfahrungen nach häufig 20 bis 50% unter denen von Google.</p>
+        <p>Wer sogar schon Google Ads geschaltet hat, hat hier noch einen entscheidenden Vorteil: <b>Google-Ads-Kampagnen können, inklusive aller Einstellungen, Keywords und Ausschlüsse, mit einem einzelnen Klick importiert werden.</b> Nur das Conversion-Tracking muss neu aufgesetzt werden. Wer sich leistet, beides gleichzeitig – also Google und Bing Ads – zu machen, kann sich u.U. sogar einen Teil des Optimierungsaufwands sparen. Sogar Anpassungen können Bing Ads direkt von Google übernehmen.</p>
+
+        <hr>
+
+        <h2>Also, wann lohnt sich eine Google-Ads-Kampagne jetzt?</h2>
+        <p>Damit du das Potenzial von Google Ads ausschöpfen kannst, sollten ein paar Rahmenbedingungen gegeben sein. In manchen Fällen empfehle ich Kunden darum, sich lieber auf organische Sichtbarkeit – also Suchmaschinenoptimierung – zu konzentrieren (falls du neugierig bist, habe ich hier <a href="/seo-fuer-anfaenger/">ein paar Tipps für SEO-Anfänger</a>). In anderen Fällen fährst du wahrscheinlich mit Brand Awareness und Social Media Marketing besser. Aber wenn du ein bisschen Glück hast, können Google Ads ein «&#8239;Turbo&#8239;» für dein Unternehmen sein.</p>
+        <p>Wenn du dir jetzt unsicher bist, empfehle ich dir, mir einfach eine E-Mail zu schreiben. Keine Sorge, meine <b>Erstgespräche sind grundsätzlich kostenlos und unverbindlich</b> und als Experte für SEA, SEO und digitales Marketing prüfe ich gerne, ob sich eine Testkampagne für dich lohnt oder ob ich dir eine bessere Alternative vorschlagen kann. Aber, falls du dich vor deiner E-Mail schon einmal vorbereiten willst, habe ich noch <b>eine kleine Entscheidungshilfe</b> für dich:</p>
+        <img src="/assets/img/entscheidungshilfe-online-marketing.webp" alt="Flowchart Entscheidungshilfe">
+		<div class="button-container">
+			<button type="button" id="download-flowchart" class="btn-sec-cta" onclick="window.open('/assets/pdf/Entscheidungshilfe_Online-Marketing.pdf', '_blank');">Flowchart als PDF herunterladen</button>
+		</div>
+        <p>Bitte beachte, dass ich natürlich in einer Flowchart nicht auf alle Nuancen eingehen kann. Aber wenn du diese Fragen beantworten kannst, gewinnst du vermutlich bereits einen ersten Überblick, welche Art von Online-Werbung für dein Unternehmen spannend sein könnte.</p>
+        <p><strong>PS: Und sogar, wenn du bei <a href="/technisches-seo/">technischem SEO</a> oder <a href="/anfaengerfehler-meta-ads/">Social Media</a> Hilfe brauchst, stehe ich dir jederzeit zur Verfügung. Ich würde mich freuen, von dir zu hören.</strong></p>
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/was-kosten-google-ads/">DE</a> | <a href="https://marcoaures.ch/en/how-much-do-google-ads-cost/">EN</a></p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

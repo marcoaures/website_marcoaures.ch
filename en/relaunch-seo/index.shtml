@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="en-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/relaunch-seo/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/relaunch-seo/" hreflang="en-CH" />
+
+		<meta name="description" content="I help make sure your website relaunch project doesn't quietly cost you the visibility you've built up.">
+		<link rel="canonical" href="https://marcoaures.ch/en/relaunch-seo/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Relaunch SEO | Marco Aures: Digital Marketing" />
+		<meta property="og:description" content="I help make sure your website relaunch project doesn't quietly cost you the visibility you've built up." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/en/relaunch-seo/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_CH" />
+
+		<title>Relaunch SEO | Marco Aures: Digital Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/en/relaunch-seo/#webpage",
+						"url": "https://marcoaures.ch/en/relaunch-seo/",
+						"name": "Relaunch SEO | Marco Aures: Digital Marketing",
+						"description": "I help make sure your website relaunch project doesn't quietly cost you the visibility you've built up.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/relaunch-seo/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "en-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/en/relaunch-seo/#service",
+						"name": "Relaunch SEO",
+						"alternateName": [
+							"SEO sign-off",
+							"Relaunch support",
+							"Website migration SEO",
+							"Domain move SEO",
+							"Tracking migration",
+							"Go-live support"
+						],
+						"description": "SEO support for website relaunches and larger website changes, so that existing visibility survives the move. Including stocktaking, SEO sign-off before go-live, redirect mapping and testing, checking of canonicals, sitemaps and metadata, go-live support, follow-up checks, and optional migration of tracking (GA4, Google Tag Manager, pixels and events).",
+						"serviceType": [
+							"Relaunch SEO",
+							"SEO sign-off",
+							"Website migration",
+							"Domain consolidation",
+							"Redirect mapping",
+							"Tracking migration",
+							"Go-live support",
+							"Technical SEO"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "Businesses with relaunch projects and web agencies in German-speaking Switzerland"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/en/relaunch-seo/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/assets/pdf/agb-EN.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/en/relaunch-seo/#offer",
+							"url": "https://marcoaures.ch/en/relaunch-seo/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Relaunch SEO projects with an individual quote based on time spent. Including stocktaking, SEO sign-off, go-live support, follow-up checks and optional tracking migration."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/en/relaunch-seo/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/en/relaunch-seo/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/en/relaunch-seo/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/relaunch-seo/#faq-wann-einbinden",
+								"name": "When should I bring you into the project?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "As early as possible, ideally as soon as the relaunch is decided, but at the latest before the new site is finished. The earlier I'm involved, the more can be avoided from the outset instead of repaired after the fact."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/relaunch-seo/#faq-traffic-eingebrochen",
+								"name": "My relaunch is already live and traffic has dropped. Can you still help?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Yes. This isn't the ideal moment, but a lot can still be salvaged even after go-live: missing or incorrect redirects, pages accidentally left non-indexable, lost metadata. The sooner we take a look, the less the damage sets in."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/relaunch-seo/#faq-webagentur",
+								"name": "Do you work directly with our web agency when needed?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Yes, that's actually often the case. I also frequently work as a subcontractor for web agencies, working directly with the team and taking on the part they don't cover. And that without any additional coordination effort for you."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/relaunch-seo/#faq-seo-abnahme",
+								"name": "What does \"SEO sign-off\" mean specifically?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Before go-live, you get a clear assessment from an SEO perspective: is the new site ready, or are there points that should be fixed first? In the best case the result is an \"all good - green light for SEO!\", otherwise a prioritised list of the open points, so that no one goes live blindly."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/relaunch-seo/#faq-tracking-ueberfuehrung",
+								"name": "Is migrating/renewing the tracking automatically included?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "No, it's optional, but recommended, because a relaunch almost always affects the tracking. On request, GA4, Tag Manager and your events move across in a controlled way. If your tracking is looked after elsewhere, I coordinate with whoever is responsible."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/en/relaunch-seo/#faq-websites-zusammenfuehren",
+								"name": "What if we're not just relaunching, but merging two websites?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "That's one of the more demanding cases, because it merges entire domains and their history. That's exactly when clean preparation pays off: which content goes where, which URLs get consolidated, and how the visibility of both sites is preserved. On top of that, it needs to be checked whether the content covers similar keywords & intents and is therefore likely to cannibalise itself."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-en.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Relaunch SEO</h1>
+					<p>So your website relaunch doesn't quietly cost you the visibility you've built up.</p>
+					<button class="callbackform__hero-tile">Book a first consultation now</button>
+				</div>
+				<!--#include virtual="/includes/animations/relaunch-mapping.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>A relaunch or a larger change to a website often changes more than you're aware of: backlinks suddenly point nowhere, the link structure gets turned upside down, and Google often keeps old pages «&#8239;in mind&#8239;» for quite a while. <b>Without clean preparation, you quickly lose rankings</b> that you've built up over years, and in the worst case the website ends up worse off than before the overhaul. And often this only becomes noticeable weeks later, once traffic has already declined.</p>
+				<p>That's exactly why SEO needs to be considered already during the website project, <b>not just for damage control afterwards:</b> when it comes to relaunches, as your SEO freelancer I do the website sign-off before the new site goes live, check the new architecture, test the redirects, and make sure the move takes your existing visibility along instead of leaving it behind.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Who it's for</p>
+						<p>For businesses making fundamental changes to their website. And for web agencies that don't offer SEO and tracking themselves and are looking for a reliable partner for their project.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">What you get</p>
+						<p>An SEO sign-off as a fixed part of your relaunch. Checking the site against best practices, redirects etc. and (on request) the clean migration of your tracking.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">How I work</p>
+						<p>Involved rather than tacked on at the end: I work directly with you or your web agency, understand both tech and marketing, and make sure SEO doesn't only become a topic after go-live.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>During a relaunch, the focus understandably points forward: new design, new content, new technology. It's easy to lose sight of what the old site could already do. <a href="/en/technical-seo/">Working URLs, existing rankings and the trust built up with Google</a> over years. Carrying all of that through the move only works if you pay attention to it early enough.</p>
+				<div class="spacer"></div>
+				<h2>What the SEO sign-off delivers</h2>
+				<p>Before you move into a house, you have it professionally inspected. With a website relaunch, this «&#8239;sign-off&#8239;» often falls by the wayside, even though the consequences can be similarly expensive. <b>This is exactly where my relaunch SEO service comes in:</b> I look at the new site before it's live and check typical stumbling blocks before they become a problem. Among other things, this includes:</p>
+				<ul>
+					<li>mapping and testing the redirects, so that neither visitors nor crawlers end up running into nothing,</li>
+					<li>making sure canonicals, sitemaps and metadata survive the move and can be processed by Google without obstacles, so that Google «&#8239;understands&#8239;» the new website right away,</li>
+					<li>and making sure valuable backlinks and page authority aren't lost because the signals aren't correctly passed on to the new site.</li>
+				</ul>
+				<p>The result is a clear assessment: green light for go-live, or a concrete list of what still needs to be done beforehand.</p>
+
+				<div class="spacer"></div>
+
+				<h2>How it works</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 01</span>
+							<h3>Non-binding first consultation</h3>
+							<p>We discuss what you're planning and when go-live is scheduled. From that, it follows at which points I get involved in the project.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 02</span>
+							<h3>Stocktaking</h3>
+							<p>While the old site is still live, I check the starting point: existing URLs, rankings and the current tracking setup.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 03</span>
+							<h3>SEO sign-off</h3>
+							<p>Before the new site goes live, I check it systematically: redirects, stumbling blocks, SEO basics and more. On request, I prepare the tracking migration in parallel.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 04</span>
+							<h3>Go-live support</h3>
+							<p>At go-live I check right afterwards whether the redirects take effect and whether everything was migrated cleanly. That way problems don't only surface weeks later.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Step 05</span>
+							<h3>Follow-up checks</h3>
+							<p>In the weeks after the relaunch I keep an eye on whether rankings have moved across or even improved. And if I do notice something, I fix it: the move is only complete once everything is in place.</p>
+						</div>
+					</article>
+				</section>
+
+				<h2>Why tracking should be part of it too</h2>
+				<p>One point that classic SEO usually doesn't cover, but which can easily be part of the project with me: <b>a relaunch almost always destroys the tracking setup.</b> Tags fire into nothing, custom events reference elements that no longer exist, and in the end exactly the data is missing that you'd want to use at some point to check whether the new website achieved anything.</p>
+				<!--#include virtual="/includes/animations/relaunch-hero.html" -->
+				<p>That's why I offer <a href="/en/tracking-analytics/">migrating your tracking</a> as part of my relaunch SEO service: GA4, Google Tag Manager, <a href="/en/bing-linkedin-meta-ads/">pixel setups</a> and your events move across too, instead of being patched ad-hoc after go-live, once the damage is already done.</p>
+				<p>By the way, if the tracking is being touched during the relaunch anyway, that can often be a good opportunity to overhaul the tracking completely: if your new website has new interaction options, audiences or user paths, it's worth <b>combining the website relaunch with a tracking relaunch,</b> so that afterwards everything fits together cleanly.</p>
+
+				<div class="spacer"></div>
+
+				<h2>Frequently asked questions</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">When should I bring you into the project?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>As early as possible, ideally as soon as the relaunch is decided, but at the latest before the new site is finished. The earlier I'm involved, the more can be avoided from the outset instead of repaired after the fact.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">My relaunch is already live and traffic has dropped. Can you still help?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Yes. This isn't the ideal moment, but a lot can still be salvaged even after go-live: missing or incorrect redirects, pages accidentally left non-indexable, lost metadata. The sooner we take a look, the less the damage sets in.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Do you work directly with our web agency when needed?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Yes, that's actually often the case. I also frequently work as a subcontractor for web agencies, working directly with the team and taking on the part they don't cover. And that without any additional coordination effort for you.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">What does «&#8239;SEO sign-off&#8239;» mean specifically?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Before go-live, you get a clear assessment from an SEO perspective: is the new site ready, or are there points that should be fixed first? In the best case the result is an «&#8239;all good - green light for SEO!&#8239;», otherwise a prioritised list of the open points, so that no one goes live blindly.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Is migrating/renewing the tracking automatically included?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>No, it's optional, but recommended, because a relaunch almost always affects the tracking. On request, GA4, Tag Manager and your events move across in a controlled way. If your tracking is looked after elsewhere, I coordinate with whoever is responsible.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">What if we're not just relaunching, but merging two websites?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>That's one of the more demanding cases, because it merges entire domains and their history. That's exactly when clean preparation pays off: which content goes where, which URLs get consolidated, and how the visibility of both sites is preserved. On top of that, it needs to be checked whether the content covers similar keywords & intents and is therefore likely to cannibalise itself.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--#include virtual="/includes/contact-callback-en.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-en.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-en.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/relaunch-seo/">DE</a> | <a href="https://marcoaures.ch/en/relaunch-seo/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/csp-und-google-tag-manager/" hreflang="de-CH" />
+    <link rel="alternate" href="https://marcoaures.ch/en/csp-and-google-tag-manager/" hreflang="en-CH" />
+
+    <meta name="description" content="Google Tag Manager mit Content Security Policy einsetzen? Gar nicht so einfach. Wie es trotzdem klappt, zeige ich dir hier.">
+    <link rel="canonical" href="https://marcoaures.ch/csp-und-google-tag-manager/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="GTM mit CSP nutzen | Marco Aures: Online Marketing" />
+    <meta property="og:description" content="Google Tag Manager mit Content Security Policy einsetzen? Gar nicht so einfach. Wie es trotzdem klappt, zeige ich dir hier." />
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+    <meta property="og:url" content="https://marcoaures.ch/csp-und-google-tag-manager/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_CH" />
+
+    <title>GTM mit CSP nutzen | Marco Aures: Online Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "@id": "https://marcoaures.ch/csp-und-google-tag-manager/#article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://marcoaures.ch/csp-und-google-tag-manager/"
+        },
+        "headline": "Google Tag Manager mit Content-Security-Policy nutzen",
+        "description": "Google Tag Manager mit Content Security Policy einsetzen? Gar nicht so einfach. Wie es trotzdem klappt, zeige ich dir hier.",
+        "image": "https://marcoaures.ch/assets/img/icons/csp-gtm-icon.svg",
+        "datePublished": "2025-06-09",
+        "dateModified": "2026-02-22",
+        "inLanguage": "de-CH",
+        "author": {
+            "@id": "https://marcoaures.ch/#person"
+        },
+        "publisher": {
+            "@id": "https://marcoaures.ch/#organization"
+        }
+    }
+    </script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+
+    <div class="hero">
+        <div class="parallax-container">
+            <div class="boring-hero" style="background-image: url('/assets/img/csp+gtm.webp');"></div>
+        </div>
+        <div class="text-section" id="hero-tracking" style="background-color: rgba(184,93,37,.8);">
+            <h1 style="margin-top:20px;">Google Tag Manager mit Content-Security-Policy nutzen</h1>
+            <p>GTM mit CSP einsetzen? Gar nicht so einfach. Warum das so ist, wie es trotzdem klappt und wie du die grössten Fallstricke vermeidest, erfährst du hier. </p>
+        </div>
+        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+    </div>
+
+    <div id="start" class="content">
+        <div class="bloginfo">
+            Veröffentlicht: 09.06.2025 | Aktualisiert: 16.06.2026<br>
+            Thema: Content Security Policy (CSP), Google Tag Manager (GTM), Nonce-Variable, Custom JS Variable
+        </div>
+
+        <p>Wahrscheinlich bist du auf diesen Artikel gestossen, weil dein <b>Tracking plötzlich nicht mehr funktioniert</b> – und du in der Console eine kryptische Fehlermeldung entdeckt hast, die besagt, dass die <a href="/content-security-policy-fuer-marketer/">Content Security Policy (CSP)</a> die Ausführung deines Trackings verhindert hat:</p>
+
+        <div class="beispiel" style="text-align: center; font-family: 'Courier New', monospace;">
+            <p>Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self' https://trusted.cdn.com". Either the 'unsafe-inline' keyword, a hash ('sha256-abc123...'), or a nonce ('nonce-...') is required to enable inline execution.</p>
+        </div>
+
+        <p>Nach Anleitungen, wie man genau dieses Problem mit dem Google Tag Manager löst, sucht man oft vergeblich – oder findet an Entwickler gerichtete Tutorials, die für deinen Fall wenig hilfreich sind. Been there, done that. Und genau deshalb zeige ich dir hier, wie du <b>Schritt für Schritt das Problem identifizierst und löst</b> – ganz ohne IT-Studium.</p>
+
+        <h2 id="csp-problem-finden">So findest du das CSP-Problem, das deinen Tag Manager blockiert</h2>
+        <p>Die Fehlermeldung, die du wahrscheinlich bereits entdeckt hast – falls nicht, klicke <span class="techbabble">F12</span> oder <span class="techbabble">Strg + Umschalt + C</span> – gibt dir bereits den ersten Hinweis, welches Script zu Problemen führt. Am linken Rand sollte dir angezeigt werden, <b>welche Datei gegen die CSP verstossen hat.</b></p>
+
+        <img src="/assets/img/csp-error-hl.webp" alt="CSP Errors von meiner Seite mit Hervorhebung">
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Die Konsole sagt dir, welche Datei und welche Zeile in der Datei Probleme macht</p>
+
+        <p>Du kannst zusätzlich im Tab «&#8239;Network&#8239;» überprüfen, <b>welche Requests durch die CSP geblockt wurden</b>. In der Spalte Status steht bei den entsprechenden Anfragen jeweils <span class="techbabble">(blocked:csp)</span>, sowie zusätzliche Informationen, <b>die du dir notieren solltest (Domain, Type)</b>, da sie den Entwicklern helfen, die CSP korrekt für eure Seite einzustellen. Mehr dazu erzähle ich aber speziell im Artikel zu <a href="/social-media-pixel-externe-tools-mit-csp/">Subresource Loading und Drittanbieter-Skripten</a>.</p>
+
+        <p>Besonders aufschlussreich ist es, im Network-Tab zu überprüfen, ob die Datei <span class="techbabble">gtm.js?id=GTM-[XXXXXXXX]</span> geblockt wurde. Das ist dein Google Tag Manager Container. Falls nein, solltest du überprüfen, ob das Inline-Script geladen wurde:</p>
+
+        <ul>
+            <li>weil eure CSP 'unsafe-inline' erlaubt: Das ist <a href="/content-security-policy-fuer-marketer/#unsafe-inline">nicht empfohlen.</a></li>
+            <li>weil du im Script-Tag des GTM einen «&#8239;hash&#8239;» siehst: In diesem Fall solltest du deiner IT-Abteilung mitteilen, dass extern darin geladene Scripts regelmässig upgedated und verändert werden und das Problem <b>nicht per Hash gelöst werden kann.</b></li>
+            <li>weil du im Script-Tag des GTM einen «&#8239;nonce&#8239;» siehst: In diesem Fall hast du bereits alle Voraussetzungen erfüllt, die du zur Lösung des CSP-Problems benötigst. Du kannst direkt zu <a href="#nonce-nutzen">«&#8239;So nutzt du deinen Nonce im GTM&#8239;»</a> springen.</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>Info:</strong> Ein <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank">Nonce (<i>«&#8239;number used once&#8239;»</i>)</a> ist ein einmaliger Token, der bei jedem Laden der Seite neu generiert wird – quasi ein Einmal-Passwort für die Ausführung des Scripts. Ein <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank">Hash</a> wiederum ist eine Art «&#8239;Prüfsumme&#8239;» oder Fingerabdruck für dein Script und setzt voraus, dass sich dein Script nicht verändert und innerhalb des Skripts auf keine anderen Ressourcen (z.B. extern gehostete Scripts) zugegriffen wird.</p>
+        </div>
+
+        <hr>
+
+        <h2 id="gtm-braucht-nonce">GTM-Einbindung geht nur mit unsafe-inline oder Nonce</h2>
+        <p>Vorneweg: Für sehr einfache, <b>rein statische Webseiten ohne Logins oder Formulare kann eine strenge CSP Overkill sein.</b> In solchen Fällen ist das Risiko einer Inline-Sicherheitslücke geringer – und manche Betreiber entscheiden sich bewusst dafür, unsafe-inline zuzulassen, weil es für ihr Szenario ausreichend sicher ist. Meine Webseite fällt beispielsweise genau in diese Kategorie. Wenn das auf deine Webseite ebenfalls zutrifft, kann es sich lohnen, gemeinsam mit der IT-Abteilung zu prüfen, ob die CSP notwendig ist und ob die Downstream-Effekte für euer Web-Tracking bedacht wurden und in die Risikoabwägung eingeflossen sind. Falls ja, wirst du aber wahrscheinlich nicht um ein bisschen Zusatzaufwand herumkommen.</p>
+
+        <p>Wie schon angedeutet, kannst du den <b>Google Tag Manager meistens nicht gemeinsam mit einer CSP nutzen, ohne auch einen Nonce zu generieren.</b> Zumindest nicht, ohne die Sicherheitslücke von 'unsafe-inline' offen zu lassen und die Schutzwirkung der CSP deutlich zu schwächen. Falls dein Impuls jetzt ist, das Script einfach extern in einer Datei zu laden, muss ich dich enttäuschen: Das <b>GTM-Snippet ist auf eine Inline-Implementation angewiesen,</b> beispielsweise um den Data Layer erfolgreich zu initialisieren.</p>
+
+        <p>Allein deshalb wirst du nicht darum herumkommen, bei deiner IT-Abteilung anzufragen, ob sie <b>«&#8239;bei jedem Pageload einen Nonce generieren und in den DOM pushen können&#8239;»</b> und ob sie das GTM-Snippet im Head gleich um den Nonce ergänzen können:</p>
+
+        <img src="/assets/img/gtm-mit-nonce.webp" alt="Head meiner Seite mit Nonces">
+
+        <div class="highlight">
+            <p><strong>Alternative:</strong> Oder du stellst dein GTM-Set-up komplett auf <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">server-seitiges Tracking</a> um. Da die Content-Security-Policy einschränkt, was im Browser geladen werden darf, umgeht server-side tagging dieses Problem, da die Tracking-Skripte nicht im Browser laden.</p>
+        </div>
+
+        <hr>
+
+        <h3 id="nonce-nutzen">So nutzt du deinen Nonce im GTM</h3>
+        <p>Sobald dein GTM-Snippet den Nonce bekommen hat, kannst du ihn wieder nutzen. Allerdings wird dir die CSP <b>immer noch alle externen Einbindungen (z.B. Hotjar) und Custom HTML Tags blockieren.</b> Zumindest zweiteres lässt sich mit der gleichen Methode lösen wie das GTM-Snippet selbst. Aber da der Nonce bei jedem Page Load neu generiert wird, musst du diesen Wert <b>dynamisch abgreifen und in deine Tags einfügen.</b> Dies funktioniert am einfachsten über eine DOM-Element-Variable mit CSS-Selektor. Wie genau der Selektor lautet, kommt auf deine konkrete Seitenarchitektur an, aber es könnte in etwa so aussehen:</p>
+
+        <img src="/assets/img/nonce-variable.webp" alt="Eine Nonce-Variable im GTM">
+
+        <p>Sobald die Variable angelegt ist, kannst du <b>im Tag Assistant die Vorschau aktivieren und testen,</b> ob der Wert richtig abgegriffen wird. Wenn das klappt, musst du nur mehr deine Custom HTML Tags ergänzen. Aus <span class="techbabble">&lt;script&gt;</span> muss <span class="techbabble">&lt;script nonce="{{nonce}}"&gt;</span> werden. Wichtig ist dabei, dass du <span class="techbabble">{{nonce}}</span> wirklich tippst, nicht einfach reinkopierst: Der GTM akzeptiert dynamische Werte aus Variablen <b>nur, wenn sie aus dem Dropdown-Menü ausgewählt wurden.</b> Unter Umständen musst du ausserdem bei <span class="techbabble">document.write</span> den Haken setzen, bevor deine Custom HTML Tags wieder funktionieren.</p>
+
+        <img src="/assets/img/nonce-custom-html.webp" alt="Eine Nonce-Variable im GTM">
+
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Du solltest das Kontextmenü sehen, sobald du {{ getippt hast</p>
+
+        <div class="highlight">
+            <p><strong>Hinweis:</strong> Das gilt nicht nur für Nonces. Wenn du Probleme hast, Variablen in einem Custom-HTML-Script zu verwenden, überprüfe, ob die Variable aus dem Kontextmenü ausgewählt wurde, das beim Tippen erscheint. Bei Copy &amp; Paste erkennt der Tag Manager nicht, dass es eine Variable ist, sondern interpretiert sie als normalen Text.</p>
+        </div>
+
+        <hr>
+
+        <h3 id="custom-js-variable">Custom JavaScript Variablen &amp; CSP</h3>
+        <p>Vielleicht hast du schon bemerkt, dass ich eine Art übergangen habe, wie man eigenes JavaScript im Google Tag Manager benutzen kann: Custom JavaScript Variablen, respektive <b>Variablen vom Typ «&#8239;Benutzerdefiniertes JavaScript&#8239;»</b> in der deutschen Version (nicht zu verwechseln mit einer normalen JavaScript-Variable – das ist noch einmal ein anderer Typ, der fast gleich heisst).</p>
+
+        <p>Falls dein Tracking-Setup auf Custom-JS-Variablen angewiesen ist, habe ich schlechte Nachrichten: <b>Diese wirst du mit einer CSP ziemlich sicher nicht mehr nutzen können.</b> Zumindest nicht, ohne dir ein kleines Loch in deine IT-Security zu reissen. Eine Variable aus benutzerdefiniertem JavaScript ist nämlich darauf angewiesen, dass <b>'unsafe-eval' in der Content Security Policy erlaubt</b> ist. Und das ist noch einmal ein Stückchen gefährlicher, als 'unsafe-inline' zu erlauben.</p>
+
+        <div class="beispiel">
+            <p>Stell es dir in etwa so vor: unsafe-inline ist in etwa, wie den Schlüssel in deinem unversperrten Auto stecken zu lassen. unsafe-eval hingegen ist, als ob du deinen Fahrzeugausweis und einen unterschriebenen Blanko-Kaufvertrag für das Auto auf dem Beifahrersitz liegen lässt, damit der Dieb das Auto einfach auf sich ummelden kann. Zwischen den beiden Regeln liegen sicherheitstechnisch Kilometer und unsafe-eval ermöglicht bösen Akteuren meist deutlich tiefer in dein System einzudringen und erschwert es extrem, den Schaden rückgängig zu machen.</p>
+        </div>
+
+        <hr>
+
+        <h2 id="abschluss">Läuft dein Tracking wieder?</h2>
+        <p>Sofern dein Problem hauptsächlich darin bestand, dass dein Google Tag Manager Container nach der Implementierung der CSP nicht mehr geladen hat oder deine selbstgeschriebenen Custom-HTML-Scripts nicht mehr funktioniert haben, <b>solltest du damit deine Probleme bereits gelöst haben.</b> Falls jetzt allerdings nur ein Teil deines Trackings wieder funktioniert und Social-Media-Pixel und andere Tools, die du als Teil eines Custom-HTML-Tags oder per Vorlage eingebunden hast, noch Schwierigkeiten machen, gibt es noch einen zusätzlichen Schritt, den du beachten musst: <a href="/social-media-pixel-externe-tools-mit-csp/">Was genau, erkläre ich dir hier.</a></p>
+
+        <p>Alternativ darfst du dich natürlich auch gerne bei mir melden und wir sehen, ob wir gemeinsam dein Problem lösen können.</p>
+			<!--#include virtual="/includes/contact-callback-de.html" -->
+    </div>
+
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+
+    <footer>
+        <!--#include virtual="/includes/footertop-de.html" -->
+        <p>
+            Select Language | Sprache wählen:
+            <a href="https://marcoaures.ch/csp-und-google-tag-manager/">DE</a> |
+            <a href="https://marcoaures.ch/en/csp-and-google-tag-manager/">EN</a>
+        </p>
+        <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>

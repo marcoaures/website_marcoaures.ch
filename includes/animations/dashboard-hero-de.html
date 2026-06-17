@@ -1,0 +1,113 @@
+<style>
+.stage {
+    position: relative;
+    --c0: #427b7d;
+    --c1: #b85d25;
+    --c2: #284a4b;
+    --c3: #9bb4b4;
+  width: 100%;
+  height: 100%;}
+  
+	#dash {
+	  width: min(100%, 520px);
+	  aspect-ratio: 4 / 3;
+	}
+
+  .card {
+    position: absolute; inset: 0;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.07);
+    padding: 1.1em 1.2em;
+    box-sizing: border-box;
+    display: flex; flex-direction: column;
+    opacity: 0;
+    transform: translateY(12px) scale(.97);
+    transition: opacity .55s ease, transform .55s cubic-bezier(.22,1,.36,1);
+    pointer-events: none;
+  }
+  .card.active { opacity: 1; transform: translateY(0) scale(1); }
+  .card.leaving { opacity: 0; transform: translateY(-12px) scale(.97); }
+
+  .card h4 {
+    margin: 0 0 .9em; font-size: .74rem; font-weight: 800;
+    letter-spacing: .04em; text-transform: uppercase; color: var(--color-brand-dark);
+    opacity: .65;
+  }
+
+  /* ---- pie view ---- */
+  .pie-row { flex:1; display:flex; align-items:center; gap:1.2em; }
+  .pie-wrap { flex:none; overflow:hidden; padding-left:20px; width: 50%;}
+  .pie { width: 100%; height: 100%; transform: rotate(-90deg); overflow:visible; }
+  .pie-seg { }
+  .pie-legend { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.45em; }
+  .pie-legend li { display:flex; align-items:center; gap:.5em; font-size:.78rem; font-weight:600; white-space:nowrap; }
+  .lg-dot { width:10px; height:10px; border-radius:50%; flex:none; }
+
+  /* ---- bar view ---- */
+  .bars { flex:1; display:flex; align-items:flex-end; gap:12px; padding-bottom:2px; }
+  .barc-col { flex:1; display:flex; flex-direction:column; align-items:center; gap:5px; height:100%; justify-content:flex-end; }
+  .barc { width:100%; background:var(--color-brand); border-radius:3px 3px 0 0; }
+  .barc.hot { background:var(--color-accent); }
+  .barc-lbl { font-size:.66rem; color:var(--color-brand-dark); opacity:.6; }
+
+  /* ---- trend KPI view ---- */
+  .kpi { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.25em; }
+  .kpi-val { font-size:3rem; font-weight:800; line-height:1; font-variant-numeric:tabular-nums; }
+  .kpi-val.up { color:#2e8b57; }
+  .kpi-val.down { color:#c0392b; }
+  .kpi-cap { font-size:.72rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--color-brand-dark); opacity:.5; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: opacity .3s ease; transform: none; }
+    .card.leaving { transform: none; }
+  }
+</style>
+
+<div class="service-hero-animation">
+  <div id="dash">
+    <div class="stage">
+
+      <!-- View 1: pie + legend -->
+      <div class="card" data-i="0">
+        <h4>Kanäle</h4>
+        <div class="pie-row">
+          <div class="pie-wrap">
+            <svg class="pie" viewBox="0 0 36 36" id="pie"></svg>
+          </div>
+          <ul class="pie-legend">
+            <li><span class="lg-dot" style="background:var(--c0)"></span>Organic</li>
+            <li><span class="lg-dot" style="background:var(--c1)"></span>Newsletter</li>
+            <li><span class="lg-dot" style="background:var(--c2)"></span>Paid</li>
+            <li><span class="lg-dot" style="background:var(--c3)"></span>Social</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- View 2: bars -->
+      <div class="card" data-i="1">
+        <h4>Abschlüsse nach Business Unit</h4>
+        <div class="bars" id="bars">
+          <div class="barc-col"><div class="barc" style="height:28%"></div><div class="barc-lbl">BU1</div></div>
+          <div class="barc-col"><div class="barc hot" style="height:68%"></div><div class="barc-lbl">BU2</div></div>
+          <div class="barc-col"><div class="barc" style="height:44%"></div><div class="barc-lbl">BU3</div></div>
+          <div class="barc-col"><div class="barc" style="height:12%"></div><div class="barc-lbl">BU4</div></div>
+          <div class="barc-col"><div class="barc" style="height:34%"></div><div class="barc-lbl">BU5</div></div>
+        </div>
+      </div>
+
+      <!-- View 3: trend KPI -->
+      <div class="card" data-i="2">
+        <h4>Trend</h4>
+        <div class="kpi">
+          <div class="kpi-val up">+14%</div>
+          <div class="kpi-cap">vs. Vorperiode</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/animations/dashboard-hero.js" defer></script>

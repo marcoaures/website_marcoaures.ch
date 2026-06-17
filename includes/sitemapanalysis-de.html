@@ -1,0 +1,19 @@
+<div class="calculator sitemap-tool">
+  <p>Dieses Tool ruft die Sitemap(s) einer Website ab und wertet deren Inhalte automatisch aus. Es erkennt, wie viele Sitemaps vorhanden sind und wie viele URLs darin enthalten sind.</p>
+  <p>Auf Basis vorhandener lastmod-Angaben zeigt es zudem, wie aktuell die Website ist, wie viele Seiten in definierten Zeiträumen geändert wurden und wie alt die Inhalte im Durchschnitt bzw. Median sind. Darüber hinaus liefert es Kennzahlen zu in der Sitemap enthaltenen Bildern und Video-Einträgen sowie Hinweise darauf, ob Mehrsprachigkeit (via hreflang) berücksichtigt wird.</p>
+  <hr>
+  <div class="calculatorfields">
+    <div class="field">
+      <label for="sitemapInput" class="sitemap-tool-feldtext">Domain / URL</label>
+      <input id="sitemapInput" type="text" placeholder="z.B. marcoaures.ch oder https://marcoaures.ch/tools">
+    </div>
+
+    <div class="field">
+      <label>&nbsp;</label>
+      <button id="sitemapGo" class="sitemap-tool-button" type="button">Auswerten</button>
+    </div>
+  </div>
+
+  <div id="sitemapOut" class="sitemap-tool-out" aria-live="polite"></div>
+</div>
+<script src="/assets/js/sitemapanalysis-de.js"></script>

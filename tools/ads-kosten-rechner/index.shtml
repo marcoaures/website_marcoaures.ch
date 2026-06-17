@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+	<!-- hreflang tags -->
+	<link rel="alternate" href="https://marcoaures.ch/tools/ads-kosten-rechner/" hreflang="de-CH" />
+	<link rel="alternate" href="https://marcoaures.ch/en/tools/ads-cost-calculator/" hreflang="en-CH" />
+
+	<meta name="description" content="Dieser Rechner schätzt realistische Conversion-Kosten und das nötige Google-Ads-Budget. Er bietet eine schnelle Orientierung für deine nächste Kampagne.">
+	<link rel="canonical" href="https://marcoaures.ch/tools/ads-kosten-rechner/">
+	<meta name="author" content="Marco Aures">
+	<meta property="og:title" content="Tool: Ads-Kosten-Rechner | Marco Aures" />
+	<meta property="og:description" content="Dieser Rechner schätzt realistische Conversion-Kosten und das nötige Google-Ads-Budget. Er bietet eine schnelle Orientierung für deine nächste Kampagne." />
+	<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+	<meta property="og:url" content="https://marcoaures.ch/tools/ads-kosten-rechner/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="de_CH" />
+    <title>Tool: Ads-Kosten-Rechner | Marco Aures</title>
+    <!--#include virtual="/includes/integrations.html" -->
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-de.html" -->
+<main>
+    <div class="content">
+		<div class="toolpage">
+			<h1><strong>Ads-Kosten-Rechner</strong></h1>
+			<a href="/tools/" class="tools-back">Zurück zur Übersicht</a>
+
+			<!--#include virtual="/includes/adscalculator-de.html" -->
+
+		</div>
+	</div>
+    <!--#include virtual="/includes/consent-de.html" -->
+</main>
+	<footer>
+    <!--#include virtual="/includes/footertop-de.html" -->
+        <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/tools/ads-kosten-rechner/">DE</a> | <a href="https://marcoaures.ch/en/tools/ads-cost-calculator/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+			</footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+		</body>
+		</html>

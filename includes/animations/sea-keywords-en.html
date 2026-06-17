@@ -1,0 +1,109 @@
+<style>
+  .kw-anim { width: 100%; max-width: 600px; }
+
+  .kw-result {
+    background: #fff; border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border-light);
+    padding: 1em 1.1em; box-shadow: 0 2px 10px rgba(0,0,0,.06);
+    opacity: 0; transform: translateY(10px);
+  }
+  .kw-result.is-highlight {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 14px rgba(184,93,37,.14);
+  }
+
+  .kw-highlight-label {
+    display: inline-block;
+    font-size: 0.62rem; font-weight: 700; letter-spacing: .06em;
+    text-transform: uppercase; color: #fff;
+    background: var(--color-accent); border-radius: 3px;
+    padding: 1px 5px; margin-bottom: 0.45em;
+  }
+  .kw-result .url { font-size: 0.72rem; color: #5a7d5a; margin-bottom: 0.35em; }
+  .kw-result .title { font-size: 1rem; color: var(--color-brand); margin-bottom: 0.4em; line-height: 1.4; }
+  .kw-result .desc { font-size: 0.85rem; color: var(--color-text-main); line-height: 1.7; margin: 0; }
+
+  mark.kw {
+    background-color: transparent;
+    color: inherit;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 0 2px; margin: 0 -2px;
+    background-image: linear-gradient(rgba(184,93,37,.4), rgba(184,93,37,.4));
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 0% 100%;
+  }
+
+  .kw-legend { margin-top: 1.1em; text-align: center; }
+  .kw-legend-label {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--color-brand-dark);
+    opacity: 0; margin-bottom: 0.6em;
+  }
+  .kw-pills { display: flex; flex-wrap: wrap; gap: 0.45em; justify-content: center; }
+  .kw-pill {
+    background: #fff; border: 1px solid var(--color-border-light);
+    border-radius: 999px; padding: 0.4em 0.85em;
+    font-size: 0.78rem; font-weight: 600; color: var(--color-brand-dark);
+    box-shadow: 0 2px 6px rgba(0,0,0,.05);
+    opacity: 0; transform: translateY(6px);
+  }
+
+  #kw-tile.is-visible .kw-result {
+    animation: kwResultIn 0.7s cubic-bezier(.22,1,.36,1) forwards;
+  }
+  @keyframes kwResultIn { to { opacity: 1; transform: translateY(0); } }
+
+  #kw-tile.is-visible .kw-legend-label {
+    animation: kwFadeUp 0.5s ease 0.9s forwards;
+  }
+  @keyframes kwFadeUp { to { opacity: .7; } }
+
+  #kw-tile.go [data-step="1"] { animation-delay: 0s !important; }
+  #kw-tile.go [data-step="2"] { animation-delay: 1.1s !important; }
+  #kw-tile.go [data-step="3"] { animation-delay: 2.2s !important; }
+  #kw-tile.go [data-step="4"] { animation-delay: 3.3s !important; }
+
+  #kw-tile.go .kw-pill {
+    animation: kwPillIn 0.5s ease forwards, kwPillTint 0.45s ease forwards;
+  }
+  @keyframes kwPillIn { to { opacity: 1; transform: translateY(0); } }
+  @keyframes kwPillTint {
+    to { border-color: var(--color-accent); color: var(--color-accent); box-shadow: 0 2px 8px rgba(184,93,37,.18); }
+  }
+
+  #kw-tile.go mark.kw { animation: kwSweep 0.6s ease forwards; }
+  @keyframes kwSweep { to { background-size: 100% 100%; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .kw-result { opacity: 1; transform: none; animation: none; }
+    .kw-legend-label { opacity: .7; animation: none; }
+    .kw-pill { opacity: 1; transform: none; animation: none; border-color: var(--color-accent); color: var(--color-accent); }
+    mark.kw { background-size: 100% 100%; }
+  }
+</style>
+
+<div>
+  <div class="service-hero-animation" id="kw-tile">
+    <div class="kw-anim">
+      <div class="kw-result is-highlight">
+        <span class="kw-highlight-label">Your Ad</span>
+        <div class="url">yourcompany.ch &rsaquo; services &rsaquo;</div>
+        <div class="title">Your <mark class="kw" data-step="1">Auto Repair Shop in Bern</mark> | Hans Muster AG</div>
+        <p class="desc"><mark class="kw" data-step="2">Looking for an Auto Repair Shop</mark>? We help you with everything from <mark class="kw" data-step="3">oil changes</mark> to engine repairs. Simple <mark class="kw" data-step="4">online appointment booking on our website</mark>.</p>
+      </div>
+      <div class="kw-legend">
+        <div class="kw-legend-label">Your Keywords</div>
+        <div class="kw-pills">
+          <span class="kw-pill" data-step="1">[Auto Repair Shop in Bern]</span>
+          <span class="kw-pill" data-step="2">"Looking for Auto Repair Shop"</span>
+          <span class="kw-pill" data-step="3">"Oil Change"</span>
+          <span class="kw-pill" data-step="4">"Auto Repair Shop Online Appointment"</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/animations/sea-keywords.js" defer></script>

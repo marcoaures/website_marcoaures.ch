@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="de-CH">
+	<head>
+		<!--#include virtual="/includes/globalhead.html" -->
+		<!-- hreflang tags -->
+		<link rel="alternate" href="https://marcoaures.ch/data-studio-dashboards/" hreflang="de-CH" />
+		<link rel="alternate" href="https://marcoaures.ch/en/data-studio-dashboards/" hreflang="en-CH" />
+
+		<meta name="description" content="Individuelle Data Studio Dashboards sind das perfekte Tool, damit dein Team die Zahlen, die es regelmässig braucht, immer aktuell und an einem Ort findet.">
+		<link rel="canonical" href="https://marcoaures.ch/data-studio-dashboards/">
+		<meta name="author" content="Marco Aures">
+		<meta property="og:title" content="Google Data Studio Dashboards | Marco Aures: Online Marketing" />
+		<meta property="og:description" content="Individuelle Data Studio Dashboards sind das perfekte Tool, damit dein Team die Zahlen, die es regelmässig braucht, immer aktuell und an einem Ort findet." />
+		<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+		<meta property="og:url" content="https://marcoaures.ch/data-studio-dashboards/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="de_CH" />
+
+		<title>Google Data Studio Dashboards | Marco Aures: Online Marketing</title>
+
+		<!--#include virtual="/includes/integrations.html" -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://marcoaures.ch/data-studio-dashboards/#webpage",
+						"url": "https://marcoaures.ch/data-studio-dashboards/",
+						"name": "Google Data Studio Dashboards | Marco Aures: Online Marketing",
+						"description": "Individuelle Data Studio Dashboards sind das perfekte Tool damit dein Team die Zahlen, die es regelmässig braucht, immer aktuell und an einem Ort findet.",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/#website"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/data-studio-dashboards/#service"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://marcoaures.ch/assets/img/og-logo.jpg"
+						},
+						"inLanguage": "de-CH"
+					},
+					{
+						"@type": "Service",
+						"@id": "https://marcoaures.ch/data-studio-dashboards/#service",
+						"name": "Google Data Studio Dashboards",
+						"alternateName": [
+							"Data Studio Dashboards",
+							"Looker Studio Dashboards",
+							"Marketing-Dashboards",
+							"Reporting-Dashboards",
+							"Marketing-Cockpit"
+						],
+						"description": "Individuelle Dashboards in Google Data Studio, die deine wichtigsten Datenquellen wie Google Analytics, Google Ads und Search Console zusammenführen und automatisch aktuell halten. Auf die Fragen und Zielgruppen deines Teams zugeschnitten, inklusive Datenquellen-Anbindung, Konzept, Übergabe, Einführung und Weiterentwicklung.",
+						"serviceType": [
+							"Google Data Studio Dashboards",
+							"Looker Studio Dashboards",
+							"Marketing-Dashboards",
+							"Reporting-Automatisierung",
+							"Marketing-Cockpit",
+							"Datenvisualisierung",
+							"Datenquellen-Anbindung",
+							"Marketing-Reporting"
+						],
+						"provider": {
+							"@id": "https://marcoaures.ch/#person"
+						},
+						"brand": {
+							"@id": "https://marcoaures.ch/#organization"
+						},
+						"areaServed": {
+							"@type": "Country",
+							"name": "Switzerland"
+						},
+						"audience": {
+							"@type": "BusinessAudience",
+							"audienceType": "KMU und Unternehmen in der Deutschschweiz"
+						},
+						"availableChannel": {
+							"@type": "ServiceChannel",
+							"serviceUrl": "https://marcoaures.ch/data-studio-dashboards/",
+							"availableLanguage": [
+								"de",
+								"en"
+							]
+						},
+						"termsOfService": "https://marcoaures.ch/agb.pdf",
+						"offers": {
+							"@type": "Offer",
+							"@id": "https://marcoaures.ch/data-studio-dashboards/#offer",
+							"url": "https://marcoaures.ch/data-studio-dashboards/",
+							"availability": "https://schema.org/InStock",
+							"priceCurrency": "CHF",
+							"description": "Massgeschneiderte Dashboard-Projekte mit individueller Offerte nach Aufwand. Inklusive Konzept, Datenquellen-Anbindung, Aufbau, Übergabe, Einführung und Weiterentwicklung."
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://marcoaures.ch/data-studio-dashboards/#faq",
+						"isPartOf": {
+							"@id": "https://marcoaures.ch/data-studio-dashboards/#webpage"
+						},
+						"about": {
+							"@id": "https://marcoaures.ch/data-studio-dashboards/#service"
+						},
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/data-studio-dashboards/#faq-looker-studio",
+								"name": "Heisst das Tool nicht «&#8239;Looker Studio&#8239;»?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Beides ist dasselbe Produkt. Google hat «&#8239;Data Studio&#8239;» 2022 in «&#8239;Looker Studio&#8239;» umbenannt und 2026 wieder zum alten Namen zurückgeführt. Ich verwende den aktuellen Begriff Google Data Studio, aber falls du noch nach «&#8239;Looker Studio&#8239;» suchst: Es geht um genau dasselbe."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/data-studio-dashboards/#faq-datenquellen",
+								"name": "Welche Datenquellen lassen sich einbinden?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Die gängigen Google-Quellen wie Analytics, Google Ads und Search Console lassen sich direkt anbinden. Darüber hinaus gibt es zahlreiche Konnektoren für weitere Plattformen, etwa Social-Media-Kanäle oder Tabellen. Im Grunde genommen können fast alle Daten, die maschinenlesbar und strukturiert erhoben werden, für Data Studio verwendet werden."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/data-studio-dashboards/#faq-automatische-aktualisierung",
+								"name": "Aktualisiert sich das Dashboard automatisch?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Ja. Sobald die Datenquellen verbunden sind, zieht das Dashboard die aktuellen Zahlen selbstständig. Du musst nichts mehr von Hand exportieren oder zusammenkopieren. Sogar ein regelmässiger, automatischer Versand der aktuellen Zahlen an ausgewählte E-Mail-Adressen ist möglich."
+								}
+							},
+							{
+								"@type": "Question",
+								"@id": "https://marcoaures.ch/data-studio-dashboards/#faq-tracking-setup",
+								"name": "Brauche ich dafür ein sauberes Tracking-Setup?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Für eine aussagekräftige Auswertung ist eine saubere Datengrundlage wichtig. Ein Dashboard stellt nur Daten dar, die vorhanden sind. Wenn dein Tracking lückenhaft ist, zeigt sich das logischerweise auch im Dashboard. Ob bei dir etwas fehlt, lässt sich vorab prüfen."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="has-footer">
+		<!--#include virtual="/includes/headmenu-de.html" -->
+		<main>
+
+			<section class="service-hero">
+				<div class="service-hero-text">
+					<h1>Google Data Studio Dashboards</h1>
+					<p>Damit dein Team die Zahlen, die es regelmässig braucht, immer aktuell und an einem Ort findet.</p>
+					<button class="callbackform__hero-tile">Jetzt Erstgespräch vereinbaren</button>
+				</div>
+				<!--#include virtual="/includes/animations/dashboard-filter-de.html" -->
+			</section>
+
+			<div id="start" class="content">
+				<div class="spacer"></div>
+				<p>In vielen Unternehmen wiederholt sich dieselbe Übung: Jemand exportiert von Hand Zahlen aus Google Analytics, den Google Ads und der Search Console, kopiert sie in eine Tabelle und baut daraus einen Rapport. Und das <b>quartalsweise, monatlich oder teils sogar wöchentlich.</b> Es kostet jedes Mal Zeit, ist fehleranfällig und am Ende sind die Daten schlimmstenfalls schon wieder veraltet, wenn der Empfänger sie liest.</p>
+				<p>Ein Dashboard löst genau das Problem: Gerne baue ich dir in Google Data Studio <b>ein individuelles Marketing-Cockpit, das deine wichtigsten Datenquellen zusammenführt und automatisch aktuell hält.</b> Dein Marketing-Team, die Geschäftsleitung oder eine Fachstelle findet darin jederzeit die Diagramme und Kennzahlen, die sie braucht, ohne dass jemand sie zuerst von Hand zusammentragen muss.</p>
+
+				<section class="intro-tiles">
+					<div class="intro-tile">
+						<p class="intro-tile__label">Für wen das passt</p>
+						<p>Für Teams, die regelmässig dieselben Daten in geordneter Form brauchen und ihr Reporting vom manuellen Zusammenkopieren in ein automatisiertes, immer aktuelles Dashboard überführen möchten.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Was du bekommst</p>
+						<p>Ein massgeschneidertes Dashboard in Google Data Studio, das deine Kennzahlen zusammenführt und automatisch aktualisiert. In deinem Design und so strukturiert, dass auch Nicht-Analysten es verstehen.</p>
+					</div>
+					<div class="intro-tile">
+						<p class="intro-tile__label">Wie ich arbeite</p>
+						<p>Individuell und auf deine Anforderungen ausgerichtet: Ich orientiere mich an deinen Zielen und wenn etwas nicht passt, kann das Dashboard jederzeit modifiziert oder erweitert werden.</p>
+					</div>
+				</section>
+				<div class="spacer"></div>
+				<p>Ein Dashboard ist im Kern eine einzige, immer aktuelle Antwort auf eine wiederkehrende Frage: «&#8239;Wie läuft es gerade?&#8239;» Statt diese Antwort jeden Monat neu zusammenzustellen, richtet man sie einmal sauber ein und danach aktualisiert sie sich von selbst.</p>
+				<div class="spacer"></div>
+				<h2>Was ein gutes Dashboard ausmacht</h2>
+				<p>Die Kunst liegt aber selten darin, möglichst viele Zahlen auf einen Bildschirm zu packen. Klar, Google Data Studio kann praktisch jede Datenquelle abgreifen und beliebig viele Diagramme darstellen, aber genau darin liegt die Falle: Ein Dashboard, das alles zeigt, beantwortet am Ende nichts. Wertvoll wird es erst, wenn es auf die Fragen zugeschnitten ist, die dein Team tatsächlich stellt.</p>
+				<p>Deshalb beginne ich nicht bei den Daten, sondern bei dir: <b>Wer schaut auf das Dashboard, wie oft und mit welcher Fragestellung?</b> Ein Geschäftsleitungsmitglied, das einmal im Monat den groben Verlauf sehen will, braucht eine andere Ansicht als ein Marketingverantwortlicher, der wöchentlich Kampagnen steuert. Aus diesen Anforderungen baue ich <b>eine Ansicht (oder mehrere, zugeschnitten auf die Zielgruppe), die die richtigen Kennzahlen klar und verständlich zeigt,</b> sodass auch jemand ohne Analytics-Hintergrund sie auf einen Blick versteht.</p>
+				<!--#include virtual="/includes/animations/dashboard-hero-de.html" -->
+				<p>Anschliessend verbinde ich die nötigen Datenquellen, von <a href="/tracking-analytics/">Google Analytics</a> über die <a href="/google-ads/">Google Ads</a> und die Search Console bis zu weiteren Tools, die du im Einsatz hast. Das Dashboard hält sich danach selbst aktuell, und du bekommst eine Einführung, damit du es eigenständig nutzen kannst.</p>
+
+				<div class="spacer"></div>
+
+				<h2>So läuft das ab</h2>
+
+				<section class="roadmap" aria-label="roadmap">
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 01</span>
+							<h3>Unverbindliches Erstgespräch</h3>
+							<p>Wir klären, wer das Dashboard nutzen wird, welche Fragen es beantworten soll und welche Datenquellen dafür nötig sind. Auf dieser Basis bekommst du eine individuelle Offerte nach Aufwand.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 02</span>
+							<h3>Konzept & Aufbau</h3>
+							<p>Bevor ich baue, lege ich fest, welche Kennzahlen aufs Dashboard gehören. Danach verbinde ich die Datenquellen und baue das Dashboard in Google Data Studio auf.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 03</span>
+							<h3>Übergabe & Einführung</h3>
+							<p>Du bekommst das fertige Dashboard und eine kurze Einführung, wenn du möchtest. So bist du nicht darauf angewiesen, mich für jede Frage oder jeden Änderungswunsch zu kontaktieren.</p>
+						</div>
+					</article>
+
+					<article class="roadmap-item">
+						<div class="roadmap-card">
+							<span class="eyebrow">Schritt 04</span>
+							<h3>Weiterentwicklung</h3>
+							<p>Wenn etwas nicht (mehr) passt oder neue Kennzahlen dazukommen, ist das kein Problem. Das Dashboard kann jederzeit verändert und erweitert werden.</p>
+						</div>
+					</article>
+				</section>
+
+				<h2>Ein kleines Beispiel für ein Data Studio Dashboard</h2>
+				<p>Anbei findest du ein kleines Data Studio Dashboard mit synthetischen Daten. Einfach um ein Gefühl dafür zu gewinnen, wie das Ganze aussehen könnte. Sollte die Einbettung bei dir nicht korrekt laden, kannst du das Dashboard <a href="/assets/pdf/Data-Studio_Demo.pdf" target="_blank">hier als PDF</a> herunterladen (Hinweis: Data Studio ist nicht mobil optimiert. Auf dem Smartphone ist die PDF-Version wahrscheinlich repräsentativer).</p>
+
+				<button type="button" class="embed-placeholder"
+						data-embed-src="https://datastudio.google.com/embed/reporting/355fbb4d-d981-44f6-8cac-2477f2b3e2df/page/B7p0F"
+						data-embed-ratio="4/3"
+						data-embed-sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 11V8M10 11V6M13 11V9M16 11V7"/></svg>
+					<span class="embed-placeholder__label">Demo-Dashboard laden</span>
+					<span class="embed-placeholder__note">Das eingebettete Dashboard wird erst nach dem Klick geladen.</span>
+					<span class="embed-placeholder__cta">Jetzt laden</span>
+				</button>
+
+				<p>Eine kurze Anmerkung zum Schluss: Ein Dashboard ist <b>nur so gut, wie die Daten die dahinterstehen.</b> Wenn sich beim Aufbau zeigt, dass dein Tracking nicht sauber erfasst, was du eigentlich auswerten möchtest, <a href="/tracking-analytics/">kann ich das vorab einrichten</a>. Und wenn du die Zahlen nicht nur sehen, sondern auch eingeordnet und in konkrete Massnahmen übersetzt haben möchtest, sind meine <a href="/reportings/">Reportings und Analytics-Reviews</a> die perfekte Ergänzung.</p>
+
+				<div class="spacer"></div>
+
+				<h2>Häufig gestellte Fragen</h2>
+
+				<div class="accordion">
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Heisst das Tool nicht «&#8239;Looker Studio&#8239;»?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Beides ist dasselbe Produkt. Google hat «&#8239;Data Studio&#8239;» 2022 in «&#8239;Looker Studio&#8239;» umbenannt und 2026 wieder zum alten Namen zurückgeführt. Ich verwende den aktuellen Begriff Google Data Studio, aber falls du noch nach «&#8239;Looker Studio&#8239;» suchst: Es geht um genau dasselbe.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Welche Datenquellen lassen sich einbinden?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Die gängigen Google-Quellen wie Analytics, Google Ads und Search Console lassen sich direkt anbinden. Darüber hinaus gibt es zahlreiche Konnektoren für weitere Plattformen, etwa Social-Media-Kanäle oder Tabellen. Im Grunde genommen können fast alle Daten, die maschinenlesbar und strukturiert erhoben werden, für Data Studio verwendet werden.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Aktualisiert sich das Dashboard automatisch?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Ja. Sobald die Datenquellen verbunden sind, zieht das Dashboard die aktuellen Zahlen selbstständig. Du musst nichts mehr von Hand exportieren oder zusammenkopieren. Sogar ein regelmässiger, automatischer Versand der aktuellen Zahlen an ausgewählte E-Mail-Adressen ist möglich.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<button class="accordion-header" aria-expanded="false">Brauche ich dafür ein sauberes Tracking-Setup?</button>
+						<div class="accordion-panel">
+							<div class="accordion-panel-inner">
+								<p>Für eine aussagekräftige Auswertung ist eine saubere Datengrundlage wichtig. Ein Dashboard stellt nur Daten dar, die vorhanden sind. Wenn dein Tracking lückenhaft ist, zeigt sich das logischerweise auch im Dashboard. Ob bei dir etwas fehlt, lässt sich vorab prüfen.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!--#include virtual="/includes/contact-callback-de.html" -->
+
+			</div>
+			<!--#include virtual="/includes/consent-de.html" -->
+		</main>
+		<footer>
+			<!--#include virtual="/includes/footertop-de.html" -->
+			<p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/data-studio-dashboards/">DE</a> | <a href="https://marcoaures.ch/en/data-studio-dashboards/">EN</a></p>
+			<!--#include virtual="/includes/footerbottom.html" -->
+		</footer>
+
+		<!--#include virtual="/includes/globalscripts.html" -->
+	</body>
+</html>

@@ -1,0 +1,59 @@
+<style>
+  .jny-animation {
+    padding: 0.6em clamp(0em, 12vw, 10em); contain: layout;
+  }
+  .jny { width: 100%; display: block; }
+ 
+  .jny-path {
+    fill: none;
+    stroke: var(--color-brand);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0;
+    transition: stroke-width 1.6s cubic-bezier(.4,0,.2,1), stroke .6s ease;
+  }
+  .jny-path.win { stroke: var(--color-accent); }
+ 
+  .win-halo { fill: var(--color-muted); }
+  .win-body { fill: #fff; stroke: var(--color-brand-dark); stroke-width: 2; }
+  .win-bar  { fill: var(--color-brand); }
+  .win-dot  { fill: #fff; }
+ 
+  .goal-halo { fill: var(--color-muted); }
+  .goal-body { fill: #fff; stroke: var(--color-accent); stroke-width: 2; }
+  .goal-bar  { fill: var(--color-accent); }
+  .goal-dot  { fill: #fff; }
+ 
+  @media (prefers-reduced-motion: reduce) {
+    .jny-path { transition: none; }
+  }
+@media (max-width: 768px) {
+
+	.service-hero-animation {
+		padding: 0em;
+	}
+	
+	.jny-animation {
+		padding: 0.6em 0em;
+	}
+
+}
+</style>
+
+<div class="jny-animation">
+<svg class="jny" id="jny" viewBox="0 0 480 280" aria-label="Customer Journeys durch verschiedene Touchpoints zum Kauf">
+ 
+  <g id="paths">
+    <path class="jny-path" data-w="3"  d="M58,42  L176,76  L296,110 L404,144"/>
+    <path class="jny-path" data-w="5"  d="M58,110 L176,76  L404,144"/>
+    <path class="jny-path" data-w="14" data-win="1" d="M58,110 L176,144 L296,110 L404,144"/>
+    <path class="jny-path" data-w="7"  d="M58,178 L176,212 L296,178 L404,144"/>
+    <path class="jny-path" data-w="4"  d="M58,246 L176,212 L296,178 L404,144"/>
+  </g>
+ 
+  <g id="windows"></g>
+  <g id="goal"></g>
+</svg>
+</div>
+ 
+<script src="/assets/js/animations/tracking-userflow.js" defer></script>

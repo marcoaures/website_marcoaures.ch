@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->    
+    <!-- hreflang tags -->
+    <link rel="alternate" href="https://marcoaures.ch/datenschutz/" hreflang="de-CH">
+    <link rel="alternate" href="https://marcoaures.ch/en/privacy/" hreflang="en-CH">
+
+    <meta name="description" content="Privacy matters to me. In my privacy policy, you can read which data I process about you, how and what rights you have in regards to it..">
+    <link rel="canonical" href="https://marcoaures.ch/en/privacy/">
+    <meta name="author" content="Marco Aures">
+    <meta property="og:title" content="Privacy Policy | Marco Aures: Digital Marketing">
+    <meta property="og:description" content="Privacy matters to me. In my privacy policy, you can read which data I process about you, how and what rights you have in regards to it.">
+    <meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg">
+    <meta property="og:url" content="https://marcoaures.ch/en/privacy/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CH">
+    <title>Privacy Policy | Marco Aures: Digital Marketing</title>
+
+    <!--#include virtual="/includes/integrations.html" --></head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div id="start" class="content">
+        <div class="legalese">
+            <h1>Privacy policy</h1>
+            <p><strong>This translation is provided for convenience. In case of discrepancies, the German version shall prevail.</strong></p>
+            <p><i>Version from 15.06.2026</i></p>
+            <p>This privacy policy explains how I collect and process personal data. This is not an exhaustive description; other data protection statements or the general terms and conditions may govern specific matters. Personal data means any information relating to an identified or identifiable person.</p>
+            <p>If you provide me with personal data of other individuals (e.g. data of colleagues, partner companies, etc.), please make sure that these persons are aware of this privacy policy and only share their personal data with me if you are permitted to do so and if this personal data is correct.</p>
+            <p>This Privacy Policy is designed to meet the requirements of the EU General Data Protection Regulation («&#8239;GDPR&#8239;»), the Swiss Data Protection Act («&#8239;DPA&#8239;») and the revised Swiss Data Protection Act («&#8239;nFADP&#8239;»). However, whether and to what extent these laws are applicable depends on the individual case.</p>
+
+            <h2>Data Controller</h2>
+            <p>Marco Aures is responsible for the data processing described here, unless otherwise stated in individual cases. If you have any data protection concerns, you can send them to the following contact address:</p>
+            <div style="margin-left: 3em;">
+                <p>Marco Aures – Online-Marketing<br>
+                Unterführungsstrasse 30<br>
+                4600 Olten<br>
+                E-Mail: <a href="mailto:hoi@marcoaures.ch">hoi@marcoaures.ch</a></p>
+            </div>
+
+            <h2>Collection and processing of personal data</h2>
+            <p>I primarily process the personal data that I receive from my customers and other business partners as part of my business relationship with them and other persons involved or that I collect from users when operating my website and other applications.</p>
+            <p>Where permitted, I also take certain data from publicly accessible sources (e.g. debt collection registers, land registers, commercial registers, press, internet) or receive such data from other companies and other third parties. In addition, I collect data about your address and, where applicable, interests and other sociodemographic information (for marketing purposes), data in connection with the use of the website (e.g. IP address, MAC address of the smartphone or computer, information about your device and settings, cookies, date and time of the visit, pages and content accessed, functions used, referring website, location data).</p>
+
+            <h2>Purposes of data processing and legal basis</h2>
+            <p>I primarily use the personal data I collect to conclude and process my contracts with my customers and business partners. If you work for such a customer or business partner, your personal data may of course also be affected in this function.</p>
+            <p>In addition, I process personal data of you and other persons, as far as permitted, also for the following purposes, in which I (and sometimes third parties) have a legitimate interest corresponding to the purpose:</p>
+            <ul>
+                <li>Providing and further developing services and websites, apps and other platforms on which I am present;</li>
+                <li>Communication with third parties and processing their requests (e.g. applications);</li>
+                <li>Examination and optimization of procedures for needs analysis for the purpose of direct customer contact and collection of personal data from publicly accessible sources for the purpose of customer acquisition;</li>
+                <li>Advertising and marketing (including the organization of events), provided you have not objected to the use of your data;</li>
+                <li>Market and opinion research, media monitoring;</li>
+                <li>Assertion of legal claims and defense in connection with legal disputes and official proceedings;</li>
+                <li>Safeguarding my operations, in particular my IT systems, website and other platforms.</li>
+            </ul>
+            <p>If you have given me your consent to process your personal data for specific purposes (for example, when you register to receive newsletters), I will process your personal data within the scope of and based on this consent, unless I have another legal basis and require one. Consent that has been given can be withdrawn at any time, but this has no effect on data processing that has already taken place.</p>
+
+            <h2>Cookies / tracking and other technologies in connection with the use of my website</h2>
+            <p>I typically use «&#8239;cookies&#8239;» and similar technologies on my website to identify your browser or device. A cookie is a small file that is sent to your computer or automatically stored on your computer or mobile device by the web browser you use when you visit our website.</p>
+            <p>If you visit my website again, I can recognize you, even if I don't know who you are. In addition to cookies that are only used during a session and are deleted after your visit to the website («&#8239;session cookies&#8239;»), cookies can also be used to store user settings and other information for a certain period of time (e.g. two years) («&#8239;permanent cookies&#8239;»). However, you can set your browser so that it rejects cookies, only saves them for one session or otherwise deletes them prematurely. Most browsers are preset to accept cookies.</p>
+            <p>You can set your browser so that you are informed about the setting of cookies and thus allow cookies only in individual cases, exclude the acceptance of cookies for certain cases or in general and activate the automatic deletion of cookies when closing the browser.</p>
+            <p>I use permanent cookies to save your user settings (more precisely, the consent / rejection of tracking on my website). If you block cookies, certain functionalities may no longer work.</p>
+
+            <h3>SSL or TLS encryption</h3>
+            <p>For security reasons and to protect the transmission of confidential information, such as orders or inquiries, my site uses SSL or TLS encryption. You can recognize an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock symbol in your browser line.</p>
+            <p>If SSL or TLS encryption is activated, the data you send to me cannot be read by third parties.</p>
+
+            <h3>Server log files</h3>
+            <p>The provider of my site <a href="https://uberspace.de/">Uberspace.de</a> may automatically collect and store information in so-called server log files, which your browser automatically transmits. These are typically</p>
+            <ul>
+                <li>Browser type and browser version</li>
+                <li>Operating system used</li>
+                <li>Referrer-URL</li>
+                <li>Host name of the accessing computer</li>
+                <li>Time of the server request</li>
+                <li>IP address</li>
+            </ul>
+            <p>This data is not merged with other data sources.</p>
+            <p>The basis for data processing is, among other things, Art. 6 para. 1 lit. b GDPR, which permits the processing of data for the fulfillment of a contract or pre-contractual measures.</p>
+
+            <h3>Google Tag Manager</h3>
+            <p>I use Google Tag Manager. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.</p>
+            <p>Google Tag Manager is a tool that I can use to integrate tracking or statistics tools and other technologies on my website. Google Tag Manager itself does not create any user profiles, does not store any cookies and does not carry out any independent analyses. It is only used to manage and display the tools integrated via it. However, Google Tag Manager may collect your IP address, which may also be transmitted to Google's parent company in the United States.</p>
+            <p>The use of Google Tag Manager is based, among other things, on Art. 6 para. 1 lit. f GDPR. As the website operator, I have a legitimate interest in the quick and easy integration and management of various tools on my website.</p>
+            <p>If a corresponding consent has been requested, the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR; your consent can be revoked at any time.</p>
+
+            <h3>Google Analytics</h3>
+            <p>I sometimes use Google Analytics on my website, with which I can measure and evaluate the use of the website (pseudonymised data), if you allow this. Permanent cookies are also used for this purpose, which are set by the service provider. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.</p>
+            <p>Although we can assume that the information I share with Google is not personal data for Google, it is possible that Google may use this data for its own purposes to draw conclusions about the identity of visitors, create personal profiles and link this data to Google accounts of these people. If you have registered with the service provider yourself, the service provider also knows you. The processing of your personal data by the service provider is then the responsibility of the service provider in accordance with its data protection provisions. The service provider only informs me how my website is used.</p>
+
+            <h3>Contact Forms</h3>
+            <p>If you send me an inquiry via the contact form, the information you provide in the form (e.g., name, phone number, message) will be processed to handle your inquiry. This data is collected in Google Workspace (Google Ireland Limited or Google LLC, USA) and triggers a notification in Microsoft Teams (Microsoft Ireland Operations Ltd. or Microsoft Corporation, USA).</p>
+            <p>Both providers act as my data processors based on corresponding data processing agreements; for transfers to the U.S., this is based on the Standard Contractual Clauses. I process this data to respond to your inquiry and delete it as soon as possible once processing is complete and there are no legal retention obligations preventing it, at the latest within 8 weeks.</p>
+            
+            <h3>Google Ads and Google Conversion-Tracking</h3>
+            <p>I may use Google Ads, the online advertising program of the search engine Google. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.</p>
+            <p>As part of Google Ads, I use the so-called conversion tracking. If you click on an ad placed by Google, a cookie is set for conversion tracking. These cookies lose their validity after 30 days and are not used to personally identify users. If you visit my website again and the cookie has not yet expired, Google and I can recognize that you clicked on the ad and were redirected to this page.</p>
+            <p>These cookies cannot be tracked via the websites of Ads customers. The information collected using the conversion cookie is used to generate conversion statistics for Google Ads customers. Google Ads customers learn the total number of users who clicked on their ad and were redirected to a page with a conversion tracking tag. However, they do not receive any information that can be used to personally identify users.</p>
+            <p>If you do not wish to participate in tracking, you can object to this use by deactivating the Google Conversion Tracking cookie via your Internet browser in the user settings. You will then not be included in the conversion tracking statistics.</p>
+            <p>The storage of «&#8239;conversion cookies&#8239;» is based, among other things, on Art. 6 para. 1 lit. f GDPR. The website operator has a legitimate interest in analyzing user behavior in order to optimize both its website and its advertising.</p>
+            <p>You can find more information about Google Ads and Google Conversion Tracking in <a href="https://www.google.de/policies/privacy/">Google's privacy policy</a>.</p>
+
+            <h2>Data transfer and data transmission abroad</h2>
+            <p>Within the scope of my business activities and purposes, I may also disclose data to third parties to the extent permitted and deemed appropriate. This applies in particular to the following bodies:</p>
+            <ul>
+                <li>Service providers of mine, including data processors (such as IT providers);</li>
+                <li>Partners, suppliers, subcontractors and other business partners;</li>
+                <li>Customers;</li>
+                <li>Domestic and foreign authorities, public bodies or courts;</li>
+                <li>The public, including visitors to websites and social media;</li>
+                <li>Competitors, industry organizations, associations, and other bodies;</li>
+            </ul>
+            <p>Some of these recipients are in Switzerland, but they can be anywhere in the world. In particular, you must expect your data to be transferred to all countries where the service providers I use are located (e.g. Google).</p>
+            <p>If a recipient is located in a country without adequate statutory data protection, I contractually oblige the recipient to comply with the applicable data protection law, unless the recipient is already subject to a legally recognized set of rules to ensure data protection and I cannot rely on an exemption provision.</p>
+            <p>An exception may apply in particular in the case of legal proceedings abroad, but also in cases of overriding public interests or if the execution of a contract requires such disclosure, if you have given your consent or if the data in question has been made generally accessible by you and you have not objected to its processing.</p>
+
+            <h2>Duration of storage of personal data</h2>
+            <p>I process and store your personal data for as long as it is necessary for the fulfillment of my contractual and legal obligations or otherwise for the purposes pursued with the processing, i.e. for the duration of the entire business relationship, for example, as well as beyond that in accordance with the statutory retention and documentation obligations.</p>
+            <p>It is possible that personal data may be retained for the period in which claims can be asserted against my company and insofar as I am otherwise legally obliged to do so or legitimate business interests require this (e.g. for evidence and documentation purposes). As soon as your personal data is no longer required for the above-mentioned purposes, it will be deleted or anonymized as far as possible. Shorter retention periods of twelve months or less generally apply to operational data (e.g. system protocols, logs).</p>
+
+            <h2>Data security</h2>
+            <p>I take appropriate technical and organizational security precautions to protect your personal data from unauthorized access and misuse, such as IT and network security solutions, encryption of data carriers and transmissions, pseudonymization and controls.</p>
+
+            <h2>Obligation to provide personal data</h2>
+            <p>As part of my business relationship, you must provide the personal data that is necessary for the establishment and execution of a business relationship and the fulfillment of the associated contractual obligations. Without this data, I will generally not be able to conclude or execute a contract with you, the entity or person you represent. The website can also not be used if certain information to secure data traffic (such as IP address) is not disclosed.</p>
+
+            <h2>Profiling and automated decision-making</h2>
+            <p>I partially process your personal data automatically with the aim of evaluating certain personal aspects. I use profiling in particular to provide you with targeted information and advice about products. In doing so, I use evaluation tools that enable me to provide needs-based communication and advertising, including market and opinion research.</p>
+            <p>As a matter of principle, I do not use fully automated decision-making processes, such as those regulated in Art. 22 GDPR, to establish and conduct the business relationship or otherwise. If I use such procedures in individual cases, I will inform you separately if this is required by law and inform you of the associated rights.</p>
+
+            <h2>Rights of the data subject</h2>
+            <p>You have the right to information, correction, deletion, the right to restrict data processing and otherwise to object to my data processing, in particular for the purposes of direct marketing, profiling for direct marketing purposes and other legitimate interests in processing, as well as to the disclosure of certain personal data for the purpose of transfer to another body (so-called data portability) within the framework of the data protection law applicable to you and to the extent provided for therein (such as in the case of the GDPR or the nFADP).</p>
+            <p>Please note, however, that I reserve the right to assert the restrictions provided for by law, for example if I am obliged to store or process certain data, have an overriding interest in doing so or need it to assert claims. If you incur costs to assert these rights, I will inform you in advance.</p>
+            <p>Please note that exercising these rights may conflict with contractual agreements and may have consequences such as premature termination of the contract or cost consequences. I will inform you in advance if this is not already contractually regulated.</p>
+            <p>The exercise of such rights generally requires that you clearly prove your identity (e.g. by providing a copy of your ID). To assert your rights, you can contact me at the address given in the «&#8239;Controller&#8239;» section.</p>
+            <p>Every data subject also has the right to enforce claims in court or to lodge a complaint with the competent data protection authority. The competent data protection authority in Switzerland is the <a href="https://www.edoeb.admin.ch/">Federal Data Protection and Information Commissioner (FDPIC)</a>.</p>
+
+            <h2>Changes to this Privacy Policy</h2>
+            <p>I may amend this privacy policy at any time without prior notice. The current version published on my website shall apply. If the privacy policy is part of an agreement with you, I will inform you of the change by email or other suitable means in the event of an update.</p>
+
+            <hr>
+        </div>
+    </div>
+
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+    <footer>
+    <!--#include virtual="/includes/footertop-en.html" -->
+            <p>Select Language | Sprache wählen: <a href="https://marcoaures.ch/datenschutz/">DE</a> | <a href="https://marcoaures.ch/en/privacy/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+    </footer>
+
+    <!--#include virtual="/includes/globalscripts.html" --></body>
+</html>

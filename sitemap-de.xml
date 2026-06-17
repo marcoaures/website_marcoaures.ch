@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <url>
+    <loc>https://marcoaures.ch</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/" />
+  <lastmod>2026-06-17T14:15:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/artikel/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/articles/" />
+	<lastmod>2026-03-10T23:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/google-analytics-ereignisse-auswertungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/google-analytics-ereignisse-auswertungen/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/analyzing-google-analytics-events/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/seo-und-barrierefreiheit-im-internet/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/seo-and-accessibility-online/" />
+  <lastmod>2026-06-17T14:25:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/datenschutz/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/privacy/" />
+    <lastmod>2026-06-17T09:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/impressum/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/imprint/" />
+    <lastmod>2026-02-28T17:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/agb.pdf</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/agb.pdf" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/assets/pdf/agb-EN.pdf" />
+    <lastmod>2024-03-01T11:09:46+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/was-kosten-google-ads/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/was-kosten-google-ads/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/how-much-do-google-ads-cost/" />
+  <lastmod>2026-06-17T14:15:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/seo-fuer-anfaenger/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/seo-fuer-anfaenger/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/seo-for-beginners/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/anfaengerfehler-meta-ads/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/anfaengerfehler-meta-ads/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/meta-ads-beginners-mistakes/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/google-ads-targeting/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/google-ads-targeting/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/google-ads-targeting/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/google-ads-zielgruppe-finden/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/google-ads-zielgruppe-finden/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/find-your-audience-in-google-ads/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/content-security-policy-fuer-marketer/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/content-security-policy-fuer-marketer/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/content-security-policy-for-marketers/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/csp-und-google-tag-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/csp-und-google-tag-manager/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/csp-and-google-tag-manager/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marcoaures.ch/social-media-pixel-externe-tools-mit-csp/</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/social-media-pixel-externe-tools-mit-csp/" />
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/social-media-pixel-external-tools-and-csp/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+  </url>
+  
+<url>
+  <loc>https://marcoaures.ch/tools/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/tools/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/tools/" />
+    <lastmod>2026-02-28T17:00:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/tools/ads-kosten-rechner/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/tools/ads-kosten-rechner/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/tools/ads-cost-calculator/" />
+  <lastmod>2025-12-05T08:00:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/tools/analytics-event-tracking-check/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/tools/analytics-event-tracking-check/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/tools/analytics-event-tracking-check/" />
+  <lastmod>2025-12-05T08:00:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/ai-veraendert-online-marketing/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/ai-veraendert-online-marketing/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/ai-changes-digital-marketing/" />
+  <lastmod>2026-06-17T14:15:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/online-marketing-freelancer-oder-agentur/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/online-marketing-freelancer-oder-agentur/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/digital-marketing-freelancer-or-agency/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/tools/sitemap-analyse/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/tools/sitemap-analyse/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/tools/sitemap-analysis/" />
+  <lastmod>2026-02-28T17:00:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/clientside-cookieless-tracking/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/clientside-cookieless-tracking/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/clientside-cookieless-tracking/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://marcoaures.ch/beste-google-ads-branchen/</loc>
+  <xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/beste-google-ads-branchen/" />
+  <xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/best-industries-for-google-ads/" />
+  <lastmod>2026-06-16T21:05:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/google-ads/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/google-ads/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/google-ads/" />
+	<lastmod>2026-06-17T14:15:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/bing-linkedin-meta-ads/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/bing-linkedin-meta-ads/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/bing-linkedin-meta-ads/" />
+	<lastmod>2026-06-17T11:18:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/tracking-analytics/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/tracking-analytics/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/tracking-analytics/" />
+	<lastmod>2026-06-17T14:15:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/data-studio-dashboards/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/data-studio-dashboards/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/data-studio-dashboards/" />
+	<lastmod>2026-06-17T14:25:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/relaunch-seo/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/relaunch-seo/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/relaunch-seo/" />
+	<lastmod>2026-06-17T11:12:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/technisches-seo/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/technisches-seo/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/technical-seo/" />
+	<lastmod>2026-06-17T14:15:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/reportings/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/reportings/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/reportings/" />
+	<lastmod>2026-06-17T11:05:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/schulungen/</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/schulungen/" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/en/training/" />
+	<lastmod>2026-06-17T11:21:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/assets/pdf/Entscheidungshilfe_Online-Marketing.pdf</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/assets/pdf/Entscheidungshilfe_Online-Marketing.pdf" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/assets/pdf/Flowchart_Digital-Marketing.pdf" />
+	<lastmod>2026-06-16T18:30:00+00:00</lastmod>
+</url>
+
+<url>
+	<loc>https://marcoaures.ch/assets/pdf/ai-veraendert-customer-journey.pdf</loc>
+	<xhtml:link rel="alternate" hreflang="de-CH" href="https://marcoaures.ch/assets/pdf/ai-veraendert-customer-journey.pdf" />
+	<xhtml:link rel="alternate" hreflang="en-CH" href="https://marcoaures.ch/assets/pdf/ai-changes-customer-journey.pdf" />
+	<lastmod>2026-06-16T18:30:00+00:00</lastmod>
+</url>
+
+</urlset>

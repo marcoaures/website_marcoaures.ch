@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-CH">
+<head>
+    <!--#include virtual="/includes/globalhead.html" -->	
+	<!-- hreflang tags -->
+	<link rel="alternate" href="https://marcoaures.ch/tools/analytics-event-tracking-check/" hreflang="de-CH" />
+	<link rel="alternate" href="https://marcoaures.ch/en/tools/analytics-event-tracking-check/" hreflang="en-CH" />
+
+	<meta name="description" content="I usually set up tracking using a checklist. This tool is the interactive version of that and helps you assess how well your tracking is working.">
+	<link rel="canonical" href="https://marcoaures.ch/en/tools/analytics-event-tracking-check/" />
+	<meta name="author" content="Marco Aures">
+	<meta property="og:title" content="Tool: Analytics &amp; Event Tracking Check | Marco Aures" />
+	<meta property="og:description" content="I usually set up tracking using a checklist. This tool is the interactive version of that and helps you assess how well your tracking is working." />
+	<meta property="og:image" content="https://marcoaures.ch/assets/img/og-logo.jpg" />
+	<meta property="og:url" content="https://marcoaures.ch/en/tools/analytics-event-tracking-check/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_CH" />
+    <title>Tool: Analytics &amp; Event Tracking Check | Marco Aures</title>
+    <!--#include virtual="/includes/integrations.html" -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+</head>
+<body class="has-footer">
+    <!--#include virtual="/includes/headmenu-en.html" -->
+<main>
+    <div class="content">
+		<div class="toolpage">
+			<h1><strong>Analytics &amp; Event Tracking Check</strong></h1>
+			<a href="/en/tools/" class="tools-back">Back to overview</a>
+			<!--#include virtual="/includes/trackquest-en.html" -->
+		</div>
+	</div>
+    <!--#include virtual="/includes/consent-en.html" -->
+</main>
+	<footer>
+    <!--#include virtual="/includes/footertop-en.html" -->
+        <p>Select language | Sprache wählen: <a href="https://marcoaures.ch/tools/analytics-event-tracking-check/">DE</a> | <a href="https://marcoaures.ch/en/tools/analytics-event-tracking-check/">EN</a></p>
+    <!--#include virtual="/includes/footerbottom.html" -->
+	</footer>
+    <!--#include virtual="/includes/globalscripts.html" -->
+</body>
+</html>
