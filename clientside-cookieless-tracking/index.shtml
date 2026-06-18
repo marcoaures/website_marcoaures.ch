@@ -61,7 +61,7 @@
             <p>Google Analytics geht nicht ohne Cookies? Doch, mit ein paar Einschränkungen ist das möglich. Diese Case-Study zeigt wie.</p>
         </div>
 
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">
@@ -71,7 +71,7 @@
         </div>
 		
 		<p>Zugegeben, Cookieless Tracking ist im Analytics-Alltag nach wie vor eher die Ausnahme als die Regel. <b>Die meisten Setups verlassen sich (mindestens teilweise) auf Cookies,</b> z.B. um Nutzer zu identifizieren oder sitzungsübergreifend zu messen. Trotzdem gibt es immer wieder Situationen, in denen genau dieses Vorgehen nicht gewünscht oder sogar unmöglich ist:</p>
-		<p>Gerade in privacy-sensiblen Branchen oder generell im GDPR-Umfeld besteht sehr oft der Wunsch, die Datenerhebung (und damit rechtliche Angriffsfläche) auf ein Minimum zu reduzieren und/oder ohne Cookie-Banner auszukommen. In vielen Fällen lassen sich solche Anforderungen mit einem Privacy-First-Tool wie <a href="https://matomo.org/" target="_blank">Matomo</a> oder über ein <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">serverseitiges Tracking-Setup</a> lösen.</p>
+		<p>Gerade in privacy-sensiblen Branchen oder generell im GDPR-Umfeld besteht sehr oft der Wunsch, die Datenerhebung (und damit rechtliche Angriffsfläche) auf ein Minimum zu reduzieren und/oder ohne Cookie-Banner auszukommen. In vielen Fällen lassen sich solche Anforderungen mit einem Privacy-First-Tool wie <a href="https://matomo.org/" target="_blank" rel="noopener noreferrer">Matomo</a> oder über ein <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener noreferrer">serverseitiges Tracking-Setup</a> lösen.</p>
 		<p>Aber: Das geht nicht immer oder der Aufwand dafür ist einfach nicht vertretbar. Genau ein solcher Fall ergab sich bei einem meiner Kunden, der ein kleines Tool als interaktives iframe auf einer Partnerwebseite einbinden lassen wollte. Der Kampagnenerfolg sollte selbstverständlich anschliessend ausgewertet werden, um die Wirksamkeit dieser Kampagne beurteilen zu können. Klingt einfach? Leider nein.</p>
 
 		<h2>Cross-Domain-Setups & Cookies</h2>

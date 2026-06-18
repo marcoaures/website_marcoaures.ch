@@ -124,10 +124,10 @@
 </div>
 <hr>
 <div class="github-wrapper">
-	<p class="github">More (well, maybe) on my <a href="https://github.com/marcoaures" target="_blank">GitHub</a></p>
+	<p class="github">More (well, maybe) on my <a href="https://github.com/marcoaures" target="_blank" rel="noopener noreferrer">GitHub</a></p>
 </div>
 <div class="github-wrapper">
-	<a href="https://github.com/marcoaures" target="_blank"><img src="/assets/img/github-mark.svg" alt="Github Logo" class="github" style="width:30px;"></a>
+	<a href="https://github.com/marcoaures" target="_blank" rel="noopener noreferrer"><img src="/assets/img/github-mark.svg" alt="Github Logo" class="github" style="width:30px;"></a>
 </div>
     </div>
 

@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Was kosten Google Ads?</h1>
             <p>SEA ist eher teuer. Aber wenn ein paar kleine Bedingungen zutreffen, kann der Umsatz aus Google Ads die Ausgaben um ein Vielfaches übersteigen.</p>
         </div>
-        <button class="scroll-arrow" onclick="scrollToContent()" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" onclick="scrollToContent()" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">
@@ -71,7 +71,7 @@
         <hr>
 
         <h2>Was kostet Google Werbung?</h2>
-        <p>Eine eindeutige Antwort gibt es auf diese Frage leider nicht. Wie schon erwähnt, kann sich das von <a href="/beste-google-ads-branchen/" target="_blank">Branche zu Branche,</a> Kampagne zu Kampagne und Suchanfrage zu Suchanfrage unterscheiden. Zusätzlich dazu muss noch einmal nach Art der Kampagne differenziert werden. <b>Google Ads sind nicht gleich Google Ads</b>. Der Suchmaschinenhersteller bietet eine Bandbreite an verschiedenen Ads-Typen an. Am häufigsten trifft man die folgenden drei an:</p>
+        <p>Eine eindeutige Antwort gibt es auf diese Frage leider nicht. Wie schon erwähnt, kann sich das von <a href="/beste-google-ads-branchen/">Branche zu Branche,</a> Kampagne zu Kampagne und Suchanfrage zu Suchanfrage unterscheiden. Zusätzlich dazu muss noch einmal nach Art der Kampagne differenziert werden. <b>Google Ads sind nicht gleich Google Ads</b>. Der Suchmaschinenhersteller bietet eine Bandbreite an verschiedenen Ads-Typen an. Am häufigsten trifft man die folgenden drei an:</p>
         <ul>
             <li><strong>Search Ads:</strong> Das sind die Einträge ganz oben in der Suchergebnisseite mit dem Hinweis «&#8239;Gesponsert&#8239;» über ihnen. Generell sind das die teuerste der drei vorgestellten Arten und man bezahlt per Klick.</li>
             <li><strong>Shopping Ads:</strong> Wenn du nach einem Produkt suchst und auf der Ergebnisseite (oder im Google Shopping-Tab) eine Zeile mit verschiedenen Produktkacheln erscheint, sind das oft Google Shopping Ads. Auch bei ihnen bezahlt man per Klick und generell sind sie ein wenig günstiger als Search Ads.</li>
@@ -83,7 +83,7 @@
         <hr>
 
         <h3>Was den Klickpreis treibt und einschränkt</h3>
-        <p>Wie viel eine Kampagne dann schlussendlich kostet, <b>hängt aber auch vom Wettbewerb ab</b>. SEA funktioniert immer nach dem Auktionsprinzip, in welchem Google automatisch für dich gegen deine Mitbewerber bietet. Das bedeutet auch, dass der Preis schnell ansteigen kann, wenn deine Keywords besonders hart umkämpft sind. Wie teuer das in deiner Branche ist, kannst du im <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank">Google Keyword Planner</a> schnell selbst nachprüfen.</p>
+        <p>Wie viel eine Kampagne dann schlussendlich kostet, <b>hängt aber auch vom Wettbewerb ab</b>. SEA funktioniert immer nach dem Auktionsprinzip, in welchem Google automatisch für dich gegen deine Mitbewerber bietet. Das bedeutet auch, dass der Preis schnell ansteigen kann, wenn deine Keywords besonders hart umkämpft sind. Wie teuer das in deiner Branche ist, kannst du im <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer">Google Keyword Planner</a> schnell selbst nachprüfen.</p>
         <p>Dass dein Werbekonto jedoch täglich zehntausend Franken ausgibt, ohne dass du dir das leisten kannst, musst du aber auch nicht befürchten. Denn pro Kampagne definiert man beim Aufbau einer SEA-Kampagne <b>ein maximales Tagesbudget</b>, an das sich Google halten muss. Generell sollte man – je nach Branche und Keywords – pro Kampagne aber mindestens <b>ein mittleres, zweistelliges Tagesbudget</b> einrechnen. Nach oben gibt es keine Grenze und häufig lohnt es sich sogar, lieber mehr auszugeben.</p>
         <p>Entsprechend ist die wichtige Frage gar nicht so sehr «&#8239;Was kosten Google Ads?&#8239;», sondern «&#8239;Was möchte ich für Google Ads ausgeben?&#8239;» oder am besten «&#8239;Welches Budget ergibt in meiner Situation Sinn?&#8239;»</p>
 
@@ -96,7 +96,7 @@
         <div class="highlight">
             <p><strong>Tipp:</strong> Auch dazu, wie du in Google Ads Zielgruppen per <a href="/google-ads-targeting/">Zielgruppeneinstellungen targeten kannst</a> und wie du über die richtigen Keywords, Anzeigentexte und deine Landingpage <a href="/google-ads-zielgruppe-finden/">Streuverluste vermeiden kannst</a>, habe ich Artikel.</p>
         </div>
-        <p><b>Gute User-Experience ist für Google Ads unabdingbar</b>: Keine unnötigen Hürden – der Weg vom Aufruf der Seite bis zum Abschluss soll für den Nutzer möglichst «&#8239;schmerzfrei&#8239;» sein. Gerade deshalb lohnt sich übrigens eine Kampagne, bei der Kunden zwingend ein Geschäft besuchen müssen, oftmals ebenfalls nicht (ausser du ermöglichst deinen Kunden Online-Terminbuchungen). Nehmen wir für unseren Fall aber einfach an, dass die Landingpage effektiv unser Angebot ins beste Licht stellt und alle Elemente <a href="https://blog.hubspot.com/marketing/landing-page-best-practices" target="_blank" rel="noopener">bestmöglich auf UX optimiert</a> sind. Was kann ich erwarten?</p>
+        <p><b>Gute User-Experience ist für Google Ads unabdingbar</b>: Keine unnötigen Hürden – der Weg vom Aufruf der Seite bis zum Abschluss soll für den Nutzer möglichst «&#8239;schmerzfrei&#8239;» sein. Gerade deshalb lohnt sich übrigens eine Kampagne, bei der Kunden zwingend ein Geschäft besuchen müssen, oftmals ebenfalls nicht (ausser du ermöglichst deinen Kunden Online-Terminbuchungen). Nehmen wir für unseren Fall aber einfach an, dass die Landingpage effektiv unser Angebot ins beste Licht stellt und alle Elemente <a href="https://blog.hubspot.com/marketing/landing-page-best-practices" target="_blank" rel="noopener noreferrer">bestmöglich auf UX optimiert</a> sind. Was kann ich erwarten?</p>
 
         <hr>
 

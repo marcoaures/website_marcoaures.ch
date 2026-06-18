@@ -61,7 +61,7 @@
             <p>With these 5 simple SEO tips, you can make your website more visible, attract more users, and be more successful online.</p>
         </div>
 
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div id="start" class="content">
@@ -72,7 +72,7 @@
 
         <p>Honestly, I understand why SEO feels like a sealed black box for many SMEs. For every question you might have, you’ll find about 20 articles that are at best outdated and often contradict each other.</p>
 
-        <p>“Wait, does my keyword need to be in the meta description or not?” “What are these <a href="https://www.omh.swiss/cornerstone-strategie-seo/" target="_blank">cornerstone pieces</a> everyone keeps talking about?” “Okay, apparently backlinks are important. And how on earth am I supposed to get them?”</p>
+        <p>“Wait, does my keyword need to be in the meta description or not?” “What are these <a href="https://www.omh.swiss/cornerstone-strategie-seo/" target="_blank" rel="noopener noreferrer">cornerstone pieces</a> everyone keeps talking about?” “Okay, apparently backlinks are important. And how on earth am I supposed to get them?”</p>
 
         <p>On top of day-to-day work, finding the time, patience, and energy for this is anything but a given. This post is my attempt to shed a bit of light on the topic. <b>5 simple SEO tips that SMEs and beginners can actually apply</b> and a few SEO basics for beginners.</p>
 
@@ -81,9 +81,9 @@
 
         <p>So, keyword research – what is it? Put simply, it’s the process of finding suitable search queries you want to rank for on Google. Sure, we’d all love to rank #1 for “running shoes”, “software developer”, or “pizzeria”. Whether the effort required is actually worth it is another question entirely:</p>
 
-        <p>These very short “short-tail keywords” are searched for extremely often, but they’re also extremely competitive. Especially from a cost–benefit perspective, I often recommend that my clients focus on <b>so-called “long-tail keywords” consisting of several words</b>. “Best pizza in Bern” probably isn’t searched 12,000 times per day, but 50 searches per day where you show up in positions 1–3 will bring far more users to your site than ranking on page 17 for “pizzeria” <a href="/en/find-your-audience-in-google-ads/#keywords" target="_blank">(I explain why here)</a>.</p>
+        <p>These very short “short-tail keywords” are searched for extremely often, but they’re also extremely competitive. Especially from a cost–benefit perspective, I often recommend that my clients focus on <b>so-called “long-tail keywords” consisting of several words</b>. “Best pizza in Bern” probably isn’t searched 12,000 times per day, but 50 searches per day where you show up in positions 1–3 will bring far more users to your site than ranking on page 17 for “pizzeria” <a href="/en/find-your-audience-in-google-ads/#keywords">(I explain why here)</a>.</p>
 
-        <p>And finding such keywords isn’t actually that hard. The easiest way is with keyword tools like Semrush or Ubersuggest, but even without paid tools it’s possible. Google Ads offers <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank">the Keyword Planner</a>, which shows how often a term is searched on average, how many companies are advertising on it, and how the keyword is trending.</p>
+        <p>And finding such keywords isn’t actually that hard. The easiest way is with keyword tools like Semrush or Ubersuggest, but even without paid tools it’s possible. Google Ads offers <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer">the Keyword Planner</a>, which shows how often a term is searched on average, how many companies are advertising on it, and how the keyword is trending.</p>
 
         <img src="/assets/img/keywordplanner.webp" alt="Screenshot Keyword Planner">
 
@@ -138,7 +138,7 @@
 
         <p>The only real difference is file size and therefore page load time. And <b>“slow” websites significantly hurt your ranking.</b> From a technical perspective, many sites can be improved just by resizing images with Photoshop, GIMP, or one of the many free online tools to the appropriate size (and please save them as webp or jpg files).</p>
 
-        <p>Even easier is <b>optimizing your meta data</b>. These should (<a href="/en/seo-and-accessibility-online/" target="_blank">also for accessibility reasons</a>) be meaningful and follow current best practices:</p>
+        <p>Even easier is <b>optimizing your meta data</b>. These should (<a href="/en/seo-and-accessibility-online/">also for accessibility reasons</a>) be meaningful and follow current best practices:</p>
 
         <ul>
             <li><strong>Meta title:</strong> 50–60 characters including spaces</li>

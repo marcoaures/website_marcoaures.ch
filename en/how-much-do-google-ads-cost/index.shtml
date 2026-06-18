@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">How much do Google Ads cost?</h1>
             <p>SEA tends to be quite expensive. But if a few small conditions are met, the revenue from Google Ads can exceed the spend many times over.</p>
         </div>
-        <button class="scroll-arrow" onclick="scrollToContent()" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" onclick="scrollToContent()" aria-label="Scroll to content"></button>
     </div>
 
     <div id="start" class="content">
@@ -78,7 +78,7 @@
         <hr>
 
         <h2>How much does Google advertising cost?</h2>
-        <p>Unfortunately, there’s no single clear answer to this question. As already mentioned, it can vary significantly <a href="/en/best-industries-for-google-ads/" target="_blank">from industry to industry,</a> from campaign to campaign, and even from search query to search query. On top of that, you need to distinguish between different campaign types. <b>Google Ads are not all the same.</b> Google offers a wide range of ad formats. The three most common are:</p>
+        <p>Unfortunately, there’s no single clear answer to this question. As already mentioned, it can vary significantly <a href="/en/best-industries-for-google-ads/">from industry to industry,</a> from campaign to campaign, and even from search query to search query. On top of that, you need to distinguish between different campaign types. <b>Google Ads are not all the same.</b> Google offers a wide range of ad formats. The three most common are:</p>
 
         <ul>
             <li><strong>Search Ads:</strong> These are the entries at the very top of the search results page with the “Sponsored” label above them. In general, they are the most expensive of the three types presented here, and you pay per click.</li>
@@ -93,7 +93,7 @@
         <hr>
 
         <h3>What drives and limits click prices</h3>
-        <p>How much a campaign ultimately costs <b>also depends on competition.</b> SEA always works on an auction basis, where Google automatically bids against your competitors on your behalf. This also means that prices can quickly increase if your keywords are highly competitive. You can easily check how expensive this is in your industry using the <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank">Google Keyword Planner</a>.</p>
+        <p>How much a campaign ultimately costs <b>also depends on competition.</b> SEA always works on an auction basis, where Google automatically bids against your competitors on your behalf. This also means that prices can quickly increase if your keywords are highly competitive. You can easily check how expensive this is in your industry using the <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer">Google Keyword Planner</a>.</p>
 
         <p>You don’t need to worry that your ad account will suddenly spend tens of thousands of francs per day without you being able to afford it. When you set up a SEA campaign, you define <b>a maximum daily budget</b> per campaign that Google must adhere to. As a rule of thumb, depending on your industry and keywords, you should plan at least <b>a mid two-digit daily budget</b> per campaign. There is no upper limit – and often it actually pays off to spend more.</p>
 

@@ -101,6 +101,13 @@ body {
     hyphenate-limit-chars: auto 5;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .layer1, .layer2, .layer3, .layer4, .layer5,
+    .layer7, .layer8, .layer9 { animation: none; }
+    .portrait-thumbnail, .client-tile,
+    .featured-article::before, .scaled-icon { transition: none; }
+}
+
 /* ============================================================
    04. LINKS & BOLD TEXT
    ============================================================ */
@@ -113,6 +120,11 @@ a:visited {
     color: #2d5354;
 }
 
+p a[href^="http"]:not([href*="marcoaures.ch"])::after,
+li a[href^="http"]:not([href*="marcoaures.ch"])::after {
+  content: " ↗";
+}
+
 b {
     color: var(--color-accent);
     background-image: linear-gradient(to right, rgba(245, 124, 49, 0) 50%, rgba(245, 124, 49, .2) 50%);
@@ -123,6 +135,33 @@ b {
 
 b:hover {
     background-position: -100% 0;
+}
+
+/* ============================================================
+   04b. SKIP LINK
+   ============================================================ */
+
+.skip-link {
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: translateY(-100%);
+	z-index: 9999;
+	padding: .5rem 1.25rem;
+	background: var(--color-brand-dark);
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 0 0 .25rem .25rem;
+	transition: transform .15s ease;
+}
+
+.skip-link:visited {
+	color: #fff;
+}
+
+.skip-link:focus {
+	transform: translateY(0);
 }
 
 /* ============================================================

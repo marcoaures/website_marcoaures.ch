@@ -49,7 +49,7 @@
 					<h1>Your freelancer for data-driven digital marketing</h1>
 					<p>Google Ads, tracking, technical SEO & more for SMEs and companies</p>
 				</div>
-				<button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+				<button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content">
 				</button>
 			</div>
 			<div id="start" class="content">
@@ -152,7 +152,7 @@
 					</div>
 					<div class="portrait-text">
 						<p>Growing up in a craftsman family in Bavaria, I also started my career in the trades as a technical draftsman. My interest in creative and analytical topics, however, soon led me to study <b>Media Studies and American Cultural Studies</b> at FAU Erlangen–Nuremberg. At the same time, I gained my first experiences into the world of digital marketing as a working student at Siemens Healthineers in the <b>User Experience and Content Management departments.</b> </p>
-						<p>Love eventually brought me to Switzerland, where I continued my career as an content manager at <a href="https://omh.swiss" target="_blank">OMH AG</a>. In that role I helped build an <a href="https://kundencommunity.bekb.ch" target="_blank">open innovation platform for the Berner Kantonalbank</a>. Today I still work part-time at BEKB, and, since 2024, I also offer my services independently as a freelance digital marketer.</p>
+						<p>Love eventually brought me to Switzerland, where I continued my career as an content manager at <a href="https://omh.swiss" target="_blank" rel="noopener noreferrer">OMH AG</a>. In that role I helped build an <a href="https://kundencommunity.bekb.ch" target="_blank" rel="noopener noreferrer">open innovation platform for the Berner Kantonalbank</a>. Today I still work part-time at BEKB, and, since 2024, I also offer my services independently as a freelance digital marketer.</p>
 						<p>I'm based in Olten, Switzerland, which is located in the middle between Bern, Basel, Zurich and even Lucerne. Most of the work happens remotely anyway, but when it makes sense I'm happy to come visit you on-site.</p>
 						<p>Shaped by my roots in the trades and growing up with a family business, I still place great value on <b>tailored solutions, transparency, and communication at eye level.</b> Thanks to my varied experience – from technical know-how and an affinity for new innovative methods to a feel for storytelling and data analysis – I develop unique solutions tailored to the specific needs of my clients.</p>
 					</div>
@@ -190,64 +190,64 @@
 				<h2>Clients & Partners</h2>
 				<div class="client-container">
 					<div class="client-tile">
-						<a href="https://www.hauptstadt.be/" target="_blank"><img src="/assets/img/logos/hauptstadt.png" alt="Hauptstadt - New Bernese Journalism"></a>
+						<a href="https://www.hauptstadt.be/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/hauptstadt.png" alt="Hauptstadt - New Bernese Journalism"></a>
 					</div>
 					<div class="client-tile">
-						<a href="https://permapack.ch/" target="_blank"><img src="/assets/img/logos/permapack.png" alt="Permapack AG"></a>
+						<a href="https://permapack.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/permapack.png" alt="Permapack AG"></a>
 					</div>
 					<div class="client-tile">
-						<a href="https://thommengroup.com" target="_blank"><img src="/assets/img/logos/thommengroup.png" alt="Thommen Group"></a>
+						<a href="https://thommengroup.com" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/thommengroup.png" alt="Thommen Group"></a>
 					</div>
 					<div class="client-tile">
-						<a href="https://www.rework.ch/" target="_blank"><img src="/assets/img/logos/rework.png" alt="Rework AG"></a>
-					</div>
-				</div>
-				<div class="client-container">
-					<div class="client-tile">
-						<a href="https://myky.ch" target="_blank"><img src="/assets/img/logos/myky.png" alt="myky"></a>
-					</div>
-					<div class="client-tile">
-						<a href="https://edorex.ch/" target="_blank"><img src="/assets/img/logos/edorex.png" alt="Edorex AG"></a>
-					</div>
-					<div class="client-tile">
-						<a href="https://www.multipack.ch/" target="_blank"><img src="/assets/img/logos/multipack.png" alt="MP Multipack AG"></a>
-					</div>
-					<div class="client-tile">
-						<a href="https://www.wynigerevents.ch/" target="_blank"><img src="/assets/img/logos/wyniger.png" alt="Wyniger Events by Ryago"></a>
+						<a href="https://www.rework.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/rework.png" alt="Rework AG"></a>
 					</div>
 				</div>
 				<div class="client-container">
 					<div class="client-tile">
-						<a href="https://emmental.edulab.net/" target="_blank"><img src="/assets/img/logos/edulab.png" alt="eduLAB Emmental"></a>
+						<a href="https://myky.ch" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/myky.png" alt="myky"></a>
 					</div>
 					<div class="client-tile">
-						<a href="https://chuchibude.ch/" target="_blank"><img src="/assets/img/logos/chuchibude.png" alt="chuchibude AG"></a>
+						<a href="https://edorex.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/edorex.png" alt="Edorex AG"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.multipack.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/multipack.png" alt="MP Multipack AG"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://www.wynigerevents.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/wyniger.png" alt="Wyniger Events by Ryago"></a>
+					</div>
+				</div>
+				<div class="client-container">
+					<div class="client-tile">
+						<a href="https://emmental.edulab.net/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/edulab.png" alt="eduLAB Emmental"></a>
+					</div>
+					<div class="client-tile">
+						<a href="https://chuchibude.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/chuchibude.png" alt="chuchibude AG"></a>
 					</div>
 					<div class="client-tile" >
-						<a href="https://www.medienmitzukunft.org/de/" target="_blank"><img src="/assets/img/logos/medienmitzukunft.png" alt="Medien mit Zukunft association"></a>
+						<a href="https://www.medienmitzukunft.org/de/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/medienmitzukunft.png" alt="Medien mit Zukunft association"></a>
 					</div>
 					<div class="client-tile">
-					<a href="https://www.arillo.ch/" target="_blank"><img src="/assets/img/logos/arillo.png" alt="Arillo – Design + Development"></a>
+					<a href="https://www.arillo.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/arillo.png" alt="Arillo – Design + Development"></a>
 					</div>
 				</div>
 				<!--
 					<div class="client-container">
 					<div class="client-tile">
-					<a href="https://prosenex.ch" target="_blank"><img src="/assets/img/logos/prosenex.png" alt="Pro Senex"></a>
+					<a href="https://prosenex.ch" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/prosenex.png" alt="Pro Senex"></a>
 					</div>
 					<div class="client-tile">
-					<a href="https://omh.swiss" target="_blank"><img src="/assets/img/logos/omh.png" alt="OMH AG"></a>
+					<a href="https://omh.swiss" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/omh.png" alt="OMH AG"></a>
 					</div>
 					<div class="client-tile">
-						<a href="https://www.tagemo.ch/" target="_blank"><img src="/assets/img/logos/tagemo.png" alt="Tagemo Immobilien"></a>
+						<a href="https://www.tagemo.ch/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/tagemo.png" alt="Tagemo Immobilien"></a>
 					</div>
 					<div class="client-tile">
-					<a href="https://www.spenglereiaures.de/" target="_blank"><img src="/assets/img/logos/spenglereiaures.png" alt="Spenglerei Aures GmbH"></a>
+					<a href="https://www.spenglereiaures.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/logos/spenglereiaures.png" alt="Spenglerei Aures GmbH"></a>
 					</div>
 					</div>
 				-->
 				<div class="bg-spacer"></div>
-				<h2 id="Blog">Latest articles & blog posts</h2>
+				<h2 id="blog">Latest articles & blog posts</h2>
 				<div class="featured-article-container">
 
 					<a href="/en/best-industries-for-google-ads/" class="featured-article">

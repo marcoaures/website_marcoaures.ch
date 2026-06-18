@@ -13,9 +13,9 @@ function scrollToContent() {
   let offset;
 
   if (window.innerWidth < 769) {
-    offset = o + 20;
+    offset = o - 41;
   } else {
-    offset = o - 75;
+    offset = o - 87;
   }
 
   window.scrollTo({

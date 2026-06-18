@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Das richtige Google-Ads-Targeting</h1>
             <p>Nicht jeder Webseitenbesucher ist gleich wertvoll für dich: So stellst du in Google Search Ads sicher, dass du nur für die passende Zielgruppe Geld ausgibst.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
     <div id="start" class="content">
         <div class="bloginfo">
@@ -62,7 +62,7 @@
             Thema: SEA-Grundlagen, Google-Ads-Targeting, Google Ads Zielgruppeneinstellungen, Beobachtungs- &amp; Ausrichtungszielgruppen
         </div>
         <p>Stell dir vor, du bist ein Schneider, der moderne Anzüge nach Mass verkauft. Auf deiner Internetseite können Kunden direkt Beratungstermine buchen, und du hast täglich 2000 Website-Besucher. <b>Super, oder?</b> Doch was, wenn es sich um 2000 Teenager handelt, die nur einen günstigen Leihanzug für den Abschlussball suchen? Oder um 2000 Senioren, die mit modernen Schnitten nichts anfangen können und im letzten Moment doch absagen?</p>
-        <p>Was bei Suchmaschinenoptimierung ärgerlich wäre, wird bei SEA (speziell bei Google Search Ads) vor allem eines: teuer (PS: <a href="/was-kosten-google-ads/" target="_blank">Hier erfährst du mehr zu Google-Ads-Kosten</a>). Jeder der 2000 Klicks kostet dich Geld – und nimmt vielleicht echten Interessenten den Platz weg, weil dein Budget schon ausgeschöpft ist. Das Beispiel zeigt: <b>Nicht jeder Website-Besucher ist gleich wertvoll.</b> Manche – wie der Senior, der Beratung in Anspruch nimmt, aber nichts kauft – sind sogar ein Verlustgeschäft. Zeit, Budget und Ressourcen verpuffen im Nichts.</p>
+        <p>Was bei Suchmaschinenoptimierung ärgerlich wäre, wird bei SEA (speziell bei Google Search Ads) vor allem eines: teuer (PS: <a href="/was-kosten-google-ads/">Hier erfährst du mehr zu Google-Ads-Kosten</a>). Jeder der 2000 Klicks kostet dich Geld – und nimmt vielleicht echten Interessenten den Platz weg, weil dein Budget schon ausgeschöpft ist. Das Beispiel zeigt: <b>Nicht jeder Website-Besucher ist gleich wertvoll.</b> Manche – wie der Senior, der Beratung in Anspruch nimmt, aber nichts kauft – sind sogar ein Verlustgeschäft. Zeit, Budget und Ressourcen verpuffen im Nichts.</p>
         <p>Auch Google erkennt dieses Problem und bietet eine einfache Lösung zur Filterung: Zielgruppensteuerung. <b>Google Ads gibt dir die Möglichkeit, genau einzustellen, wen du erreichen willst – und wen nicht.</b> Und das funktioniert auf mehr Arten, als du vielleicht denkst.</p>
         <hr>
         <h2>Zielgruppeneinstellungen in Google Ads</h2>
@@ -72,7 +72,7 @@
             <li><strong>Sprache:</strong> Wähle aus, welche Sprachen die Zielgruppe spricht.</li>
             <li><strong>Zielgruppensegmente:</strong> Von «&#8239;Eltern mit Kleinkindern&#8239;» über «&#8239;Fans von High-End-Computern&#8239;» bis hin zu Personen, die nach einer Buchhaltungssoftware suchen.</li>
         </ul>
-        <p>An dieser Stelle wählst du auch, ob du diese Zielgruppensegmente zur Ausrichtung oder Beobachtung verwenden möchtest: <b>Die Option «&#8239;Ausrichtung&#8239;», auch Zielgruppenausrichtung genannt,</b> bedeutet dabei, dass nur Personen, die Google im ausgewählten Segment verortet, die Anzeige sehen. <b>Die Option «&#8239;Beobachtung&#8239;», auch Beobachtungszielgruppen,</b> hingegen schränken die Auslieferung nicht ein, zeigen dir aber zur Kampagnenoptimierung Statistiken zu den Zielgruppen und ermöglicht Gebotsanpassungen. Zum Beispiel: «&#8239;Für Mieter möchte ich 50 % weniger Werbebudget ausgeben als für einen identischen Wohneigentümer.&#8239;» Mehr zu den <a href="https://support.google.com/google-ads/answer/2497941" target="_blank">Zielgruppensegmenten kannst du hier lesen.</a></p>
+        <p>An dieser Stelle wählst du auch, ob du diese Zielgruppensegmente zur Ausrichtung oder Beobachtung verwenden möchtest: <b>Die Option «&#8239;Ausrichtung&#8239;», auch Zielgruppenausrichtung genannt,</b> bedeutet dabei, dass nur Personen, die Google im ausgewählten Segment verortet, die Anzeige sehen. <b>Die Option «&#8239;Beobachtung&#8239;», auch Beobachtungszielgruppen,</b> hingegen schränken die Auslieferung nicht ein, zeigen dir aber zur Kampagnenoptimierung Statistiken zu den Zielgruppen und ermöglicht Gebotsanpassungen. Zum Beispiel: «&#8239;Für Mieter möchte ich 50 % weniger Werbebudget ausgeben als für einen identischen Wohneigentümer.&#8239;» Mehr zu den <a href="https://support.google.com/google-ads/answer/2497941" target="_blank" rel="noopener noreferrer">Zielgruppensegmenten kannst du hier lesen.</a></p>
         <img src="/assets/img/ads-targeting.webp" alt="Screenshot Targetingeinstellungen">
         <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Eigener Screenshot</p>
         <p>Zudem kannst du gezielt einzelne Segmente ausschliessen, selbst wenn deine Kampagne nur Beobachtungszielgruppen nutzt.</p>

@@ -7,24 +7,26 @@
 
 			<!-- CPC -->
 			<div class="field cpcr-field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-cpc">
 					Average cost per click in CHF
 					<span class="tooltip-container">
-						<span
-							tabindex="0"
-							role="button"
+						<button
+							type="button"
 							aria-label="Info about typical CPC"
+							aria-describedby="cpcr-cpc-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-cpc-tooltip"
 							class="info-icon"
 							onclick="toggleTooltip(event)"
 							onkeydown="handleKeyDown(event)"
 						>
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-cpc-tooltip" class="tooltip-text" role="tooltip" hidden>
 							In Switzerland usually between approx. CHF 0.80 and CHF 20.
 						</span>
 					</span>
-				</p>
+				</label>
 
 				<input
 					type="text"
@@ -36,24 +38,34 @@
 
 			<!-- CR -->
 			<div class="field cpcr-field cpcr-cr-field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-cr">
 					Average conversion rate in percent
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about average conversion rate"
+							aria-describedby="cpcr-cr-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-cr-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-cr-tooltip" class="tooltip-text" role="tooltip" hidden>
 							Conversion rates are usually between 0.5% and 10%.
 						</span>
 					</span>
-				</p>
+				</label>
 
 				<input
 					type="text"
 					inputmode="decimal"
 					id="cpcr-cr"
 					name="cpcr-cr"
-					placeholder="e.g. 4.6">
+					placeholder="e.g. 4.6"
+					aria-describedby="cpcr-cr-hint">
 
 				<!-- Hint overlay -->
 				<div id="cpcr-cr-hint" class="cpcr-hint">
@@ -70,54 +82,82 @@
 		</div>
 
 		<hr>
+
 		<h2>Results</h2>
 
 		<!-- CPA -->
 		<div class="calculatorfields">
 
 			<div class="field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-lowcpa">
 					Low cost per conversion
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about low cost per conversion"
+							aria-describedby="cpcr-lowcpa-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-lowcpa-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-lowcpa-tooltip" class="tooltip-text" role="tooltip" hidden>
 							10–50% deviation from the calculated «&#8239;expected cost per conversion&#8239;», based on CPC and conversion rate. High CPCs and low CRs tend to make campaigns more volatile.
 						</span>
 					</span>
-				</p>
-				<input type="text" id="cpcr-lowcpa" readonly placeholder="Result will be shown here">
+				</label>
+				<input type="text" id="cpcr-lowcpa" readonly placeholder="Result will be shown here" aria-live="polite">
 			</div>
 
 			<div class="field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-medcpa">
 					Expected cost per conversion
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about expected cost per conversion"
+							aria-describedby="cpcr-medcpa-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-medcpa-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-medcpa-tooltip" class="tooltip-text" role="tooltip" hidden>
 							This value is calculated: CPC ÷ CR.
 						</span>
 					</span>
-				</p>
-				<input type="text" id="cpcr-medcpa" readonly placeholder="Result will be shown here">
+				</label>
+				<input type="text" id="cpcr-medcpa" readonly placeholder="Result will be shown here" aria-live="polite">
 			</div>
 
 			<div class="field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-highcpa">
 					High cost per conversion
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about high cost per conversion"
+							aria-describedby="cpcr-highcpa-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-highcpa-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-highcpa-tooltip" class="tooltip-text" role="tooltip" hidden>
 							10–50% deviation from the calculated «&#8239;expected cost per conversion&#8239;», based on CPC and conversion rate. High CPCs and low CRs tend to make campaigns more volatile.
 						</span>
 					</span>
-				</p>
-				<input type="text" id="cpcr-highcpa" readonly placeholder="Result will be shown here">
+				</label>
+				<input type="text" id="cpcr-highcpa" readonly placeholder="Result will be shown here" aria-live="polite">
 			</div>
 		</div>
 
@@ -125,48 +165,75 @@
 		<div class="calculatorfields">
 
 			<div class="field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-minbudget">
 					Minimum budget level
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about minimum budget level"
+							aria-describedby="cpcr-minbudget-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-minbudget-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-minbudget-tooltip" class="tooltip-text" role="tooltip" hidden>
 							From around 15 conversions per month, Google Ads can start to detect first patterns. Optimisation is possible, but still unstable.
 						</span>
 					</span>
-				</p>
-				<input type="text" id="cpcr-minbudget" readonly placeholder="Result will be shown here">
+				</label>
+				<input type="text" id="cpcr-minbudget" readonly placeholder="Result will be shown here" aria-live="polite">
 			</div>
 
 			<div class="field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-lowbudget">
 					Workable budget level
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about workable budget level"
+							aria-describedby="cpcr-lowbudget-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-lowbudget-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-lowbudget-tooltip" class="tooltip-text" role="tooltip" hidden>
 							Around 25 conversions per month provide enough signals for more reliable optimisation and noticeably more stable results.
 						</span>
 					</span>
-				</p>
-				<input type="text" id="cpcr-lowbudget" readonly placeholder="Result will be shown here">
+				</label>
+				<input type="text" id="cpcr-lowbudget" readonly placeholder="Result will be shown here" aria-live="polite">
 			</div>
 
 			<div class="field">
-				<p class="flex-question">
+				<label class="flex-question" for="cpcr-normbudget">
 					Comfortable budget level
 					<span class="tooltip-container">
-						<span tabindex="0" role="button" aria-label="Info" class="info-icon" onclick="toggleTooltip(event)" onkeydown="handleKeyDown(event)">
-							<sup>&#x1F6C8;</sup>
-						</span>
-						<span class="tooltip-text" role="tooltip" hidden>
+						<button
+							type="button"
+							aria-label="Info about comfortable budget level"
+							aria-describedby="cpcr-normbudget-tooltip"
+							aria-expanded="false"
+							aria-controls="cpcr-normbudget-tooltip"
+							class="info-icon"
+							onclick="toggleTooltip(event)"
+							onkeydown="handleKeyDown(event)"
+						>
+							<sup aria-hidden="true">&#x1F6C8;</sup>
+						</button>
+						<span id="cpcr-normbudget-tooltip" class="tooltip-text" role="tooltip" hidden>
 							From about 50 conversions per month, the algorithm works optimally: fast, robust and consistent performance.
 						</span>
 					</span>
-				</p>
-				<input type="text" id="cpcr-normbudget" readonly placeholder="Result will be shown here">
+				</label>
+				<input type="text" id="cpcr-normbudget" readonly placeholder="Result will be shown here" aria-live="polite">
 			</div>
 
 		</div>

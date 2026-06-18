@@ -53,7 +53,7 @@
             <h1 style="margin-top:20px;">How AI Is Already Changing Digital Marketing</h1>
             <p>AI is already radically changing digital marketing today: from user journeys to SEO strategy. Here’s what that means and what you need to focus on now.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content">
         </button>
     </div>
     <div id="start" class="content">
@@ -97,7 +97,7 @@
         <img src="/assets/img/en/ai-referrals-en.jpg" alt="Evaluation of AI referral share in analytics">
         <p class="img-cap" style="text-align: center; margin-block-start: 0px;">AI referral share in three analytics setups I manage.</p>
 
-        <p>Whether the reason is psychological (“I make the final decision”), whether users want to double-check that the AI is actually right, or whether OpenAI, Perplexity & co. simply de-incentivise leaving the chat via UX, I can’t say. But <b>if AI chat is a “no-click medium”,</b> that logically means <a href="/en/technical-seo/" target="_blank">SEO</a> comes back into play at this stage.</p>
+        <p>Whether the reason is psychological (“I make the final decision”), whether users want to double-check that the AI is actually right, or whether OpenAI, Perplexity & co. simply de-incentivise leaving the chat via UX, I can’t say. But <b>if AI chat is a “no-click medium”,</b> that logically means <a href="/en/technical-seo/">SEO</a> comes back into play at this stage.</p>
 
         <hr>
         
@@ -109,9 +109,9 @@
         <table id="table-tracking">
             <tbody>
                 <tr>
-                    <th>Industry</th>
-                    <th>Typical entry point before AI</th>
-                    <th>Likely entry point after AI research</th>
+                    <th scope="col">Industry</th>
+                    <th scope="col">Typical entry point before AI</th>
+                    <th scope="col">Likely entry point after AI research</th>
                 </tr>
                 <tr>
                     <td><strong>Kitchen design & installation</strong></td>
@@ -144,7 +144,7 @@
         <p>For this to work well, you now need to do what SEOs have been saying for years: <b>keep content up to date, regularly “declutter” old pages, implement structured data</b> <!--(why this is especially important for AI is something I’ll explain in my follow-up article)--> and maintain basic site hygiene that improves crawlability not only for AI but also for the Google Search crawler.</p>	
 
         <div class="highlight">
-            <p><strong>A word of warning:</strong> the temptation is big right now to simply add your own chatbot to your website. Speaking as someone who has already been involved in a RAG project (<a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank">“Retrieval Augmented Generation”</a>), I strongly advise caution here. It’s very easy to implement a bad RAG bot. It’s extremely hard to implement a good one, and it usually requires expert support, especially when it comes to things like chunking.</p>
+            <p><strong>A word of warning:</strong> the temptation is big right now to simply add your own chatbot to your website. Speaking as someone who has already been involved in a RAG project (<a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank" rel="noopener noreferrer">“Retrieval Augmented Generation”</a>), I strongly advise caution here. It’s very easy to implement a bad RAG bot. It’s extremely hard to implement a good one, and it usually requires expert support, especially when it comes to things like chunking.</p>
         </div>
 
         <p>When it comes to the recommendation phase, we are actually in a new feedback loop. Instead of asking friends and family for recommendations, many people now start in an AI chat, so word-of-mouth may indeed look obsolete at first glance.</p>	
@@ -153,7 +153,7 @@
         <hr>
 	
         <h2 id="seo-not-dead">SEO’s Not Dead</h2>
-        <p>As with <a href="https://en.wikipedia.org/wiki/Punks_Not_Dead" target="_blank">punk</a>, “the reports of its death are greatly exaggerated”. As someone who still remembers when SEO was suddenly declared redundant because “the internet is going to happen only on Facebook” (I know, the good old days!), I’d be careful about getting fatalistic now.</p>
+        <p>As with <a href="https://en.wikipedia.org/wiki/Punks_Not_Dead" target="_blank" rel="noopener noreferrer">punk</a>, “the reports of its death are greatly exaggerated”. As someone who still remembers when SEO was suddenly declared redundant because “the internet is going to happen only on Facebook” (I know, the good old days!), I’d be careful about getting fatalistic now.</p>
         <p>As we’ve seen above, <b>we still need SEO, just in a different way.</b> And if you’d also like to work on your AI visibility in parallel, I recommend <!--reading my follow-up article [coming soon] or--> reaching out to me directly so we can make your website fit for ChatGPT, Claude and <a href="/en/technical-seo/">AI search in general</a>.</p>
     		<!--#include virtual="/includes/contact-callback-en.html" -->
     </div>

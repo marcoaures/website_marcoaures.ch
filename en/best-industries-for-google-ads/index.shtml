@@ -60,7 +60,7 @@
             <p>So-called high-intent industries are particularly well suited for Google Ads. Here’s what matters and what you should still keep in mind.</p>
         </div>
 
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div id="start" class="content">
@@ -99,7 +99,7 @@
 
 		<h3>Legal, financial and medical services</h3>
 		<p>There are also a few other services that (to varying degrees) fall into this high-intent niche but are somewhat more complex. People searching online for toothache treatment, criminal defence lawyers, or insolvency advice are usually not in a position to postpone or ignore the issue.</p>
-		<p>Unlike locksmith services, however, providers in these fields should proceed with caution – and rightly so. So-called <b>YMYL topics (“your money or your life”)</b> are often subject to strict requirements, both legally and within the <a href="https://support.google.com/adspolicy/answer/6008942#res" target="_blank">Google Ads policies</a>.</p>
+		<p>Unlike locksmith services, however, providers in these fields should proceed with caution – and rightly so. So-called <b>YMYL topics (“your money or your life”)</b> are often subject to strict requirements, both legally and within the <a href="https://support.google.com/adspolicy/answer/6008942#res" target="_blank" rel="noopener noreferrer">Google Ads policies</a>.</p>
 
 		<hr>
 

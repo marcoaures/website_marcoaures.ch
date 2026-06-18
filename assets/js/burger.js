@@ -7,12 +7,14 @@ document.addEventListener("DOMContentLoaded", function () {
     var mq = window.matchMedia("(max-width: 768px)");
 
     hamburger.addEventListener("click", function () {
-        nav.classList.toggle("open");
+        var expanded = nav.classList.toggle("open");
+        hamburger.setAttribute("aria-expanded", expanded ? "true" : "false");
     });
 
     navLinks.forEach(function (link) {
         link.addEventListener("click", function () {
             nav.classList.remove("open");
+            hamburger.setAttribute("aria-expanded", "false");
         });
     });
 
@@ -29,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("click", function (e) {
         if (!header.contains(e.target) && nav.classList.contains("open")) {
             nav.classList.remove("open");
+            hamburger.setAttribute("aria-expanded", "false");
         }
     });
 

@@ -53,7 +53,7 @@
             <h1 style="margin-top:20px;">5 Beginner Mistakes in Facebook and Instagram Ads</h1>
             <p>Avoid these pitfalls in your ad campaigns and use your ad budget more effectively.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div class="content" id="start">
@@ -64,7 +64,7 @@
 
         <p><strong>In this article, I’ll show you a few easy steps to avoid some costly beginner mistakes when creating and optimizing Facebook and Instagram ads.</strong></p>
         <p><a href="/en/bing-linkedin-meta-ads/">Social media advertising</a> has long since become commonplace among SMEs and other smaller organizations. The days when only large companies like Adidas or Audi appeared in our feeds with a small “Sponsored” label are over. It’s no surprise: Facebook ads can be published from any business account without long waiting times, you don’t need a media planner, and even with a modest two-digit or low three-digit ad budget you can already achieve your first positive results.</p>
-        <p>Plus, with Facebook ads you can reach both Meta platforms at once: <b>nearly <a href="https://bernet.ch/blog/2026/01/22/social-media-zahlen-schweiz-instagram-waechst-weiter-facebook-unter-vorjahresniveau/" target="_blank">2.5 million Facebook profiles (trending downward) and around 4.3 million Instagram accounts (trending upward)</a> access these platforms here in Switzerland.</b> That means the potential for advertising is enormous. But social media advertising isn’t without its pitfalls either. What does “Learning limited” even mean? And how do you use your budget most effectively? That’s what I’ll explain here.</p>
+        <p>Plus, with Facebook ads you can reach both Meta platforms at once: <b>nearly <a href="https://bernet.ch/blog/2026/01/22/social-media-zahlen-schweiz-instagram-waechst-weiter-facebook-unter-vorjahresniveau/" target="_blank" rel="noopener noreferrer">2.5 million Facebook profiles (trending downward) and around 4.3 million Instagram accounts (trending upward)</a> access these platforms here in Switzerland.</b> That means the potential for advertising is enormous. But social media advertising isn’t without its pitfalls either. What does “Learning limited” even mean? And how do you use your budget most effectively? That’s what I’ll explain here.</p>
         <p><strong>You should avoid the following rookie mistakes in Meta Ads:</strong></p>
 
         <hr>
@@ -74,7 +74,7 @@
         <p><b>As tempting as it looks: don’t do it!</b> The biggest reason is how you communicate. Organic (“normal”) posts are mostly aimed at existing fans and customers. And just because a post performs well with them doesn’t mean it will resonate with new customers or even people who are just interested. Do you speak to loyal customers the same way you speak to someone interacting with your business for the first time? Probably not.</p>
         <img src="/assets/img/carousel.jpg" alt="Example Carousel-Ad">
         <p class="img-cap" style="text-align: center; margin-block-start: 0px;">© Meta</p>
-        <p>The options are also extremely limited. Audience creation, campaign objectives, and analytics are only a few of the many functions that are much more detailed and powerful in the <a href="https://business.facebook.com/" target="_blank">Meta Business Suite</a>, the actual platform for advertisers. Carousel ads, for example, cannot be created this way. In short: anyone relying on “Boost Post” is not advertising as effectively as they could.</p>
+        <p>The options are also extremely limited. Audience creation, campaign objectives, and analytics are only a few of the many functions that are much more detailed and powerful in the <a href="https://business.facebook.com/" target="_blank" rel="noopener noreferrer">Meta Business Suite</a>, the actual platform for advertisers. Carousel ads, for example, cannot be created this way. In short: anyone relying on “Boost Post” is not advertising as effectively as they could.</p>
         <div class="highlight">
             <p><strong>Tip: use the Meta Ads Manager to create your ad campaigns.</strong></p>
         </div>
@@ -84,7 +84,7 @@
         <h2>Beginner Mistake #2: Ignoring Ad Relevance</h2>
         <p>Most advertisers are aware that Meta allocates ad placements through an auction. But it doesn’t work like a traditional auction where the highest bidder automatically wins. You set your budget, and the delivery system decides how to get you the best possible results. What many still underestimate is that Meta considers more than just money in these auctions.</p>
         <p>But here’s the bigger difference from traditional bidding: you’re not only bidding with money. Meta recognizes a second currency… ad relevance. <b>Facebook and Instagram want to keep users interested and on the platforms as long as possible.</b> That’s why engaging ads, such as strong video content, are far more valuable to Meta than boring slogans or long-winded, dry prose.</p>
-        <p>Even if one advertiser offers 10 cents and another offers CHF 1.50, the 10-cent ad might win if it’s more engaging, especially if the more expensive ad targets an audience that isn’t relevant for the product. Meta gives all these aspects a name: <a href="https://www.facebook.com/business/help/436113280262012?id=561906377587030" target="_blank">ad relevance</a>. And those who ignore it literally pay a price.</p>
+        <p>Even if one advertiser offers 10 cents and another offers CHF 1.50, the 10-cent ad might win if it’s more engaging, especially if the more expensive ad targets an audience that isn’t relevant for the product. Meta gives all these aspects a name: <a href="https://www.facebook.com/business/help/436113280262012?id=561906377587030" target="_blank" rel="noopener noreferrer">ad relevance</a>. And those who ignore it literally pay a price.</p>
         <p>Similar to Google Ads, ad relevance is broken down into three categories: <b>«&#8239;Quality Ranking&#8239;», «&#8239;Engagement Rate Ranking&#8239;» and «&#8239;Conversion Rate Ranking&#8239;»</b>. You can add these key figures as columns in the Ads Manager and see exactly what is already working well with your individual ads and what you can still improve.</p>
         <p>By now there are additional metrics such as Creative Score and Opportunity Score that provide a broader picture of how well your ad is expected to perform in Meta’s environment. Together, these signals influence delivery, cost, and how quickly the system will pick up your ads and start delivering results.</p>
         <div class="highlight">
@@ -96,7 +96,7 @@
         <h2>Beginner Mistake #3: Not Running Split Tests</h2>
         <p>Imagine you’re planning to buy a car. Would you spend all your money on the first offer before comparing brands and models, let alone taking a test drive? Probably not. You’d research, compare options, and invest some time and effort into test drives. You should do the same with your Facebook and Instagram ads.</p>
         <p>If you’re planning a big campaign, <b>start with a smaller one with a reduced bid and compare results</b>. Which images perform well with the target group? Which ad text doesn’t get clicks at all? Even experienced marketers prefer not to rely solely on their gut feeling. Some ads will just inevitably flop, while others will outperform expectations by a magnitude. And the best way to find out is by testing with your actual target audience. After the tests, you can confidently invest your budget in the winning variant (often called an A/B test or split test) and spend less money on underperforming ads.</p>
-        <p>The Meta Business Suite offers <a href="https://www.facebook.com/business/help/1159714227408868" target="_blank">several tools and methods</a> for running automated A/B tests, which saves you manual effort. But manual split tests still work well too.</p>
+        <p>The Meta Business Suite offers <a href="https://www.facebook.com/business/help/1159714227408868" target="_blank" rel="noopener noreferrer">several tools and methods</a> for running automated A/B tests, which saves you manual effort. But manual split tests still work well too.</p>
         <div class="highlight">
             <p><strong>My tip: run a split test before larger campaigns, or use the functions in the Meta Business Suite, and make your ad spend more efficient.</strong></p>
         </div>

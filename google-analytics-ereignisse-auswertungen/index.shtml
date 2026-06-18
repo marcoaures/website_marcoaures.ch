@@ -53,7 +53,7 @@
 			<h1 style="margin-top:20px;">Google-Analytics-Ereignisse & Auswertungen</h1>
 			<p>Welche Ereignisse solltest du auf deiner Website tracken? Musst du auch in Google Analytics Conversions einrichten? Und warum eigentlich?</p>
 		</div>
-		<button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+		<button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen">
 		</button>
 	</div>
     <div id="start" class="content">
@@ -79,7 +79,7 @@
 			<li><strong>Google Analytics 4:</strong> Damit kannst du Nutzerverhalten auf deiner Seite analysieren.</li>
 			<li><strong>Google Tag Manager:</strong> Damit kannst du Scripts, Custom Events, Google-Conversion-Tracking und vieles mehr auf deiner Seite einbinden und verknüpfen.</li>
 		</ul>
-		<p>Zusätzlich dazu habe ich begonnen, alle Kunden zu ermutigen, auch die <a href="https://www.bing.com/webmasters/about" target="_blank">Bing Webmaster Tools</a> einzurichten. Der Google-Mitbewerber aus dem Hause Microsoft hat zwar einen deutlich kleineren Marktanteil, aber nichtsdestotrotz <b>vereinzelte Nutzergruppen, die darauf deutlich häufig (auch) vertreten sind</b> und zumindest hin- und wieder etwas «&#8239;bingen&#8239;».</p>
+		<p>Zusätzlich dazu habe ich begonnen, alle Kunden zu ermutigen, auch die <a href="https://www.bing.com/webmasters/about" target="_blank" rel="noopener noreferrer">Bing Webmaster Tools</a> einzurichten. Der Google-Mitbewerber aus dem Hause Microsoft hat zwar einen deutlich kleineren Marktanteil, aber nichtsdestotrotz <b>vereinzelte Nutzergruppen, die darauf deutlich häufig (auch) vertreten sind</b> und zumindest hin- und wieder etwas «&#8239;bingen&#8239;».</p>
 		<p>Dazu kommt ein wesentlicher Vorteil, der Bing in den letzten beiden Jahren massiv an Relevanz gewinnen lassen hat: AI. Bing hat natürlich mit dem Microsoft Co-Pilot selbst eine AI. Aber auch ChatGPT und Azure-AI-Anwendungen (die künstliche Intelligenz, die Unternehmen zusammen mit Microsoft 365 und/oder der Azure Cloud nutzen können) verwenden - zumindest aktuell noch - Bing für Webergebnisse. Wenn du also gefunden werden willst, wenn ein User «&#8239;Wer ist der beste Anbieter für X?&#8239;» in ChatGPT eingibt, kannst du Bing nicht mehr ignorieren.</p>
 		<p>Aber all das wäre höchstens in Sonderfällen ein ausschlaggebender Punkt für mich, wenn die Einrichtung kompliziert wäre. Das ist sie, zum Glück, nicht: Wer bereits ein Domain-Property in der Google Search Console eingerichtet hat, muss <b>nur einen einzigen Button klicken</b> um die Inhaberschaft durch die bereits vorhandene Google-Verification zu bestätigen. Und der positive Nebeneffekt ist, dass nach meiner Erfahrung Bing ein klein wenig Seiten bevorzugt, die der Suchmaschine beachtung schenken.</p>
 	<hr>

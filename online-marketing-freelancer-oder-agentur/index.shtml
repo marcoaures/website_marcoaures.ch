@@ -53,7 +53,7 @@
             <h1 style="margin-top:20px;">Marketing-Freelancer, Agentur oder direkt In-House: Ein Vergleich</h1>
             <p>Dieser Vergleich erklärt praxisnah, welches Modell, von Freelancer bis In-House, sich für welche Marketing-Ziele eignet und wo die jeweiligen Grenzen liegen.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">

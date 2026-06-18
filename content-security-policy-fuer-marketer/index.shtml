@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Content-Security-Policy für Marketer</h1>
             <p>Vielleicht hast du als Marketer schon den Begriff Content-Security-Policy (CSP) gehört. Was du – ohne IT-Studium – dazu wissen musst, erkläre ich dir hier. </p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen">
         </button>
     </div>
     <div id="start" class="content">
@@ -76,7 +76,7 @@
             <li><strong>Nonce/Hash:</strong> Erlaubt ausgewählte Inline-Inhalte, die durch ein «&#8239;Passwort&#8239;» freigegeben wurden – wie das funktioniert, erkläre ich in meinem GTM & CSP Guide</li>
         </ul>
         <div class="highlight">
-            <p><strong>Info:</strong> Ein <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank">Nonce (<i>«&#8239;number used once&#8239;»</i>)</a> ist ein einmaliger zufälliger Token der beim Laden der Seite generiert wird. Quasi ein Einmal-Passwort für die Ausführung des Scripts. Ein <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank">Hash</a> hingegen ist eine Art «&#8239;Prüfsumme&#8239;» oder ein Fingerabdruck für dein Script. Der Hash stimmt nur, wenn der Inhalt des Scripts unverändert ist und verhindert so Manipulation.</p>
+            <p><strong>Info:</strong> Ein <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank" rel="noopener noreferrer">Nonce (<i>«&#8239;number used once&#8239;»</i>)</a> ist ein einmaliger zufälliger Token der beim Laden der Seite generiert wird. Quasi ein Einmal-Passwort für die Ausführung des Scripts. Ein <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank" rel="noopener noreferrer">Hash</a> hingegen ist eine Art «&#8239;Prüfsumme&#8239;» oder ein Fingerabdruck für dein Script. Der Hash stimmt nur, wenn der Inhalt des Scripts unverändert ist und verhindert so Manipulation.</p>
         </div>
         <p>Wenn ein Nutzer eine Webseite mit Content Security Policy aufruft, sendet der Server die CSP als HTTP-Header an den Browser. <b>Der Browser prüft dann beim Laden jedes Inhalts, ob er laut Richtlinie erlaubt ist.</b> Ist das nicht der Fall, wird der Inhalt blockiert.</p>	
         <img src="/assets/img/csp-infografik.webp" alt="Infografik CSP Ablauf">

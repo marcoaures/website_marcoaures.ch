@@ -60,7 +60,7 @@
             <p>Mit diesen 5 einfachen SEO-Tipps kannst du deine Webseite sichtbarer machen, mehr Nutzer darauf lenken und online erfolgreicher sein.</p>
         </div>
 
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">
@@ -71,7 +71,7 @@
 
         <p>Ehrlich, ich verstehe, wieso SEO für viele KMUs ein Schloss mit sieben Siegeln ist. Zu jeder Fragestellung findet man circa 20 Artikel, die schlimmstenfalls veraltet und oft auch noch widersprüchlich sind.</p>
 
-        <p>«&#8239;Moment, muss mein Keyword jetzt auch in der Meta Description sein oder nicht?&#8239;» «&#8239;Was sind diese <a href="https://www.omh.swiss/cornerstone-strategie-seo/" target="_blank">Cornerstone-Inhalte</a>, von denen alle andauernd schreiben?&#8239;» «&#8239;Okay, Backlinks sind scheinbar wichtig. Und wie bekomme ich sie bitte?&#8239;»</p>
+        <p>«&#8239;Moment, muss mein Keyword jetzt auch in der Meta Description sein oder nicht?&#8239;» «&#8239;Was sind diese <a href="https://www.omh.swiss/cornerstone-strategie-seo/" target="_blank" rel="noopener noreferrer">Cornerstone-Inhalte</a>, von denen alle andauernd schreiben?&#8239;» «&#8239;Okay, Backlinks sind scheinbar wichtig. Und wie bekomme ich sie bitte?&#8239;»</p>
 
         <p>Neben dem Arbeitsalltag auch dafür noch Zeit, Geduld und Muse zu finden, ist nicht selbstverständlich. Dieser Beitrag ist daher mein Versuch, ein bisschen Licht ins Dunkel zu bringen. <b>5 einfache Tipps für SEO, die durch KMUs und Anfänger anwendbar sind</b> und ein paar SEO-Grundlagen für Anfänger.</p>
 
@@ -80,9 +80,9 @@
 
         <p>Also, Keyword-Recherche: Was ist das? Stark vereinfacht ist das der Versuch, passende Suchanfragen zu finden, in denen man auf Google ranken möchte. Klar, wir möchten alle auf Platz 1 für "Laufschuhe", "Software-Entwickler" oder "Pizzeria" landen. Ob der dafür notwendige Aufwand es wert ist, ist aber eher fraglich:</p>
 
-        <p>Solche sehr kurzen «&#8239;Short-Tail-Keywords&#8239;» werden zwar extrem oft gesucht, sind aber auch extrem hart umkämpft. Gerade mit Blick auf Kosten-Nutzen empfehle ich meinen Kunden deshalb oft, sich lieber <b>auf sogenannte «&#8239;Long-Tail-Keywords&#8239;» aus mehreren Wörtern zu konzentrieren</b>. "Beste Pizza in Bern" wird wahrscheinlich nicht 12'000 mal pro Tag gesucht, aber 50 Suchanfragen pro Tag, bei denen man durchschnittlich auf Platz 1–3 eingeblendet wird, bringen deutlich mehr Nutzer als ein Rank auf Seite 17 für "Pizzeria" <a href="/google-ads-zielgruppe-finden/#keywords" target="_blank">(weshalb erkläre ich hier)</a>.</p>
+        <p>Solche sehr kurzen «&#8239;Short-Tail-Keywords&#8239;» werden zwar extrem oft gesucht, sind aber auch extrem hart umkämpft. Gerade mit Blick auf Kosten-Nutzen empfehle ich meinen Kunden deshalb oft, sich lieber <b>auf sogenannte «&#8239;Long-Tail-Keywords&#8239;» aus mehreren Wörtern zu konzentrieren</b>. "Beste Pizza in Bern" wird wahrscheinlich nicht 12'000 mal pro Tag gesucht, aber 50 Suchanfragen pro Tag, bei denen man durchschnittlich auf Platz 1–3 eingeblendet wird, bringen deutlich mehr Nutzer als ein Rank auf Seite 17 für "Pizzeria" <a href="/google-ads-zielgruppe-finden/#keywords">(weshalb erkläre ich hier)</a>.</p>
 
-        <p>Und solche Keywords zu finden, ist eigentlich gar nicht so schwer. Am einfachsten geht es mit Keyword-Tools wie SEMrush oder Ubersuggest, aber selbst ohne teure Hilfsmittel ist es möglich. In Google Ads gibt es <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank">den sogenannten Keyword Planner</a>, der ebenfalls zeigt, wie häufig ein Begriff durchschnittlich gesucht wird, wie viele Firmen Werbung darauf schalten und wie sich das Keyword entwickelt.</p>
+        <p>Und solche Keywords zu finden, ist eigentlich gar nicht so schwer. Am einfachsten geht es mit Keyword-Tools wie SEMrush oder Ubersuggest, aber selbst ohne teure Hilfsmittel ist es möglich. In Google Ads gibt es <a href="https://ads.google.com/intl/de_ch/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer">den sogenannten Keyword Planner</a>, der ebenfalls zeigt, wie häufig ein Begriff durchschnittlich gesucht wird, wie viele Firmen Werbung darauf schalten und wie sich das Keyword entwickelt.</p>
 
         <img src="/assets/img/keywordplanner.webp" alt="Screenshot Keyword Planner">
 
@@ -137,7 +137,7 @@
 
         <p>Bilder sollten daher vor dem Upload verkleinert und im webp- oder jpg-Format gespeichert werden.</p>
 
-        <p>Noch einfacher ist das <b>Optimieren der Meta-Daten</b>. Diese sollten (<a href="/seo-und-barrierefreiheit-im-internet/" target="_blank">auch aus Gründen der Barrierefreiheit</a>) aussagekräftig sein und aktuellen Richtwerten entsprechen:</p>
+        <p>Noch einfacher ist das <b>Optimieren der Meta-Daten</b>. Diese sollten (<a href="/seo-und-barrierefreiheit-im-internet/">auch aus Gründen der Barrierefreiheit</a>) aussagekräftig sein und aktuellen Richtwerten entsprechen:</p>
 
         <ul>
             <li><strong>Meta-Titel:</strong> 50–60 Zeichen</li>

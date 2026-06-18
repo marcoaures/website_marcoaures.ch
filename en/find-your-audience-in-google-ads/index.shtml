@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Finding the right target audience in Google Ads</h1>
             <p>Why targeting in Google Ads goes beyond audience settings – and how you can use it to save money and increase conversion rates.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content">
         </button>
     </div>
     <div id="start" class="content">
@@ -63,12 +63,12 @@
             Topic: SEA basics, Google Ads targeting, keyword research, Google Ads keyword options, lead qualification
         </div>
 
-        <p>In my <a href="/en/google-ads-targeting/" target="_blank">article on audience settings</a>, I’ve already given an in-depth look at the options Google offers advertisers to reach the right users with (search) ads. But: <b>these settings alone are rarely enough.</b></p>
+        <p>In my <a href="/en/google-ads-targeting/">article on audience settings</a>, I’ve already given an in-depth look at the options Google offers advertisers to reach the right users with (search) ads. But: <b>these settings alone are rarely enough.</b></p>
         <p>Let’s say we actually manage, via audience options, to reach wedding planners for our event location. That doesn’t help much if this wedding planner only organizes outdoor weddings while we operate an indoor event hall. And even with a perfectly fitting audience, users might <b>not yet be far enough along in their decision-making process</b> to actually convert.</p>
-        <p>We all want our search ads to generate <a href="/en/best-industries-for-google-ads/" target="_blank">as many conversions and/or leads as possible at the lowest possible cost.</a> That’s why it’s so important not to stop when it comes to fine-tuning. <b>With ads, that fine-tuning happens via keywords, ad copy, and landing page.</b></p>
+        <p>We all want our search ads to generate <a href="/en/best-industries-for-google-ads/">as many conversions and/or leads as possible at the lowest possible cost.</a> That’s why it’s so important not to stop when it comes to fine-tuning. <b>With ads, that fine-tuning happens via keywords, ad copy, and landing page.</b></p>
         <hr>
         <h2 id="keywords">Finding the right keywords</h2>
-        <p>In keyword research <a href="/en/seo-for-beginners/#keywordrecherche" target="_blank">(here’s a short introduction)</a>, the focus is often on metrics like <b>search volume, average CPC, and competition level.</b> But even keywords with high search volume and low CPC can be wasted money if they trigger the wrong search intent.</p>
+        <p>In keyword research <a href="/en/seo-for-beginners/#keywordrecherche">(here’s a short introduction)</a>, the focus is often on metrics like <b>search volume, average CPC, and competition level.</b> But even keywords with high search volume and low CPC can be wasted money if they trigger the wrong search intent.</p>
         <img src="/assets/img/keywords-hochzeitslocation.webp" alt="Screenshot wedding venue keywords">
         <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Own screenshot</p>
         <p>And that’s often exactly what happens. There is almost always a reason <b>why competitors ignore a keyword:</b> the search intent doesn’t fit.</p>
@@ -79,9 +79,9 @@
         <table id="table-tracking">
             <tbody>
                 <tr>
-                    <th>Category</th>
-                    <th>User goal</th>
-                    <th>Example</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">User goal</th>
+                    <th scope="col">Example</th>
                 </tr>
                 <tr>
                     <td><strong>Informational</strong></td>
@@ -117,7 +117,7 @@
         <p>With phrase match (by putting the keyword in quotation marks, e.g. "sports shoes"), targeting becomes more precise. Here, ads only appear for search queries that contain the keyword or close variants. In the past, broad match would only trigger ads if the exact word appeared in the query, but those days are (unfortunately) over: <b>Google has significantly loosened this option over the last two years.</b> With phrase match, we’re now also shown for queries where someone searches for red sports shoes or sneakers.</p>
         <p>If you want the highest possible control, you should use exact match keywords. To do that, you simply put the keyword in square brackets (e.g. [sports shoes]). Then the ad is only shown for that exact keyword. Even if a user searches for “red sports shoes” or “buy sports shoes”, your ad won’t be shown.</p>
         <img src="/assets/img/keywordmatchtypes.svg" alt="Keyword match types">
-        <p class="img-cap" style="text-align: center; margin-block-start: 0px;"><a href="https://support.google.com/google-ads/answer/7478529" target="_blank">Source: Google</a></p>
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;"><a href="https://support.google.com/google-ads/answer/7478529" target="_blank" rel="noopener noreferrer">Source: Google</a></p>
         <div class="highlight">
             <p><strong>My tip:</strong> I usually work with phrase match. Exact match keywords often have too little search volume to generate enough clicks and conversions. Broad match is mostly useful for discovering new keyword ideas – but you absolutely need to work with negative keywords to avoid wasted spend. And even with phrase match, it’s increasingly worth using negative keywords to stay in control.</p>
         </div>
@@ -138,7 +138,7 @@
         <p>This isn’t just more efficient for you – it also matters for campaign performance: <b>Conversions are sent back to Google as signals and influence who sees your ads in the future.</b> By deliberately preventing some conversions, you actually make your campaign more effective and successful in the long run.</p>
         <hr>
         <h2>The right audience = a successful campaign</h2>
-        <p>Reaching the right audience with Google Ads takes more than just <a href="/en/google-ads-targeting/" target="_blank">the right settings.</a> By carefully choosing keywords based on search intent and funnel position, using your ad copy as an additional filter, and minimizing wasted spend on the landing page, you can not only save costs <a href="/en/how-much-do-google-ads-cost/" target="_blank">(here’s my article on Google Ads costs)</a>, but also significantly increase your conversion rate. With this holistic approach, <b>you’re not just optimizing campaign performance – you’re making sure every click is as close to your real goal as possible:</b> qualified leads and more sales.</p>
+        <p>Reaching the right audience with Google Ads takes more than just <a href="/en/google-ads-targeting/">the right settings.</a> By carefully choosing keywords based on search intent and funnel position, using your ad copy as an additional filter, and minimizing wasted spend on the landing page, you can not only save costs <a href="/en/how-much-do-google-ads-cost/">(here’s my article on Google Ads costs)</a>, but also significantly increase your conversion rate. With this holistic approach, <b>you’re not just optimizing campaign performance – you’re making sure every click is as close to your real goal as possible:</b> qualified leads and more sales.</p>
         <p>Need help implementing this? I’d be happy to advise you in a non-binding initial consultation on ads, audiences, and qualifying leads through targeting.</p>
     		<!--#include virtual="/includes/contact-callback-en.html" -->
     </div>

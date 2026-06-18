@@ -53,7 +53,7 @@
             <h1 style="margin-top:20px;">Wie AI Online Marketing bereits jetzt verändert</h1>
             <p>AI verändert das Online Marketing schon heute drastisch: von User Journey bis SEO-Strategie. Warum und was du jetzt beachten musst, liest du hier</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen">
         </button>
     </div>
     <div id="start" class="content">
@@ -68,7 +68,7 @@
         <div class="spacer"></div>
 
         <h2 id="ai-und-seo">AI verändert das Such- und Nutzerverhalten</h2>
-        <p>Online Marketing war schon immer der Versuch, <a href="/technisches-seo/" target="_blank">genau dann für potenzielle Kunden sichtbar zu sein,</a> wenn es darauf ankommt. Hierbei orientieren sich Marketer gerne an der klassischen User Journey: Von Bewusstsein über Erwägung und Kauf bis zu Bindung und idealerweise Weiterempfehlung.</p>
+        <p>Online Marketing war schon immer der Versuch, <a href="/technisches-seo/">genau dann für potenzielle Kunden sichtbar zu sein,</a> wenn es darauf ankommt. Hierbei orientieren sich Marketer gerne an der klassischen User Journey: Von Bewusstsein über Erwägung und Kauf bis zu Bindung und idealerweise Weiterempfehlung.</p>
         <p>Wer eine digitale Marketingstrategie hat, hat wahrscheinlich sorgfältig Touchpoints auf jeden dieser Schritte gemünzt: Bewusstsein wird über Social Media oder Blog-Content geschaffen, bei der Erwägung finden Interessenten direkt die Vorteile, USPs und andere Informationen in Landingpages oder anderen Blogs, die bei der Kaufentscheidung helfen sollen. Der Kaufvorgang ist wiederum conversion-optimiert und für Kundenbindung und Weiterempfehlung werden die Kunden über Direktmassnahmen wie Newsletter und Co. angegangen.</p>
         <p>Jetzt die Hiobsbotschaft: Dieses Modell ist durch KI (je <a href="/beste-google-ads-branchen/">nach Branche</a> und zielgruppe) <b>veraltet oder teilweise sogar komplett hinfällig geworden.</b> Ich kann bestätigen, dass beispielsweise die Anzahl der Impressionen auf Blogbeiträge, die üblicherweise die Schritte Bewusstsein und Erwägung abgedeckt haben, um bis zu 60% (im Schnitt circa 35%) eingebrochen sind. Meine Erfahrungen decken sich dabei mit grösseren Untersuchungen zum Thema.</p>
 		
@@ -97,7 +97,7 @@
 			<img src="/assets/img/ai-referrals-de.jpg" alt="Auswertung AI-Verweis-Anteil in Analytics">
 			<p class="img-cap" style="text-align: center; margin-block-start: 0px;">Die AI-Verweisrate in 3 Analytics-Set-Ups, die ich betreue.</p>
 
-        <p>Ob der Grund hierfür psychologisch ist («&#8239;Ich treffe die schlussendliche Entscheidung&#8239;»), ob Nutzer gerne noch einmal bestätigen wollen, dass die AI recht hat, oder ob OpenAI, Perplexity & Co. den Absprung per UX unattraktiv machen, kann ich nicht sagen. <b>Wenn der AI-Chat aber ein «&#8239;No-Click-Medium&#8239;» ist,</b> heisst das logischerweise, dass hier <a href="/technisches-seo/" target="_blank">SEO</a> wieder zum Zug kommt.</p>
+        <p>Ob der Grund hierfür psychologisch ist («&#8239;Ich treffe die schlussendliche Entscheidung&#8239;»), ob Nutzer gerne noch einmal bestätigen wollen, dass die AI recht hat, oder ob OpenAI, Perplexity & Co. den Absprung per UX unattraktiv machen, kann ich nicht sagen. <b>Wenn der AI-Chat aber ein «&#8239;No-Click-Medium&#8239;» ist,</b> heisst das logischerweise, dass hier <a href="/technisches-seo/">SEO</a> wieder zum Zug kommt.</p>
 
         <div class="spacer"></div>
         
@@ -108,9 +108,9 @@
         <table id="table-tracking">
             <tbody>
                 <tr>
-                    <th>Branche</th>
-                    <th>Klassischer Einstieg</th>
-                    <th>Möglicher Einstieg nach AI-Recherche</th>
+                    <th scope="col">Branche</th>
+                    <th scope="col">Klassischer Einstieg</th>
+                    <th scope="col">Möglicher Einstieg nach AI-Recherche</th>
                 </tr>
                 <tr>
                     <td><strong>Küchenbau</strong></td>
@@ -143,7 +143,7 @@
         <p>Damit das aber gut geht, gilt es nun, darauf zu hören, was SEO-ler seit Jahren sagen: <b>Content aktuell halten und regelmässig «&#8239;ausmisten&#8239;», Structured Data implementieren</b> <!--(weshalb das extra wichtig für AI ist, erzähle ich in meinem Folgeartikel)--> und grundlegende Website-Hygiene beachten, die nicht nur die Crawlbarkeit für AI, sondern auch für den GooGooglebot, dem Crawler, der die Seiten für Google Search sichtet, verbessert. </p>	
 
         <div class="highlight">
-            <p><strong>Ein Wort der Warnung:</strong> Hier ist der Impuls jetzt gross, am besten doch einen eigenen Chatbot auf der Webseite zu integrieren. Ich rate dir, als jemand, der bereits ein RAG-Projekt (<a href="https://de.wikipedia.org/wiki/Retrieval-Augmented_Generation" target="_blank">«&#8239;Retrieval Augmented Generation&#8239;»</a>) begleitet hat, davon mit Nachdruck ab. Es ist sehr einfach, einen schlechten RAG-Bot zu implementieren. Es ist extrem schwer einen guten RAG-Bot zu implementieren und braucht meist Unterstützung von Fachpersonen, gerade wenn es um Chunking & Co. geht.</p>
+            <p><strong>Ein Wort der Warnung:</strong> Hier ist der Impuls jetzt gross, am besten doch einen eigenen Chatbot auf der Webseite zu integrieren. Ich rate dir, als jemand, der bereits ein RAG-Projekt (<a href="https://de.wikipedia.org/wiki/Retrieval-Augmented_Generation" target="_blank" rel="noopener noreferrer">«&#8239;Retrieval Augmented Generation&#8239;»</a>) begleitet hat, davon mit Nachdruck ab. Es ist sehr einfach, einen schlechten RAG-Bot zu implementieren. Es ist extrem schwer einen guten RAG-Bot zu implementieren und braucht meist Unterstützung von Fachpersonen, gerade wenn es um Chunking & Co. geht.</p>
         </div>
 
         <p>Wenn es um die Weiterempfehlungs-Phase geht, befinden wir uns hingegen tatsächlich in einer neuen Feedback-Schlaufe: Klar, anstatt Friends and Family nach Empfehlungen zu fragen, landen inzwischen viele Menschen zuerst in einem AI-Chat, d.h. Mundpropaganda scheint auf den ersten Blick tatsächlich hinfällig. </p>	
@@ -152,7 +152,7 @@
         <div class="spacer"></div>
 
         <h2 id="seo-not-dead">SEO’s Not Dead</h2>
-        <p>Wie auch <a href="https://de.wikipedia.org/wiki/Punks_Not_Dead" target="_blank">bei Punk</a> gilt also «&#8239;Totgesagte leben länger&#8239;». Als jemand, der sich noch an die Zeit erinnert, als SEO plötzlich als redundant deklariert wurde, weil sich das Internet «&#8239;nur mehr auf Facebook abspielen wird&#8239;» (ich weiss, gute alte Zeit!), rate ich davon ab, jetzt fatalistisch zu werden.</p>
+        <p>Wie auch <a href="https://de.wikipedia.org/wiki/Punks_Not_Dead" target="_blank" rel="noopener noreferrer">bei Punk</a> gilt also «&#8239;Totgesagte leben länger&#8239;». Als jemand, der sich noch an die Zeit erinnert, als SEO plötzlich als redundant deklariert wurde, weil sich das Internet «&#8239;nur mehr auf Facebook abspielen wird&#8239;» (ich weiss, gute alte Zeit!), rate ich davon ab, jetzt fatalistisch zu werden.</p>
         <p>Wie oben gezeigt, <b>braucht es SEO trotzdem noch, nur eben anders.</b> Falls du aber trotzdem auch gleich deine AI-Visibilität in Angriff nehmen willst, empfehle ich dir, <!--meinen Folgeartikel [Coming soon] zu lesen oder--> dich direkt bei mir zu melden, um deine Webseite <a href="https://marcoaures.ch/technisches-seo/">fit für ChatGPT, Claude und AI-Search</a> zu machen.</p>
 			<!--#include virtual="/includes/contact-callback-de.html" -->
 </div>

@@ -56,7 +56,7 @@
             <h1 style="margin-top:20px;">Google Tag Manager mit Content-Security-Policy nutzen</h1>
             <p>GTM mit CSP einsetzen? Gar nicht so einfach. Warum das so ist, wie es trotzdem klappt und wie du die grössten Fallstricke vermeidest, erfährst du hier. </p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">
@@ -90,7 +90,7 @@
         </ul>
 
         <div class="highlight">
-            <p><strong>Info:</strong> Ein <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank">Nonce (<i>«&#8239;number used once&#8239;»</i>)</a> ist ein einmaliger Token, der bei jedem Laden der Seite neu generiert wird – quasi ein Einmal-Passwort für die Ausführung des Scripts. Ein <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank">Hash</a> wiederum ist eine Art «&#8239;Prüfsumme&#8239;» oder Fingerabdruck für dein Script und setzt voraus, dass sich dein Script nicht verändert und innerhalb des Skripts auf keine anderen Ressourcen (z.B. extern gehostete Scripts) zugegriffen wird.</p>
+            <p><strong>Info:</strong> Ein <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank" rel="noopener noreferrer">Nonce (<i>«&#8239;number used once&#8239;»</i>)</a> ist ein einmaliger Token, der bei jedem Laden der Seite neu generiert wird – quasi ein Einmal-Passwort für die Ausführung des Scripts. Ein <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank" rel="noopener noreferrer">Hash</a> wiederum ist eine Art «&#8239;Prüfsumme&#8239;» oder Fingerabdruck für dein Script und setzt voraus, dass sich dein Script nicht verändert und innerhalb des Skripts auf keine anderen Ressourcen (z.B. extern gehostete Scripts) zugegriffen wird.</p>
         </div>
 
         <hr>
@@ -105,7 +105,7 @@
         <img src="/assets/img/gtm-mit-nonce.webp" alt="Head meiner Seite mit Nonces">
 
         <div class="highlight">
-            <p><strong>Alternative:</strong> Oder du stellst dein GTM-Set-up komplett auf <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">server-seitiges Tracking</a> um. Da die Content-Security-Policy einschränkt, was im Browser geladen werden darf, umgeht server-side tagging dieses Problem, da die Tracking-Skripte nicht im Browser laden.</p>
+            <p><strong>Alternative:</strong> Oder du stellst dein GTM-Set-up komplett auf <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener noreferrer">server-seitiges Tracking</a> um. Da die Content-Security-Policy einschränkt, was im Browser geladen werden darf, umgeht server-side tagging dieses Problem, da die Tracking-Skripte nicht im Browser laden.</p>
         </div>
 
         <hr>

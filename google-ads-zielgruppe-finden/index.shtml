@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Die richtige Zielgruppe in Google Ads finden</h1>
             <p>Warum Targeting in Google Ads über Zielgruppeneinstellungen hinausgeht – und wie du damit Geld sparen und Conversionraten steigern kannst</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen">
         </button>
     </div>
     <div id="start" class="content">
@@ -63,12 +63,12 @@
             Thema: SEA-Grundlagen, Google-Ads-Targeting, Keywordrecherche, Google-Ads Keywordoptionen, Leadqualifizierung
         </div>
 
-        <p>In meinem <a href="/google-ads-targeting/" target="_blank">Artikel zu den Zielgruppeneinstellungen</a> habe ich bereits einen tiefgehenden Einblick in die Methoden gegeben, die Google Werbetreibenden bietet, um die richtigen Nutzer per (Search) Ads zu erreichen. Aber: <b>diese Einstellungen allein reichen selten aus.</b></p>
+        <p>In meinem <a href="/google-ads-targeting/">Artikel zu den Zielgruppeneinstellungen</a> habe ich bereits einen tiefgehenden Einblick in die Methoden gegeben, die Google Werbetreibenden bietet, um die richtigen Nutzer per (Search) Ads zu erreichen. Aber: <b>diese Einstellungen allein reichen selten aus.</b></p>
         <p>Nehmen wir zum Beispiel an, wir schaffen es per Zielgruppenoptionen tatsächlich Hochzeitsplaner für unsere Eventlocation zu erreichen. Das hilft leider nichts, wenn dieser Hochzeitsplaner ausschliesslich Outdoor-Hochzeiten durchführt, wir aber eine Eventhalle unterhalten. Und selbst bei perfekt passender Zielgruppe kann es sein, dass der Nutzer <b>noch nicht tief genug im Entscheidungsprozess ist,</b> um eine Entscheidung zu treffen.</p>
-        <p>Wir alle möchten, dass unsere Suchanzeigen <a href="/beste-google-ads-branchen/" target="_blank">möglichst viele Abschlüsse und/oder Leads mit möglichst geringen Kosten</a> generieren. Gerade deshalb ist es so wichtig, nicht einfach aufzuhören, wenn es an das Feintuning geht. <b>Und bei Ads läuft das über Keywords, Werbetexte (Ad Copy) und Landingpage.</b></p>
+        <p>Wir alle möchten, dass unsere Suchanzeigen <a href="/beste-google-ads-branchen/">möglichst viele Abschlüsse und/oder Leads mit möglichst geringen Kosten</a> generieren. Gerade deshalb ist es so wichtig, nicht einfach aufzuhören, wenn es an das Feintuning geht. <b>Und bei Ads läuft das über Keywords, Werbetexte (Ad Copy) und Landingpage.</b></p>
         <hr>
         <h2 id="keywords">Die passenden Keywords finden</h2>
-        <p>Bei der Keyword-Recherche <a href="/seo-fuer-anfaenger/#keywordrecherche" target="_blank">(hier findest du einen kurzen Einstieg)</a> stehen oft Kennzahlen wie <b>Suchvolumen, durchschnittlicher CPC und Wettbewerbsintensität</b> im Fokus. Doch selbst Keywords mit hohem Suchvolumen und niedrigem Klickpreis können herausgeworfenes Geld bedeuten, wenn sie die falsche Suchintention ansprechen.</p>
+        <p>Bei der Keyword-Recherche <a href="/seo-fuer-anfaenger/#keywordrecherche">(hier findest du einen kurzen Einstieg)</a> stehen oft Kennzahlen wie <b>Suchvolumen, durchschnittlicher CPC und Wettbewerbsintensität</b> im Fokus. Doch selbst Keywords mit hohem Suchvolumen und niedrigem Klickpreis können herausgeworfenes Geld bedeuten, wenn sie die falsche Suchintention ansprechen.</p>
         <img src="/assets/img/keywords-hochzeitslocation.webp" alt="Screenshot Keywords Hochzeitslocation">
         <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Eigener Screenshot</p>
         <p>Oft ist genau das der Fall. Es gibt fast immer einen Grund, <b>warum Mitbewerber ein Keyword ignorieren:</b> Die Suchintention passt nicht.</p>
@@ -79,9 +79,9 @@
         <table id="table-tracking">
             <tbody>
                 <tr>
-                    <th>Kategorie</th>
-                    <th>Ziel des Nutzers</th>
-                    <th>Beispiel</th>
+                    <th scope="col">Kategorie</th>
+                    <th scope="col">Ziel des Nutzers</th>
+                    <th scope="col">Beispiel</th>
                 </tr>
                 <tr>
                     <td><strong>Informational</strong></td>
@@ -117,7 +117,7 @@
         <p>Mit passender Wortgruppe (indem man das Keyword in Anführungszeichen setzt, z. B. "Sportschuhe") wird das Targeting genauer. Hier erscheinen Anzeigen nur bei Suchanfragen, die das Keyword oder nahestehende Variationen davon enthalten. Früher wurde man bei «&#8239;weitgehend passend&#8239;» nur ausgeliefert, wenn das exakte Wort in der Suchanfrage enthalten war, aber diese Zeiten sind (leider) vorbei: <b>Google hat diese Keyword-Option in den letzten zwei Jahren stark aufgeweicht.</b> Mit «&#8239;passender Wortgruppe&#8239;» werden wir inzwischen zum Beispiel ausgespielt, wenn ein Nutzer nach roten Sportschuhen oder Sneakers sucht. </p>
         <p>Wer es ganz genau wissen will, sollte «&#8239;genau passende Keywords&#8239;» verwenden. Dazu setzt man das Keyword einfach in eckige Klammern (z. B. [Sportschuhe]). So wird die Anzeige nur noch bei exakt diesem Keyword ausgeliefert. Selbst wenn ein Nutzer «&#8239;rote Sportschuhe&#8239;» oder «&#8239;Sportschuhe kaufen&#8239;» eingibt, wird die Anzeige nicht angezeigt.</p>
         <img src="/assets/img/keywordmatchtypes.svg" alt="Keyword Matchtypes">
-        <p class="img-cap" style="text-align: center; margin-block-start: 0px;"><a href="https://support.google.com/google-ads/answer/7478529" target="_blank">Quelle: Google</a></p>
+        <p class="img-cap" style="text-align: center; margin-block-start: 0px;"><a href="https://support.google.com/google-ads/answer/7478529">Quelle: Google</a></p>
         <div class="highlight">
             <p><strong>Mein Tipp:</strong> Meistens arbeite ich mit «&#8239;passender Wortgruppe&#8239;». Exakt passende Keywords haben oft zu wenig Suchvolumen, um genug Klicks und Conversions zu erzielen. «&#8239;Weitgehend passend&#8239;» eignet sich meistens höchstens, um neue Keyword-Ideen zu entdecken – hier solltest du aber unbedingt mit negativen Keywords arbeiten, um Streuverluste zu vermeiden. Und auch bei «&#8239;passende Wortgruppe&#8239;» lohnt es sich inzwischen verstärkt mit negativen Keywords zu arbeiten.</p>
         </div>
@@ -138,7 +138,7 @@
         <p>Das ist nicht nur für dich effizienter, sondern auch für die Kampagnen-Performance wichtig: <b>Conversions werden als Signal an Google zurückgespielt und beeinflussen, wem die Anzeigen in Zukunft gezeigt werden.</b> Dadurch, dass du bewusst einige Abschlüsse verhinderst, machst du also deine Kampagne langfristig effektiver und erfolgreicher.</p>
         <hr>
         <h2>Die passende Zielgruppe = Erfolgreiche Kampagne</h2>
-        <p>Die richtige Zielgruppe per Google Ads zu erreichen, erfordert mehr als nur <a href="/google-ads-targeting/" target="_blank">die passenden Einstellungen.</a> Indem du Keywords gezielt nach Suchintention und Funnel-Position auswählst, deine Anzeigentexte als zusätzlichen Filter nutzt und Streuverluste auf der Landingpage minimierst, kannst du nicht nur Kosten sparen <a href="/was-kosten-google-ads/" target="_blank">(hier übrigens mein Artikel zu Google Ads Kosten)</a>, sondern auch die Conversionrate deutlich steigern. Mit dieser ganzheitlichen Herangehensweise <b>optimierst du nicht nur die Performance deiner Kampagne, sondern stellst auch sicher, dass jeder investierte Klick möglichst nah an deinem Ziel bleibt:</b> qualifizierte Leads und mehr Abschlüsse.</p>
+        <p>Die richtige Zielgruppe per Google Ads zu erreichen, erfordert mehr als nur <a href="/google-ads-targeting/">die passenden Einstellungen.</a> Indem du Keywords gezielt nach Suchintention und Funnel-Position auswählst, deine Anzeigentexte als zusätzlichen Filter nutzt und Streuverluste auf der Landingpage minimierst, kannst du nicht nur Kosten sparen <a href="/was-kosten-google-ads/">(hier übrigens mein Artikel zu Google Ads Kosten)</a>, sondern auch die Conversionrate deutlich steigern. Mit dieser ganzheitlichen Herangehensweise <b>optimierst du nicht nur die Performance deiner Kampagne, sondern stellst auch sicher, dass jeder investierte Klick möglichst nah an deinem Ziel bleibt:</b> qualifizierte Leads und mehr Abschlüsse.</p>
         <p>Brauchst du Hilfe bei der Umsetzung? Gerne berate ich dich in einem unverbindlichen Erstgespräch rund um Ads, Zielgruppen und Leadsqualifizierung durch Targeting.</p>
 			<!--#include virtual="/includes/contact-callback-de.html" -->
     </div>

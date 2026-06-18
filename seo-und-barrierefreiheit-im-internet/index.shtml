@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Warum gute SEO immer barrierefrei ist</h1>
             <p>Barrierefreiheit und SEO sind sich sehr ähnlich. Deshalb solltest du beides auf deiner Webseite berücksichtigen</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">
@@ -130,8 +130,8 @@
         <h2>So testest du die Barrierefreiheit deiner Webseite</h2>
         <p>Ich hoffe, dass dadurch eigentlich klar ist, weshalb du dich vielleicht auch regelmässig fragen solltest, ob deine Internetseite barrierefrei ist. Wenn du jetzt deine eigene Webseite testen willst, kann ich dir empfehlen, einen <b>Accessibility-Scan mit Google Lighthouse</b> zu machen. Dafür benötigst du nur Google Chrome. Mache dazu auf einer Internetseite einfach einen Rechtsklick, wähle «&#8239;Untersuchen&#8239;» und wechsle in den Tab «&#8239;Lighthouse&#8239;».</p>
         <img src="/assets/img/lighthouse_accessibility.jpg" alt="Lighthouse Accessibility Report Tool">
-        <p>Auch zu überprüfen, wie deine Webseite sich auf Screenreadern navigieren lässt, ist übrigens ganz einfach. Auf deinem Handy kannst du den Screenreader-Modus <a href="https://support.google.com/accessibility/android/answer/6283677?hl=de&sjid=9247831926287153038-EU" target="_blank">sowohl auf Android</a> als auch <a href="https://support.apple.com/de-ch/guide/iphone/iph96b214f0/ios" target="_blank">auf dem iPhone</a> mit nur wenigen Klicks aktivieren.</p>
-        <p>Und wenn du nun ganz Feuer und Flamme für Barrierefreiheit im Netz bist, kannst du dich in den Web Content Accessibility Guidelines <a href="https://www.w3.org/Translations/WCAG20-de/" target="_blank">zusätzlich tiefgehend in das Thema einlesen</a>. Wenn du allerdings bei der Analyse von Barrieren auf deiner Webseite oder bei ihrer Behebung Probleme hast, helfe ich dir gerne weiter und sorge dafür, <b>dass deine Webseite nicht nur auf SEO-, sondern auf Barrierefreiheit bestmöglich optimiert ist.</b></p>
+        <p>Auch zu überprüfen, wie deine Webseite sich auf Screenreadern navigieren lässt, ist übrigens ganz einfach. Auf deinem Handy kannst du den Screenreader-Modus <a href="https://support.google.com/accessibility/android/answer/6283677?hl=de&sjid=9247831926287153038-EU" target="_blank" rel="noopener noreferrer">sowohl auf Android</a> als auch <a href="https://support.apple.com/de-ch/guide/iphone/iph96b214f0/ios" target="_blank" rel="noopener noreferrer">auf dem iPhone</a> mit nur wenigen Klicks aktivieren.</p>
+        <p>Und wenn du nun ganz Feuer und Flamme für Barrierefreiheit im Netz bist, kannst du dich in den Web Content Accessibility Guidelines <a href="https://www.w3.org/Translations/WCAG20-de/" target="_blank" rel="noopener noreferrer">zusätzlich tiefgehend in das Thema einlesen</a>. Wenn du allerdings bei der Analyse von Barrieren auf deiner Webseite oder bei ihrer Behebung Probleme hast, helfe ich dir gerne weiter und sorge dafür, <b>dass deine Webseite nicht nur auf SEO-, sondern auf Barrierefreiheit bestmöglich optimiert ist.</b></p>
         <p>Da das Thema Barrierefreiheit im Netz eine Herzensangelegenheit für mich ist, biete ich dir dazu eine <b>kostenlose und unverbindliche Beratung zum Thema</b> an.</p>
         <p>Ich würde mich freuen, von dir zu hören.</p>
 

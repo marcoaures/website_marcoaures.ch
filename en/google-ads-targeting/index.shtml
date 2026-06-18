@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">The right Google Ads targeting</h1>
             <p>Not every website visitor is equally valuable to you: This is how you make sure in Google Search Ads that you only spend money on the right target audience.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
     <div id="start" class="content">
         <div class="bloginfo">
@@ -62,7 +62,7 @@
             Topic: SEA basics, Google Ads targeting, Google Ads audience settings, observation &amp; targeting audiences
         </div>
         <p>Imagine you’re a tailor who sells modern made-to-measure suits. On your website, customers can book consultation appointments directly, and you get 2,000 website visitors a day. <b>Sounds great, right?</b> But what if those 2,000 visitors are teenagers just looking for a cheap rental suit for prom? Or 2,000 seniors who don’t care for modern cuts and cancel at the last minute?</p>
-        <p>What would be annoying in search engine optimization becomes mainly one thing in SEA (especially in Google Search Ads): expensive (PS: <a href="/en/how-much-do-google-ads-cost/" target="_blank">Here you can learn more about Google Ads costs</a>). Each of those 2,000 clicks costs you money – and may even push out genuinely interested users because your budget is already used up. This example shows: <b>Not every website visitor is equally valuable.</b> Some – like the senior who takes up your time in a consultation but doesn’t buy anything – are even a loss. Time, budget and resources just evaporate.</p>
+        <p>What would be annoying in search engine optimization becomes mainly one thing in SEA (especially in Google Search Ads): expensive (PS: <a href="/en/how-much-do-google-ads-cost/">Here you can learn more about Google Ads costs</a>). Each of those 2,000 clicks costs you money – and may even push out genuinely interested users because your budget is already used up. This example shows: <b>Not every website visitor is equally valuable.</b> Some – like the senior who takes up your time in a consultation but doesn’t buy anything – are even a loss. Time, budget and resources just evaporate.</p>
         <p>Google also recognises this problem and offers a simple filter solution: audience targeting. <b>Google Ads lets you precisely define who you want to reach – and who you don’t.</b> And it works in more ways than you might think.</p>
         <hr>
         <h2>Audience settings in Google Ads</h2>
@@ -72,7 +72,7 @@
             <li><strong>Language:</strong> Choose which languages your target audience speaks.</li>
             <li><strong>Audience segments:</strong> From “Parents of toddlers” to “Fans of high-end computers” to people searching for accounting software.</li>
         </ul>
-        <p>At this stage, you also select whether you want to use these audience segments for targeting or observation: <b>The “Targeting” option, also called audience targeting,</b> means that only people whom Google places in the selected segment will see the ad. <b>The “Observation” option, also called observation audiences,</b> on the other hand, does not restrict delivery but shows you statistics about the audiences for campaign optimisation and allows bid adjustments. For example: “For renters I want to spend 50% less ad budget than for comparable homeowners.” You can read more about <a href="https://support.google.com/google-ads/answer/2497941" target="_blank">audience segments here.</a></p>
+        <p>At this stage, you also select whether you want to use these audience segments for targeting or observation: <b>The “Targeting” option, also called audience targeting,</b> means that only people whom Google places in the selected segment will see the ad. <b>The “Observation” option, also called observation audiences,</b> on the other hand, does not restrict delivery but shows you statistics about the audiences for campaign optimisation and allows bid adjustments. For example: “For renters I want to spend 50% less ad budget than for comparable homeowners.” You can read more about <a href="https://support.google.com/google-ads/answer/2497941" target="_blank" rel="noopener noreferrer">audience segments here.</a></p>
         <img src="/assets/img/ads-targeting.webp" alt="Screenshot of targeting settings">
         <p class="img-cap" style="text-align: center; margin-block-start: 0px;">Own screenshot</p>
         <p>In addition, you can explicitly exclude individual segments, even if your campaign only uses observation audiences.</p>

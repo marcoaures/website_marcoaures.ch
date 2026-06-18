@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Content Security Policy for Marketers</h1>
             <p>Maybe you’ve already come across the term Content Security Policy (CSP) as a marketer. Here’s what you need to know about it - without getting an IT degree.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content">
         </button>
     </div>
     <div class="content" id="start">
@@ -75,7 +75,7 @@
             <li><strong>Nonce/Hash:</strong> Allows selected inline content that has been approved through a one-time token or fingerprint – how this works is explained in my GTM &amp; CSP guide</li>
         </ul>
         <div class="highlight">
-            <p><strong>Info:</strong> A <a href="https://de.wikipedia.org/wiki/Nonce#Verwendung_in_der_Kryptographie" target="_blank">Nonce ( <i>«&#8239;number used once&#8239;»</i> )</a> is a one-time random token generated when the page loads, essentially a single-use password for the script. A <a href="https://de.wikipedia.org/wiki/Hashfunktion#Pr%C3%BCfsummen" target="_blank">Hash,</a> on the other hand, is a kind of checksum or fingerprint for your script. The hash only matches if the script’s content is unchanged, preventing manipulation.</p>
+            <p><strong>Info:</strong> A <a href="https://en.wikipedia.org/wiki/Cryptographic_nonce" target="_blank" rel="noopener noreferrer">Nonce ( <i>«&#8239;number used once&#8239;»</i> )</a> is a one-time random token generated when the page loads, essentially a single-use password for the script. A <a href="https://en.wikipedia.org/wiki/Hash_function" target="_blank"  rel="noopener noreferrer">Hash,</a> on the other hand, is a kind of checksum or fingerprint for your script. The hash only matches if the script’s content is unchanged, preventing manipulation.</p>
         </div>
         <p>When a user visits a webpage with a CSP, the server sends the policy to the browser via an HTTP header. <b>The browser checks each piece of content as it loads to determine whether it is allowed.</b> If this is not the case, the content is blocked.</p>
         <img src="/assets/img/csp-infografik.webp" alt="Infographic CSP process">

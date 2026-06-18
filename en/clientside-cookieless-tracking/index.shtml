@@ -61,7 +61,7 @@
             <p>Ever wondered if Google Analytics works without cookies? It does, if you can live with a few limitations.</p>
         </div>
 
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div id="start" class="content">
@@ -71,7 +71,7 @@
         </div>
 		
 		<p>Admittedly, cookieless tracking is still more the exception than the rule in day-to-day analytics. <b>Most setups rely (at least partially) on cookies</b>, e.g. to identify users or measure across sessions. Still, there are situations where exactly this approach is not desired... or even impossible:</p>
-		<p>Especially in privacy-sensitive industries or generally in GDPR contexts, there’s very often a desire to reduce data collection (and therefore legal exposure) to a minimum and/or get by without a cookie banner. In many cases, such requirements can be addressed with a privacy-first tool like <a href="https://matomo.org/" target="_blank">Matomo</a> or via a <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">server-side tracking setup</a>.</p>
+		<p>Especially in privacy-sensitive industries or generally in GDPR contexts, there’s very often a desire to reduce data collection (and therefore legal exposure) to a minimum and/or get by without a cookie banner. In many cases, such requirements can be addressed with a privacy-first tool like <a href="https://matomo.org/" target="_blank" rel="noopener noreferrer">Matomo</a> or via a <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">server-side tracking setup</a>.</p>
 		<p>But: that doesn’t always work, or the effort simply isn’t justifiable. Exactly such a case came up with one of my clients, who wanted to embed a small tool as an interactive iframe on a partner website. Of course the campaign’s success had to be measured to evaluate effectiveness. Sounds simple? Unfortunately not.</p>
 
 		<h2>Cross-domain setups & cookies</h2>

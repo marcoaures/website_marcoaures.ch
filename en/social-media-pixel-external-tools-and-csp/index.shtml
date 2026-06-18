@@ -53,7 +53,7 @@
             <h1 style="margin-top:20px;">Using Social Media Pixels &amp; External Tools with Content Security Policy</h1>
             <p>Learn how to make social media pixels &amp; other tools work despite a CSP. Here you’ll see how to whitelist external resources &amp; use CSP reports.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content">
         </button>
     </div>
 
@@ -103,7 +103,7 @@
         </ul>
         <p>A typical report tells you which page was affected, which directive was violated (e.g. <span class="techbabble">script-src</span>), which domains were blocked, and includes a timestamp and browser information. With this data, it is usually no problem for an IT department to configure the CSP correctly. <b>I recommend running several iterations, though:</b> If a script fails to execute, the report may not catch additional external resources that the script would have tried to load.</p>
         <div class="highlight">
-            <p><strong>Tip:</strong> CSP reports using report-to can even be automatically forwarded to <a href="https://learn.microsoft.com/de-de/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook" target="_blank">a webhook</a> (e.g., in Microsoft Teams). This lets you receive real-time notifications when your tracking is blocked by CSP — for example, because Meta introduced a new CDN domain.</p>
+            <p><strong>Tip:</strong> CSP reports using report-to can even be automatically forwarded to <a href="https://learn.microsoft.com/de-de/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook" target="_blank" rel="noopener noreferrer">a webhook</a> (e.g., in Microsoft Teams). This lets you receive real-time notifications when your tracking is blocked by CSP — for example, because Meta introduced a new CDN domain.</p>
         </div>
         <hr>
 

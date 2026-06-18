@@ -52,7 +52,7 @@
             <h1 style="margin-top:20px;">Social Media Pixel &amp; externe Tools mit Content Security Policy nutzen</h1>
             <p>Erfahre, wie du Social Media Pixel &amp; andere Tools trotz CSP zum Laufen bringst. Hier lernst du, wie du externe Ressourcen whitelistest &amp; CSP-Reports nutzt.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content">
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen">
         </button>
     </div>
     <div id="start" class="content">
@@ -98,7 +98,7 @@
         </ul>        
         <p>Ein typischer Report sagt dir direkt, welche Seite betroffen war, welche Direktive verletzt wurde (z. B. <span class="techbabble">script-src</span>), welche Domains geblockt wurden, und enthält auch einen Zeitstempel und Browserinformationen. Mit diesen Angaben ist es für eine IT-Abteilung häufig überhaupt kein Problem, die CSP richtig zu konfigurieren. <b>Ich empfehle allerdings, mehrere Iterationen durchzuführen:</b> Wenn die Ausführung eines Skripts verhindert wird, besteht die Gefahr, dass der Report gar nicht auf darin enthaltene, zusätzliche externe Ressourcen ausschlägt.</p>
         <div class="highlight">
-            <p><strong>Tipp:</strong> CSP-Reports mittels report-to können bei Bedarf sogar automatisiert an <a href="https://learn.microsoft.com/de-de/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook" target="_blank">einen Webhook</a> (z. B. in Microsoft Teams) geschickt werden. Dadurch teilt dir eine Messenger-Nachricht in Echtzeit mit, wenn dein Tracking von der CSP verhindert wurde – z. B. weil Meta eine neue CDN-Domain eingeführt hat.</p>
+            <p><strong>Tipp:</strong> CSP-Reports mittels report-to können bei Bedarf sogar automatisiert an <a href="https://learn.microsoft.com/de-de/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook" target="_blank" rel="noopener noreferrer">einen Webhook</a> (z. B. in Microsoft Teams) geschickt werden. Dadurch teilt dir eine Messenger-Nachricht in Echtzeit mit, wenn dein Tracking von der CSP verhindert wurde – z. B. weil Meta eine neue CDN-Domain eingeführt hat.</p>
         </div>
         <hr>
         <h3 id="sonderfaelle">Achtung: Achte auf Sonderfälle</h3>

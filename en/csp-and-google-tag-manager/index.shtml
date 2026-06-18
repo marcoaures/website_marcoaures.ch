@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Using Google Tag Manager with a Content Security Policy</h1>
             <p>Using GTM with a CSP? Not exactly straightforward. Why that is, how it still works and how to avoid the biggest pitfalls is what you’ll learn here.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div class="content" id="start">
@@ -88,7 +88,7 @@
         </ul>
 
         <div class="highlight">
-            <p><strong>Info:</strong> A <a href="https://en.wikipedia.org/wiki/Cryptographic_nonce" target="_blank">nonce (<i>«&#8239;number used once&#8239;»</i>)</a> is a one-time token generated each time the page loads – essentially a single-use password for the script’s execution. A <a href="https://en.wikipedia.org/wiki/Hash_function" target="_blank">hash</a>, in turn, is a kind of checksum or fingerprint for your script. It only matches if the script does not change and if the script itself does not load additional resources (e.g. externally hosted JS files).</p>
+            <p><strong>Info:</strong> A <a href="https://en.wikipedia.org/wiki/Cryptographic_nonce" target="_blank" rel="noopener noreferrer">nonce (<i>«&#8239;number used once&#8239;»</i>)</a> is a one-time token generated each time the page loads – essentially a single-use password for the script’s execution. A <a href="https://en.wikipedia.org/wiki/Hash_function" target="_blank" rel="noopener noreferrer">hash</a>, in turn, is a kind of checksum or fingerprint for your script. It only matches if the script does not change and if the script itself does not load additional resources (e.g. externally hosted JS files).</p>
         </div>
 
         <hr>
@@ -103,7 +103,7 @@
         <img src="/assets/img/gtm-mit-nonce.webp" alt="Head of my site with nonces">
 
         <div class="highlight">
-            <p><strong>Alternative:</strong> You can migrate your GTM setup entirely to <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">server-side tracking.</a> Since a Content Security Policy restricts what the browser is allowed to load, server-side tagging bypasses this issue because the tracking scripts don’t load in the browser but on the server your website is served from.</p>
+            <p><strong>Alternative:</strong> You can migrate your GTM setup entirely to <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener noreferrer">server-side tracking.</a> Since a Content Security Policy restricts what the browser is allowed to load, server-side tagging bypasses this issue because the tracking scripts don’t load in the browser but on the server your website is served from.</p>
         </div>
 
         <hr>

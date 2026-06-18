@@ -60,7 +60,7 @@
             <p>Sogenannte High-Intent-Branchen eignen sich sehr gut für Google Ads. Worauf es ankommt und was du trotzdem beachten solltest, erfährst du hier.</p>
         </div>
 
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Zum Inhalt scrollen"></button>
     </div>
 
     <div id="start" class="content">
@@ -99,7 +99,7 @@
 
 		<h3>Rechtliche, finanzielle und medizinische Angebote</h3>
 		<p>Es gibt noch ein paar andere Angebote, die (mal mehr, mal weniger) ebenfalls in diese High-Intent-Nische fallen, aber ein bisschen komplexer sind. Auch wer nach Zahnschmerzen, Strafverteidigern oder Insolvenzberatung im Internet sucht, ist meist nicht in der Situation, das Problem aufzuschieben oder zu ignorieren.</p>
-		<p>Im Gegensatz zum Schlüsseldienst ist hier als Anbieter aber (zurecht) Vorsicht geboten. Sogenannte <b>YMYL-Themen («&#8239;your money or your life&#8239;»)</b> unterliegen häufig sowohl rechtlich als auch in den <a href="https://support.google.com/adspolicy/answer/6008942#res" target="_blank">Google-Ads-Richtlinien</a> strengen Vorgaben.</p>
+		<p>Im Gegensatz zum Schlüsseldienst ist hier als Anbieter aber (zurecht) Vorsicht geboten. Sogenannte <b>YMYL-Themen («&#8239;your money or your life&#8239;»)</b> unterliegen häufig sowohl rechtlich als auch in den <a href="https://support.google.com/adspolicy/answer/6008942#res" target="_blank" rel="noopener noreferrer">Google-Ads-Richtlinien</a> strengen Vorgaben.</p>
 
 		<hr>
 

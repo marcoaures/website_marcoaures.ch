@@ -17,6 +17,7 @@ if (popupCloseBtn && popupElement) {
       const popupImg = document.getElementById("popup-img");
       if (popupImg) {
         popupImg.src = e.target.src;
+        popupImg.alt = e.target.alt;
       }
     });
   });

@@ -54,7 +54,7 @@
             <h1 style="margin-top:20px;">Why good SEO is always accessible</h1>
             <p>Accessibility and SEO are very similar. That’s why you should consider both on your website.</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div id="start" class="content">
@@ -130,8 +130,8 @@
         <h2>How to test your website’s accessibility</h2>
         <p>I hope it’s clear now why you should regularly ask yourself whether your website is accessible. If you want to test your own website, I recommend running an <b>accessibility scan using Google Lighthouse</b>. All you need is Google Chrome. Just right-click anywhere on your site, select “Inspect”, and then switch to the “Lighthouse” tab.</p>
         <img src="/assets/img/lighthouse_accessibility.jpg" alt="Lighthouse accessibility report tool">
-        <p>Checking how your website performs with a screen reader is also very easy. On your phone, you can enable screen reader mode <a href="https://support.google.com/accessibility/android/answer/6283677?hl=de&sjid=9247831926287153038-EU" target="_blank">on Android</a> and <a href="https://support.apple.com/de-ch/guide/iphone/iph96b214f0/ios" target="_blank">on iPhone</a> with just a few taps.</p>
-        <p>And if you’re now really fired up about web accessibility, you can dive deeper into the topic with the Web Content Accessibility Guidelines <a href="https://www.w3.org/Translations/WCAG20-de/" target="_blank">in this detailed resource</a>. If you run into problems analysing or fixing barriers on your site, I’ll be happy to help and make sure that <b>your website is optimised not only for SEO but also for accessibility.</b></p>
+        <p>Checking how your website performs with a screen reader is also very easy. On your phone, you can enable screen reader mode <a href="https://support.google.com/accessibility/android/answer/6283677?hl=de&sjid=9247831926287153038-EU" target="_blank" rel="noopener noreferrer">on Android</a> and <a href="https://support.apple.com/de-ch/guide/iphone/iph96b214f0/ios" target="_blank" rel="noopener noreferrer">on iPhone</a> with just a few taps.</p>
+        <p>And if you’re now really fired up about web accessibility, you can dive deeper into the topic with the Web Content Accessibility Guidelines <a href="https://www.w3.org/Translations/WCAG20-de/" target="_blank" rel="noopener noreferrer">in this detailed resource</a>. If you run into problems analysing or fixing barriers on your site, I’ll be happy to help and make sure that <b>your website is optimised not only for SEO but also for accessibility.</b></p>
         <p>Because web accessibility is a topic very close to my heart, I offer <b>free, no-obligation consulting on this topic.</b></p>
         <p>I’d be happy to hear from you.</p>
     		<!--#include virtual="/includes/contact-callback-en.html" -->

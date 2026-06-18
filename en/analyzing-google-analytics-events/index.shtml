@@ -55,7 +55,7 @@
             <h1 style="margin-top:20px;">Google Analytics Events & Reports</h1>
             <p>Which events should you track on your website? Do you also need to set up conversions in Google Analytics? And why, exactly?</p>
         </div>
-        <button class="scroll-arrow" id="scrollToContentBtn" role="button" aria-label="Scroll to content"></button>
+        <button class="scroll-arrow" id="scrollToContentBtn" aria-label="Scroll to content"></button>
     </div>
 
     <div class="content" id="start">
@@ -86,7 +86,7 @@
             <li><strong>Google Analytics 4:</strong> to analyze user behavior on your site.</li>
             <li><strong>Google Tag Manager:</strong> to implement scripts, custom events, Google conversion tracking and much more.</li>
         </ul>
-        <p>On top of that, I’ve started encouraging all clients to also set up <a href="https://www.bing.com/webmasters/about" target="_blank">Bing Webmaster Tools</a>. Microsoft’s search engine has a significantly smaller market share, but there are still <b>specific user groups that are overrepresented there</b> and who “bing” something every now and then.</p>
+        <p>On top of that, I’ve started encouraging all clients to also set up <a href="https://www.bing.com/webmasters/about" target="_blank" rel="noopener noreferrer">Bing Webmaster Tools</a>. Microsoft’s search engine has a significantly smaller market share, but there are still <b>specific user groups that are overrepresented there</b> and who “bing” something every now and then.</p>
         <p>There’s another important reason Bing has gained a lot of relevance in the last few years: AI. Bing has its own AI via Microsoft Copilot. But ChatGPT and Azure AI applications (the AI companies can use alongside Microsoft 365 and/or Azure) also currently use Bing for web results – at least for now. If you want to show up when someone asks ChatGPT “Who is the best provider for X?”, you can’t afford to ignore Bing anymore.</p>
         <p>All of this would only be a decisive factor for me if the setup were complicated. Fortunately, it isn’t: if you’ve already set up a domain property in Google Search Console, you basically just <b>click a single button</b> to verify ownership in Bing using your existing Google verification. And based on my experience, Bing tends to give a small bonus to sites whose owners pay attention to the search engine.</p>
 
